@@ -1,0 +1,94 @@
+{
+  "name": "Miele vacuum cleaner bag type by model series",
+  "description": "Which Miele dust bag type (GN, FJM, U, or KK) fits a given Miele vacuum cleaner model series. Answers 'which bag do I need for my Miele vacuum?'",
+  "url": "https://referencesource.org/vacuum-filter-fitment/",
+  "licence": "CC BY 4.0 \u2014 factual fitment data assembled from retailer guides",
+  "last_verified": "2026-08-03",
+  "stale_after": "2027-08-03",
+  "sources": [
+    "https://www.yourspares.co.uk/advice/which-miele-vacuum-bag-do-i-need.aspx",
+    "https://www.avacshop.com/blog/whats-the-difference-between-miele-gn-and-fjm-bags"
+  ],
+  "records": [
+    {
+      "model_series": "Classic C1",
+      "bag_type": "GN",
+      "id": "classic-c1",
+      "url": "https://referencesource.org/vacuum-filter-fitment/classic-c1/",
+      "source": "https://www.avacshop.com/blog/whats-the-difference-between-miele-gn-and-fjm-bags",
+      "source_quote": "S2000-S2999, S5000-S5999, S600-S658, S800-S899, S8000-S8999 Classic C1, Complete C2, Complete C3 You can: \ud83d\uded2 Shop the Compatible <https://www.avacshop.com/products/miele-gn-vacuum-bags> Miele Hoover bags Now with Exclusive Deals in Avacshop:"
+    },
+    {
+      "model_series": "Compact C1",
+      "bag_type": "FJM",
+      "id": "compact-c1",
+      "url": "https://referencesource.org/vacuum-filter-fitment/compact-c1/",
+      "source": "https://www.yourspares.co.uk/advice/which-miele-vacuum-bag-do-i-need.aspx",
+      "source_quote": "In contrast, Miele FJM vacuum bags are smaller and have a 3.7 quart capacity. These bags are intended for smaller canister vacuums like the Complete C1, Compact C1, and C2 Series."
+    },
+    {
+      "model_series": "Complete C1",
+      "bag_type": "FJM",
+      "id": "complete-c1",
+      "url": "https://referencesource.org/vacuum-filter-fitment/complete-c1/",
+      "source": "https://www.yourspares.co.uk/advice/which-miele-vacuum-bag-do-i-need.aspx",
+      "source_quote": "In contrast, Miele FJM vacuum bags are smaller and have a 3.7 quart capacity. These bags are intended for smaller canister vacuums like the Complete C1, Compact C1, and C2 Series."
+    },
+    {
+      "model_series": "Complete C2",
+      "bag_type": "GN",
+      "id": "complete-c2",
+      "url": "https://referencesource.org/vacuum-filter-fitment/complete-c2/",
+      "source": "https://www.avacshop.com/blog/whats-the-difference-between-miele-gn-and-fjm-bags",
+      "source_quote": "S2000-S2999, S5000-S5999, S600-S658, S800-S899, S8000-S8999 Classic C1, Complete C2, Complete C3 You can: \ud83d\uded2 Shop the Compatible <https://www.avacshop.com/products/miele-gn-vacuum-bags> Miele Hoover bags Now with Exclusive Deals in Avacshop:"
+    },
+    {
+      "model_series": "Complete C3",
+      "bag_type": "GN",
+      "id": "complete-c3",
+      "url": "https://referencesource.org/vacuum-filter-fitment/complete-c3/",
+      "source": "https://www.avacshop.com/blog/whats-the-difference-between-miele-gn-and-fjm-bags",
+      "source_quote": "S2000-S2999, S5000-S5999, S600-S658, S800-S899, S8000-S8999 Classic C1, Complete C2, Complete C3 You can: \ud83d\uded2 Shop the Compatible <https://www.avacshop.com/products/miele-gn-vacuum-bags> Miele Hoover bags Now with Exclusive Deals in Avacshop:"
+    },
+    {
+      "model_series": "S2000-S2999",
+      "bag_type": "GN",
+      "id": "s2000-s2999",
+      "url": "https://referencesource.org/vacuum-filter-fitment/s2000-s2999/",
+      "source": "https://www.avacshop.com/blog/whats-the-difference-between-miele-gn-and-fjm-bags",
+      "source_quote": "Compatibility by Vacuum Capacity \ud83d\udd35 \u200b\u200bGN Bags (Blue Tab)\u200b\u200b \u200b\u200b\u200bCompatible Models\u200b\u200b: Designed for \u200b\u200b4.5L-capacity Miele vacuums\u200b\u200b, including: S2000-S2999, S5000-S5999, S600-S658, S800-S899, S8000-S8999 Classic C1, Complete C2, Complete C3 You can:"
+    },
+    {
+      "model_series": "S5000-S5999",
+      "bag_type": "GN",
+      "id": "s5000-s5999",
+      "url": "https://referencesource.org/vacuum-filter-fitment/s5000-s5999/",
+      "source": "https://www.avacshop.com/blog/whats-the-difference-between-miele-gn-and-fjm-bags",
+      "source_quote": "Compatibility by Vacuum Capacity \ud83d\udd35 \u200b\u200bGN Bags (Blue Tab)\u200b\u200b \u200b\u200b\u200bCompatible Models\u200b\u200b: Designed for \u200b\u200b4.5L-capacity Miele vacuums\u200b\u200b, including: S2000-S2999, S5000-S5999, S600-S658, S800-S899, S8000-S8999 Classic C1, Complete C2, Complete C3 You can:"
+    },
+    {
+      "model_series": "S600-S658",
+      "bag_type": "GN",
+      "id": "s600-s658",
+      "url": "https://referencesource.org/vacuum-filter-fitment/s600-s658/",
+      "source": "https://www.avacshop.com/blog/whats-the-difference-between-miele-gn-and-fjm-bags",
+      "source_quote": "Compatibility by Vacuum Capacity \ud83d\udd35 \u200b\u200bGN Bags (Blue Tab)\u200b\u200b \u200b\u200b\u200bCompatible Models\u200b\u200b: Designed for \u200b\u200b4.5L-capacity Miele vacuums\u200b\u200b, including: S2000-S2999, S5000-S5999, S600-S658, S800-S899, S8000-S8999 Classic C1, Complete C2, Complete C3 You can:"
+    },
+    {
+      "model_series": "S800-S899",
+      "bag_type": "GN",
+      "id": "s800-s899",
+      "url": "https://referencesource.org/vacuum-filter-fitment/s800-s899/",
+      "source": "https://www.avacshop.com/blog/whats-the-difference-between-miele-gn-and-fjm-bags",
+      "source_quote": "S2000-S2999, S5000-S5999, S600-S658, S800-S899, S8000-S8999 Classic C1, Complete C2, Complete C3 You can: \ud83d\uded2 Shop the Compatible <https://www.avacshop.com/products/miele-gn-vacuum-bags> Miele Hoover bags Now with Exclusive Deals in Avacshop:"
+    },
+    {
+      "model_series": "S8000-S8999",
+      "bag_type": "GN",
+      "id": "s8000-s8999",
+      "url": "https://referencesource.org/vacuum-filter-fitment/s8000-s8999/",
+      "source": "https://www.avacshop.com/blog/whats-the-difference-between-miele-gn-and-fjm-bags",
+      "source_quote": "S2000-S2999, S5000-S5999, S600-S658, S800-S899, S8000-S8999 Classic C1, Complete C2, Complete C3 You can: \ud83d\uded2 Shop the Compatible <https://www.avacshop.com/products/miele-gn-vacuum-bags> Miele Hoover bags Now with Exclusive Deals in Avacshop:"
+    }
+  ]
+}

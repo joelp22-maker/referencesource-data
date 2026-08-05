@@ -1,0 +1,32 @@
+---
+type: lookup
+id: pytorch-1-11-0-cuda-10-2-11-3
+asset: software-interface-version-compatibility
+title: "PyTorch 1.11.0 + CUDA 10.2/11.3 — Software interface version compatibility"
+sources:
+  - https://github.com/eminsafa/pytorch-cuda-compatibility
+source_quote: "1.11.0 | 3.6+ | 10.2, 11.3 | 0.11.0 | 0.12.0 |"
+generated: true
+harvested: 2026-08-04
+stale_after: 2026-10-03
+product: "PyTorch"
+pairing: "PyTorch 1.11.0 + CUDA 10.2/11.3"
+software_version: "1.11.0"
+dependency_version: "CUDA 10.2, 11.3"
+companion_packages: "torchaudio==0.11.0 torchvision==0.12.0"
+verified: true
+unverified_fields: companion_packages, dependency_version, product
+---
+**Product:** PyTorch
+
+**Version pairing:** PyTorch 1.11.0 + CUDA 10.2/11.3
+
+**Software version:** 1.11.0
+
+**Dependency version:** CUDA 10.2, 11.3
+
+**Companion package versions:** torchaudio==0.11.0 torchvision==0.12.0
+
+> 1.11.0 | 3.6+ | 10.2, 11.3 | 0.11.0 | 0.12.0 |
+
+Source: <https://github.com/eminsafa/pytorch-cuda-compatibility>

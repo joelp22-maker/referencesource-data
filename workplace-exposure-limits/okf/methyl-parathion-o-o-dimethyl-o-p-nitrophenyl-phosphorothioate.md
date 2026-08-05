@@ -1,0 +1,25 @@
+---
+type: threshold
+id: methyl-parathion-o-o-dimethyl-o-p-nitrophenyl-phosphorothioate
+asset: workplace-exposure-limits
+title: "Methyl parathion; o,o-dimethyl o-(p-nitrophenyl) phosphorothioate — US workplace chemical exposure limits: federal OSHA vs Cal/OSHA, side by side"
+sources:
+  - https://www.dir.ca.gov/title8/5155.html
+source_quote: "298000 | S | Methyl parathion; o,o-dimethyl o-(p-nitrophenyl) phosphorothioate | -- | 0.2"
+generated: true
+verified: false
+harvested: 2026-08-05
+stale_after: 2027-08-05
+substance: "Methyl parathion; o,o-dimethyl o-(p-nitrophenyl) phosphorothioate"
+cas_number: "298000"
+pel_mgm3: "0.2"
+---
+**Substance:** Methyl parathion; o,o-dimethyl o-(p-nitrophenyl) phosphorothioate
+
+**CAS No.:** 298000
+
+**PEL (mg/m³):** 0.2
+
+> 298000 | S | Methyl parathion; o,o-dimethyl o-(p-nitrophenyl) phosphorothioate | -- | 0.2
+
+Source: <https://www.dir.ca.gov/title8/5155.html>

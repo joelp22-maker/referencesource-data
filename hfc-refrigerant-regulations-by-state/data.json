@@ -1,0 +1,453 @@
+{
+  "name": "HFC refrigerant GWP regulations by US state",
+  "description": "State-level HFC refrigerant regulations across the US, including GWP limits, equipment-type restrictions, effective dates, and regulatory citations. Each record is one state's regulation for one equipment category (supermarket, new facility, stand-alone unit, bulk HFC sales). Answers 'what refrigerant GWP limit applies to new supermarket systems in California', 'which states have adopted SNAP Rules 20 and 21', 'New York HFC phase-down GWP thresholds', and 'can I use R-410A in a new commercial refrigeration system in [state]'.",
+  "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/",
+  "licence": "State regulations are government works and not copyrightable. NASRC tracker is a freely published nonprofit reference.",
+  "last_verified": "2026-08-05",
+  "stale_after": "2027-02-01",
+  "sources": [
+    "https://nasrc.org/hfc-policy-tracker/"
+  ],
+  "records": [
+    {
+      "state": "Arizona",
+      "regulatory_status": "no action",
+      "id": "arizona",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/arizona/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Arizona is a member of the US Climate Alliance but has not committed to regulating HFC refrigerants."
+    },
+    {
+      "state": "California",
+      "equipment_category": "Bulk HFCs or HFC blends (sale, distribution, or entering into commerce)",
+      "gwp_limit": "2,200 beginning January 1, 2025   1,500 beginning January 1, 2030   750 beginning January 1, 2033",
+      "effective_date": "January 1, 2025",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "SB 1206",
+      "id": "bulk-hfcs-or-hfc-blends-sale-distribution-or-entering-into-commerce-california",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/bulk-hfcs-or-hfc-blends-sale-distribution-or-entering-into-commerce-california/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In August 2022, the state also passed [SB 1206][7] , which: Prohibits the sale, distribution, or otherwise entering into commerce in the state, bulk HFCs or HFC blends that exceed the following GWP thresholds: 2,200 beginning January 1, 2025 1,500 beginning January 1, 2030 750 beginning January 1, 2033"
+    },
+    {
+      "state": "New York",
+      "equipment_category": "Bulk regulated substances (sale, distribution, or purchase)",
+      "gwp_limit": "GWP ( 100 year) \u2265 2,200 (Jan 9, 2025)   GWP ( 100 year) \u2265 1,500 (Jan 1, 2030)   GWP ( 100 year) \u2265 750 (Jan 1, 2033)   GWP ( 20 year) \u2265 1,600 (Jan 1, 2040)",
+      "effective_date": "Jan 9, 2025",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "NYCRR Part 494",
+      "id": "bulk-regulated-substances-sale-distribution-or-purchase-new-york",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/bulk-regulated-substances-sale-distribution-or-purchase-new-york/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "The rule also includes a prohibition on the sale, distribution, or purchase of bulk regulated substances with the following GWP thresholds: GWP ( 100 year) \u2265 2,200 (Jan 9, 2025) GWP ( 100 year) \u2265 1,500 (Jan 1, 2030) GWP ( 100 year) \u2265 750 (Jan 1, 2033) GWP ( 20 year) \u2265 1,600 (Jan 1, 2040)"
+    },
+    {
+      "state": "California",
+      "equipment_category": "Companies operating more than 20 facilities in California",
+      "gwp_limit": "less than 2,500",
+      "effective_date": "December 31, 2026",
+      "regulatory_status": "signed into law",
+      "id": "companies-operating-more-than-20-facilities-in-california-california",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/companies-operating-more-than-20-facilities-in-california-california/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Companies operating more than 20 facilities in California must also attain either a companywide weighted average GWP of less than 2,500 or a 25% or greater reduction in GHGp below 2019 levels by December 31, 2026."
+    },
+    {
+      "state": "Connecticut",
+      "regulatory_status": "committed (no legislation)",
+      "id": "connecticut",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/connecticut/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Connecticut has expressed intentions to introduce legislation to reduce HFC emissions but no legislative activities have taken place. Status: Committed"
+    },
+    {
+      "state": "Washington",
+      "equipment_category": "Existing equipment that undergoes a retrofit",
+      "gwp_limit": "less than 150",
+      "effective_date": "Jan 1, 2029",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "Chapter 173-443 WAC",
+      "id": "existing-equipment-that-undergoes-a-retrofit-washington",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/existing-equipment-that-undergoes-a-retrofit-washington/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Washington has Finalized a rulemaking to update <https://ecology.wa.gov/getattachment/eb351094-2b5e-49ce-b626-c90092542a75/OTS-4615-6-For-Filing.pdf> Chapter 173-443 WAC for HFCs and other fluorinated greenhouse gases that: Established GWP threshold less than 150 for HFCs used in new equipment (Jan 1, 2025) Established GWP threshold less than 150 for existing equipment that undergoes a retrofit (Jan 1, 2029)"
+    },
+    {
+      "state": "California",
+      "equipment_category": "Existing Facilities",
+      "gwp_limit": "less than 1,400",
+      "effective_date": "2030",
+      "regulatory_status": "signed into law",
+      "id": "existing-facilities-california",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/existing-facilities-california/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Existing Facilities: California food retailers must meet one of the following GWP reduction targets across their existing facilities by 2030: Attain a companywide weighted average GWP* of less than 1,400 Attain a 55% or more significant reduction in Greenhouse Gas Potential (GHGp)** below 2019 levels by 2030"
+    },
+    {
+      "state": "Washington",
+      "equipment_category": "HFCs used in new equipment",
+      "gwp_limit": "less than 150",
+      "effective_date": "Jan 1, 2025",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "Chapter 173-443 WAC",
+      "id": "hfcs-used-in-new-equipment-washington",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/hfcs-used-in-new-equipment-washington/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Washington has Finalized a rulemaking to update <https://ecology.wa.gov/getattachment/eb351094-2b5e-49ce-b626-c90092542a75/OTS-4615-6-For-Filing.pdf> Chapter 173-443 WAC for HFCs and other fluorinated greenhouse gases that: Established GWP threshold less than 150 for HFCs used in new equipment (Jan 1, 2025)"
+    },
+    {
+      "state": "Illinois",
+      "regulatory_status": "no action",
+      "id": "illinois",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/illinois/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Illinois is a member of the US Climate Alliance but has not committed to regulating HFC refrigerants."
+    },
+    {
+      "state": "New Jersey",
+      "equipment_category": "Inventory and reporting requirements for refrigerants",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "N.J.A.C. 7:27E",
+      "id": "inventory-and-reporting-requirements-for-refrigerants-new-jersey",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/inventory-and-reporting-requirements-for-refrigerants-new-jersey/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In June 2022, New Jersey also enacted the Greenhouse Gas Monitoring and Reporting Rule, which includes new inventory and reporting requirements for refrigerants under <https://dep.nj.gov/wp-content/uploads/ghg/njac7-27e.pdf> N.J.A.C. 7:27E ."
+    },
+    {
+      "state": "Michigan",
+      "regulatory_status": "no action",
+      "id": "michigan",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/michigan/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Michigan is a member of the US Climate Alliance but has not committed to regulating HFC refrigerants."
+    },
+    {
+      "state": "Minnesota",
+      "regulatory_status": "no action",
+      "id": "minnesota",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/minnesota/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Minnesota is a member of the US Climate Alliance but has not committed to regulating HFC refrigerants."
+    },
+    {
+      "state": "Nevada",
+      "regulatory_status": "no action",
+      "id": "nevada",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/nevada/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Nevada is a member of the US Climate Alliance but has not committed to regulating HFC refrigerants."
+    },
+    {
+      "state": "California",
+      "equipment_category": "New facilities with systems containing more than 50 pounds of refrigerant",
+      "gwp_limit": "150",
+      "effective_date": "January 1, 2022",
+      "regulatory_status": "signed into law",
+      "id": "new-facilities-with-systems-containing-more-than-50-pounds-of-refrigerant-california",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/new-facilities-with-systems-containing-more-than-50-pounds-of-refrigerant-california/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "New Facilities: California food retailers may not use refrigerants above 150 GWP in new facilities with systems containing more than 50 pounds of refrigerant starting January 1, 2022."
+    },
+    {
+      "state": "New Mexico",
+      "regulatory_status": "committed (no legislation)",
+      "id": "new-mexico",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/new-mexico/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "New Mexico has expressed intentions to introduce legislation to reduce HFC emissions but no legislative activities have taken place. Status: Committed"
+    },
+    {
+      "state": "New York",
+      "equipment_category": "New Refrigeration Facility",
+      "gwp_limit": "GWP (20-year) > 10 for systems \u2265200 lbs",
+      "effective_date": "Jan 1, 2026",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "NYCRR Part 494",
+      "id": "new-refrigeration-facility-new-york",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/new-refrigeration-facility-new-york/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "New York has also finalized a new rulemaking under <https://dec.ny.gov/regulatory/regulations/proposed-emergency-recently-adopted-regulations/climate-change> NYCRR Part 494 which uses the 20-year GWP value rather than the traditional 100-year GWP value. Under the final rule, New York retailers would be subject to the following GWP Limits: Supermarket Systems (New)): GWP (20-year) > 580 for systems \u226550 lbs (Jan 1, 2026) GWP (20-year) > 943 for systems <50 lbs (Jan 1, 2026) GWP (20-year) > 10 (Jan 1, 2034) Stand-alone units (New): GWP (20-year) > 10 (Jan 1, 2034) New Refrigeration Facility: GWP (20-year) > 10 for systems \u2265200 lbs (Jan 1, 2026)"
+    },
+    {
+      "state": "Washington",
+      "equipment_category": "New stationary refrigeration equipment containing more than 50 pounds of refrigerant in food retail refrigeration",
+      "gwp_limit": "150",
+      "effective_date": "Jan 1, 2025",
+      "regulatory_status": "signed into law",
+      "id": "new-stationary-refrigeration-equipment-containing-more-than-50-pounds-of-refrige-washington",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/new-stationary-refrigeration-equipment-containing-more-than-50-pounds-of-refrige-washington/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "New Refrigeration Equipment: The rule prohibits refrigerants above 150 GWP in new stationary refrigeration equipment containing more than 50 pounds of refrigerant in food retail refrigeration starting Jan 1, 2025."
+    },
+    {
+      "state": "North Carolina",
+      "regulatory_status": "no action",
+      "id": "north-carolina",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/north-carolina/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "North Carolina is a member of the US Climate Alliance but has not committed to regulating HFC refrigerants."
+    },
+    {
+      "state": "Pennsylvania",
+      "regulatory_status": "committed (no legislation)",
+      "id": "pennsylvania",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/pennsylvania/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Pennsylvania has expressed intentions to introduce legislation to reduce HFC emissions but has not yet done so. Status: Committed"
+    },
+    {
+      "state": "Washington",
+      "equipment_category": "Retrofit refrigeration equipment containing more than 50 pounds of refrigerant in food retail refrigeration",
+      "gwp_limit": "150",
+      "effective_date": "Jan 1, 2029",
+      "regulatory_status": "signed into law",
+      "id": "retrofit-refrigeration-equipment-containing-more-than-50-pounds-of-refrigerant-i-washington",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/retrofit-refrigeration-equipment-containing-more-than-50-pounds-of-refrigerant-i-washington/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Retrofit Refrigeration Equipment: The rule also prohibits refrigerants above 150 GWP in retrofit refrigeration equipment containing more than 50 pounds of refrigerant in food retail refrigeration starting Jan 1, 2029."
+    },
+    {
+      "state": "California",
+      "equipment_category": "Servicing stationary equipment owned or operated by the state (non-reclaimed HFCs)",
+      "gwp_limit": "750",
+      "effective_date": "January 1, 2025",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "SB 1206",
+      "id": "servicing-stationary-equipment-owned-or-operated-by-the-state-non-reclaimed-hfcs-california",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/servicing-stationary-equipment-owned-or-operated-by-the-state-non-reclaimed-hfcs-california/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In August 2022, the state also passed [SB 1206][7] , which: Prohibits the sale, distribution, or otherwise entering into commerce in the state, bulk HFCs or HFC blends that exceed the following GWP thresholds: 2,200 beginning January 1, 2025 1,500 beginning January 1, 2030 750 beginning January 1, 2033 Prohibits HFCs >750 GWP that are not reclaimed from being used to replenish leaks or otherwise service stationary equipment owned or operated by the state, beginning January 1, 2025."
+    },
+    {
+      "state": "New York",
+      "equipment_category": "Small containers of automotive refrigerant containing virgin substances",
+      "effective_date": "Jan 1, 2027",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "NYCRR Part 494",
+      "id": "small-containers-of-automotive-refrigerant-containing-virgin-substances-new-york",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/small-containers-of-automotive-refrigerant-containing-virgin-substances-new-york/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "The rule also includes a prohibition on the sale, distribution, or purchase of bulk regulated substances with the following GWP thresholds: GWP ( 100 year) \u2265 2,200 (Jan 9, 2025) GWP ( 100 year) \u2265 1,500 (Jan 1, 2030) GWP ( 100 year) \u2265 750 (Jan 1, 2033) GWP ( 20 year) \u2265 1,600 (Jan 1, 2040) Small containers of automotive refrigerant containing virgin substances (Jan 1, 2027)"
+    },
+    {
+      "state": "New York",
+      "equipment_category": "Stand-alone units (New)",
+      "gwp_limit": "GWP (20-year) > 10",
+      "effective_date": "Jan 1, 2034",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "NYCRR Part 494",
+      "id": "stand-alone-units-new-new-york",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/stand-alone-units-new-new-york/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "New York has also finalized a new rulemaking under <https://dec.ny.gov/regulatory/regulations/proposed-emergency-recently-adopted-regulations/climate-change> NYCRR Part 494 which uses the 20-year GWP value rather than the traditional 100-year GWP value. Under the final rule, New York retailers would be subject to the following GWP Limits: Supermarket Systems (New)): GWP (20-year) > 580 for systems \u226550 lbs (Jan 1, 2026) GWP (20-year) > 943 for systems <50 lbs (Jan 1, 2026) GWP (20-year) > 10 (Jan 1, 2034) Stand-alone units (New): GWP (20-year) > 10 (Jan 1, 2034)"
+    },
+    {
+      "state": "Hawaii",
+      "equipment_category": "Stationary refrigeration and air-conditioning end-uses",
+      "regulatory_status": "bill introduced",
+      "regulation_citation": "HB 2492",
+      "id": "stationary-refrigeration-and-air-conditioning-end-uses-hawaii",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/stationary-refrigeration-and-air-conditioning-end-uses-hawaii/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , Hawaii introduced <https://www.capitol.hawaii.gov/Archives/measure_indiv_Archives.aspx?billnumber=2492&billtype=HB&year=2020> HB 2492 , which would prohibit certain HFCs in specific stationary refrigeration and air-conditioning end-uses. No further legislative activities have taken place. Status: Bill Introduced"
+    },
+    {
+      "state": "Oregon",
+      "equipment_category": "Stationary refrigeration and air-conditioning end-uses",
+      "regulatory_status": "bill introduced",
+      "regulation_citation": "HB 4024",
+      "id": "stationary-refrigeration-and-air-conditioning-end-uses-oregon",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/stationary-refrigeration-and-air-conditioning-end-uses-oregon/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , Oregon introduced [ <https://olis.oregonlegislature.gov/liz/2020R1/Measures/Overview/HB4024> HB 4024 ], which would prohibit certain HFCs in specific stationary refrigeration and air-conditioning end-uses. No further legislative activities have taken place. Status: Bill Introduced"
+    },
+    {
+      "state": "California",
+      "equipment_category": "Supermarket",
+      "effective_date": "January 1, 2019",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "SB 1013",
+      "id": "supermarket-california",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-california/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , California enacted <https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201720180SB1013> SB 1013 , prohibiting certain HFCs in specific stationary refrigeration and air-conditioning end-uses. Supermarket Effective Date: January 1, 2019"
+    },
+    {
+      "state": "Colorado",
+      "equipment_category": "Supermarket",
+      "effective_date": "January 1, 2021",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "Regulation 22",
+      "id": "supermarket-colorado",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-colorado/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , Colorado enacted <https://www.sos.state.co.us/CCR/DisplayRule.do?action=ruleinfo&agencyID=7&agencyName=Air%20Quality%20Control%20Commission&deptID=16&deptName=Department%20of%20Public%20Health%20and%20Environment&ruleId=3325&seriesNum=5%20CCR%201001-26> Regulation 22 , prohibiting certain HFCs in specific stationary refrigeration and air-conditioning end-uses. Supermarket Effective Date: January 1, 2021"
+    },
+    {
+      "state": "Delaware",
+      "equipment_category": "Supermarket",
+      "effective_date": "September 1, 2021",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "7 DE Admin Code 1151",
+      "id": "supermarket-delaware",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-delaware/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , Delaware enacted <https://regulations.delaware.gov/register/march2021/final/24%20DE%20Reg%20876%2003-01-21.htm> 7 DE Admin Code 1151 , prohibiting certain HFCs in specific stationary refrigeration and air-conditioning end-uses. Supermarket Effective Date: September 1, 2021"
+    },
+    {
+      "state": "Maine",
+      "equipment_category": "Supermarket",
+      "effective_date": "January 1, 2022",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "HP 161",
+      "id": "supermarket-maine",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-maine/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , Maine enacted <https://www.legislature.maine.gov/legis/bills/display_ps.asp?PID=1456&ld=226&paper=&paperld=l&snum=130> HP 161 , prohibiting certain HFCs in specific stationary refrigeration and air-conditioning end-uses. Supermarket Effective Date: January 1, 2022"
+    },
+    {
+      "state": "Maryland",
+      "equipment_category": "Supermarket",
+      "effective_date": "January 1, 2021",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "COMAR 26.11.33",
+      "id": "supermarket-maryland",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-maryland/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , Maryland enacted <http://www.dsd.state.md.us/COMAR/SubtitleSearch.aspx?search=26.11.33.%2A> COMAR 26.11.33 , prohibiting certain HFCs in specific stationary refrigeration and air-conditioning end-uses. Supermarket Effective Date: January 1, 2021"
+    },
+    {
+      "state": "Massachusetts",
+      "equipment_category": "Supermarket",
+      "effective_date": "January 1, 2021",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "310 CMR 7.76",
+      "id": "supermarket-massachusetts",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-massachusetts/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , Massachusetts enacted <https://www.mass.gov/doc/310-cmr-776-prohibitions-on-use-of-certain-hydrofluorocarbons/download> 310 CMR 7.76 , prohibiting certain HFCs in specific stationary refrigeration and air-conditioning end-uses. Supermarket Effective Date: January 1, 2021"
+    },
+    {
+      "state": "New Jersey",
+      "equipment_category": "Supermarket",
+      "effective_date": "July 1, 2020",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "A-5583",
+      "id": "supermarket-new-jersey",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-new-jersey/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , New Jersey enacted <https://www.njleg.state.nj.us/bill-search/2018/A5583> A-5583 , prohibiting certain HFCs in specific stationary refrigeration and air-conditioning end-uses. Supermarket Effective Date: July 1, 2020"
+    },
+    {
+      "state": "New York",
+      "equipment_category": "Supermarket",
+      "effective_date": "January 1, 2021",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "6 NYCRR Part 494",
+      "id": "supermarket-new-york",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-new-york/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , New York enacted <https://www.dec.ny.gov/regulations/119026.html> 6 NYCRR Part 494 , prohibiting certain HFCs in specific stationary refrigeration and air-conditioning end-uses. Supermarket Effective Date: January 1, 2021"
+    },
+    {
+      "state": "New York",
+      "equipment_category": "Supermarket Refrigeration Program (businesses owning or operating \u2265 20 retail food facilities)",
+      "gwp_limit": "GWP20 of < 10",
+      "effective_date": "January 1, 2035",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "NYCRR Part 494",
+      "id": "supermarket-refrigeration-program-businesses-owning-or-operating-20-retail-food--new-york",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-refrigeration-program-businesses-owning-or-operating-20-retail-food--new-york/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Additionally, the rule includes a Supermarket Refrigeration Program under which all businesses owning or operating \u2265 20 retail food facilities with a refrigerant charge capacity of \u2265 200 pounds in New York OR that operates > 100 such facilities in the US must meet one of the following conditions by January 1, 2035: All refrigerants used in supermarket systems containing \u2265 200 lbs of refrigerant have a GWP20 of < 10."
+    },
+    {
+      "state": "Rhode Island",
+      "equipment_category": "Supermarket",
+      "effective_date": "January 1, 2022",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "250-RICR-120-05-53",
+      "id": "supermarket-rhode-island",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-rhode-island/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , Rhode Island enacted <https://rules.sos.ri.gov/regulations/part/250-120-05-53> 250-RICR-120-05-53 , prohibiting certain HFCs in specific stationary refrigeration and air-conditioning end-uses. Supermarket Effective Date: January 1, 2022"
+    },
+    {
+      "state": "New York",
+      "equipment_category": "Supermarket Systems (New), at or above 50 lbs",
+      "gwp_limit": "GWP (20-year) > 580",
+      "effective_date": "Jan 1, 2026",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "NYCRR Part 494",
+      "id": "supermarket-systems-new-at-or-above-50-lbs-new-york",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-systems-new-at-or-above-50-lbs-new-york/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "New York has also finalized a new rulemaking under <https://dec.ny.gov/regulatory/regulations/proposed-emergency-recently-adopted-regulations/climate-change> NYCRR Part 494 which uses the 20-year GWP value rather than the traditional 100-year GWP value. Under the final rule, New York retailers would be subject to the following GWP Limits: Supermarket Systems (New)): GWP (20-year) > 580 for systems \u226550 lbs (Jan 1, 2026)"
+    },
+    {
+      "state": "New York",
+      "equipment_category": "Supermarket Systems (New), below 50 lbs",
+      "gwp_limit": "GWP (20-year) > 943",
+      "effective_date": "Jan 1, 2026",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "NYCRR Part 494",
+      "id": "supermarket-systems-new-below-50-lbs-new-york",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-systems-new-below-50-lbs-new-york/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "New York has also finalized a new rulemaking under <https://dec.ny.gov/regulatory/regulations/proposed-emergency-recently-adopted-regulations/climate-change> NYCRR Part 494 which uses the 20-year GWP value rather than the traditional 100-year GWP value. Under the final rule, New York retailers would be subject to the following GWP Limits: Supermarket Systems (New)): GWP (20-year) > 580 for systems \u226550 lbs (Jan 1, 2026) GWP (20-year) > 943 for systems <50 lbs (Jan 1, 2026)"
+    },
+    {
+      "state": "New York",
+      "equipment_category": "Supermarket Systems (New), from 2034",
+      "gwp_limit": "GWP (20-year) > 10",
+      "effective_date": "Jan 1, 2034",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "NYCRR Part 494",
+      "id": "supermarket-systems-new-from-2034-new-york",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-systems-new-from-2034-new-york/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "New York has also finalized a new rulemaking under <https://dec.ny.gov/regulatory/regulations/proposed-emergency-recently-adopted-regulations/climate-change> NYCRR Part 494 which uses the 20-year GWP value rather than the traditional 100-year GWP value. Under the final rule, New York retailers would be subject to the following GWP Limits: Supermarket Systems (New)): GWP (20-year) > 580 for systems \u226550 lbs (Jan 1, 2026) GWP (20-year) > 943 for systems <50 lbs (Jan 1, 2026) GWP (20-year) > 10 (Jan 1, 2034)"
+    },
+    {
+      "state": "Vermont",
+      "equipment_category": "Supermarket",
+      "effective_date": "January 1, 2021",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "S.30",
+      "id": "supermarket-vermont",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-vermont/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , Vermont enacted <https://legislature.vermont.gov/bill/status/2020/S.30> S.30 , prohibiting certain HFCs in specific stationary refrigeration and air-conditioning end-uses. Supermarket Effective Date: January 1, 2021"
+    },
+    {
+      "state": "Virginia",
+      "equipment_category": "Supermarket",
+      "effective_date": "January 1, 2022",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "9VAC5 Chapter 145",
+      "id": "supermarket-virginia",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-virginia/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , Virginia enacted <https://www.deq.virginia.gov/air/greenhouse-gases/hfcs> 9VAC5 Chapter 145 , prohibiting certain HFCs in specific stationary refrigeration and air-conditioning end-uses. Supermarket Effective Date: January 1, 2022"
+    },
+    {
+      "state": "Washington",
+      "equipment_category": "Supermarket",
+      "effective_date": "January 1, 2020",
+      "regulatory_status": "signed into law",
+      "regulation_citation": "HB 1112",
+      "id": "supermarket-washington",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/supermarket-washington/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "In alignment with the federal EPA SNAP <https://www.epa.gov/sites/default/files/2015-08/documents/snap_regulatory_factsheet_july20_2015.pdf> Rules 20 and <https://www.epa.gov/sites/default/files/2016-12/documents/snap_action_scr2_factsheet.pdf> 21 , Washington enacted <https://lawfilesext.leg.wa.gov/biennium/2019-20/Pdf/Bills/Session%20Laws/House/1112-S2.SL.pdf#page=1> HB 1112 , prohibiting certain HFCs in specific stationary refrigeration and air-conditioning end-uses. Supermarket Effective Date: January 1, 2020"
+    },
+    {
+      "state": "Wisconsin",
+      "regulatory_status": "no action",
+      "id": "wisconsin",
+      "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/wisconsin/",
+      "source": "https://nasrc.org/hfc-policy-tracker/",
+      "source_quote": "Wisconsin is a member of the US Climate Alliance but has not committed to regulating HFC refrigerants."
+    }
+  ]
+}

@@ -1,0 +1,730 @@
+{
+  "name": "Galvanic series and surface energy of engineering materials",
+  "description": "Electrode potential in seawater (volts vs SCE) for metals and alloys from the ASM/MIL-STD-889 galvanic series, and surface energy (dyne/cm) for plastics and packaging materials. Answers 'will these two materials corrode each other' and 'will this adhesive wet this plastic'.",
+  "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/",
+  "licence": "Factual compilation with source citations. Galvanic series from ASM Handbook Vol. 13 and MIL-STD-889 (US government, public domain). Surface energy data from kolorguide.com.",
+  "last_verified": "2026-08-04",
+  "stale_after": "2028-08-03",
+  "sources": [
+    "https://l-36.com/corrosion.php",
+    "https://kolorguide.com/surface-energy-chart-by-material/"
+  ],
+  "records": [
+    {
+      "material": "18% chromium type corrosion-resistant steels",
+      "anodic_index_v": "0.50",
+      "id": "18-chromium-type-corrosion-resistant-steels",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/18-chromium-type-corrosion-resistant-steels/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "18% chromium type corrosion-resistant steels | 0.50 |"
+    },
+    {
+      "material": "Acrylic Coating",
+      "surface_energy_dyne_cm": "38\u201342",
+      "condition": "Dry",
+      "needs_treatment": "No",
+      "id": "acrylic-coating",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/acrylic-coating/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Acrylic Coating | 38\u201342 | Dry | No | Dyne pens | Good adhesion |"
+    },
+    {
+      "material": "Alloy 464 (Naval Rolled Brass)",
+      "galvanic_potential_v_sce": "0.4",
+      "id": "alloy-464-naval-rolled-brass",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/alloy-464-naval-rolled-brass/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Alloy 464 (Naval Rolled Brass) | 0.4 |"
+    },
+    {
+      "material": "Aluminum",
+      "surface_energy_dyne_cm": "40\u201360",
+      "condition": "Oxidized surface",
+      "needs_treatment": "Sometimes",
+      "id": "aluminum",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/aluminum/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Aluminum | 40\u201360 | Oxidized surface | Sometimes | Cotton applicator | Sensitive to oils |"
+    },
+    {
+      "material": "Aluminum 3003-H",
+      "galvanic_potential_v_sce": "0.79",
+      "id": "aluminum-3003-h",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/aluminum-3003-h/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Aluminum 3003-H | 0.79 |"
+    },
+    {
+      "material": "Aluminum, cast alloys other than silicon type, cadmium, plated and chromate",
+      "anodic_index_v": "0.95",
+      "id": "aluminum-cast-alloys-other-than-silicon-type-cadmium-plated-and-chromate",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/aluminum-cast-alloys-other-than-silicon-type-cadmium-plated-and-chromate/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Aluminum, cast alloys other than silicon type, cadmium, plated and chromate | 0.95 |"
+    },
+    {
+      "material": "Aluminum, wrought alloys of the 2000 Series",
+      "anodic_index_v": "0.75",
+      "id": "aluminum-wrought-alloys-of-the-2000-series",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/aluminum-wrought-alloys-of-the-2000-series/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Aluminum , wrought alloys of the 2000 Series | 0.75 |"
+    },
+    {
+      "material": "Aluminum, wrought alloys other than 2000 Series aluminum, cast alloys of the silicon type",
+      "anodic_index_v": "0.90",
+      "id": "aluminum-wrought-alloys-other-than-2000-series-aluminum-cast-alloys-of-the-silic",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/aluminum-wrought-alloys-other-than-2000-series-aluminum-cast-alloys-of-the-silic/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Aluminum, wrought alloys other than 2000 Series aluminum, cast alloys of the silicon type | 0.90 |"
+    },
+    {
+      "material": "Beryllium",
+      "anodic_index_v": "1.85",
+      "id": "beryllium",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/beryllium/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Beryllium | 1.85 |"
+    },
+    {
+      "material": "BOPP Film",
+      "surface_energy_dyne_cm": "30\u201332",
+      "condition": "Untreated",
+      "needs_treatment": "Yes",
+      "id": "bopp-film",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/bopp-film/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "BOPP Film | 30\u201332 | Untreated | Yes | Dyne pens | Labels and packaging |"
+    },
+    {
+      "material": "BOPP (treated)",
+      "surface_energy_dyne_cm": "38\u201342",
+      "condition": "Corona treated",
+      "needs_treatment": "No (if recently treated)",
+      "id": "bopp-treated",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/bopp-treated/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "BOPP (treated) | 38\u201342 | Corona treated | No (if recently treated) | Dyne pens | Ready for printing |"
+    },
+    {
+      "material": "Brass and bronzes",
+      "anodic_index_v": "0.40",
+      "id": "brass-and-bronzes",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/brass-and-bronzes/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Brass and bronzes | 0.40 |"
+    },
+    {
+      "material": "Carbon Steel",
+      "galvanic_potential_v_sce": "0.61",
+      "id": "carbon-steel",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/carbon-steel/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Carbon Steel | 0.61 |"
+    },
+    {
+      "material": "Cast Iron",
+      "galvanic_potential_v_sce": "0.61",
+      "id": "cast-iron",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/cast-iron/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Cast Iron | 0.61 |"
+    },
+    {
+      "material": "Chromium plated; tin plated; 12% chromium type corrosion-resistant steels",
+      "anodic_index_v": "0.60",
+      "id": "chromium-plated-tin-plated-12-chromium-type-corrosion-resistant-steels",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/chromium-plated-tin-plated-12-chromium-type-corrosion-resistant-steels/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Chromium plated; tin plated; 12% chromium type corrosion-resistant steels | 0.60 |"
+    },
+    {
+      "material": "Cold Foil",
+      "surface_energy_dyne_cm": "36\u201342",
+      "condition": "UV adhesive",
+      "needs_treatment": "Sometimes",
+      "id": "cold-foil",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/cold-foil/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Cold Foil | 36\u201342 | UV adhesive | Sometimes | Dyne pens | Better wetting than hot foil |"
+    },
+    {
+      "material": "Cold Foil (cured)",
+      "surface_energy_dyne_cm": "34\u201340",
+      "condition": "Fully cured",
+      "needs_treatment": "Sometimes",
+      "id": "cold-foil-cured",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/cold-foil-cured/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Cold Foil (cured) | 34\u201340 | Fully cured | Sometimes | Dyne pens | Depends on UV system |"
+    },
+    {
+      "material": "Copper",
+      "galvanic_potential_v_sce": "0.36",
+      "id": "copper",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/copper/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Copper | 0.36 |"
+    },
+    {
+      "material": "Copper Alloy 443 (Admiralty Brass)",
+      "galvanic_potential_v_sce": "0.29",
+      "id": "copper-alloy-443-admiralty-brass",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/copper-alloy-443-admiralty-brass/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Copper Alloy 443 (Admiralty Brass) | 0.29 |"
+    },
+    {
+      "material": "Copper Alloy 687 (Aluminum Brass)",
+      "galvanic_potential_v_sce": "0.32",
+      "id": "copper-alloy-687-aluminum-brass",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/copper-alloy-687-aluminum-brass/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Copper Alloy 687 (Aluminum Brass) | 0.32 |"
+    },
+    {
+      "material": "Copper Alloy 706 (90-10 Cupro-Nickel)",
+      "galvanic_potential_v_sce": "0.28",
+      "id": "copper-alloy-706-90-10-cupro-nickel",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/copper-alloy-706-90-10-cupro-nickel/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Copper Alloy 706 (90-10 Cupro-Nickel) | 0.28 |"
+    },
+    {
+      "material": "Copper Alloy 715 (70-30 Cupro-Nickel)",
+      "galvanic_potential_v_sce": "0.25",
+      "id": "copper-alloy-715-70-30-cupro-nickel",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/copper-alloy-715-70-30-cupro-nickel/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Copper Alloy 715 (70-30 Cupro-Nickel) | 0.25 |"
+    },
+    {
+      "material": "Copper, solid or plated; low brasses or bronzes; silver solder; German silvery high copper-nickel alloys; nickel-chromium alloys",
+      "anodic_index_v": "0.35",
+      "id": "copper-solid-or-plated-low-brasses-or-bronzes-silver-solder-german-silvery-high-",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/copper-solid-or-plated-low-brasses-or-bronzes-silver-solder-german-silvery-high-/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Copper, solid or plated; low brass es or bronzes; silver solder; German silvery high copper-nickel alloys; nickel-chromium alloys | 0.35 |"
+    },
+    {
+      "material": "Foil (with overprint varnish)",
+      "surface_energy_dyne_cm": "38\u201344",
+      "condition": "Coated",
+      "needs_treatment": "No",
+      "id": "foil-with-overprint-varnish",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/foil-with-overprint-varnish/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Foil (with overprint varnish) | 38\u201344 | Coated | No | Dyne pens | Improved adhesion |"
+    },
+    {
+      "material": "G Bronze",
+      "galvanic_potential_v_sce": "0.31",
+      "id": "g-bronze",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/g-bronze/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "G Bronze | 0.31 |"
+    },
+    {
+      "material": "Glass",
+      "surface_energy_dyne_cm": "60\u201372",
+      "condition": "Clean surface",
+      "needs_treatment": "No",
+      "id": "glass",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/glass/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Glass | 60\u201372 | Clean surface | No | Cotton applicator | Helps detect contamination |"
+    },
+    {
+      "material": "Gold, solid and plated, Gold-platinum alloy",
+      "anodic_index_v": "0.00",
+      "id": "gold-solid-and-plated-gold-platinum-alloy",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/gold-solid-and-plated-gold-platinum-alloy/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Gold, solid and plated, Gold-platinum alloy | 0.00 |"
+    },
+    {
+      "material": "Graphite",
+      "galvanic_potential_v_sce": "+0.25",
+      "id": "graphite",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/graphite/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Graphite | +0.25 |"
+    },
+    {
+      "material": "Hastelloy C",
+      "galvanic_potential_v_sce": "0.08",
+      "id": "hastelloy-c",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/hastelloy-c/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Hastelloy C | 0.08 |"
+    },
+    {
+      "material": "HDPE",
+      "surface_energy_dyne_cm": "30\u201332",
+      "condition": "Untreated",
+      "needs_treatment": "Yes",
+      "id": "hdpe",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/hdpe/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "HDPE | 30\u201332 | Untreated | Yes | Dyne pens | Common in packaging |"
+    },
+    {
+      "material": "High brasses and bronzes",
+      "anodic_index_v": "0.45",
+      "id": "high-brasses-and-bronzes",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/high-brasses-and-bronzes/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "High brasses and bronzes | 0.45 |"
+    },
+    {
+      "material": "Hot-dip-zinc plate; galvanized steel",
+      "anodic_index_v": "1.20",
+      "id": "hot-dip-zinc-plate-galvanized-steel",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/hot-dip-zinc-plate-galvanized-steel/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Hot-dip-zinc plate; galvanized steel | 1.20 |"
+    },
+    {
+      "material": "Hot Foil (aged)",
+      "surface_energy_dyne_cm": "32\u201336",
+      "condition": "After storage",
+      "needs_treatment": "Yes",
+      "id": "hot-foil-aged",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/hot-foil-aged/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Hot Foil (aged) | 32\u201336 | After storage | Yes | Dyne pens | Surface energy may decrease |"
+    },
+    {
+      "material": "Hot Stamping Foil",
+      "surface_energy_dyne_cm": "34\u201338",
+      "condition": "Fresh transfer",
+      "needs_treatment": "Yes",
+      "id": "hot-stamping-foil",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/hot-stamping-foil/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Hot Stamping Foil | 34\u201338 | Fresh transfer | Yes | Dyne pens | Low adhesion surface |"
+    },
+    {
+      "material": "Ink Film (dry)",
+      "surface_energy_dyne_cm": "36\u201342",
+      "condition": "Printed",
+      "needs_treatment": "Sometimes",
+      "id": "ink-film-dry",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/ink-film-dry/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Ink Film (dry) | 36\u201342 | Printed | Sometimes | Dyne pens | Depends on ink system |"
+    },
+    {
+      "material": "Iron, wrought, gray or malleable, plain carbon and low alloy steels",
+      "anodic_index_v": "0.85",
+      "id": "iron-wrought-gray-or-malleable-plain-carbon-and-low-alloy-steels",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/iron-wrought-gray-or-malleable-plain-carbon-and-low-alloy-steels/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Iron , wrought, gray or malleable, plain carbon and low alloy steels | 0.85 |"
+    },
+    {
+      "material": "LDPE",
+      "surface_energy_dyne_cm": "30\u201333",
+      "condition": "Untreated",
+      "needs_treatment": "Yes",
+      "id": "ldpe",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/ldpe/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "LDPE | 30\u201333 | Untreated | Yes | Dyne pens | Used in films |"
+    },
+    {
+      "material": "Lead, solid or plated; high lead alloys",
+      "anodic_index_v": "0.70",
+      "id": "lead-solid-or-plated-high-lead-alloys",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/lead-solid-or-plated-high-lead-alloys/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Lead, solid or plated; high lead alloys | 0.70 |"
+    },
+    {
+      "material": "Magnesium & magnesium-base alloys, cast or wrought",
+      "anodic_index_v": "1.75",
+      "id": "magnesium-magnesium-base-alloys-cast-or-wrought",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/magnesium-magnesium-base-alloys-cast-or-wrought/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Magnesium & magnesium-base alloys, cast or wrought | 1.75 |"
+    },
+    {
+      "material": "Metallized Film",
+      "surface_energy_dyne_cm": "38\u201344",
+      "condition": "Coated",
+      "needs_treatment": "Sometimes",
+      "id": "metallized-film",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/metallized-film/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Metallized Film | 38\u201344 | Coated | Sometimes | Dyne pens | Depends on coating |"
+    },
+    {
+      "material": "Monel 400",
+      "galvanic_potential_v_sce": "0.08",
+      "id": "monel-400",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/monel-400/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Monel 400 | 0.08 |"
+    },
+    {
+      "material": "Multilayer Film (EVOH core)",
+      "surface_energy_dyne_cm": "30\u201342",
+      "condition": "Depends on outer layer",
+      "needs_treatment": "Yes/No",
+      "id": "multilayer-film-evoh-core",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/multilayer-film-evoh-core/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Multilayer Film (EVOH core) | 30\u201342 | Depends on outer layer | Yes/No | Dyne pens | Outer layer defines behavior |"
+    },
+    {
+      "material": "Nickel",
+      "galvanic_potential_v_sce": "0.2",
+      "id": "nickel",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/nickel/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Nickel | 0.2 |"
+    },
+    {
+      "material": "Nickel , solid or plated, titan ium an s alloys, Monel",
+      "anodic_index_v": "0.30",
+      "id": "nickel-solid-or-plated-titanium-and-alloys-monel",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/nickel-solid-or-plated-titanium-and-alloys-monel/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Nickel , solid or plated, titan ium an s alloys, Monel | 0.30 |"
+    },
+    {
+      "material": "Nylon (PA)",
+      "surface_energy_dyne_cm": "46\u201350",
+      "condition": "Standard",
+      "needs_treatment": "No",
+      "id": "nylon-pa",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/nylon-pa/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Nylon (PA) | 46\u201350 | Standard | No | Dyne pens | High adhesion |"
+    },
+    {
+      "material": "PE Coex (EVA surface)",
+      "surface_energy_dyne_cm": "36\u201340",
+      "condition": "Modified layer",
+      "needs_treatment": "Sometimes",
+      "id": "pe-coex-eva-surface",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/pe-coex-eva-surface/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "PE Coex (EVA surface) | 36\u201340 | Modified layer | Sometimes | Dyne pens | Improved adhesion |"
+    },
+    {
+      "material": "PE Coex (PA/Nylon surface)",
+      "surface_energy_dyne_cm": "42\u201350",
+      "condition": "High-energy layer",
+      "needs_treatment": "No",
+      "id": "pe-coex-pa-nylon-surface",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/pe-coex-pa-nylon-surface/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "PE Coex (PA/Nylon surface) | 42\u201350 | High-energy layer | No | Dyne pens | Excellent adhesion |"
+    },
+    {
+      "material": "PE Coex (with slip additives)",
+      "surface_energy_dyne_cm": "30\u201336",
+      "condition": "Variable",
+      "needs_treatment": "Yes",
+      "id": "pe-coex-with-slip-additives",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/pe-coex-with-slip-additives/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "PE Coex (with slip additives) | 30\u201336 | Variable | Yes | Dyne pens | Unstable surface |"
+    },
+    {
+      "material": "PE Coextruded (aged)",
+      "surface_energy_dyne_cm": "32\u201338",
+      "condition": "Migration",
+      "needs_treatment": "Often",
+      "id": "pe-coextruded-aged",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/pe-coextruded-aged/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "PE Coextruded (aged) | 32\u201338 | Migration | Often | Dyne pens | Surface energy loss over time |"
+    },
+    {
+      "material": "PE Coextruded (treated)",
+      "surface_energy_dyne_cm": "38\u201342",
+      "condition": "Corona treated",
+      "needs_treatment": "No",
+      "id": "pe-coextruded-treated",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/pe-coextruded-treated/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "PE Coextruded (treated) | 38\u201342 | Corona treated | No | Dyne pens | Printable surface |"
+    },
+    {
+      "material": "PE Coextruded (untreated)",
+      "surface_energy_dyne_cm": "30\u201333",
+      "condition": "Fresh",
+      "needs_treatment": "Yes",
+      "id": "pe-coextruded-untreated",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/pe-coextruded-untreated/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "PE Coextruded (untreated) | 30\u201333 | Fresh | Yes | Dyne pens | Similar to standard PE |"
+    },
+    {
+      "material": "PE Film",
+      "surface_energy_dyne_cm": "30\u201333",
+      "condition": "Untreated",
+      "needs_treatment": "Yes",
+      "id": "pe-film",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/pe-film/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "PE Film | 30\u201333 | Untreated | Yes | Dyne pens | Requires treatment |"
+    },
+    {
+      "material": "PET",
+      "surface_energy_dyne_cm": "42\u201346",
+      "condition": "Standard",
+      "needs_treatment": "Rarely",
+      "id": "pet",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/pet/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "PET | 42\u201346 | Standard | Rarely | Dyne pens | Stable surface |"
+    },
+    {
+      "material": "PET Film",
+      "surface_energy_dyne_cm": "42\u201346",
+      "condition": "Treated",
+      "needs_treatment": "No",
+      "id": "pet-film",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/pet-film/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "PET Film | 42\u201346 | Treated | No | Dyne pens | Stable |"
+    },
+    {
+      "material": "Platinum",
+      "galvanic_potential_v_sce": "+0.15",
+      "id": "platinum",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/platinum/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Platinum | +0.15 |"
+    },
+    {
+      "material": "Polyethylene (PE)",
+      "surface_energy_dyne_cm": "30\u201333",
+      "condition": "Untreated",
+      "needs_treatment": "Yes",
+      "id": "polyethylene-pe",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/polyethylene-pe/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Polyethylene (PE) | 30\u201333 | Untreated | Yes | Dyne pens | Difficult to print |"
+    },
+    {
+      "material": "Polypropylene (PP)",
+      "surface_energy_dyne_cm": "29\u201331",
+      "condition": "Untreated",
+      "needs_treatment": "Yes",
+      "id": "polypropylene-pp",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/polypropylene-pp/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Polypropylene (PP) | 29\u201331 | Untreated | Yes | Dyne pens | Requires corona treatment |"
+    },
+    {
+      "material": "PTFE (Teflon)",
+      "surface_energy_dyne_cm": "18\u201320",
+      "condition": "Inert",
+      "needs_treatment": "Very Difficult",
+      "id": "ptfe-teflon",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/ptfe-teflon/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "PTFE (Teflon) | 18\u201320 | Inert | Very Difficult | Dyne test fluids | Non-stick surface |"
+    },
+    {
+      "material": "PVC",
+      "surface_energy_dyne_cm": "38\u201342",
+      "condition": "Flexible/Rigid",
+      "needs_treatment": "Sometimes",
+      "id": "pvc",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/pvc/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "PVC | 38\u201342 | Flexible/Rigid | Sometimes | Dyne pens | Depends on formulation |"
+    },
+    {
+      "material": "Rhodium plated on silver-plated copper",
+      "anodic_index_v": "0.05",
+      "id": "rhodium-plated-on-silver-plated-copper",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/rhodium-plated-on-silver-plated-copper/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Rhodium plated on silver-plated copper | 0.05 |"
+    },
+    {
+      "material": "Silicone",
+      "surface_energy_dyne_cm": "20\u201324",
+      "condition": "Elastomer",
+      "needs_treatment": "Very Difficult",
+      "id": "silicone",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/silicone/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Silicone | 20\u201324 | Elastomer | Very Difficult | Dyne test fluids | Very low surface energy |"
+    },
+    {
+      "material": "Silver",
+      "galvanic_potential_v_sce": "0.13",
+      "id": "silver",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/silver/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Silver | 0.13 |"
+    },
+    {
+      "material": "Silver, solid or plated; monel metal. High nickel-copper alloys",
+      "anodic_index_v": "0.15",
+      "id": "silver-solid-or-plated-monel-metal-high-nickel-copper-alloys",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/silver-solid-or-plated-monel-metal-high-nickel-copper-alloys/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Silver, solid or plated; monel metal. High nickel -copper alloys | 0.15 |"
+    },
+    {
+      "material": "Stainless Steel",
+      "surface_energy_dyne_cm": "40\u201350",
+      "condition": "Passive layer",
+      "needs_treatment": "Sometimes",
+      "id": "stainless-steel",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/stainless-steel/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Stainless Steel | 40\u201350 | Passive layer | Sometimes | Cotton applicator | May contain oils |"
+    },
+    {
+      "material": "Steel",
+      "surface_energy_dyne_cm": "42\u201355",
+      "condition": "Industrial surface",
+      "needs_treatment": "Sometimes",
+      "id": "steel",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/steel/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Steel | 42\u201355 | Industrial surface | Sometimes | Cotton applicator | Cleanliness is critical |"
+    },
+    {
+      "material": "Tin-plate; tin-lead solder",
+      "anodic_index_v": "0.65",
+      "id": "tin-plate-tin-lead-solder",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/tin-plate-tin-lead-solder/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Tin-plate; tin-lead solder | 0.65 |"
+    },
+    {
+      "material": "Titanium",
+      "galvanic_potential_v_sce": "0.1",
+      "id": "titanium",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/titanium/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Titanium | 0.1 |"
+    },
+    {
+      "material": "Type 304 Stainless Steel (Active)",
+      "galvanic_potential_v_sce": "0.53",
+      "condition": "Active",
+      "id": "type-304-stainless-steel-active",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/type-304-stainless-steel-active/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Type 304 Stainless Steel (Active) | 0.53 |"
+    },
+    {
+      "material": "Type 304 Stainless Steel (Passive)",
+      "galvanic_potential_v_sce": "0.08",
+      "condition": "Passive",
+      "id": "type-304-stainless-steel-passive",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/type-304-stainless-steel-passive/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Type 304 Stainless Steel (Passive) | 0.08 |"
+    },
+    {
+      "material": "Type 316 Stainless Steel (Active)",
+      "galvanic_potential_v_sce": "0.18",
+      "condition": "Active",
+      "id": "type-316-stainless-steel-active",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/type-316-stainless-steel-active/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Type 316 Stainless Steel (Active) | 0.18 |"
+    },
+    {
+      "material": "Type 316 Stainless Steel (Passive)",
+      "galvanic_potential_v_sce": "0.05",
+      "condition": "Passive",
+      "id": "type-316-stainless-steel-passive",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/type-316-stainless-steel-passive/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Type 316 Stainless Steel (Passive) | 0.05 |"
+    },
+    {
+      "material": "Type 410 Stainless Steel (Active)",
+      "galvanic_potential_v_sce": "0.52",
+      "condition": "Active",
+      "id": "type-410-stainless-steel-active",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/type-410-stainless-steel-active/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Type 410 Stainless Steel (Active) | 0.52 |"
+    },
+    {
+      "material": "Type 410 Stainless Steel (Passive)",
+      "galvanic_potential_v_sce": "0.15",
+      "condition": "Passive",
+      "id": "type-410-stainless-steel-passive",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/type-410-stainless-steel-passive/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Type 410 Stainless Steel (Passive) | 0.15 |"
+    },
+    {
+      "material": "Type 430 Stainless Steel (Active)",
+      "galvanic_potential_v_sce": "0.57",
+      "condition": "Active",
+      "id": "type-430-stainless-steel-active",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/type-430-stainless-steel-active/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Type 430 Stainless Steel (Active) | 0.57 |"
+    },
+    {
+      "material": "Type 430 Stainless Steel (Passive)",
+      "galvanic_potential_v_sce": "0.22",
+      "condition": "Passive",
+      "id": "type-430-stainless-steel-passive",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/type-430-stainless-steel-passive/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Type 430 Stainless Steel (Passive) | 0.22 |"
+    },
+    {
+      "material": "UV Coating",
+      "surface_energy_dyne_cm": "36\u201342",
+      "condition": "Cured",
+      "needs_treatment": "Sometimes",
+      "id": "uv-coating",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/uv-coating/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "UV Coating | 36\u201342 | Cured | Sometimes | Dyne pens | May require treatment |"
+    },
+    {
+      "material": "Varnish (OPV)",
+      "surface_energy_dyne_cm": "38\u201344",
+      "condition": "Overprint",
+      "needs_treatment": "No",
+      "id": "varnish-opv",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/varnish-opv/",
+      "source": "https://kolorguide.com/surface-energy-chart-by-material/",
+      "source_quote": "Varnish (OPV) | 38\u201344 | Overprint | No | Dyne pens | Stable surface |"
+    },
+    {
+      "material": "Zinc",
+      "galvanic_potential_v_sce": "1.03",
+      "id": "zinc",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/zinc/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Zinc | 1.03"
+    },
+    {
+      "material": "Zinc, wrought; zinc-base die-casting alloys; zinc plated",
+      "anodic_index_v": "1.25",
+      "id": "zinc-wrought-zinc-base-die-casting-alloys-zinc-plated",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/zinc-wrought-zinc-base-die-casting-alloys-zinc-plated/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Zinc, wrought; zinc-base die-casting alloys; zinc plated | 1.25 |"
+    },
+    {
+      "material": "Zirconium",
+      "galvanic_potential_v_sce": "0.04",
+      "id": "zirconium",
+      "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/zirconium/",
+      "source": "https://l-36.com/corrosion.php",
+      "source_quote": "Zirconium | 0.04 |"
+    }
+  ]
+}

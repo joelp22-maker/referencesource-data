@@ -1,0 +1,34 @@
+---
+type: lookup
+id: 043-3-8-low-pro-16-ms230c-be
+asset: stihl-chainsaw-chain-and-bar-specs
+title: "MS230C-BE — Stihl chainsaw chain and bar specifications by model"
+sources:
+  - https://www.lawnequipmentsuperstore.com/stihl-chainsaw-bar-chain-quick-guide
+source_quote: "16\" | 63PM3 55 | <https://www.alldadelawnmowers.com/search.asp?keyword=3636-005-0055> 3636-005-0055 | <https://www.lawnequipmentsuperstore.com/oempartfinder#/s/ORC//91PX055G//1/y> 91PX055G | <https://www.lawnequipmentsuperstore.com/oempartfinder#/s/ORC//91PXL055G//1/y> 91PXL055G | <https://www.lawnequipmentsuperstore.com/oempartfinder#/s/ORC//91VXL055G//1/y> 91VXL055G | <https://www.alldadelawnmowers.com/search.asp?keyword=3005-000-4813> 3005 000 4813 | <https://www.lawnequipmentsuperstore.com/oempartfinder#/s/ORC//160SDEA074//1/y> 160SDEA074 | MS230C-BE | 3/8\" low Pro | .043\" |"
+generated: true
+harvested: 2026-08-05
+stale_after: 2028-08-04
+model: "MS230C-BE"
+bar_length: "16\""
+pitch: "3/8\" low Pro"
+gauge: ".043\""
+drive_links: "55"
+stihl_chain_part: "3636-005-0055"
+verified: true
+---
+**Model:** MS230C-BE
+
+**Bar length:** 16"
+
+**Pitch:** 3/8" low Pro
+
+**Gauge:** .043"
+
+**Drive links:** 55
+
+**STIHL chain part number:** 3636-005-0055
+
+> 16" | 63PM3 55 | <https://www.alldadelawnmowers.com/search.asp?keyword=3636-005-0055> 3636-005-0055 | <https://www.lawnequipmentsuperstore.com/oempartfinder#/s/ORC//91PX055G//1/y> 91PX055G | <https://www.lawnequipmentsuperstore.com/oempartfinder#/s/ORC//91PXL055G//1/y> 91PXL055G | <https://www.lawnequipmentsuperstore.com/oempartfinder#/s/ORC//91VXL055G//1/y> 91VXL055G | <https://www.alldadelawnmowers.com/search.asp?keyword=3005-000-4813> 3005 000 4813 | <https://www.lawnequipmentsuperstore.com/oempartfinder#/s/ORC//160SDEA074//1/y> 160SDEA074 | MS230C-BE | 3/8" low Pro | .043" |
+
+Source: <https://www.lawnequipmentsuperstore.com/stihl-chainsaw-bar-chain-quick-guide>

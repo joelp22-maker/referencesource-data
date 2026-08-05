@@ -1,0 +1,1983 @@
+{
+  "name": "Appliance fault and error codes",
+  "description": "Error/fault codes displayed by major home appliances (dishwashers, washing machines), with the manufacturer, appliance type, code, and what the code means. The question an assistant gets wrong is what a specific error code on a specific appliance brand means.",
+  "url": "https://referencesource.org/appliance-fault-error-codes/",
+  "licence": "factual compilation from manufacturer and independent sources",
+  "last_verified": "2026-08-04",
+  "stale_after": "2027-08-04",
+  "sources": [
+    "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+    "https://errbase.com/miele/washer/miele-washer-error-codes"
+  ],
+  "records": [
+    {
+      "brand": "Sub-Zero",
+      "appliance_type": "refrigerator",
+      "error_code": "05",
+      "meaning": "Refrigerator-cabinet thermistor reading that is open, shorted, or repeatedly erratic.",
+      "id": "05",
+      "url": "https://referencesource.org/appliance-fault-error-codes/05/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "refrigerator-cabinet thermistor reading that is open, shorted, or repeatedly erratic."
+    },
+    {
+      "brand": "Sub-Zero",
+      "appliance_type": "refrigerator",
+      "error_code": "06",
+      "meaning": "Refrigerator-evaporator thermistor signal that is open, shorted, or inconsistent.",
+      "id": "06",
+      "url": "https://referencesource.org/appliance-fault-error-codes/06/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "refrigerator-evaporator thermistor signal that is open, shorted, or inconsistent."
+    },
+    {
+      "brand": "Sub-Zero",
+      "appliance_type": "refrigerator",
+      "error_code": "07",
+      "meaning": "Freezer-cabinet thermistor reading that is open, shorted, or repeatedly erratic.",
+      "id": "07",
+      "url": "https://referencesource.org/appliance-fault-error-codes/07/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "freezer-cabinet thermistor reading that is open, shorted, or repeatedly erratic."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "Washer",
+      "error_code": "1C",
+      "meaning": "Water level sensor fault",
+      "id": "1c",
+      "url": "https://referencesource.org/appliance-fault-error-codes/1c/",
+      "source": "https://easybear-appliancerepair.com/error-codes",
+      "source_quote": "<https://easybear-appliancerepair.com/error-codes/samsung/washer/1c> 1C | Washer | Water level sensor fault |"
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "Refrigerator",
+      "error_code": "1E",
+      "meaning": "Freezer room sensor error",
+      "id": "1e",
+      "url": "https://referencesource.org/appliance-fault-error-codes/1e/",
+      "source": "https://easybear-appliancerepair.com/error-codes",
+      "source_quote": "<https://easybear-appliancerepair.com/error-codes/samsung/refrigerator/1e> 1E | Refrigerator | Freezer room sensor error |"
+    },
+    {
+      "brand": "Sub-Zero",
+      "appliance_type": "refrigerator",
+      "error_code": "20",
+      "meaning": "Freezer-defrost underheat condition with missing feedback at defrost start.",
+      "id": "20",
+      "url": "https://referencesource.org/appliance-fault-error-codes/20/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "freezer-defrost underheat condition with missing feedback at defrost start."
+    },
+    {
+      "brand": "Sub-Zero",
+      "appliance_type": "refrigerator",
+      "error_code": "21",
+      "meaning": "Defrost-overheat warning whose owner path depends on actual compartment temperature.",
+      "id": "21",
+      "url": "https://referencesource.org/appliance-fault-error-codes/21/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "defrost-overheat warning whose owner path depends on actual compartment temperature."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "refrigerator",
+      "error_code": "22 E",
+      "meaning": "Fresh food evaporator fan motor failure or RPM feedback loss.",
+      "id": "22-e",
+      "url": "https://referencesource.org/appliance-fault-error-codes/22-e/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "Samsung (13) <https://axisrepair.com/error-codes/samsung-refrigerator-22e/> 22 E refrigerator Fresh food evaporator fan motor failure or RPM feedback loss."
+    },
+    {
+      "brand": "Sub-Zero",
+      "appliance_type": "refrigerator",
+      "error_code": "24",
+      "meaning": "Defrost-underheat warning with an owner response only near normal temperatures.",
+      "id": "24",
+      "url": "https://referencesource.org/appliance-fault-error-codes/24/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "defrost-underheat warning with an owner response only near normal temperatures."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "Refrigerator",
+      "error_code": "2E",
+      "meaning": "Fridge room sensor error",
+      "id": "2e",
+      "url": "https://referencesource.org/appliance-fault-error-codes/2e/",
+      "source": "https://easybear-appliancerepair.com/error-codes",
+      "source_quote": "<https://easybear-appliancerepair.com/error-codes/samsung/refrigerator/2e> 2E | Refrigerator | Fridge room sensor error |"
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "refrigerator",
+      "error_code": "33 E",
+      "meaning": "Ice pipe heater circuit failure detected by the main control board.",
+      "id": "33-e",
+      "url": "https://referencesource.org/appliance-fault-error-codes/33-e/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/samsung-refrigerator-33e/> 33 E refrigerator Ice pipe heater circuit failure detected by the main control board."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "Washer",
+      "error_code": "3C",
+      "meaning": "Motor / drive error",
+      "id": "3c",
+      "url": "https://referencesource.org/appliance-fault-error-codes/3c/",
+      "source": "https://easybear-appliancerepair.com/error-codes",
+      "source_quote": "<https://easybear-appliancerepair.com/error-codes/samsung/washer/3c> 3C | Washer | Motor / drive error |"
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "refrigerator",
+      "error_code": "40 E",
+      "meaning": "Ice room fan motor failure or frost blockage in the ice maker compartment.",
+      "id": "40-e",
+      "url": "https://referencesource.org/appliance-fault-error-codes/40-e/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/samsung-refrigerator-40e/> 40 E refrigerator Ice room fan motor failure or frost blockage in the ice maker compartment."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "washing machine",
+      "error_code": "4C",
+      "meaning": "The washing machine has detected a problem with the water supply. The most common reason for this error is a blocked or kinked water supply hose.",
+      "id": "4c",
+      "url": "https://referencesource.org/appliance-fault-error-codes/4c/",
+      "source": "https://www.samsung.com/uk/support/home-appliances/the-4e-error-is-displayed-on-the-panel-of-my-washing-machine-what-can-i-do/",
+      "source_quote": "4C error code on a Samsung washing machine Updated : 28th May, 2026 The 4E (4C) error code indicates that the washing machine has detected a problem with the water supply. The most common reason for this error is a blocked or kinked water supply hose. Try the below troubleshooting steps to resolve.",
+      "disagreements": [
+        {
+          "field": "appliance_type",
+          "versions": [
+            {
+              "value": "washing machine",
+              "source": "https://www.samsung.com/uk/support/home-appliances/the-4e-error-is-displayed-on-the-panel-of-my-washing-machine-what-can-i-do/",
+              "source_quote": "4C error code on a Samsung washing machine Updated : 28th May, 2026 The 4E (4C) error code indicates that the washing machine has detected a problem with the water supply. The most common reason for this error is a blocked or kinked water supply hose. Try the below troubleshooting steps to resolve.",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "Washing Machine",
+              "source": "https://www.hoffmannbros.com/washing-machine-error-code/4C-Samsung",
+              "source_quote": "The 4C error code on a Samsung Washing Machine is an indicator from the machine\u2019s internal monitoring system that the expected water filling process has not been completed as designed.",
+              "as_of": "2026-08-05"
+            }
+          ]
+        },
+        {
+          "field": "meaning",
+          "versions": [
+            {
+              "value": "The washing machine has detected a problem with the water supply. The most common reason for this error is a blocked or kinked water supply hose.",
+              "source": "https://www.samsung.com/uk/support/home-appliances/the-4e-error-is-displayed-on-the-panel-of-my-washing-machine-what-can-i-do/",
+              "source_quote": "4C error code on a Samsung washing machine Updated : 28th May, 2026 The 4E (4C) error code indicates that the washing machine has detected a problem with the water supply. The most common reason for this error is a blocked or kinked water supply hose. Try the below troubleshooting steps to resolve.",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "The 4C error code on a Samsung Washing Machine is an indicator from the machine\u2019s internal monitoring system that the expected water filling process has not been completed as designed.",
+              "source": "https://www.hoffmannbros.com/washing-machine-error-code/4C-Samsung",
+              "source_quote": "The 4C error code on a Samsung Washing Machine is an indicator from the machine\u2019s internal monitoring system that the expected water filling process has not been completed as designed.",
+              "as_of": "2026-08-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "washing machine",
+      "error_code": "4E",
+      "meaning": "The washing machine has detected a problem with the water supply. The most common reason for this error is a blocked or kinked water supply hose.",
+      "id": "4e",
+      "url": "https://referencesource.org/appliance-fault-error-codes/4e/",
+      "source": "https://www.samsung.com/uk/support/home-appliances/the-4e-error-is-displayed-on-the-panel-of-my-washing-machine-what-can-i-do/",
+      "source_quote": "4E or 4C error code on a Samsung washing machine Updated : 28th May, 2026 The 4E (4C) error code indicates that the washing machine has detected a problem with the water supply. The most common reason for this error is a blocked or kinked water supply hose. Try the below troubleshooting steps to resolve."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "Front Load Washing Machine",
+      "error_code": "4E or 4C",
+      "meaning": "A 4E or 4C error code on a Samsung washing machine usually means the washer isn't filling with water.",
+      "id": "4e-or-4c",
+      "url": "https://referencesource.org/appliance-fault-error-codes/4e-or-4c/",
+      "source": "https://www.ifixit.com/Guide/How+to+Troubleshoot+the+4E+or+4C+Error+Code+on+a+Samsung+Front+Load+Washing+Machine/207459",
+      "source_quote": "A 4E or 4C error code on a Samsung washing machine usually means the washer isn't filling with water."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "washer",
+      "error_code": "5C",
+      "meaning": "The washer is failing to drain water within the allotted time limit.",
+      "id": "5c",
+      "url": "https://referencesource.org/appliance-fault-error-codes/5c/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/samsung-washer-5c/> 5C washer The washer is failing to drain water within the allotted time limit."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "Refrigerator",
+      "error_code": "84E",
+      "meaning": "Compressor / rotor lock error",
+      "id": "84e",
+      "url": "https://referencesource.org/appliance-fault-error-codes/84e/",
+      "source": "https://easybear-appliancerepair.com/error-codes",
+      "source_quote": "<https://easybear-appliancerepair.com/error-codes/samsung/refrigerator/84e> 84E | Refrigerator | Compressor / rotor lock error |"
+    },
+    {
+      "brand": "Fisher & Paykel",
+      "appliance_type": "dishwasher",
+      "error_code": "A10",
+      "meaning": "No water.",
+      "id": "a10",
+      "url": "https://referencesource.org/appliance-fault-error-codes/a10/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "no water."
+    },
+    {
+      "brand": "Fisher & Paykel",
+      "appliance_type": "dishwasher",
+      "error_code": "A20",
+      "meaning": "Drain fault.",
+      "id": "a20",
+      "url": "https://referencesource.org/appliance-fault-error-codes/a20/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "drain fault."
+    },
+    {
+      "brand": "Fisher & Paykel",
+      "appliance_type": "dishwasher",
+      "error_code": "A60",
+      "meaning": "Temperature error.",
+      "id": "a60",
+      "url": "https://referencesource.org/appliance-fault-error-codes/a60/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "temperature error."
+    },
+    {
+      "brand": "GE",
+      "appliance_type": "dishwasher",
+      "error_code": "C1",
+      "meaning": "The control board detected that the dishwasher took too long to drain.",
+      "id": "c1",
+      "url": "https://referencesource.org/appliance-fault-error-codes/c1/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "GE (7) <https://axisrepair.com/error-codes/ge-dishwasher-c1/> C1 dishwasher The control board detected that the dishwasher took too long to drain."
+    },
+    {
+      "brand": "GE",
+      "appliance_type": "dishwashers",
+      "error_code": "C3",
+      "meaning": "Will Not Drain - This occurs when dishwasher is not able to switch to he drain mode. Call for in home service.",
+      "id": "c3",
+      "url": "https://referencesource.org/appliance-fault-error-codes/c3/",
+      "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+      "source_quote": "Fault codes for a number of GE products, including dishwashers from late 1990's forward, microwaves, ovens, ranges, stoves and WSL model washers. Example, C3: Will Not Drain - This occurs when dishwasher is not able to switch to he drain mode. Call for in home service."
+    },
+    {
+      "brand": "GE",
+      "appliance_type": "refrigerator",
+      "error_code": "CC",
+      "meaning": "The compartment temperature has been too warm for over 120 minutes.",
+      "id": "cc",
+      "url": "https://referencesource.org/appliance-fault-error-codes/cc/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/ge-refrigerator-cc/> CC refrigerator The compartment temperature has been too warm for over 120 minutes."
+    },
+    {
+      "brand": "LG",
+      "appliance_type": "dryer",
+      "error_code": "D90",
+      "meaning": "The exhaust duct is 90% blocked, severely restricting airflow and heat dissipation.",
+      "id": "d90",
+      "url": "https://referencesource.org/appliance-fault-error-codes/d90/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "LG (15) <https://axisrepair.com/error-codes/lg-dryer-d90/> D90 dryer The exhaust duct is 90% blocked, severely restricting airflow and heat dissipation."
+    },
+    {
+      "brand": "Gorenje",
+      "appliance_type": "washer",
+      "error_code": "E:02",
+      "meaning": "Door-lock error.",
+      "id": "e-02",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e-02/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "door-lock error."
+    },
+    {
+      "brand": "Gorenje",
+      "appliance_type": "washer",
+      "error_code": "E:03",
+      "meaning": "Water-filling error.",
+      "id": "e-03",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e-03/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "water-filling error."
+    },
+    {
+      "brand": "Wolf",
+      "appliance_type": "range",
+      "error_code": "E 05",
+      "meaning": "LIN communication error in which the induction generator does not respond.",
+      "id": "e-05",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e-05/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "LIN communication error in which the induction generator does not respond."
+    },
+    {
+      "brand": "Gorenje",
+      "appliance_type": "washer",
+      "error_code": "E:07",
+      "meaning": "Water-draining error.",
+      "id": "e-07",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e-07/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "water-draining error."
+    },
+    {
+      "brand": "Gorenje",
+      "appliance_type": "washer",
+      "error_code": "E:09",
+      "meaning": "Water detected in the appliance area.",
+      "id": "e-09",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e-09/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "water detected in the appliance area."
+    },
+    {
+      "brand": "Gorenje",
+      "appliance_type": "washer",
+      "error_code": "E:11",
+      "meaning": "Water-overflow condition.",
+      "id": "e-11",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e-11/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "water-overflow condition."
+    },
+    {
+      "brand": "Gorenje",
+      "appliance_type": "washer",
+      "error_code": "E:12",
+      "meaning": "Motor-control error.",
+      "id": "e-12",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e-12/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "motor-control error."
+    },
+    {
+      "brand": "Wolf",
+      "appliance_type": "range",
+      "error_code": "E 56",
+      "meaning": "The left secondary control board being too hot.",
+      "id": "e-56",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e-56/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "the left secondary control board being too hot."
+    },
+    {
+      "brand": "Electrolux",
+      "appliance_type": "refrigerator",
+      "error_code": "E0",
+      "meaning": "Communication failure between the main control board and the user interface.",
+      "id": "e0",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e0/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "Electrolux (8) <https://axisrepair.com/error-codes/electrolux-refrigerator-e0/> E0 refrigerator Communication failure between the main control board and the user interface."
+    },
+    {
+      "brand": "KitchenAid",
+      "appliance_type": "refrigerator",
+      "error_code": "E0 F2",
+      "meaning": "Communication failure between the main control board and the user interface.",
+      "id": "e0-f2",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e0-f2/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "KitchenAid (3) <https://axisrepair.com/error-codes/kitchenaid-refrigerator-e0-f2/> E0 F2 refrigerator Communication failure between the main control board and the user interface."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E01",
+      "meaning": "There is a heat pump motor circuit fault at the main control board.",
+      "id": "e01",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e01/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E01 There is a heat pump motor circuit fault at the main control board. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E0100",
+      "meaning": "There is a heat pump motor circuit fault at the main control board.",
+      "id": "e0100",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e0100/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E0100 There is a heat pump motor circuit fault at the main control board. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E0103",
+      "meaning": "There is a main control board relay fault/error.",
+      "id": "e0103",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e0103/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E0103 There is a main control board relay fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance. See more Error Code E0105 Your dishwasher has detected faulty (heater) electronics in the self-test."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E0105",
+      "meaning": "Your dishwasher has detected faulty (heater) electronics in the self-test.",
+      "id": "e0105",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e0105/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E0105 Your dishwasher has detected faulty (heater) electronics in the self-test. Contact Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E0106",
+      "meaning": "There is a wash arm diverter circuit in main control board fault/error.",
+      "id": "e0106",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e0106/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E0106 There is a wash arm diverter circuit in main control board fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E0107",
+      "meaning": "There is a main control board relay fault/error.",
+      "id": "e0107",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e0107/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E0107 There is a main control board relay fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E0110",
+      "meaning": "Failure causing electronics miscommunication.",
+      "id": "e0110",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e0110/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E0110 Failure causing electronics miscommunication. Contact Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E02",
+      "meaning": "There is a main control board relay fault/error.",
+      "id": "e02",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e02/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E02 There is a main control board relay fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E03",
+      "meaning": "There is a main control board relay fault/error.",
+      "id": "e03",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e03/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E03 There is a main control board relay fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance. See more Error Code E04 Your dishwasher has detected faulty (heater) electronics in the self-test."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E04",
+      "meaning": "Your dishwasher has detected faulty (heater) electronics in the self-test.",
+      "id": "e04",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e04/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E04 Your dishwasher has detected faulty (heater) electronics in the self-test. Contact Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E05",
+      "meaning": "There is a wash arm diverter circuit in main control board fault/error.",
+      "id": "e05",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e05/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E05 There is a wash arm diverter circuit in main control board fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E06",
+      "meaning": "There is a door sensor circuit fault/error.",
+      "id": "e06",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e06/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E06 There is a door sensor circuit fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E07",
+      "meaning": "The Zeolite (Crystal Dry) fan motor is defective.",
+      "id": "e07",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e07/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E07 The Zeolite (Crystal Dry) fan motor is defective. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Beko",
+      "appliance_type": "washing machine",
+      "error_code": "E08",
+      "meaning": "The washing machine is not filling up with water. The likely culprit is a faulty water inlet valve.",
+      "id": "e08",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e08/",
+      "source": "https://www.espares.co.uk/washing-machines/howto/how-to-fix-beko-washing-machine-error-codes/advice.pl",
+      "source_quote": "E7/E07 Error Code E8/E08 Error Code E11 Error Code E13 Error Code E17 Error Code E18 Error Code Washer Essentials Beko Washing Machine Spare Parts |"
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E09",
+      "meaning": "There is a heat pump internal heater fault/error.",
+      "id": "e09",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e09/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E09 There is a heat pump internal heater fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Beko",
+      "appliance_type": "washing machine",
+      "error_code": "E1",
+      "meaning": "Problem with the NTC temperature sensor. The water in the appliance is not getting hot enough.",
+      "id": "e1",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e1/",
+      "source": "https://www.espares.co.uk/washing-machines/howto/how-to-fix-beko-washing-machine-error-codes/advice.pl",
+      "source_quote": "Safety Advice Preparations Beko Washing Machine Error Codes E1/E01 Error Code E2/E02 Error Code E4/E04 Error Code E5/E05 Error Code E6/06 Error Code |"
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E10",
+      "meaning": "There is a Zeolite (Crystal Dry) chamber heater fault/error.",
+      "id": "e10",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e10/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E10 There is a Zeolite (Crystal Dry) chamber heater fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance. See more Error Code E12 There is limescale build-up in the heat pump. The dishwasher needs to be descaled."
+    },
+    {
+      "brand": "Beko",
+      "appliance_type": "washing machine",
+      "error_code": "E11",
+      "meaning": "Problem with the motor. The drum on the washer will not be spinning.",
+      "id": "e11",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e11/",
+      "source": "https://www.espares.co.uk/washing-machines/howto/how-to-fix-beko-washing-machine-error-codes/advice.pl",
+      "source_quote": "E7/E07 Error Code E8/E08 Error Code E11 Error Code E13 Error Code E17 Error Code E18 Error Code Washer Essentials Beko Washing Machine Spare Parts |"
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E12",
+      "meaning": "There is limescale build-up in the heat pump.",
+      "id": "e12",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e12/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E12 There is limescale build-up in the heat pump. The dishwasher needs to be descaled. The Bosch descaler can be used to descale your dishwasher."
+    },
+    {
+      "brand": "Beko",
+      "appliance_type": "washing machine",
+      "error_code": "E13",
+      "meaning": "The washing machine empties water every time you try to start a cycle, or won't start a cycle at all. Could be caused by a faulty pressure switch or blocked pressure hose.",
+      "id": "e13",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e13/",
+      "source": "https://www.espares.co.uk/washing-machines/howto/how-to-fix-beko-washing-machine-error-codes/advice.pl",
+      "source_quote": "E7/E07 Error Code E8/E08 Error Code E11 Error Code E13 Error Code E17 Error Code E18 Error Code Washer Essentials Beko Washing Machine Spare Parts |",
+      "disagreements": [
+        {
+          "field": "brand",
+          "versions": [
+            {
+              "value": "Beko",
+              "source": "https://www.espares.co.uk/washing-machines/howto/how-to-fix-beko-washing-machine-error-codes/advice.pl",
+              "source_quote": "E7/E07 Error Code E8/E08 Error Code E11 Error Code E13 Error Code E17 Error Code E18 Error Code Washer Essentials Beko Washing Machine Spare Parts |",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "Thermador",
+              "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+              "source_quote": "Fault codes for Thermador ovens, ranges and stoves (starting with E and F). Example, E13: Latch Motor/Control Board Failure - For CT models, check power to latch motor. For CMT models, the control board has not converted.",
+              "as_of": "2026-08-05"
+            }
+          ]
+        },
+        {
+          "field": "appliance_type",
+          "versions": [
+            {
+              "value": "washing machine",
+              "source": "https://www.espares.co.uk/washing-machines/howto/how-to-fix-beko-washing-machine-error-codes/advice.pl",
+              "source_quote": "E7/E07 Error Code E8/E08 Error Code E11 Error Code E13 Error Code E17 Error Code E18 Error Code Washer Essentials Beko Washing Machine Spare Parts |",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "ovens, ranges and stoves",
+              "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+              "source_quote": "Fault codes for Thermador ovens, ranges and stoves (starting with E and F). Example, E13: Latch Motor/Control Board Failure - For CT models, check power to latch motor. For CMT models, the control board has not converted.",
+              "as_of": "2026-08-05"
+            }
+          ]
+        },
+        {
+          "field": "meaning",
+          "versions": [
+            {
+              "value": "The washing machine empties water every time you try to start a cycle, or won't start a cycle at all. Could be caused by a faulty pressure switch or blocked pressure hose.",
+              "source": "https://www.espares.co.uk/washing-machines/howto/how-to-fix-beko-washing-machine-error-codes/advice.pl",
+              "source_quote": "E7/E07 Error Code E8/E08 Error Code E11 Error Code E13 Error Code E17 Error Code E18 Error Code Washer Essentials Beko Washing Machine Spare Parts |",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "Latch Motor/Control Board Failure - For CT models, check power to latch motor. For CMT models, the control board has not converted.",
+              "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+              "source_quote": "Fault codes for Thermador ovens, ranges and stoves (starting with E and F). Example, E13: Latch Motor/Control Board Failure - For CT models, check power to latch motor. For CMT models, the control board has not converted.",
+              "as_of": "2026-08-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E14",
+      "meaning": "There is a flow meter failure or an issue with water flowing into the dishwasher or the filling system.",
+      "id": "e14",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e14/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E14 There is a flow meter failure or an issue with water flowing into the dishwasher or the filling system. Contact Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E15",
+      "meaning": "An E15 error code indicates that the safety switch has detected water in the base of the dishwasher. Your leakage protection system has activated.",
+      "id": "e15",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e15/",
+      "source": "https://www.bosch-home.com/us/owner-support/get-support/support-selfhelp-dishwasher-error-e15",
+      "source_quote": "An E15 error code indicates that the safety switch has detected water in the base of the dishwasher. Your leakage protection system has activated.",
+      "disagreements": [
+        {
+          "field": "meaning",
+          "versions": [
+            {
+              "value": "An E15 error code indicates that the safety switch has detected water in the base of the dishwasher. Your leakage protection system has activated.",
+              "source": "https://www.bosch-home.com/us/owner-support/get-support/support-selfhelp-dishwasher-error-e15",
+              "source_quote": "An E15 error code indicates that the safety switch has detected water in the base of the dishwasher. Your leakage protection system has activated.",
+              "as_of": "2026-08-05"
+            },
+            {
+              "value": "If your Bosch dishwasher displays error code E15, the leak-protection switch has detected water in the base of the appliance.",
+              "source": "https://www.ifixit.com/Troubleshooting/Bosch_Dishwasher/E15+Code/509242",
+              "source_quote": "If your Bosch dishwasher displays error code E15, the leak-protection switch has detected water in the base of the appliance. Start with a power reset.",
+              "as_of": "2026-08-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Hoover",
+      "appliance_type": "washing machine",
+      "error_code": "E16",
+      "meaning": "Heater insulation problem which could cause the tripping of the fuse box and other random cycle errors.",
+      "id": "e16",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e16/",
+      "source": "https://www.espares.co.uk/washing-machines/careandmaintenance/how-to-understand-hoover-and-candy-washing-machine-error-codes/advice.pl",
+      "source_quote": "What does error code E16 mean on a Hoover washing machine?"
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E16 and E17",
+      "meaning": "There is an issue with water flowing into the dishwasher or the filling system. The water may not be able to enter the dishwasher.",
+      "id": "e16-and-e17",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e16-and-e17/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "E16 and E17 There is an issue with water flowing into the dishwasher or the filling system. The water may not be able to enter the dishwasher. Check the inlet hose and make sure it isn't kinked or damaged. For further assistance on how to troubleshoot your dishwasher, contact Bosch Customer Support at 1-800-944-2904 ."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E18",
+      "meaning": "There is an issue with water flow into the dishwasher. The water level is too low, or water is not being pumped correctly.",
+      "id": "e18",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e18/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E18 There is an issue with water flow into the dishwasher. The water level is too low, or water is not being pumped correctly. 1."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E19",
+      "meaning": "There is a detergent dispenser solenoid circuit fault/error.",
+      "id": "e19",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e19/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E19 There is a detergent dispenser solenoid circuit fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Beko",
+      "appliance_type": "washing machine",
+      "error_code": "E2",
+      "meaning": "The water inside the machine is not heating up. The likely culprit is a faulty heating element.",
+      "id": "e2",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e2/",
+      "source": "https://www.espares.co.uk/washing-machines/howto/how-to-fix-beko-washing-machine-error-codes/advice.pl",
+      "source_quote": "Safety Advice Preparations Beko Washing Machine Error Codes E1/E01 Error Code E2/E02 Error Code E4/E04 Error Code E5/E05 Error Code E6/06 Error Code |"
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E20",
+      "meaning": "There is a heat pump internal heater fault/error.",
+      "id": "e20",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e20/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E2030 There is a heat pump internal heater fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance. See more Error Code E2060 There is limescale build-up in the heat pump. The dishwasher needs to be descaled."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E2030",
+      "meaning": "There is a heat pump internal heater fault/error.",
+      "id": "e2030",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e2030/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E2030 There is a heat pump internal heater fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance. See more Error Code E2060 There is limescale build-up in the heat pump. The dishwasher needs to be descaled."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E2060",
+      "meaning": "There is limescale build-up in the heat pump.",
+      "id": "e2060",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e2060/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E2060 There is limescale build-up in the heat pump. The dishwasher needs to be descaled. The Bosch descaler can be used to descale your dishwasher."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E21",
+      "meaning": "The heat pump is blocked.",
+      "id": "e21",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e21/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E21 The heat pump is blocked. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance. See more Error Code E22 The dishwasher filter is blocked."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E2120",
+      "meaning": "There is a Zeolite (Crystal Dry) chamber heater fault/error.",
+      "id": "e2120",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e2120/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E2120 There is a Zeolite (Crystal Dry) chamber heater fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E2130",
+      "meaning": "The Zeolite (Crystal Dry) fan motor is defective.",
+      "id": "e2130",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e2130/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E2130 The Zeolite (Crystal Dry) fan motor is defective. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance. See more Error Code E3000 There is a flow meter failure or an issue with water flowing into the dishwasher or the filling system."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E22",
+      "meaning": "The dishwasher filter is blocked. The filter is the area where food particles get caught and it needs to be cleaned regularly.",
+      "id": "e22",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e22/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E22 The dishwasher filter is blocked. The filter is the area where food particles get caught and it needs to be cleaned regularly. Remove and wash the filter under running water with mild soap and a soft brush to remove debris then reinstall."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E23",
+      "meaning": "There is an issue with the drain pump. This happens when the drain pump is blocked, clogged, or faulty.",
+      "id": "e23",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e23/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E23 There is an issue with the drain pump. This happens when the drain pump is blocked, clogged, or faulty. Contact Bosch Customer Support at 1-800-944-2904 for assistance. Visit this <https://www.bosch-home.com/us/owner-support/get-support/support-selfhelp-dishwasher-error-e23> Bosch Dishwasher Error Code e23 Guide to learn more."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E24",
+      "meaning": "The dishwasher is not draining properly due to the drain filter being blocked.",
+      "id": "e24",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e24/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E24 The dishwasher is not draining properly due to the drain filter being blocked. 1."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E25",
+      "meaning": "The drain pump is blocked or the drain pump cover is loose or missing.",
+      "id": "e25",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e25/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E25 The drain pump is blocked or the drain pump cover is loose or missing. 1. Check to see if the drain pump cover is loose. The pump cover is located at the bottom of the dishwasher underneath the filter."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E27",
+      "meaning": "The house power supply to the unit is too low.",
+      "id": "e27",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e27/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E27 The house power supply to the unit is too low."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "dryer",
+      "error_code": "E3",
+      "meaning": "Motor overload or motor defect detected by the main control board.",
+      "id": "e3",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e3/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/samsung-dryer-e3/> E3 dryer Motor overload or motor defect detected by the main control board."
+    },
+    {
+      "brand": "Midea",
+      "appliance_type": "washer",
+      "error_code": "E30",
+      "meaning": "Door-open condition.",
+      "id": "e30",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e30/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "door-open condition."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E3000",
+      "meaning": "There is a flow meter failure or an issue with water flowing into the dishwasher or the filling system.",
+      "id": "e3000",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e3000/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E3000 There is a flow meter failure or an issue with water flowing into the dishwasher or the filling system. Contact Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E3100",
+      "meaning": "The safety switch has detected water in the base of the dishwasher. Your leakage protection system has been activated.",
+      "id": "e3100",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e3100/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E3100 The safety switch has detected water in the base of the dishwasher. Your leakage protection system has been activated. Please turn off the water inflow and contact Bosch Customer Support at 1-800-944-290 4 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E3200",
+      "meaning": "There is an issue with water flow into the dishwasher. The water level is too low, or water is not being pumped correctly.",
+      "id": "e3200",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e3200/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E3200 There is an issue with water flow into the dishwasher. The water level is too low, or water is not being pumped correctly. 1."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E3300 & E3400",
+      "meaning": "There is an issue with water flowing into the dishwasher or the filling system. The water may not be able to enter the dishwasher.",
+      "id": "e3300-e3400",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e3300-e3400/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E3300 & E3400 There is an issue with water flowing into the dishwasher or the filling system. The water may not be able to enter the dishwasher. Check the inlet hose and make sure it isn't kinked or damaged. For further assistance on how to troubleshoot your dishwasher, contact Bosch Customer Support at 1-800-944-2904 ."
+    },
+    {
+      "brand": "Beko",
+      "appliance_type": "washing machine",
+      "error_code": "E4",
+      "meaning": "The washing machine isn't filling with water. Can be caused by a blocked water inlet hose, low water pressure, or a faulty water inlet valve.",
+      "id": "e4",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e4/",
+      "source": "https://www.espares.co.uk/washing-machines/howto/how-to-fix-beko-washing-machine-error-codes/advice.pl",
+      "source_quote": "Safety Advice Preparations Beko Washing Machine Error Codes E1/E01 Error Code E2/E02 Error Code E4/E04 Error Code E5/E05 Error Code E6/06 Error Code | E7/E07 Error Code E8/E08 Error Code E11 Error Code E13 Error Code E17 Error Code E18 Error Code Washer Essentials Beko Washing Machine Spare Parts |"
+    },
+    {
+      "brand": "Electrolux",
+      "appliance_type": "washer",
+      "error_code": "E40",
+      "meaning": "The main control board does not detect the door as closed or locked.",
+      "id": "e40",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e40/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/electrolux-washer-e40/> E40 washer The main control board does not detect the door as closed or locked."
+    },
+    {
+      "brand": "Beko",
+      "appliance_type": "washing machine",
+      "error_code": "E5",
+      "meaning": "The washing machine has stopped spinning and is still full of water, indicating a faulty drain.",
+      "id": "e5",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e5/",
+      "source": "https://www.espares.co.uk/washing-machines/howto/how-to-fix-beko-washing-machine-error-codes/advice.pl",
+      "source_quote": "Safety Advice Preparations Beko Washing Machine Error Codes E1/E01 Error Code E2/E02 Error Code E4/E04 Error Code E5/E05 Error Code E6/06 Error Code | E7/E07 Error Code E8/E08 Error Code E11 Error Code E13 Error Code E17 Error Code E18 Error Code Washer Essentials Beko Washing Machine Spare Parts |"
+    },
+    {
+      "brand": "GE",
+      "appliance_type": "washer",
+      "error_code": "E58",
+      "meaning": "Communication failure between the main control board and motor inverter.",
+      "id": "e58",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e58/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/ge-washer-e58/> E58 washer Communication failure between the main control board and motor inverter."
+    },
+    {
+      "brand": "Frigidaire",
+      "appliance_type": "washer",
+      "error_code": "E5E",
+      "meaning": "Communication failure between the main control board and motor control board.",
+      "id": "e5e",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e5e/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/frigidaire-washer-e5e/> E5E washer Communication failure between the main control board and motor control board."
+    },
+    {
+      "brand": "Beko",
+      "appliance_type": "washing machine",
+      "error_code": "E6",
+      "meaning": "Problem with the motor. Sometimes a temporary glitch fixable with a reset, but most likely requires motor replacement.",
+      "id": "e6",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e6/",
+      "source": "https://www.espares.co.uk/washing-machines/howto/how-to-fix-beko-washing-machine-error-codes/advice.pl",
+      "source_quote": "E6/06 Error Code | E7/E07 Error Code E8/E08 Error Code E11 Error Code E13 Error Code E17 Error Code E18 Error Code Washer Essentials Beko Washing Machine Spare Parts |"
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E6001",
+      "meaning": "There is a heat pump internal heater fault/error.",
+      "id": "e6001",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e6001/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E6001 There is a heat pump internal heater fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E6002",
+      "meaning": "The heat pump is blocked.",
+      "id": "e6002",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e6002/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E6002 The heat pump is blocked. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Electrolux",
+      "appliance_type": "dryer",
+      "error_code": "E61",
+      "meaning": "Heater relay failure or stuck relay on the main electronic control board.",
+      "id": "e61",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e61/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/electrolux-dryer-e61/> E61 dryer Heater relay failure or stuck relay on the main electronic control board."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E6101",
+      "meaning": "There is an issue with the drain pump. This happens when the drain pump is blocked, clogged, or faulty.",
+      "id": "e6101",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e6101/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E6101 There is an issue with the drain pump. This happens when the drain pump is blocked, clogged, or faulty. Contact Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E6102",
+      "meaning": "The drain pump is blocked or the drain pump cover is loose or missing.",
+      "id": "e6102",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e6102/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E6102 The drain pump is blocked or the drain pump cover is loose or missing. 1. Check to see if the drain pump cover is loose. The pump cover is located at the bottom of the dishwasher underneath the filter."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E6103",
+      "meaning": "The dishwasher is not draining properly due to the drain filter being blocked.",
+      "id": "e6103",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e6103/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E6103 The dishwasher is not draining properly due to the drain filter being blocked. 1."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E6160",
+      "meaning": "PowerControl\u2122 (Controlled Lower Spray Arm) reference position not found.",
+      "id": "e6160",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e6160/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "dishwasher drain connection. See more Error Code E6160 PowerControl&trade; (Controlled Lower Spray Arm) reference position not found. Contact Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Frigidaire",
+      "appliance_type": "dryer",
+      "error_code": "E64",
+      "meaning": "The control board detects an open circuit in the heating element or safety thermostats.",
+      "id": "e64",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e64/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/frigidaire-dryer-e64/> E64 dryer The control board detects an open circuit in the heating element or safety thermostats."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E6900",
+      "meaning": "There is a detergent dispenser solenoid circuit fault/error.",
+      "id": "e6900",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e6900/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E6900 There is a detergent dispenser solenoid circuit fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Beko",
+      "appliance_type": "washing machine",
+      "error_code": "E7",
+      "meaning": "The washing machine is emptying water every time you try to start it, or won't start at all. Could be caused by a faulty pressure switch or obstruction in the pressure hose.",
+      "id": "e7",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e7/",
+      "source": "https://www.espares.co.uk/washing-machines/howto/how-to-fix-beko-washing-machine-error-codes/advice.pl",
+      "source_quote": "E7/E07 Error Code E8/E08 Error Code E11 Error Code E13 Error Code E17 Error Code E18 Error Code Washer Essentials Beko Washing Machine Spare Parts |"
+    },
+    {
+      "brand": "Beko",
+      "appliance_type": "washing machine",
+      "error_code": "E8",
+      "meaning": "The washing machine is not filling up with water. The likely culprit is a faulty water inlet valve.",
+      "id": "e8",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e8/",
+      "source": "https://www.espares.co.uk/washing-machines/howto/how-to-fix-beko-washing-machine-error-codes/advice.pl",
+      "source_quote": "E7/E07 Error Code E8/E08 Error Code E11 Error Code E13 Error Code E17 Error Code E18 Error Code Washer Essentials Beko Washing Machine Spare Parts |"
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E8000",
+      "meaning": "There is a door sensor circuit fault/error.",
+      "id": "e8000",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e8000/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E8000 There is a door sensor circuit fault/error. Reset power to breaker for 30 seconds. If not resolved, call Bosch Customer Support at 1-800-944-2904 for assistance."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E9001",
+      "meaning": "The house power supply to the unit is too low.",
+      "id": "e9001",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e9001/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E9001 The house power supply to the unit is too low. Reset power to breaker for 30 seconds.If the error occurs again, contact an electrician to check incoming voltage to the appliance. See more Error Code E9240 The dishwasher filter is blocked."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "dishwasher",
+      "error_code": "E92",
+      "meaning": "Control board communication error, almost always caused by a power surge or brownout partially damaging a relay on the board",
+      "id": "e92",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e92/",
+      "source": "https://errbase.com/bosch/dishwasher/bosch-dishwasher-error-codes",
+      "source_quote": "Heating Element Not Working <https://errbase.com/bosch/dishwasher/bosch-dishwasher-e92> Code:"
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "E9240",
+      "meaning": "The dishwasher filter is blocked. The filter is the area where food particles get caught and it needs to be cleaned regularly.",
+      "id": "e9240",
+      "url": "https://referencesource.org/appliance-fault-error-codes/e9240/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "See more Error Code E9240 The dishwasher filter is blocked. The filter is the area where food particles get caught and it needs to be cleaned regularly. Remove and wash the filter under running water with mild soap and a soft brush to remove debris then reinstall."
+    },
+    {
+      "brand": "Speed Queen",
+      "appliance_type": "dryers and front and topload washers",
+      "error_code": "EC:09",
+      "meaning": "Corrupted Data Error - Communication problem. Try card again.",
+      "id": "ec-09",
+      "url": "https://referencesource.org/appliance-fault-error-codes/ec-09/",
+      "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+      "source_quote": "Fault codes for Speed Queen dryers and front and topload washers. Example, EC:09 - Corrupted Data Error - Communication problem. Try card again."
+    },
+    {
+      "brand": "LG",
+      "appliance_type": "refrigerator",
+      "error_code": "ER CO",
+      "meaning": "Communication failure between the main control board and the display panel.",
+      "id": "er-co",
+      "url": "https://referencesource.org/appliance-fault-error-codes/er-co/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/lg-refrigerator-er-co/> ER CO refrigerator Communication failure between the main control board and the display panel."
+    },
+    {
+      "brand": "LG",
+      "appliance_type": "refrigerator",
+      "error_code": "ER FF",
+      "meaning": "The main control board detects a failure or obstruction in the freezer evaporator fan.",
+      "id": "er-ff",
+      "url": "https://referencesource.org/appliance-fault-error-codes/er-ff/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/lg-refrigerator-er-ff/> ER FF refrigerator The main control board detects a failure or obstruction in the freezer evaporator fan."
+    },
+    {
+      "brand": "LG",
+      "appliance_type": "refrigerator",
+      "error_code": "ER IF",
+      "meaning": "Ice maker fan motor failure or frost buildup blocking the fan blade.",
+      "id": "er-if",
+      "url": "https://referencesource.org/appliance-fault-error-codes/er-if/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/lg-refrigerator-er-if/> ER IF refrigerator Ice maker fan motor failure or frost buildup blocking the fan blade."
+    },
+    {
+      "brand": "Maytag",
+      "appliance_type": "washer",
+      "error_code": "F02",
+      "meaning": "The washer is taking too long to drain water from the tub.",
+      "id": "f02",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f02/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "Maytag (5) <https://axisrepair.com/error-codes/maytag-washer-f02/> F02 washer The washer is taking too long to drain water from the tub."
+    },
+    {
+      "brand": "Whirlpool",
+      "appliance_type": "washer",
+      "error_code": "F08",
+      "meaning": "The washer has detected excessive suds or a pressure sensor fault.",
+      "id": "f08",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f08/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/whirlpool-washer-f08/> F08 washer The washer has detected excessive suds or a pressure sensor fault."
+    },
+    {
+      "brand": "Hardwick",
+      "appliance_type": "ovens, ranges and stoves",
+      "error_code": "F1",
+      "meaning": "Defective Touch Pad or Control Board (clock) - Replace touch pad or control board (clock). Refer to F1 Test for more information.",
+      "id": "f1",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f1/",
+      "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+      "source_quote": "Fault codes for Hardwick ovens, ranges and stoves. Example, F1: Defective Touch Pad or Control Board (clock) - Replace touch pad or control board (clock). Refer to F1 Test for more information."
+    },
+    {
+      "brand": "Frigidaire",
+      "appliance_type": "oven",
+      "error_code": "F10",
+      "meaning": "Runaway temperature detected by the Electronic Oven Control (EOC).",
+      "id": "f10",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f10/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/frigidaire-oven-f10/> F10 oven Runaway temperature detected by the Electronic Oven Control (EOC)."
+    },
+    {
+      "brand": "Miele",
+      "appliance_type": "Washing Machine",
+      "error_code": "F11",
+      "meaning": "Water intake fault - AquaStop hose or supply valve",
+      "id": "f11",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f11/",
+      "source": "https://errbase.com/miele/washer/miele-washer-error-codes",
+      "source_quote": "W1 and W Classic List Quick Answer Miele washing machines display error codes as F-numbers (F11, F20, F63, F138) or as text messages (Check water intake, Check drain, Waterproof system) depending on the model."
+    },
+    {
+      "brand": "ASKO",
+      "appliance_type": "dishwasher",
+      "error_code": "F12",
+      "meaning": "Water inlet fault 1.",
+      "id": "f12",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f12/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "water inlet fault 1."
+    },
+    {
+      "brand": "Miele",
+      "appliance_type": "Washing Machine",
+      "error_code": "F138",
+      "meaning": "Drum/motor fault - bearing, motor, or control",
+      "id": "f138",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f138/",
+      "source": "https://errbase.com/miele/washer/miele-washer-error-codes",
+      "source_quote": "Door Lock Fault <https://errbase.com/miele/washer/miele-washer-f138-error-code> Code: F138 Miele Washer F138: Drum Speed Fault <https://errbase.com/miele/washer/miele-washer-reset> Code: RESET How to Reset a Miele Washing Machine"
+    },
+    {
+      "brand": "Whirlpool",
+      "appliance_type": "oven",
+      "error_code": "F2",
+      "meaning": "Oven over-temperature condition detected by the control board.",
+      "id": "f2",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f2/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/whirlpool-oven-f2/> F2 oven Oven over-temperature condition detected by the control board. <https://axisrepair.com/error-codes/whirlpool-washer-f21/> F21 washer Long drain fault;",
+      "disagreements": [
+        {
+          "field": "brand",
+          "versions": [
+            {
+              "value": "Whirlpool",
+              "source": "https://axisrepair.com/error-codes/",
+              "source_quote": "<https://axisrepair.com/error-codes/whirlpool-oven-f2/> F2 oven Oven over-temperature condition detected by the control board. <https://axisrepair.com/error-codes/whirlpool-washer-f21/> F21 washer Long drain fault;",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "Gibson",
+              "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+              "source_quote": "Fault codes for Gibson ovens, ranges and stoves. Example, F2: Oven Temperature Too Hot - Check and replace oven temperature sensor (RTD).",
+              "as_of": "2026-08-05"
+            }
+          ]
+        },
+        {
+          "field": "appliance_type",
+          "versions": [
+            {
+              "value": "oven",
+              "source": "https://axisrepair.com/error-codes/",
+              "source_quote": "<https://axisrepair.com/error-codes/whirlpool-oven-f2/> F2 oven Oven over-temperature condition detected by the control board. <https://axisrepair.com/error-codes/whirlpool-washer-f21/> F21 washer Long drain fault;",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "ovens, ranges and stoves",
+              "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+              "source_quote": "Fault codes for Gibson ovens, ranges and stoves. Example, F2: Oven Temperature Too Hot - Check and replace oven temperature sensor (RTD).",
+              "as_of": "2026-08-05"
+            }
+          ]
+        },
+        {
+          "field": "meaning",
+          "versions": [
+            {
+              "value": "Oven over-temperature condition detected by the control board.",
+              "source": "https://axisrepair.com/error-codes/",
+              "source_quote": "<https://axisrepair.com/error-codes/whirlpool-oven-f2/> F2 oven Oven over-temperature condition detected by the control board. <https://axisrepair.com/error-codes/whirlpool-washer-f21/> F21 washer Long drain fault;",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "Oven Temperature Too Hot - Check and replace oven temperature sensor (RTD).",
+              "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+              "source_quote": "Fault codes for Gibson ovens, ranges and stoves. Example, F2: Oven Temperature Too Hot - Check and replace oven temperature sensor (RTD).",
+              "as_of": "2026-08-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "KitchenAid",
+      "appliance_type": "dishwasher",
+      "error_code": "F2 E2",
+      "meaning": "Communication failure between the User Interface (UI) and Main Control Board.",
+      "id": "f2-e2",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f2-e2/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/kitchenaid-dishwasher-f2-e2/> F2 E2 dishwasher Communication failure between the User Interface (UI) and Main Control Board."
+    },
+    {
+      "brand": "Miele",
+      "appliance_type": "Washing Machine",
+      "error_code": "F20",
+      "meaning": "Drain fault - pump or filter blockage",
+      "id": "f20",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f20/",
+      "source": "https://errbase.com/miele/washer/miele-washer-error-codes",
+      "source_quote": "W1 and W Classic List Quick Answer Miele washing machines display error codes as F-numbers (F11, F20, F63, F138) or as text messages (Check water intake, Check drain, Waterproof system) depending on the model."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "washer",
+      "error_code": "F21",
+      "meaning": "Motor drive error indicating the control board cannot communicate with or turn the motor.",
+      "id": "f21",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f21/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/bosch-washer-f21/> F21 washer Motor drive error indicating the control board cannot communicate with or turn the motor."
+    },
+    {
+      "brand": "Maytag",
+      "appliance_type": "dryer",
+      "error_code": "F22",
+      "meaning": "The main control board detects an open circuit at the exhaust thermistor.",
+      "id": "f22",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f22/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/maytag-dryer-f22/> F22 dryer The main control board detects an open circuit at the exhaust thermistor."
+    },
+    {
+      "brand": "Fisher & Paykel",
+      "appliance_type": "dishwasher",
+      "error_code": "F30",
+      "meaning": "Flooding.",
+      "id": "f30",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f30/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "flooding."
+    },
+    {
+      "brand": "ASKO",
+      "appliance_type": "dishwasher",
+      "error_code": "F40",
+      "meaning": "Inlet valve leakage.",
+      "id": "f40",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f40/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "inlet valve leakage."
+    },
+    {
+      "brand": "ASKO",
+      "appliance_type": "dishwasher",
+      "error_code": "F41",
+      "meaning": "Heater fault 1.",
+      "id": "f41",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f41/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "heater fault 1."
+    },
+    {
+      "brand": "JennAir",
+      "appliance_type": "ovens, ranges and stoves",
+      "error_code": "F5",
+      "meaning": "Watchdog and Hardware Conflict - Replace control board (clock).",
+      "id": "f5",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f5/",
+      "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+      "source_quote": "Fault codes for JennAir ovens, ranges and stoves (newer and older styles). Example, F5: Watchdog and Hardware Conflict - Replace control board (clock)."
+    },
+    {
+      "brand": "Fisher & Paykel",
+      "appliance_type": "dishwasher",
+      "error_code": "F50",
+      "meaning": "Electronics error.",
+      "id": "f50",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f50/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "electronics error."
+    },
+    {
+      "brand": "ASKO",
+      "appliance_type": "dishwasher",
+      "error_code": "F52",
+      "meaning": "Water level fault.",
+      "id": "f52",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f52/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "water level fault."
+    },
+    {
+      "brand": "ASKO",
+      "appliance_type": "dishwasher",
+      "error_code": "F54",
+      "meaning": "Overfilling water 2.",
+      "id": "f54",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f54/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "overfilling water 2."
+    },
+    {
+      "brand": "Whirlpool",
+      "appliance_type": "dishwasher",
+      "error_code": "F6 E3",
+      "meaning": "Suds or air detected in the wash pump assembly causing cavitation.",
+      "id": "f6-e3",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f6-e3/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/whirlpool-dishwasher-f6-e3/> F6 E3 dishwasher Suds or air detected in the wash pump assembly causing cavitation."
+    },
+    {
+      "brand": "Miele",
+      "appliance_type": "Washing Machine",
+      "error_code": "F63",
+      "meaning": "Door lock failure - latch worn or solenoid",
+      "id": "f63",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f63/",
+      "source": "https://errbase.com/miele/washer/miele-washer-error-codes",
+      "source_quote": "What does F63 mean on a Miele washing machine?"
+    },
+    {
+      "brand": "ASKO",
+      "appliance_type": "dishwasher",
+      "error_code": "F67",
+      "meaning": "Water inlet fault 2.",
+      "id": "f67",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f67/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "water inlet fault 2."
+    },
+    {
+      "brand": "Magic Chef",
+      "appliance_type": "ovens, ranges and stoves",
+      "error_code": "F7",
+      "meaning": "Function Key Shorted or Stuck - Replace touch pad, or touch pad and control board (clock) if all one assembly.",
+      "id": "f7",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f7/",
+      "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+      "source_quote": "Fault codes for Magic Chef ovens, ranges and stoves. Example, F7: Function Key Shorted or Stuck - Replace touch pad, or touch pad and control board (clock) if all one assembly."
+    },
+    {
+      "brand": "Whirlpool",
+      "appliance_type": "washer",
+      "error_code": "F7 E1",
+      "meaning": "Basket speed sensor fault indicating missing or erratic tachometer signals.",
+      "id": "f7-e1",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f7-e1/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/whirlpool-washer-f7-e1/> F7 E1 washer Basket speed sensor fault indicating missing or erratic tachometer signals."
+    },
+    {
+      "brand": "Whirlpool",
+      "appliance_type": "washer",
+      "error_code": "F7 E8",
+      "meaning": "Motor control or motor over-temperature fault detected by the main control board.",
+      "id": "f7-e8",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f7-e8/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/whirlpool-washer-f7-e8/> F7 E8 washer Motor control or motor over-temperature fault detected by the main control board."
+    },
+    {
+      "brand": "Tappan",
+      "appliance_type": "ovens, ranges and stoves",
+      "error_code": "F8",
+      "meaning": "Oven Door Lock Failure - Check door lock switches and relay.",
+      "id": "f8",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f8/",
+      "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+      "source_quote": "Fault codes for Tappan ovens, ranges and stoves. Example, F8 - Oven Door Lock Failure - Check door lock switches and relay."
+    },
+    {
+      "brand": "Whirlpool",
+      "appliance_type": "washer",
+      "error_code": "F8 E1",
+      "meaning": "The washer is not detecting the correct amount of incoming water.",
+      "id": "f8-e1",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f8-e1/",
+      "source": "https://producthelp.whirlpool.com/Laundry/Washers/Product_Info/Washer_Product_Assistance/F8_E1_or_LF_or_LO_FL_Error_Code_in_Display",
+      "source_quote": "<https://producthelp.whirlpool.com/Laundry/Washers/Product_Info/Washer_Product_Assistance> Washer Product Assistance F8 E1 or LF or LO FL Error Code in Display Expand/collapse global location F8 E1 or LF or LO FL Error Code in Display Last updated <https://producthelp.whirlpool.com/@api/deki/pages/5862/pdf/F8%2bE1%2bor%2bLF%2bor%2bLO%2bFL%2bError%2bCode%2bin%2bDisplay.pdf>",
+      "disagreements": [
+        {
+          "field": "appliance_type",
+          "versions": [
+            {
+              "value": "washer",
+              "source": "https://producthelp.whirlpool.com/Laundry/Washers/Product_Info/Washer_Product_Assistance/F8_E1_or_LF_or_LO_FL_Error_Code_in_Display",
+              "source_quote": "<https://producthelp.whirlpool.com/Laundry/Washers/Product_Info/Washer_Product_Assistance> Washer Product Assistance F8 E1 or LF or LO FL Error Code in Display Expand/collapse global location F8 E1 or LF or LO FL Error Code in Display Last updated <https://producthelp.whirlpool.com/@api/deki/pages/5862/pdf/F8%2bE1%2bor%2bLF%2bor%2bLO%2bFL%2bError%2bCode%2bin%2bDisplay.pdf>",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "Washing Machine",
+              "source": "https://www.hoffmannbros.com/washing-machine-error-code/F8-E1-Whirlpool",
+              "source_quote": "The F8 E1 error code is an indication provided by the machine\u2019s internal diagnostics that a specific malfunction has been detected within its electronic system.",
+              "as_of": "2026-08-05"
+            }
+          ]
+        },
+        {
+          "field": "meaning",
+          "versions": [
+            {
+              "value": "The washer is not detecting the correct amount of incoming water.",
+              "source": "https://producthelp.whirlpool.com/Laundry/Washers/Product_Info/Washer_Product_Assistance/F8_E1_or_LF_or_LO_FL_Error_Code_in_Display",
+              "source_quote": "<https://producthelp.whirlpool.com/Laundry/Washers/Product_Info/Washer_Product_Assistance> Washer Product Assistance F8 E1 or LF or LO FL Error Code in Display Expand/collapse global location F8 E1 or LF or LO FL Error Code in Display Last updated <https://producthelp.whirlpool.com/@api/deki/pages/5862/pdf/F8%2bE1%2bor%2bLF%2bor%2bLO%2bFL%2bError%2bCode%2bin%2bDisplay.pdf>",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "The F8 E1 error code is an indication provided by the machine\u2019s internal diagnostics that a specific malfunction has been detected within its electronic system.",
+              "source": "https://www.hoffmannbros.com/washing-machine-error-code/F8-E1-Whirlpool",
+              "source_quote": "The F8 E1 error code is an indication provided by the machine\u2019s internal diagnostics that a specific malfunction has been detected within its electronic system.",
+              "as_of": "2026-08-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "KitchenAid",
+      "appliance_type": "dishwasher",
+      "error_code": "F8 E4",
+      "meaning": "The dishwasher has detected an overfill condition or a stuck float switch.",
+      "id": "f8-e4",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f8-e4/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/kitchenaid-dishwasher-f8-e4/> F8 E4 dishwasher The dishwasher has detected an overfill condition or a stuck float switch."
+    },
+    {
+      "brand": "Whirlpool",
+      "appliance_type": "All-In-One Washer Dryer",
+      "error_code": "F8E1",
+      "meaning": "The washer/dryer is not detecting any water flow going to the washer/dryer.",
+      "id": "f8e1",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f8e1/",
+      "source": "https://producthelp.whirlpool.com/Laundry/All-In-One_Washer_Dryer/Error_Codes/F8E1_-_Error_Code_-_All-In-One_Washer_Dryer",
+      "source_quote": "F8E1 - Error Code - All-In-One Washer Dryer - Product Help | Whirlpool Skip to main content Your location:",
+      "disagreements": [
+        {
+          "field": "appliance_type",
+          "versions": [
+            {
+              "value": "All-In-One Washer Dryer",
+              "source": "https://producthelp.whirlpool.com/Laundry/All-In-One_Washer_Dryer/Error_Codes/F8E1_-_Error_Code_-_All-In-One_Washer_Dryer",
+              "source_quote": "F8E1 - Error Code - All-In-One Washer Dryer - Product Help | Whirlpool Skip to main content Your location:",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "Washer",
+              "source": "https://easybear-appliancerepair.com/blog/whirlpool-washer-error-code-f8e1",
+              "source_quote": "F8E1 means the washer did not reach its target water volume inside the fill timeout \u2014 read it as a flow-rate complaint, not a no-water one.",
+              "as_of": "2026-08-05"
+            }
+          ]
+        },
+        {
+          "field": "meaning",
+          "versions": [
+            {
+              "value": "The washer/dryer is not detecting any water flow going to the washer/dryer.",
+              "source": "https://producthelp.whirlpool.com/Laundry/All-In-One_Washer_Dryer/Error_Codes/F8E1_-_Error_Code_-_All-In-One_Washer_Dryer",
+              "source_quote": "F8E1 - Error Code - All-In-One Washer Dryer - Product Help | Whirlpool Skip to main content Your location:",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "F8E1 means the washer did not reach its target water volume inside the fill timeout \u2014 read it as a flow-rate complaint, not a no-water one.",
+              "source": "https://easybear-appliancerepair.com/blog/whirlpool-washer-error-code-f8e1",
+              "source_quote": "F8E1 means the washer did not reach its target water volume inside the fill timeout \u2014 read it as a flow-rate complaint, not a no-water one.",
+              "as_of": "2026-08-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "Admiral",
+      "appliance_type": "ovens, ranges and stoves",
+      "error_code": "F9",
+      "meaning": "Door Latch - Check door latch components and replace if necessary",
+      "id": "f9",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f9/",
+      "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+      "source_quote": "Fault codes for Admiral ovens, ranges and stoves. Example, F9: Door Latch - Check door latch components and replace if necessary"
+    },
+    {
+      "brand": "Whirlpool",
+      "appliance_type": "oven",
+      "error_code": "F9 E0",
+      "meaning": "Miswired electrical outlet or open neutral detected in the power supply.",
+      "id": "f9-e0",
+      "url": "https://referencesource.org/appliance-fault-error-codes/f9-e0/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/whirlpool-oven-f9-e0/> F9 E0 oven Miswired electrical outlet or open neutral detected in the power supply."
+    },
+    {
+      "brand": "LG",
+      "appliance_type": "washer",
+      "error_code": "FE",
+      "meaning": "Water overflow detected, usually caused by a faulty water inlet valve.",
+      "id": "fe",
+      "url": "https://referencesource.org/appliance-fault-error-codes/fe/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/lg-washer-fe/> FE washer Water overflow detected, usually caused by a faulty water inlet valve."
+    },
+    {
+      "brand": "GE",
+      "appliance_type": "refrigerator",
+      "error_code": "FF",
+      "meaning": "Freezer temperature has exceeded normal operating limits for over 2 hours.",
+      "id": "ff",
+      "url": "https://referencesource.org/appliance-fault-error-codes/ff/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/ge-refrigerator-ff/> FF refrigerator Freezer temperature has exceeded normal operating limits for over 2 hours."
+    },
+    {
+      "brand": "Frigidaire",
+      "appliance_type": "refrigerator",
+      "error_code": "H 1",
+      "meaning": "The H 1 code indicates a defective thermistor or temperature sensor circuit.",
+      "id": "h-1",
+      "url": "https://referencesource.org/appliance-fault-error-codes/h-1/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/frigidaire-refrigerator-h1/> H 1 refrigerator The H 1 code indicates a defective thermistor or temperature sensor circuit."
+    },
+    {
+      "brand": "Bosch",
+      "appliance_type": "Dishwasher",
+      "error_code": "H01",
+      "meaning": "This is not an actual error code, but an indication that the start-up timer menu has been accessed to delay the start of the cycle, with H01 for a 1-hour delay and h02 for a 2-hour delay, and so on.",
+      "id": "h01",
+      "url": "https://referencesource.org/appliance-fault-error-codes/h01/",
+      "source": "https://www.bosch-home.com/us/owner-support/dishwashers/error-codes",
+      "source_quote": "H01 for a 1-hour delay and h02 for a 2-hour delay, and so on. To delete timer programming, press the [4] + or &ndash; button until h:00 is displayed on the digital display. See more Additional Bosch Dishwasher"
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "dryer",
+      "error_code": "HC",
+      "meaning": "The dryer is overheating due to restricted airflow or a faulty heating component.",
+      "id": "hc",
+      "url": "https://referencesource.org/appliance-fault-error-codes/hc/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/samsung-dryer-hc/> HC dryer The dryer is overheating due to restricted airflow or a faulty heating component."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "Dryer",
+      "error_code": "HC2",
+      "meaning": "Gas ignition failure (gas dryers)",
+      "id": "hc2",
+      "url": "https://referencesource.org/appliance-fault-error-codes/hc2/",
+      "source": "https://easybear-appliancerepair.com/error-codes",
+      "source_quote": "<https://easybear-appliancerepair.com/error-codes/samsung/dryer/hc2> HC2 | Dryer | Gas ignition failure (gas dryers) |"
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "Dishwasher",
+      "error_code": "HE",
+      "meaning": "Heater error",
+      "id": "he",
+      "url": "https://referencesource.org/appliance-fault-error-codes/he/",
+      "source": "https://easybear-appliancerepair.com/error-codes",
+      "source_quote": "<https://easybear-appliancerepair.com/error-codes/samsung/dishwasher/3c> 3C | Dishwasher | Pump motor error | <https://easybear-appliancerepair.com/error-codes/samsung> Samsung | <https://easybear-appliancerepair.com/error-codes/samsung/dishwasher/he> HE | Dishwasher | Heater error |"
+    },
+    {
+      "brand": "Electrolux",
+      "appliance_type": "dishwasher",
+      "error_code": "i10",
+      "meaning": "The dishwasher is not filling with water or detecting the fill.",
+      "id": "i10",
+      "url": "https://referencesource.org/appliance-fault-error-codes/i10/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/electrolux-dishwasher-i10/> i10 dishwasher The dishwasher is not filling with water or detecting the fill."
+    },
+    {
+      "brand": "Electrolux",
+      "appliance_type": "dishwasher",
+      "error_code": "i20",
+      "meaning": "The dishwasher is failing to drain water within the allotted time.",
+      "id": "i20",
+      "url": "https://referencesource.org/appliance-fault-error-codes/i20/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/electrolux-dishwasher-i20/> i20 dishwasher The dishwasher is failing to drain water within the allotted time."
+    },
+    {
+      "brand": "Electrolux",
+      "appliance_type": "dishwasher",
+      "error_code": "i30",
+      "meaning": "Water has accumulated in the bottom base pan, activating the anti-flood float switch.",
+      "id": "i30",
+      "url": "https://referencesource.org/appliance-fault-error-codes/i30/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/electrolux-dishwasher-i30/> i30 dishwasher Water has accumulated in the bottom base pan, activating the anti-flood float switch."
+    },
+    {
+      "brand": "LG",
+      "appliance_type": "dishwasher",
+      "error_code": "IE",
+      "meaning": "Inlet Error: The dishwasher is not filling with adequate water.",
+      "id": "ie",
+      "url": "https://referencesource.org/appliance-fault-error-codes/ie/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/lg-dishwasher-ie/> IE dishwasher Inlet Error: The dishwasher is not filling with adequate water."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "washer",
+      "error_code": "LC",
+      "meaning": "The leak sensor detected moisture in the base pan, triggering a safety shutoff.",
+      "id": "lc",
+      "url": "https://referencesource.org/appliance-fault-error-codes/lc/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/samsung-washer-lc/> LC washer The leak sensor detected moisture in the base pan, triggering a safety shutoff."
+    },
+    {
+      "brand": "Whirlpool",
+      "appliance_type": "washer",
+      "error_code": "LD",
+      "meaning": "The washer is taking too long to drain water from the tub.",
+      "id": "ld",
+      "url": "https://referencesource.org/appliance-fault-error-codes/ld/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/whirlpool-washer-ld/> LD washer The washer is taking too long to drain water from the tub."
+    },
+    {
+      "brand": "LG",
+      "appliance_type": "washer",
+      "error_code": "LE",
+      "meaning": "Motor locked error indicating the drum cannot turn or sensor communication failed.",
+      "id": "le",
+      "url": "https://referencesource.org/appliance-fault-error-codes/le/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/lg-washer-le/> LE washer Motor locked error indicating the drum cannot turn or sensor communication failed."
+    },
+    {
+      "brand": "Whirlpool",
+      "appliance_type": "washer",
+      "error_code": "LF",
+      "meaning": "The washer is not detecting the correct amount of incoming water.",
+      "id": "lf",
+      "url": "https://referencesource.org/appliance-fault-error-codes/lf/",
+      "source": "https://producthelp.whirlpool.com/Laundry/Washers/Product_Info/Washer_Product_Assistance/F8_E1_or_LF_or_LO_FL_Error_Code_in_Display",
+      "source_quote": "<https://producthelp.whirlpool.com/Special:UserLogin?returntotitle=Laundry%2FWashers%2FProduct_Info%2FWasher_Product_Assistance%2FF8_E1_or_LF_or_LO_FL_Error_Code_in_Display> Sign in <https://producthelp.whirlpool.com/Special:UserPassword>"
+    },
+    {
+      "brand": "Whirlpool",
+      "appliance_type": "washer",
+      "error_code": "LO FL",
+      "meaning": "The washer is not detecting the correct amount of incoming water.",
+      "id": "lo-fl",
+      "url": "https://referencesource.org/appliance-fault-error-codes/lo-fl/",
+      "source": "https://producthelp.whirlpool.com/Laundry/Washers/Product_Info/Washer_Product_Assistance/F8_E1_or_LF_or_LO_FL_Error_Code_in_Display",
+      "source_quote": "Washer Product Assistance F8 E1 or LF or LO FL Error Code in Display Expand/collapse global location F8 E1 or LF or LO FL Error Code in Display Last updated <https://producthelp.whirlpool.com/@api/deki/pages/5862/pdf/F8%2bE1%2bor%2bLF%2bor%2bLO%2bFL%2bError%2bCode%2bin%2bDisplay.pdf>"
+    },
+    {
+      "brand": "LG",
+      "appliance_type": "dishwasher",
+      "error_code": "NE",
+      "meaning": "The NE code indicates a fault with the vario motor (diverter valve) positioning system.",
+      "id": "ne",
+      "url": "https://referencesource.org/appliance-fault-error-codes/ne/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/lg-dishwasher-ne/> NE dishwasher The NE code indicates a fault with the vario motor (diverter valve) positioning system."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "dishwasher",
+      "error_code": "OC",
+      "meaning": "The OC error indicates an overfill condition detected by the water level sensor.",
+      "id": "oc",
+      "url": "https://referencesource.org/appliance-fault-error-codes/oc/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/samsung-dishwasher-oc/> OC dishwasher The OC error indicates an overfill condition detected by the water level sensor."
+    },
+    {
+      "brand": "LG",
+      "appliance_type": "washing machine",
+      "error_code": "OE",
+      "meaning": "The machine has detected a problem related to drain operation; water is not being removed from the drum as expected",
+      "id": "oe",
+      "url": "https://referencesource.org/appliance-fault-error-codes/oe/",
+      "source": "https://www.hoffmannbros.com/washing-machine-error-code/OE-LG",
+      "source_quote": "LG Washing Machine OE Error Code Explained:",
+      "disagreements": [
+        {
+          "field": "appliance_type",
+          "versions": [
+            {
+              "value": "washing machine",
+              "source": "https://www.hoffmannbros.com/washing-machine-error-code/OE-LG",
+              "source_quote": "LG Washing Machine OE Error Code Explained:",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "Washing Machine",
+              "source": "https://www.espares.co.uk/washing-machines/symptom/lg-washing-machine-oe-error-code-/advice.pl",
+              "source_quote": "If your LG washer is displaying an OE error code, it will usually be associated with water draining from the drum.",
+              "as_of": "2026-08-05"
+            }
+          ]
+        },
+        {
+          "field": "meaning",
+          "versions": [
+            {
+              "value": "The machine has detected a problem related to drain operation; water is not being removed from the drum as expected",
+              "source": "https://www.hoffmannbros.com/washing-machine-error-code/OE-LG",
+              "source_quote": "LG Washing Machine OE Error Code Explained:",
+              "as_of": "2026-08-04"
+            },
+            {
+              "value": "If your LG washer is displaying an OE error code, it will usually be associated with water draining from the drum.",
+              "source": "https://www.espares.co.uk/washing-machines/symptom/lg-washing-machine-oe-error-code-/advice.pl",
+              "source_quote": "If your LG washer is displaying an OE error code, it will usually be associated with water draining from the drum.",
+              "as_of": "2026-08-05"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "brand": "LG",
+      "appliance_type": "refrigerator",
+      "error_code": "OF",
+      "meaning": "The refrigerator is in Cooling Off (Demo) mode; the compressor is disabled.",
+      "id": "of",
+      "url": "https://referencesource.org/appliance-fault-error-codes/of/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/lg-refrigerator-of/> OF refrigerator The refrigerator is in Cooling Off (Demo) mode; the compressor is disabled."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "refrigerator",
+      "error_code": "PC ER",
+      "meaning": "Communication failure between the main control board and the door display panel.",
+      "id": "pc-er",
+      "url": "https://referencesource.org/appliance-fault-error-codes/pc-er/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/samsung-refrigerator-pc-er/> PC ER refrigerator Communication failure between the main control board and the door display panel."
+    },
+    {
+      "brand": "Whirlpool",
+      "appliance_type": "refrigerator",
+      "error_code": "PE",
+      "meaning": "Main control board programming error or lost model profile.",
+      "id": "pe",
+      "url": "https://referencesource.org/appliance-fault-error-codes/pe/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/whirlpool-refrigerator-pe/> PE refrigerator Main control board programming error or lost model profile. <https://axisrepair.com/error-codes/whirlpool-refrigerator-po/> PO refrigerator Power Outage alert;"
+    },
+    {
+      "brand": "GE",
+      "appliance_type": "dishwasher",
+      "error_code": "PF",
+      "meaning": "The main control board detected a power failure or voltage interruption.",
+      "id": "pf",
+      "url": "https://referencesource.org/appliance-fault-error-codes/pf/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/ge-dishwasher-pf/> PF dishwasher The main control board detected a power failure or voltage interruption."
+    },
+    {
+      "brand": "Maytag",
+      "appliance_type": "refrigerator",
+      "error_code": "PO",
+      "meaning": "Power Outage detected; freezer temperature rose above 18\u00b0F during power loss.",
+      "id": "po",
+      "url": "https://referencesource.org/appliance-fault-error-codes/po/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/maytag-refrigerator-po/> PO refrigerator Power Outage detected; freezer temperature rose above 18\u00b0F during power loss."
+    },
+    {
+      "brand": "Frigidaire",
+      "appliance_type": "refrigerator",
+      "error_code": "SY CE",
+      "meaning": "Communication failure between the main control board and the user interface display.",
+      "id": "sy-ce",
+      "url": "https://referencesource.org/appliance-fault-error-codes/sy-ce/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/frigidaire-refrigerator-sy-ce/> SY CE refrigerator Communication failure between the main control board and the user interface display."
+    },
+    {
+      "brand": "Electrolux",
+      "appliance_type": "refrigerator",
+      "error_code": "SY EF",
+      "meaning": "Evaporator fan motor failure or communication loss with the main control board.",
+      "id": "sy-ef",
+      "url": "https://referencesource.org/appliance-fault-error-codes/sy-ef/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/electrolux-refrigerator-sy-ef/> SY EF refrigerator Evaporator fan motor failure or communication loss with the main control board."
+    },
+    {
+      "brand": "LG",
+      "appliance_type": "dryer",
+      "error_code": "tE",
+      "meaning": "The control board detects an invalid resistance reading from the thermistor.",
+      "id": "te",
+      "url": "https://referencesource.org/appliance-fault-error-codes/te/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/lg-washer-oe/> OE washer The washer is unable to drain water within the allotted time. <https://axisrepair.com/error-codes/lg-refrigerator-of/> OF refrigerator The refrigerator is in Cooling Off (Demo) mode; the compressor is disabled. <https://axisrepair.com/error-codes/lg-dryer-te/> tE dryer The control board detects an invalid resistance reading from the thermistor."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "Dryer",
+      "error_code": "tS",
+      "meaning": "Temperature sensor error",
+      "id": "ts",
+      "url": "https://referencesource.org/appliance-fault-error-codes/ts/",
+      "source": "https://easybear-appliancerepair.com/error-codes",
+      "source_quote": "<https://easybear-appliancerepair.com/error-codes/samsung/dryer/ts> tS | Dryer | Temperature sensor error |"
+    },
+    {
+      "brand": "Maytag",
+      "appliance_type": "ovens, ranges and stoves, as well as Maytag stackable automatic washer and dryer",
+      "error_code": "U",
+      "meaning": "Unbalanced Load - Open lid and re-balance load manually. If error persists, check unbalance switch and control board and replace if faulty.",
+      "id": "u",
+      "url": "https://referencesource.org/appliance-fault-error-codes/u/",
+      "source": "https://www.partselect.com/justforfun/Fault-Codes.htm",
+      "source_quote": "Fault codes for Maytag ovens, ranges and stoves, as well as Maytag stackable automatic washer and dryer. Example, U: Unbalanced Load - Open lid and re-balance load manually. If error persists, check unbalance switch and control board and replace if faulty."
+    },
+    {
+      "brand": "Panasonic",
+      "appliance_type": "washer",
+      "error_code": "U11",
+      "meaning": "Unable to drain.",
+      "id": "u11",
+      "url": "https://referencesource.org/appliance-fault-error-codes/u11/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "unable to drain."
+    },
+    {
+      "brand": "Panasonic",
+      "appliance_type": "washer",
+      "error_code": "U12",
+      "meaning": "The door being open.",
+      "id": "u12",
+      "url": "https://referencesource.org/appliance-fault-error-codes/u12/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "the door being open."
+    },
+    {
+      "brand": "Panasonic",
+      "appliance_type": "washer",
+      "error_code": "U13",
+      "meaning": "Unable to spin.",
+      "id": "u13",
+      "url": "https://referencesource.org/appliance-fault-error-codes/u13/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "unable to spin."
+    },
+    {
+      "brand": "Panasonic",
+      "appliance_type": "washer",
+      "error_code": "U14",
+      "meaning": "Unable to supply water.",
+      "id": "u14",
+      "url": "https://referencesource.org/appliance-fault-error-codes/u14/",
+      "source": "https://faultcodelab.com/data/error-codes.v1.json",
+      "source_quote": "unable to supply water."
+    },
+    {
+      "brand": "LG",
+      "appliance_type": "washer",
+      "error_code": "UE",
+      "meaning": "Unbalanced load detected during the spin cycle, preventing the drum from reaching maximum RPM.",
+      "id": "ue",
+      "url": "https://referencesource.org/appliance-fault-error-codes/ue/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/lg-washer-ue/> UE washer Unbalanced load detected during the spin cycle, preventing the drum from reaching maximum RPM."
+    },
+    {
+      "brand": "Samsung",
+      "appliance_type": "washer",
+      "error_code": "UR",
+      "meaning": "The washer has detected an unbalanced load during the spin cycle ramp-up.",
+      "id": "ur",
+      "url": "https://referencesource.org/appliance-fault-error-codes/ur/",
+      "source": "https://axisrepair.com/error-codes/",
+      "source_quote": "<https://axisrepair.com/error-codes/samsung-refrigerator-pc-er/> PC ER refrigerator Communication failure between the main control board and the door display panel. <https://axisrepair.com/error-codes/samsung-washer-ur/> UR washer The washer has detected an unbalanced load during the spin cycle ramp-up."
+    }
+  ]
+}

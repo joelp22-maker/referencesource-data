@@ -1,0 +1,34 @@
+---
+type: lookup
+id: 043-3-8-low-pro-14-ms230c-be
+asset: stihl-chainsaw-chain-and-bar-specs
+title: "MS230C-BE — Stihl chainsaw chain and bar specifications by model"
+sources:
+  - https://www.lawnequipmentsuperstore.com/stihl-chainsaw-bar-chain-quick-guide
+source_quote: "MS230C-BE | 3/8\" low Pro | .043\" | 44 | 12\" | 63PM3 44 | <https://www.alldadelawnmowers.com/search.asp?keyword=3636-005-0044> 3636-005-0044 | <https://www.lawnequipmentsuperstore.com/OEMpartfinder#/s/ORC//91PX044G//1/y> 91PX044G | <https://www.lawnequipmentsuperstore.com/OEMpartfinder#/s/ORC//91PXL044G//1/y> 91PXL044G | <https://www.lawnequipmentsuperstore.com/OEMpartfinder#/s/ORC//91VXL044G//1/y> 91VXL044G | <https://www.alldadelawnmowers.com/search.asp?keyword=3005-000-3905> 3005 000 4805 | <https://www.lawnequipmentsuperstore.com/oempartfinder#/s/ORC//120SDEA074//1/y> 120SDEA074 | 3/8\" low Pro | .043\" | 50 | 14\" | 63PM3 50 | <https://www.alldadelawnmowers.com/search.asp?keyword=3636-005-0050> 3636-005-0050 |"
+generated: true
+harvested: 2026-08-05
+stale_after: 2028-08-04
+model: "MS230C-BE"
+bar_length: "14\""
+pitch: "3/8\" low Pro"
+gauge: ".043\""
+drive_links: "50"
+stihl_chain_part: "3636-005-0050"
+verified: true
+---
+**Model:** MS230C-BE
+
+**Bar length:** 14"
+
+**Pitch:** 3/8" low Pro
+
+**Gauge:** .043"
+
+**Drive links:** 50
+
+**STIHL chain part number:** 3636-005-0050
+
+> MS230C-BE | 3/8" low Pro | .043" | 44 | 12" | 63PM3 44 | <https://www.alldadelawnmowers.com/search.asp?keyword=3636-005-0044> 3636-005-0044 | <https://www.lawnequipmentsuperstore.com/OEMpartfinder#/s/ORC//91PX044G//1/y> 91PX044G | <https://www.lawnequipmentsuperstore.com/OEMpartfinder#/s/ORC//91PXL044G//1/y> 91PXL044G | <https://www.lawnequipmentsuperstore.com/OEMpartfinder#/s/ORC//91VXL044G//1/y> 91VXL044G | <https://www.alldadelawnmowers.com/search.asp?keyword=3005-000-3905> 3005 000 4805 | <https://www.lawnequipmentsuperstore.com/oempartfinder#/s/ORC//120SDEA074//1/y> 120SDEA074 | 3/8" low Pro | .043" | 50 | 14" | 63PM3 50 | <https://www.alldadelawnmowers.com/search.asp?keyword=3636-005-0050> 3636-005-0050 |
+
+Source: <https://www.lawnequipmentsuperstore.com/stihl-chainsaw-bar-chain-quick-guide>
