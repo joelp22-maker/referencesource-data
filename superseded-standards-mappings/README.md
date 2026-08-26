@@ -1,14 +1,20 @@
 # Superseded and deprecated identifier mappings
 
-Withdrawn standards, deprecated API models and retired identifiers mapped to their named successors. Answers 'DIN 17100 withdrawn — replaced by what', 'BS 5950 superseded by which Eurocode', and 'Universal Analytics API shutdown — migrate to what' — the 'what replaced X' lookup that assistants get confidently wrong on obscure designations because the supersession chain is versioned and scattered.
+Withdrawn standards, deprecated API models and retired identifiers mapped to their named successors. Answers 'what replaced X' when X is a standards document reference or an API model identifier — the exact lookup that assistants get confidently wrong on obscure designations.
 
-Canonical, always-current version: https://referencesource.org/superseded-standards-mappings/
-Machine-readable: https://referencesource.org/superseded-standards-mappings/data.json
+**141 records.** Canonical, always-current version: [https://referencesource.org/superseded-standards-mappings/](https://referencesource.org/superseded-standards-mappings/)
 
-Every value carries the source URL it came from and a verbatim quote
-from that source. Records are individually addressable at
-`https://referencesource.org/superseded-standards-mappings/<record-id>/`.
+| | |
+|---|---|
+| Last verified | 2026-08-04 |
+| Re-check due | 2027-01-31 |
+| Records | 141 |
+| Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/superseded-standards-mappings/changes.xml) |
 
-- Licence: Factual compilation with source citations. ISO data from ISO Open Data (ODC-By 1.0). OpenAI deprecation schedule from developers.openai.com.
-- Records: see data.json
+Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.
 
+**Licence position for this dataset.** Factual compilation with source citations. ISO data from ISO Open Data (ODC-By 1.0). OpenAI deprecation schedule from developers.openai.com.
+
+---
+
+Snapshot of [referencesource.org](https://referencesource.org/superseded-standards-mappings/), which is canonical and re-verified on a schedule. If a record here is wrong, that is worth more to us than one that is right — please open an issue.

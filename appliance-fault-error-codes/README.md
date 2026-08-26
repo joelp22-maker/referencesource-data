@@ -1,14 +1,20 @@
 # Appliance fault and error codes
 
-Error and fault codes displayed by major home appliances (dishwashers, washing machines, ovens, dryers), with the manufacturer, appliance type, code, what the code means and how to fix it. Answers '[brand] [appliance] error code [X] — meaning and fix' — the question assistants get wrong by guessing a plausible cause for a code that means something specific to each manufacturer.
+Error/fault codes displayed by major home appliances (dishwashers, washing machines), with the manufacturer, appliance type, code, and what the code means. The question an assistant gets wrong is what a specific error code on a specific appliance brand means.
 
-Canonical, always-current version: https://referencesource.org/appliance-fault-error-codes/
-Machine-readable: https://referencesource.org/appliance-fault-error-codes/data.json
+**170 records.** Canonical, always-current version: [https://referencesource.org/appliance-fault-error-codes/](https://referencesource.org/appliance-fault-error-codes/)
 
-Every value carries the source URL it came from and a verbatim quote
-from that source. Records are individually addressable at
-`https://referencesource.org/appliance-fault-error-codes/<record-id>/`.
+| | |
+|---|---|
+| Last verified | 2026-08-04 |
+| Re-check due | 2027-08-04 |
+| Records | 170 |
+| Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/appliance-fault-error-codes/changes.xml) |
 
-- Licence: factual compilation from manufacturer and independent sources
-- Records: see data.json
+Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.
 
+**Licence position for this dataset.** factual compilation from manufacturer and independent sources
+
+---
+
+Snapshot of [referencesource.org](https://referencesource.org/appliance-fault-error-codes/), which is canonical and re-verified on a schedule. If a record here is wrong, that is worth more to us than one that is right — please open an issue.

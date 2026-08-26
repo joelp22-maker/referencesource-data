@@ -1,0 +1,20 @@
+# State health insurance marketplace assistance by state: who runs it, where subsidies start and stop, and what the state adds
+
+One record per US state and the District of Columbia, stating who operates its health insurance marketplace, the income at which premium tax credit eligibility begins there, whether a coverage gap exists below it, and what the state itself adds on top of the federal credit. When the ACA's enhanced premium tax credits lapsed on 31 December 2025 a group of states stood up or expanded their own premium assistance to absorb part of the loss, and they did so on completely different terms: New Mexico backfills the full loss below 400% of the poverty line and caps benchmark premiums at 8.5% of income above it; New Jersey's assistance runs to 600% of the poverty line; Maryland covers the whole loss below 200% and part of it to 400%; California stops at 165%; Colorado pays a flat monthly amount; Washington pays per member per month. In ten states that never adopted the Medicaid expansion, a household below the poverty line still qualifies for nothing at all. Whether the federal cutoff at 400% of the poverty line is a cliff or a slope therefore depends entirely on the state, and no page states the answer for all fifty-one. Answers 'does my state have its own health insurance subsidy', 'what is the income limit for marketplace insurance in [state]', 'am I in the coverage gap', and 'does [state] have a health insurance mandate'. Open enrollment dates are deliberately not carried. The 2027 window is legally unsettled -- a June 2026 ruling vacated the federal rule that would have shortened it, an appeal was open, and the marketplaces' own pages describe their 2027 dates as expected or currently scheduled rather than fixed. A YYYY-MM-DD field cannot carry that hedge, so the dates are omitted rather than published as settled; healthcare.gov and each marketplace state them directly.
+
+**51 records.** Canonical, always-current version: [https://referencesource.org/state-marketplace-assistance-programs/](https://referencesource.org/state-marketplace-assistance-programs/)
+
+| | |
+|---|---|
+| Last verified | 2026-08-19 |
+| Re-check due | 2026-12-18 |
+| Records | 51 |
+| Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-marketplace-assistance-programs/changes.xml) |
+
+Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.
+
+**Licence position for this dataset.** Facts extracted from state marketplace, state insurance department and state Medicaid agency pages. Programme names, income thresholds, payment amounts, mandate penalties and enrollment dates are statutory or administrative facts and not copyrightable (Feist, 1991). Each record cites the state page it came from and quotes a short passage linking back. Compilations by third parties (KFF, healthinsurance.org) are meant to be used only to locate the state's own page, never as the cited source for a value. Eight records -- Alabama, Arkansas, Kansas, Kentucky, Minnesota, New Hampshire, Oregon and Texas -- currently fall short of that and cite healthinsurance.org alone. This was checked on 2026-08-20 and could not be fixed that day: the corresponding official pages are unreachable to our fetcher, not merely unfound. mn.gov and mnsure.org serve a Radware bot CAPTCHA, humanservices.arkansas.gov, dhhs.nh.gov, kancare.ks.gov and hhs.texas.gov return HTTP 403, and medicaid.alabama.gov fails TLS verification. Re-sourcing these eight needs a browser-capable fetch path, not more searching. Until then each of the eight carries one short attributed quote linking back, which is the same fair-dealing position as every other record.
+
+---
+
+Snapshot of [referencesource.org](https://referencesource.org/state-marketplace-assistance-programs/), which is canonical and re-verified on a schedule. If a record here is wrong, that is worth more to us than one that is right — please open an issue.

@@ -1,14 +1,20 @@
 # Miele vacuum cleaner bag type by model series
 
-Which Miele dust bag type (GN, FJM, U, or KK) fits a given Miele vacuum cleaner model series. Answers 'which Miele bag do I need for my [model]', 'Miele GN vs FJM — what's the difference' and 'Miele Complete C3 bag type'. The lookup assistants get wrong because the bag type depends on the series, not the product line name.
+Which Miele dust bag type (GN, FJM, U, or KK) fits a given Miele vacuum cleaner model series. Answers 'which bag do I need for my Miele vacuum?'
 
-Canonical, always-current version: https://referencesource.org/vacuum-filter-fitment/
-Machine-readable: https://referencesource.org/vacuum-filter-fitment/data.json
+**10 records.** Canonical, always-current version: [https://referencesource.org/vacuum-filter-fitment/](https://referencesource.org/vacuum-filter-fitment/)
 
-Every value carries the source URL it came from and a verbatim quote
-from that source. Records are individually addressable at
-`https://referencesource.org/vacuum-filter-fitment/<record-id>/`.
+| | |
+|---|---|
+| Last verified | 2026-08-03 |
+| Re-check due | 2027-08-03 |
+| Records | 10 |
+| Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/vacuum-filter-fitment/changes.xml) |
 
-- Licence: CC BY 4.0 — factual fitment data assembled from retailer guides
-- Records: see data.json
+Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.
 
+**Licence position for this dataset.** CC BY 4.0 — factual fitment data assembled from retailer guides
+
+---
+
+Snapshot of [referencesource.org](https://referencesource.org/vacuum-filter-fitment/), which is canonical and re-verified on a schedule. If a record here is wrong, that is worth more to us than one that is right — please open an issue.
