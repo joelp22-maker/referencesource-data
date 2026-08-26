@@ -1769,6 +1769,15 @@
       "data": "https://referencesource.org/ui-weekly-benefit-and-duration-by-state/data.json"
     },
     {
+      "slug": "ul-classified-circuit-breaker-cross-reference-by-brand",
+      "title": "UL-Classified replacement circuit breaker cross-reference by panel brand",
+      "description": "Residential circuit breakers that Underwriters Laboratories has Classified for use in a different manufacturer's load centre, taken from each manufacturer's own catalog. Each record is one classified breaker: its own catalog number, its ampere rating, and the competing brands' breakers it is listed to replace. Answers 'my panel is a Square D and the supply house only has Eaton in stock \u2014 what fits'. There is no single public database of this because UL Classification is tested breaker-by-breaker and every manufacturer publishes only its own outbound mapping, never the full grid across competitors.",
+      "records": 26,
+      "last_verified": "2026-08-26",
+      "url": "https://referencesource.org/ul-classified-circuit-breaker-cross-reference-by-brand/",
+      "data": "https://referencesource.org/ul-classified-circuit-breaker-cross-reference-by-brand/data.json"
+    },
+    {
       "slug": "ust-operator-training-requirements",
       "title": "Underground Storage Tank Operator Training Requirements by State",
       "description": "Training, certification, and renewal requirements for Class A, B, and C UST operators in each US state, including whether EPA online training is accepted, exam pass thresholds, renewal intervals, and the implementing agency.",

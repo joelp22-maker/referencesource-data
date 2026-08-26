@@ -1,6 +1,8 @@
 # Reference Source — the data
 
-**80,188 checkable facts across 214 reference datasets. Every record
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22115966.svg)](https://doi.org/10.5281/zenodo.22115966)
+
+**80,214 checkable facts across 215 reference datasets. Every record
 carries the URL it came from and the verbatim line on that page which states
 it.**
 
@@ -87,6 +89,16 @@ to the original rather than replace it. Where a source's own terms govern reuse
 those terms govern — several datasets record a `licence` position saying exactly
 that. We do not mirror whole compilations from publishers whose product *is* the
 compilation: we record the fact and link the document.
+
+## Citing this
+
+Each release is archived on Zenodo with a DOI. Use the **concept DOI**
+[10.5281/zenodo.22115966](https://doi.org/10.5281/zenodo.22115966), which always
+resolves to the most recent snapshot; individual releases have their own DOIs if
+you need to pin one.
+
+> Pringle, J. *Reference Source: checkable reference facts with per-record source
+> provenance.* Zenodo. https://doi.org/10.5281/zenodo.22115966
 
 ## Corrections
 
@@ -221,6 +233,7 @@ fixed or pulled rather than left up.
 | [Discontinued electronic component replacement mapping](discontinued-part-replacement-mapping/) | 28 | 2026-08-03 | [referencesource.org/discontinued-part-replacement-mapping/](https://referencesource.org/discontinued-part-replacement-mapping/) |
 | [Vehicle emissions testing: which counties require it, in which states](vehicle-emissions-testing-by-state/) | 28 | 2026-08-25 | [referencesource.org/vehicle-emissions-testing-by-state/](https://referencesource.org/vehicle-emissions-testing-by-state/) |
 | [State insurance mandates for fertility treatment and IVF coverage](state-fertility-insurance-mandates/) | 26 | 2026-08-17 | [referencesource.org/state-fertility-insurance-mandates/](https://referencesource.org/state-fertility-insurance-mandates/) |
+| [UL-Classified replacement circuit breaker cross-reference by panel brand](ul-classified-circuit-breaker-cross-reference-by-brand/) | 26 | 2026-08-26 | [referencesource.org/ul-classified-circuit-breaker-cross-reference-by-brand/](https://referencesource.org/ul-classified-circuit-breaker-cross-reference-by-brand/) |
 | [US import duty and tariff rates by HTS chapter](import-duty-and-tariffs/) | 25 | 2026-08-15 | [referencesource.org/import-duty-and-tariffs/](https://referencesource.org/import-duty-and-tariffs/) |
 | [Small Claims Court Dollar Limits by State](small-claims-court-dollar-limits-by-state/) | 25 | 2026-08-26 | [referencesource.org/small-claims-court-dollar-limits-by-state/](https://referencesource.org/small-claims-court-dollar-limits-by-state/) |
 | [SSI state supplement amounts by state and living arrangement](ssi-state-supplement-amounts-by-state/) | 25 | 2026-08-19 | [referencesource.org/ssi-state-supplement-amounts-by-state/](https://referencesource.org/ssi-state-supplement-amounts-by-state/) |
