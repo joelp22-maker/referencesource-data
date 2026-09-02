@@ -6,7 +6,7 @@ Coast Guard rules on what safety gear a recreational boat must carry are not sta
 
 | | |
 |---|---|
-| Last verified | 2026-08-25 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-25 |
 | Records | 11 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/recreational-boat-safety-equipment-requirements-by-length/changes.xml) |

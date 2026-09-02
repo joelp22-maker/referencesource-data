@@ -6,7 +6,7 @@ When private insurers won't write a property in a wildfire or hurricane state, t
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-02-15 |
 | Records | 32 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-insurer-of-last-resort-coverage-limits/changes.xml) |

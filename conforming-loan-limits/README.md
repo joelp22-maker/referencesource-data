@@ -6,7 +6,7 @@ The 2026 FHFA conforming loan limit AND the 2026 FHA (HUD) forward-mortgage loan
 
 | | |
 |---|---|
-| Last verified | 2026-08-10 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-10 |
 | Records | 3,235 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/conforming-loan-limits/changes.xml) |

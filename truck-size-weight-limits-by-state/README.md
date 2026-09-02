@@ -6,7 +6,7 @@ For each US state, the maximum legal dimensions and gross weight a vehicle plus 
 
 | | |
 |---|---|
-| Last verified | 2026-08-18 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-18 |
 | Records | 5 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/truck-size-weight-limits-by-state/changes.xml) |

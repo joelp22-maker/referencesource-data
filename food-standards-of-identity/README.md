@@ -6,7 +6,7 @@ The FDA standards of identity from 21 CFR Parts 131–169: for each standardized
 
 | | |
 |---|---|
-| Last verified | 2026-08-11 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-08-11 |
 | Records | 41 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/food-standards-of-identity/changes.xml) |

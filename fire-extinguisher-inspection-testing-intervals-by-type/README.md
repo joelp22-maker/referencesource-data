@@ -6,7 +6,7 @@ NFPA 10 sets four separate service obligations for a portable fire extinguisher 
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-08-19 |
 | Records | 34 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/fire-extinguisher-inspection-testing-intervals-by-type/changes.xml) |

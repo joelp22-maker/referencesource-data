@@ -6,8 +6,8 @@ Which IECC climate zone (1-8, with A/B/C moisture regime) and which DOE Building
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
-| Re-check due | 2028-08-18 |
+| Last verified | 2026-09-02 |
+| Re-check due | 2028-08-30 |
 | Records | 3,134 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/iecc-climate-zone-by-county/changes.xml) |
 

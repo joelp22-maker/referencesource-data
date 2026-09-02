@@ -6,7 +6,7 @@ Spark plug, gap, oil capacity, oil filter, gear lube capacity and water pump imp
 
 | | |
 |---|---|
-| Last verified | 2026-08-05 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2028-08-04 |
 | Records | 53 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/outboard-motor-service-specs/changes.xml) |

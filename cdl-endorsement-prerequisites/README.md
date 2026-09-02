@@ -6,7 +6,7 @@ Getting a CDL endorsement is a sequence, not a single application: which test ty
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-19 |
 | Records | 5 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/cdl-endorsement-prerequisites/changes.xml) |

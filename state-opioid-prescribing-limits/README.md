@@ -6,7 +6,7 @@ Maximum days' supply for a first opioid prescription for acute pain, by state, w
 
 | | |
 |---|---|
-| Last verified | 2026-08-18 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-18 |
 | Records | 11 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-opioid-prescribing-limits/changes.xml) |

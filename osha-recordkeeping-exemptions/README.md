@@ -6,7 +6,7 @@ Whether a business must keep OSHA 300 injury/illness logs turns on two independe
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-02-15 |
 | Records | 82 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/osha-recordkeeping-exemptions/changes.xml) |

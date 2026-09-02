@@ -1,14 +1,14 @@
 # Stihl chainsaw chain and bar specifications by model
 
-Chain pitch, gauge, drive link count, bar length and OEM chain part number for each Stihl chainsaw model and bar combination. One row per model per bar length. Answers 'what chain does my Stihl MS261 take', 'Stihl MS440 20 inch bar drive links' and 'Stihl chain part number for [model]' — the multi-variable lookup assistants get wrong by guessing a plausible pitch/gauge combination.
+Chain pitch, gauge, drive link count, bar length and OEM chain part number for each Stihl chainsaw model and bar combination — including the MSE electric saws and HT pole pruner models the dealer charts list alongside the petrol saws. One row per model per bar length. Answers 'what chain does my Stihl MS261 take', 'Stihl MS440 20 inch bar drive links' and 'Stihl chain part number for [model]' — the multi-variable lookup assistants get wrong by guessing a plausible pitch/gauge combination.
 
-**809 records.** Canonical, always-current version: [https://referencesource.org/stihl-chainsaw-chain-and-bar-specs/](https://referencesource.org/stihl-chainsaw-chain-and-bar-specs/)
+**806 records.** Canonical, always-current version: [https://referencesource.org/stihl-chainsaw-chain-and-bar-specs/](https://referencesource.org/stihl-chainsaw-chain-and-bar-specs/)
 
 | | |
 |---|---|
-| Last verified | 2026-08-05 |
-| Re-check due | 2028-08-04 |
-| Records | 809 |
+| Last verified | 2026-09-02 |
+| Re-check due | 2028-09-01 |
+| Records | 806 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/stihl-chainsaw-chain-and-bar-specs/changes.xml) |
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.

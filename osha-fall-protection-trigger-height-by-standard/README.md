@@ -6,7 +6,7 @@ OSHA does not set one fall-protection trigger height. General industry (29 CFR 1
 
 | | |
 |---|---|
-| Last verified | 2026-08-25 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-25 |
 | Records | 42 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/osha-fall-protection-trigger-height-by-standard/changes.xml) |

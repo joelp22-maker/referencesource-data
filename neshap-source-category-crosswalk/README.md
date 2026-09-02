@@ -6,7 +6,7 @@ Maps each EPA NESHAP source category to its 40 CFR subpart, whether it applies t
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2026-12-13 |
 | Records | 125 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/neshap-source-category-crosswalk/changes.xml) |

@@ -6,7 +6,7 @@ npm allows a maintainer to attach a 'deprecated' message to a specific published
 
 | | |
 |---|---|
-| Last verified | 2026-08-25 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-02-21 |
 | Records | 96 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/npm-deprecated-package-recommended-replacement/changes.xml) |

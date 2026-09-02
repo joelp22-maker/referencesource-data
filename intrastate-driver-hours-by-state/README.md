@@ -6,7 +6,7 @@ The hours-of-service rules for commercial drivers operating solely within one st
 
 | | |
 |---|---|
-| Last verified | 2026-08-11 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-08-11 |
 | Records | 3 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/intrastate-driver-hours-by-state/changes.xml) |

@@ -6,7 +6,7 @@ Do I need a contractor license for this project in my state, and what does it ta
 
 | | |
 |---|---|
-| Last verified | 2026-08-17 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-08-17 |
 | Records | 11 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/general-contractor-license-thresholds-by-state/changes.xml) |

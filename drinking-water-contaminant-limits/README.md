@@ -6,7 +6,7 @@ The legally enforceable maximum concentration of a contaminant in public drinkin
 
 | | |
 |---|---|
-| Last verified | 2026-08-06 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-06 |
 | Records | 182 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/drinking-water-contaminant-limits/changes.xml) |

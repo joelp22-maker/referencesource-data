@@ -6,7 +6,7 @@ What is the maximum legal pesticide residue allowed on this food in the United S
 
 | | |
 |---|---|
-| Last verified | 2026-08-17 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2026-11-15 |
 | Records | 1,324 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/pesticide-residue-tolerance-limits/changes.xml) |

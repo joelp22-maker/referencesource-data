@@ -6,7 +6,7 @@ For each US state whose statute or health department states a position: whether 
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-19 |
 | Records | 13 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/well-water-testing-at-property-transfer/changes.xml) |

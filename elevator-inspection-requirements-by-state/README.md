@@ -6,7 +6,7 @@ Per-state elevator inspection requirements: how often a passenger elevator must 
 
 | | |
 |---|---|
-| Last verified | 2026-08-11 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-08-11 |
 | Records | 5 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/elevator-inspection-requirements-by-state/changes.xml) |

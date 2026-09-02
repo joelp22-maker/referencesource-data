@@ -6,7 +6,7 @@ Every state insurance department publishes, for each licensed insurer and line o
 
 | | |
 |---|---|
-| Last verified | 2026-08-26 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-26 |
 | Records | 622 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-insurance-complaint-index-by-company/changes.xml) |

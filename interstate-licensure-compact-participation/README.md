@@ -6,7 +6,7 @@ Which U.S. states participate in which interstate licensure compacts (nursing, p
 
 | | |
 |---|---|
-| Last verified | 2026-08-17 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2026-11-15 |
 | Records | 406 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/interstate-licensure-compact-participation/changes.xml) |

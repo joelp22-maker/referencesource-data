@@ -6,7 +6,7 @@ Whether each US state conforms to the federal Section 179 expensing limit and th
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-15 |
 | Records | 51 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-section-179-bonus-depreciation-conformity/changes.xml) |

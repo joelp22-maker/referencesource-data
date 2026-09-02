@@ -6,7 +6,7 @@ For each US state, the minimum grace period its insurance code requires a life i
 
 | | |
 |---|---|
-| Last verified | 2026-08-17 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-08-17 |
 | Records | 8 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/life-insurance-grace-periods-by-state/changes.xml) |

@@ -6,7 +6,7 @@ The quantity threshold at which a facility must file an annual Tier II hazardous
 
 | | |
 |---|---|
-| Last verified | 2026-08-18 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-08-18 |
 | Records | 19 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/epcra-tier-ii-state-reporting-thresholds/changes.xml) |

@@ -6,7 +6,7 @@ Side-by-side comparison of threshold quantities for hazardous chemicals regulate
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-15 |
 | Records | 225 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/psm-rmp-chemical-threshold-crossref/changes.xml) |

@@ -6,7 +6,7 @@ What it takes to move up the electrician licence ladder in each US state: the on
 
 | | |
 |---|---|
-| Last verified | 2026-08-06 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-02-02 |
 | Records | 2 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/electrician-licence-progression-by-state/changes.xml) |

@@ -6,7 +6,7 @@ Which US states have enacted right-to-repair laws, what products each law covers
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2026-11-13 |
 | Records | 6 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-right-to-repair-laws/changes.xml) |

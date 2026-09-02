@@ -6,7 +6,7 @@ Do I need a surety bond on this public works project in my state, and how much? 
 
 | | |
 |---|---|
-| Last verified | 2026-08-17 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-17 |
 | Records | 53 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-public-works-bond-thresholds/changes.xml) |

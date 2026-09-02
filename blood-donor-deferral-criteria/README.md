@@ -6,7 +6,7 @@ How long you must wait before giving blood, by reason, compared across the Ameri
 
 | | |
 |---|---|
-| Last verified | 2026-08-13 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-02-09 |
 | Records | 111 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/blood-donor-deferral-criteria/changes.xml) |

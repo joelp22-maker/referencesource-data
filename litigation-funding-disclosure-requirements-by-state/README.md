@@ -1,0 +1,20 @@
+# Third-party litigation funding disclosure requirements by US state — whether the law requires a party to disclose a litigation funding agreement, to whom, and on what trigger, quoted from the statute itself
+
+When an outside investor pays a plaintiff's litigation costs in exchange for a cut of any recovery, most states say nothing about whether the other side, or the court, ever gets to know the funder exists or what it can control — discovery of the agreement is fought case by case. A small but fast-growing minority now write disclosure into a statute instead: Wisconsin (2018, the first), Indiana (2023), Montana (2023), West Virginia (a 2024 amendment) and Kansas (a 2025 amendment) each require a party who has taken litigation funding to say so without waiting for a discovery request — and Wisconsin, West Virginia and Montana do it in nearly identical statutory language, evidence the wording is being copied state to state as the idea spreads. What has to be handed over differs: Wisconsin, West Virginia and Montana require the agreement itself, Kansas requires the agreement to the court in camera plus a six-item sworn statement to the other parties, and Indiana requires only written notice that a funding contract exists. At least six more states legislated on litigation funding in 2025–2026 (Georgia, Arizona, Tennessee, Louisiana, Oklahoma, New York), a Michigan bill passed its House in May 2026, and a federal Litigation Funding Transparency Act (S. 3826, 119th Congress) sits in Senate Judiciary Committee — this is actively moving ground, not settled law. No comprehensive, current, citation-backed free tracker exists: the one law-firm '50-state guide' found (Lewis Brisbois) is a JS-gated page with no readable body; the one maintained comparison site found (CaseGlide, checked 2026-09-02) cites zero statute sections anywhere, and is flatly wrong about West Virginia — it says West Virginia only 'regulates funder conduct rather than compelling disclosure,' when W. Va. Code §46A-6N-6 requires exactly the same automatic disclosure to other parties that Wisconsin's statute does. This asset states, per state, the clause that creates that obligation — who must disclose, to whom, and when — quoted verbatim from the state's own official legislature host — its online code where that is readable, and its enrolled act where the code viewer serves no text, as is the case for Indiana. It covers only the obligation to disclose inside a lawsuit: statutes that instead regulate what a funder must put in its contract with the consumer who borrows (West Virginia §46A-6N-5, Arizona's SB 1215, and reportedly Georgia's and New York's 2025 acts) are a different mechanism and are deliberately out of scope, noted in the source list rather than folded in. Answers 'does my state require disclosure of litigation funding', 'do I have to tell the other side I have a litigation funder', 'is third-party litigation funding regulated in my state'.
+
+**5 records.** Canonical, always-current version: [https://referencesource.org/litigation-funding-disclosure-requirements-by-state/](https://referencesource.org/litigation-funding-disclosure-requirements-by-state/)
+
+| | |
+|---|---|
+| Last verified | 2026-09-02 |
+| Re-check due | 2027-03-01 |
+| Records | 5 |
+| Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/litigation-funding-disclosure-requirements-by-state/changes.xml) |
+
+Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.
+
+**Licence position for this dataset.** unknown
+
+---
+
+Snapshot of [referencesource.org](https://referencesource.org/litigation-funding-disclosure-requirements-by-state/), which is canonical and re-verified on a schedule. If a record here is wrong, that is worth more to us than one that is right — please open an issue.

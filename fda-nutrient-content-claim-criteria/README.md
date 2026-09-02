@@ -6,7 +6,7 @@ Numeric thresholds that qualify a food product for each FDA-regulated nutrient c
 
 | | |
 |---|---|
-| Last verified | 2026-08-17 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-08-17 |
 | Records | 90 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/fda-nutrient-content-claim-criteria/changes.xml) |

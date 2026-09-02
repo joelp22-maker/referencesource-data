@@ -6,7 +6,7 @@ The leading bytes (magic number / file signature) that identify a file format, w
 
 | | |
 |---|---|
-| Last verified | 2026-08-03 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-08-03 |
 | Records | 229 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/file-format-signatures/changes.xml) |

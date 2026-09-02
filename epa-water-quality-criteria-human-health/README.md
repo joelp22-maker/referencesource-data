@@ -6,7 +6,7 @@ EPA Section 304(a) recommended human health ambient water quality criteria for ~
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2028-08-18 |
 | Records | 127 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/epa-water-quality-criteria-human-health/changes.xml) |

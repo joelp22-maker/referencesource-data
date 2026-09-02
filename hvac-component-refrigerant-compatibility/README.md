@@ -6,7 +6,7 @@ Which refrigerant substitutes for which in air conditioning, heat pump and refri
 
 | | |
 |---|---|
-| Last verified | 2026-08-11 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-08-11 |
 | Records | 109 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/hvac-component-refrigerant-compatibility/changes.xml) |

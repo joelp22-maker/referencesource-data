@@ -6,7 +6,7 @@ Which states will licence an electrician on the strength of another state's lice
 
 | | |
 |---|---|
-| Last verified | 2026-08-11 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-02-07 |
 | Records | 15 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/electrician-licence-reciprocity-by-state/changes.xml) |

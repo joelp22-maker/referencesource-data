@@ -6,7 +6,7 @@ Electrode potential in seawater (volts vs SCE) for metals and alloys from the AS
 
 | | |
 |---|---|
-| Last verified | 2026-08-04 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2028-08-03 |
 | Records | 80 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/process-compatibility-coatings-adhesives-treatments/changes.xml) |

@@ -6,7 +6,7 @@ The deadlines each US state puts on an insurance company handling a claim: how m
 
 | | |
 |---|---|
-| Last verified | 2026-08-11 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2026-12-09 |
 | Records | 42 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/insurance-claim-handling-deadlines/changes.xml) |

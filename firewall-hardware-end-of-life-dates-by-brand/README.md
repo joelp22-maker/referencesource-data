@@ -6,7 +6,7 @@ End-of-sale and end-of-support dates for the physical hardware of firewall and n
 
 | | |
 |---|---|
-| Last verified | 2026-08-26 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-02-22 |
 | Records | 93 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/firewall-hardware-end-of-life-dates-by-brand/changes.xml) |

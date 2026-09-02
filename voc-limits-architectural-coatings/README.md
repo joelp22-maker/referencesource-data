@@ -6,7 +6,7 @@ Maximum volatile organic compound (VOC) content limits for architectural coating
 
 | | |
 |---|---|
-| Last verified | 2026-08-06 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-06 |
 | Records | 222 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/voc-limits-architectural-coatings/changes.xml) |

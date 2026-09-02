@@ -6,7 +6,7 @@ State-by-state comparison of the dollar thresholds and percentage-increase trigg
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-02-11 |
 | Records | 10 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/drug-price-transparency-thresholds/changes.xml) |

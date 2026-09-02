@@ -6,7 +6,7 @@ Every US state runs a life/health insurance guaranty association — a state-cha
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-08-19 |
 | Records | 5 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/insurance-guaranty-association-limits-by-state/changes.xml) |

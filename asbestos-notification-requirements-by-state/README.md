@@ -6,7 +6,7 @@ Notification requirements for asbestos abatement and demolition projects vary by
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-08-15 |
 | Records | 7 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/asbestos-notification-requirements-by-state/changes.xml) |

@@ -6,7 +6,7 @@ The dollar income limits that decide whether a household qualifies for an ACA pr
 
 | | |
 |---|---|
-| Last verified | 2026-08-13 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2027-03-01 |
 | Records | 48 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/marketplace-subsidy-income-thresholds/changes.xml) |

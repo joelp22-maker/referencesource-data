@@ -6,7 +6,7 @@ Identifying characteristics of each hydraulic, pipe, and instrumentation connect
 
 | | |
 |---|---|
-| Last verified | 2026-08-13 |
+| Last verified | 2026-09-02 |
 | Re-check due | 2028-08-12 |
 | Records | 21 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/hydraulic-pipe-connection-types/changes.xml) |

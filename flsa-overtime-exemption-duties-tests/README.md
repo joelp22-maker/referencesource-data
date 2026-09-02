@@ -6,7 +6,7 @@ Whether a salaried employee is exempt from federal overtime pay turns on two ind
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-02-15 |
 | Records | 9 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/flsa-overtime-exemption-duties-tests/changes.xml) |

@@ -6,7 +6,7 @@ What each vehicle defect is categorised as at a roadworthiness inspection, and t
 
 | | |
 |---|---|
-| Last verified | 2026-08-06 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2027-02-02 |
 | Records | 1,422 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/vehicle-inspection-defect-categories/changes.xml) |
