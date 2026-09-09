@@ -6,7 +6,7 @@ A drone's takeoff weight alone decides which federal rules apply to it, and the 
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
+| Last verified | 2026-09-07 |
 | Re-check due | 2027-08-26 |
 | Records | 5 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/faa-drone-weight-thresholds/changes.xml) |

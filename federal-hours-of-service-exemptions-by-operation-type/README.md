@@ -6,7 +6,7 @@ Commercial motor vehicle drivers are subject to federal hours-of-service limits 
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
+| Last verified | 2026-09-07 |
 | Re-check due | 2027-08-28 |
 | Records | 31 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/federal-hours-of-service-exemptions-by-operation-type/changes.xml) |

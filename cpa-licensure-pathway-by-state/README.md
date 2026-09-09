@@ -6,7 +6,7 @@ Whether a state now licenses CPAs on a 120-credit-hour pathway (bachelor's degre
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
+| Last verified | 2026-08-31 |
 | Re-check due | 2026-11-29 |
 | Records | 9 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/cpa-licensure-pathway-by-state/changes.xml) |

@@ -6,7 +6,7 @@ Every consumer product recall the U.S. Consumer Product Safety Commission announ
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
+| Last verified | 2026-09-01 |
 | Re-check due | 2026-10-01 |
 | Records | 398 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/cpsc-consumer-product-recalls-current/changes.xml) |

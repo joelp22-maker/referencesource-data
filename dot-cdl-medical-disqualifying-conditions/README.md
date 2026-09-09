@@ -6,7 +6,7 @@ The physical qualification standards every interstate commercial driver (truck o
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
+| Last verified | 2026-09-08 |
 | Re-check due | 2027-08-31 |
 | Records | 17 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/dot-cdl-medical-disqualifying-conditions/changes.xml) |

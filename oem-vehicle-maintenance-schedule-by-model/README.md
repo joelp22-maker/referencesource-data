@@ -1,12 +1,12 @@
 # OEM maintenance schedule by vehicle model and year, sourced from the manufacturer's own document
 
-What the manufacturer's own maintenance guide says to do at each mileage/time interval, one record per make, model, model year, interval and service item, each quoted from the manufacturer's own PDF. Toyota publishes a Maintenance Guide/Owner's Manual Supplement per model year at assets.sia.toyota.com; the Sequoia Hybrid 2026 and Camry 2024 guides are covered here, including the Special Operating Conditions schedule and the condition each of those items applies under.
+What the manufacturer's own maintenance guide says to do at each mileage/time interval, one record per make, model, model year, interval and service item, each quoted from the manufacturer's own PDF. Toyota publishes a Warranty & Maintenance Guide per model and model year at assets.sia.toyota.com, and those documents are behind every record here — one make so far. Published today: the 2026 Sequoia Hybrid and the 2024 Camry, including the Special Operating Conditions schedule and the condition each of those items applies under. Ten further Toyota guides are listed in sources.txt, fetched and checked, waiting on the one-line parser fix that file describes.
 
 **1,044 records.** Canonical, always-current version: [https://referencesource.org/oem-vehicle-maintenance-schedule-by-model/](https://referencesource.org/oem-vehicle-maintenance-schedule-by-model/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
+| Last verified | 2026-08-31 |
 | Re-check due | 2027-08-31 |
 | Records | 1,044 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/oem-vehicle-maintenance-schedule-by-model/changes.xml) |

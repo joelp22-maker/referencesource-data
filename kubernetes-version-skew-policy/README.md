@@ -6,7 +6,7 @@ The maximum version difference Kubernetes supports between cluster components, o
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
+| Last verified | 2026-09-08 |
 | Re-check due | 2026-12-30 |
 | Records | 6 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/kubernetes-version-skew-policy/changes.xml) |

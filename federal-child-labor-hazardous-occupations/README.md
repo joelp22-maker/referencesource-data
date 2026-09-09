@@ -6,7 +6,7 @@ Federal child labor law bans workers under 18 from 17 numbered 'Hazardous Occupa
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
+| Last verified | 2026-09-08 |
 | Re-check due | 2027-08-28 |
 | Records | 67 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/federal-child-labor-hazardous-occupations/changes.xml) |

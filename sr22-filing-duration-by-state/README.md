@@ -6,7 +6,7 @@ An SR-22 (or the higher-limit FR-44 some states substitute after a DUI) is a cer
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
+| Last verified | 2026-08-31 |
 | Re-check due | 2027-08-31 |
 | Records | 11 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/sr22-filing-duration-by-state/changes.xml) |

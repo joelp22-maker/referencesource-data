@@ -6,7 +6,7 @@ Cross-reference between US and EU food color additive systems. Each record is on
 
 | | |
 |---|---|
-| Last verified | 2026-08-10 |
+| Last verified | 2026-09-08 |
 | Re-check due | 2027-08-10 |
 | Records | 50 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/food-color-additive-status-us-vs-eu/changes.xml) |

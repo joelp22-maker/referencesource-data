@@ -6,7 +6,7 @@ Getting a pet across a border is a chain of steps that only counts if it is done
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
+| Last verified | 2026-08-28 |
 | Re-check due | 2026-12-26 |
 | Records | 19 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/pet-travel-entry-requirements/changes.xml) |

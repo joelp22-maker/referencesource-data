@@ -6,7 +6,7 @@ Every state sets its own deadline for paying a departing employee's final wages,
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
+| Last verified | 2026-08-31 |
 | Re-check due | 2027-08-31 |
 | Records | 14 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/final-paycheck-deadlines-by-state/changes.xml) |

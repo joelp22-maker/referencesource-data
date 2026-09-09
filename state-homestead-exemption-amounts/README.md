@@ -6,7 +6,7 @@ How much equity in a home a creditor cannot reach, state by state, taken from ea
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
+| Last verified | 2026-08-31 |
 | Re-check due | 2027-02-27 |
 | Records | 18 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-homestead-exemption-amounts/changes.xml) |

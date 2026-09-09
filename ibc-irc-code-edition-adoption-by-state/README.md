@@ -6,7 +6,7 @@ Which edition of each International Code Council (ICC) code family is adopted in
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
+| Last verified | 2026-08-31 |
 | Re-check due | 2027-02-27 |
 | Records | 56 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/ibc-irc-code-edition-adoption-by-state/changes.xml) |
