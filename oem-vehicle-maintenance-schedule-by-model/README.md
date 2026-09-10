@@ -1,14 +1,14 @@
 # OEM maintenance schedule by vehicle model and year, sourced from the manufacturer's own document
 
-What the manufacturer's own maintenance guide says to do at each mileage/time interval, one record per make, model, model year, interval and service item, each quoted from the manufacturer's own PDF. Toyota publishes a Warranty & Maintenance Guide per model and model year at assets.sia.toyota.com, and those documents are behind every record here — one make so far. Published today: the 2026 Sequoia Hybrid and the 2024 Camry, including the Special Operating Conditions schedule and the condition each of those items applies under. Ten further Toyota guides are listed in sources.txt, fetched and checked, waiting on the one-line parser fix that file describes.
+What the manufacturer's own maintenance guide says to do at each mileage/time interval, one record per make, model, model year, interval and service item, each quoted from the manufacturer's own PDF. Toyota publishes a Warranty & Maintenance Guide per model and model year at assets.sia.toyota.com, and those documents are behind every record here — one make so far. Published today: the 2024 Camry, the 2026 Camry, the 2025 Corolla, RAV4, Tacoma, Tundra, Highlander, 4Runner and Sienna, and the 2026 Sequoia Hybrid, including the Special Operating Conditions schedule and the condition each of those items applies under. The 2025 Camry and 2025 Prius guides are listed in sources.txt, fetched and checked, and deliberately not harvested yet — see the note in that file.
 
-**1,044 records.** Canonical, always-current version: [https://referencesource.org/oem-vehicle-maintenance-schedule-by-model/](https://referencesource.org/oem-vehicle-maintenance-schedule-by-model/)
+**6,111 records.** Canonical, always-current version: [https://referencesource.org/oem-vehicle-maintenance-schedule-by-model/](https://referencesource.org/oem-vehicle-maintenance-schedule-by-model/)
 
 | | |
 |---|---|
-| Last verified | 2026-08-31 |
-| Re-check due | 2027-08-31 |
-| Records | 1,044 |
+| Last verified | 2026-09-09 |
+| Re-check due | 2027-09-09 |
+| Records | 6,111 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/oem-vehicle-maintenance-schedule-by-model/changes.xml) |
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.

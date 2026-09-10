@@ -16,9 +16,9 @@
     {
       "slug": "ai-model-deprecation-and-retirement",
       "title": "AI model deprecation and retirement dates by provider",
-      "description": "Which AI API models are deprecated or retired, when the deprecation was announced, when the model shuts off, and what the recommended replacement is \u2014 sourced from each provider's own documentation. Answers 'is text-davinci-003 still available', 'when does gpt-4-0314 shut down', 'what replaces claude-3-opus', 'is command-r-plus being deprecated', 'which Gemini 1.5 Pro version is retired'. Covers OpenAI, Anthropic, Google (Vertex AI), Azure/Microsoft Foundry, AWS Bedrock, Cohere, and Mistral AI. No single original exists \u2014 each provider publishes its own page \u2014 so this is the only place that puts them side by side. Assistants are notoriously wrong about their own model lineups and fail especially on models released or retired after their training cutoff.",
-      "records": 367,
-      "last_verified": "2026-09-01",
+      "description": "Which AI API models are deprecated or retired, when the deprecation was announced, when the model shuts off, and what the recommended replacement is \u2014 sourced from each provider's own documentation. Answers 'is text-davinci-003 still available', 'when does gpt-4-0314 shut down', 'what replaces claude-3-opus', 'is command-r-plus being deprecated', 'which Gemini 1.5 Pro version is retired'. Covers OpenAI, Anthropic, Google (Vertex AI, the Gemini Developer API, and the Agent Platform's open- and partner-model schedules), Azure/Microsoft Foundry, AWS Bedrock, Cohere, Mistral AI, Groq, Cerebras, xAI, DeepSeek and GitHub Copilot. GitHub Copilot is a different shape from all of the above: not a model's author and not an inference host renting out silicon, but an end-user product that resells other people's hosted models and switches them off on a clock of its own. It deprecates Claude Opus 4.5 on 2026-09-01 while Microsoft Foundry keeps serving it until 2026-10-19, and it is the only source anywhere that states a date for Claude Opus 4.7. Developers who never touch an API \u2014 who just pick a model from the Copilot Chat selector \u2014 have a retirement schedule too, and it is published one changelog post at a time rather than as a standing table. Groq and Cerebras matter beyond being two more companies: both are inference hosts serving other people's open-weight models (Llama, Qwen, Kimi, DeepSeek, Gemma, Mistral, Whisper) on their own silicon, and each publishes its own lifecycle dates for them, which no model author's page states anywhere. They also disagree with each other: both deprecated deepseek-r1-distill-llama-70b, Cerebras on 2025-08-12 pointing users at Qwen 3 32B, Groq seven weeks later pointing them at Llama 3.3 70B, and this dataset shows both on the one record. xAI and DeepSeek matter for the opposite reason: both are already in here at second hand, through Azure/Foundry reselling their models and publishing Foundry's dates, and both authors state different dates for the same model IDs on their own pages \u2014 Foundry retires grok-3 two weeks before xAI's own API does. The four Google surfaces are held separately on purpose: they publish different shutdown dates for the same model IDs, and where they disagree this dataset shows both. No single original exists \u2014 each provider publishes its own page \u2014 so this is the only place that puts them side by side. Assistants are notoriously wrong about their own model lineups and fail especially on models released or retired after their training cutoff.",
+      "records": 532,
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/ai-model-deprecation-and-retirement/",
       "data": "https://referencesource.org/ai-model-deprecation-and-retirement/data.json"
     },
@@ -45,7 +45,7 @@
       "title": "US AIM Act sector-specific refrigerant GWP limits and compliance dates (40 CFR 84.54)",
       "description": "Federal sector-specific maximum GWP values for refrigerants and HFC-containing products under the AIM Act Technology Transitions rule (40 CFR 84.54). Each record is one sector/subsector with the GWP ceiling, the effective date for manufacture/import restrictions, the effective date for installation restrictions (often different), equipment size or temperature conditions, and any exemptions. Answers 'what is the maximum GWP refrigerant I can use in a new supermarket system?', 'when does the R-410A ban take effect for residential AC?', 'is there an exemption for semiconductor manufacturing chillers?', and 'what changed in the May 2026 reconsideration rule?' \u2014 questions where the answer depends on the sector, the date, the equipment size, and the temperature range, and where assistants typically give the residential AC answer (700 GWP) regardless of the sector.",
       "records": 71,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/aim-act-refrigerant-gwp-sector-limits/",
       "data": "https://referencesource.org/aim-act-refrigerant-gwp-sector-limits/data.json"
     },
@@ -99,7 +99,7 @@
       "title": "Asbestos Abatement Notification Requirements, Thresholds, and Fees by State",
       "description": "Notification requirements for asbestos abatement and demolition projects vary by state. The federal NESHAP (40 CFR 61 Subpart M) requires 10 working days' notice for projects exceeding 260 linear feet, 160 square feet, or 35 cubic feet of regulated asbestos-containing material. States with delegated authority impose their own notification fees, advance-notice periods, material quantity thresholds, and exemptions. This table gives the notification trigger, advance-notice period, fee structure, and delegated authority for each state so a contractor knows what is required before starting work.",
       "records": 7,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/asbestos-notification-requirements-by-state/",
       "data": "https://referencesource.org/asbestos-notification-requirements-by-state/data.json"
     },
@@ -108,7 +108,7 @@
       "title": "Assisted living facility minimum staffing requirements by US state \u2014 how many staff must be on duty, and what that guarantees",
       "description": "State-by-state comparison of minimum staffing requirements for assisted living facilities (distinct from nursing homes/skilled nursing facilities, which run under a separate federal-plus-state regime). Assisted living regulation is entirely state-run \u2014 there is no federal minimum \u2014 and states take genuinely different regulatory approaches, not just different numbers on the same form: North Carolina sets a headcount rule that scales by facility census (13-20 residents requires an administrator or manager within 500 feet plus at least one awake staff member per shift, with specific carve-outs for when housekeeping duties may or may not be combined with care duties); Georgia sets a flat always-present rule (at least two trained staff present at all times any resident is present, with at least one per occupied floor), a 1:15 waking / 1:20 non-waking awake direct-care ratio, banded on-site nurse hours, and separate continuing-education hour requirements (24 hours in year one, 16 hours annually after); Florida runs a facility-size-banded staff-hours-per-week table (total weekly staff hours required scale with combined resident/day-care/respite census, with an incremental add-on above 95); Pennsylvania sets hours per resident per day rather than a facility total (1 hour for a mobile resident, 2 hours for a resident with mobility needs, at least 75% of it in waking hours); California's only real number is at night, banded by census from 'a qualified person on call on the premises' under 16 residents up to one extra awake staff member per further 100; Texas splits the night rule by licence type rather than size (Type B night staff must be awake whatever the bed count, Type A only in a large facility); and Virginia, Washington and Minnesota state no number at all, requiring staffing 'sufficient' or 'adequate' against each resident's own assessment or service agreement, with a single awake or available responder as the floor. One record per distinct rule, so a facility of a given size can be looked up directly. Answers 'how many caregivers are legally required to be on duty at my parent's assisted living facility', and 'what's the difference between assisted living staffing rules and nursing home staffing rules'.",
       "records": 85,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/assisted-living-facility-staffing-ratios-by-state/",
       "data": "https://referencesource.org/assisted-living-facility-staffing-ratios-by-state/data.json"
     },
@@ -198,7 +198,7 @@
       "title": "Building permit expiry, progress and renewal rules by jurisdiction",
       "description": "How long a building permit stays valid, what keeps it alive, what it costs to renew once it has lapsed, and how the local rule differs from the model-code section it amends. One record is one rule for one jurisdiction, placed next to the adopted code section it replaces. Answers 'how long is a building permit valid before it expires', 'does an inspection reset the permit clock', 'my building permit expired what do I do', 'building permit renewal fee after expiration', and 'IRC 105.5 permit expiration'. The memorised answer is 180 days and it is wrong in the places people ask about: unincorporated San Diego County allows two years to start work, then requires a passed inspection every 180 days, with an outer life of three years and renewal at one-half of current permit fees \u2014 one-quarter if only a final inspection remains. DC's adopted code gives one year to begin, with a 180-day carve-out for residential work and no more than four extensions per permit.",
       "records": 7,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/building-permit-validity-and-renewal/",
       "data": "https://referencesource.org/building-permit-validity-and-renewal/data.json"
     },
@@ -261,7 +261,7 @@
       "title": "FMCSA commercial driver disqualification offenses and periods",
       "description": "Every offense that triggers mandatory disqualification of a commercial driver's license (CDL) holder under 49 CFR 383.51, with the disqualification period for each combination of offense, vehicle type (CMV, non-CMV, hazmat), and occurrence count (first, second, third). Covers four federal tables: major offenses (DUI, leaving scene, felony \u2014 1 year to lifetime), serious traffic violations (speeding 15+ mph, reckless driving, improper lane change \u2014 60 to 120 days), railroad-highway grade crossing violations (60 days to 1 year), and violating out-of-service orders (180 days to 5 years). Answers 'my driver got a DUI in their personal car \u2014 is their CDL at risk?' with the exact period and the regulatory citation.",
       "records": 96,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/cdl-disqualification-offenses-and-periods/",
       "data": "https://referencesource.org/cdl-disqualification-offenses-and-periods/data.json"
     },
@@ -270,7 +270,7 @@
       "title": "CDL endorsement prerequisites and testing sequence",
       "description": "Getting a CDL endorsement is a sequence, not a single application: which test type is required (knowledge-only vs. knowledge plus skills), whether the endorsement can be added at the commercial-learner's-permit (CLP) stage or only after a full CDL, and \u2014 for the hazardous materials endorsement specifically \u2014 a separate federal TSA security threat assessment that gates issuance independent of the state testing process, with its own renewal clock. Each record is one endorsement type, carrying the required test, its CLP eligibility, what the permit actually lets you drive once you have it, and any federal prerequisite beyond state testing. Being allowed an endorsement on a CLP is not the same as being allowed to do the work: a learner's permit tanker endorsement covers an empty tank only, and a permit passenger or school bus endorsement carries no passengers but examiners and trainees. Answers 'can I get my tanker endorsement on a learner's permit', 'can I haul a load on it', 'do I need a background check for a hazmat endorsement', 'how often does the TSA hazmat clearance have to be renewed'.",
       "records": 5,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/cdl-endorsement-prerequisites/",
       "data": "https://referencesource.org/cdl-endorsement-prerequisites/data.json"
     },
@@ -297,7 +297,7 @@
       "title": "Chemical resistance ratings for common elastomers",
       "description": "The compatibility rating of a chemical against thirteen common elastomer families, as published in an industry chemical resistance chart. Each record is one chemical carrying its rating for Nitrile (NBR), EPDM, Neoprene (CR), SBR, Silicone (VMQ), Butyl (IIR), Polyacrylate (ACM), Hypalon (CSM), Viton (FKM), Polyurethane (AU/EU), Fluorosilicone (FVMQ), Aflas (TFE/P), and Kalrez (FFKM). Answers 'is Viton compatible with acetone', 'which elastomer resists sulfuric acid', 'can I use EPDM with gasoline', and 'Nitrile vs EPDM for sodium hydroxide'. Ratings use a 1-4 scale: 1 = Satisfactory, 2 = Fair, 3 = Doubtful, 4 = Unsatisfactory, X = Insufficient Data.",
       "records": 2086,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/chemical-elastomer-material-compatibility/",
       "data": "https://referencesource.org/chemical-elastomer-material-compatibility/data.json"
     },
@@ -306,7 +306,7 @@
       "title": "US federal chemical regulatory reporting thresholds by program (CERCLA and EPCRA)",
       "description": "Cross-program comparison of the two federal reporting thresholds this dataset carries for hazardous chemicals: the CERCLA reportable quantity from 40 CFR 302.4, which triggers release reporting to the National Response Center, and the EPCRA Section 302 threshold planning quantity and Section 304 reportable quantity from 40 CFR 355 Appendix A, which trigger emergency planning and release notification. A chemical on both lists carries both numbers side by side \u2014 chlorine's CERCLA reportable quantity is 10 lb and its EPCRA threshold planning quantity is 100 lb \u2014 and a chemical on only one list carries only that programme's number. Answers 'what is the reportable quantity for [chemical]' and 'is [chemical] an extremely hazardous substance under EPCRA'. Two further programmes are named in the source list and are not carried here yet, so no record shows them: the Clean Air Act Section 112(r) threshold quantity (40 CFR 68.130, the risk management plan rule) and the lowered EPCRA Section 313 reporting thresholds for chemicals of special concern (40 CFR 372.28). Section 313's ordinary reporting threshold is deliberately not a field here: 40 CFR 372.25 sets it programme-wide at 25,000 lb manufactured or processed and 10,000 lb otherwise used, so it is the same number for every chemical. Only the lowered thresholds in 40 CFR 372.28 vary by chemical.",
       "records": 1340,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/chemical-regulatory-reporting-thresholds/",
       "data": "https://referencesource.org/chemical-regulatory-reporting-thresholds/data.json"
     },
@@ -324,7 +324,7 @@
       "title": "Clean Air Act \"major source\" emission thresholds by pollutant and area classification",
       "description": "Whether a stationary source (a factory, plant, or facility) needs a federal Clean Air Act permit turns on whether its potential to emit crosses a tons-per-year (tpy) threshold -- and 'major source' is not one number but several, set by different regulations that do not agree. The Title V definition at 40 CFR 70.2 alone carries three overlapping tests: the section 112 hazardous-air-pollutant test (10 tpy of a single HAP, 25 tpy of any combination), the section 302 test (100 tpy of any air pollutant subject to regulation, with greenhouse gases counting only at 100,000 tpy CO2 equivalent), and the part D title I nonattainment test, tiered by pollutant (VOC, NOx, CO, PM-10) and by how severely out of attainment the area is (ozone precursors at 100 tpy in Marginal or Moderate areas, 50 in Serious, 25 in Severe, 10 in Extreme). PSD is a separate definition in a separate part -- 40 CFR 52.21(b)(1)(i) -- and it splits again: 100 tpy for the source categories the rule lists by name, 250 tpy for everything else. That last distinction is the one most often flattened: a facility told 'the threshold is 100 tons a year' is being given the Title V number, which is the wrong answer for any source outside the listed categories. Each record is one test/pollutant/classification combination and the threshold that test sets, quoted from the regulation that sets it. Answers 'what's the major-source threshold for VOC in a Severe ozone nonattainment area', 'does 25 tpy of a HAP make me major', and 'is my PSD threshold 100 or 250 tons a year'.",
       "records": 15,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/clean-air-act-major-source-thresholds/",
       "data": "https://referencesource.org/clean-air-act-major-source-thresholds/data.json"
     },
@@ -369,7 +369,7 @@
       "title": "2026 conforming loan limits by county: one- to four-unit properties",
       "description": "The 2026 FHFA conforming loan limit AND the 2026 FHA (HUD) forward-mortgage loan limit for every US county, for properties of one to four units. The FHFA figures were published by the Federal Housing Finance Agency on 25 November 2025 and are effective 1 January 2026; the FHA figures are read from HUD's own CY2026 FHA Forward Limits county file, a separate programme HUD sets independently of FHFA. Each record is one county with its FIPS state and county codes, the state abbreviation, and up to eight limit fields \u2014 FHFA one- through four-unit, and FHA one- through four-unit \u2014 each read from its own agency's county file. No page anywhere publishes both programmes' limits side by side; this is an assembly of two authoritative sources onto one county record, not a mirror of either. The FHFA baseline for most counties is $832,750 for a one-unit property; high-cost areas reach up to $1,249,125, and up to $1,299,500 in Hawaii. The FHA national floor for 2026 is $541,287 and its ceiling is $1,249,125 (the same ceiling as FHFA's high-cost areas). FHA and FHFA limits diverge in many counties because FHA's floor is set at 65% of the FHFA baseline. Answers 'what is the 2026 conforming loan limit in [county]?', 'what is the 2026 FHA loan limit in [county]?', 'which counties exceed the baseline conforming limit?', 'what is the conforming limit for a two-unit property in [county]?', and 'is the 2026 conforming loan limit $832,750?' \u2014 the lookup shape where six of seven page-one results are mortgage lead-generation sites and the authoritative FHFA/HUD sources themselves do not rank. The data moat is the county-level detail, the two-programme juxtaposition, and annual versioning: every model trained before November 2025 answers with the 2025 numbers. VA and USDA loan limits are not in scope for this asset.",
       "records": 3235,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/conforming-loan-limits/",
       "data": "https://referencesource.org/conforming-loan-limits/data.json"
     },
@@ -378,7 +378,7 @@
       "title": "Construction prompt payment act deadlines by US state \u2014 owner-to-contractor and contractor-to-subcontractor payment windows, retention release deadlines, and late-payment interest rates",
       "description": "State-by-state comparison of the statutory deadlines that govern how quickly parties on a construction project must pay each other. Each record is one state with the owner-to-contractor payment deadline (days from invoice), contractor-to-subcontractor flow-down deadline (days from receipt of payment), retention release deadline (days from completion), late-payment interest rate (monthly or annual), whether the statute covers private projects, public projects, or both, and the statutory citation. Deadlines range from 7 days (some flow-down requirements) to 45+ days. Interest rates range from 1% to 2% per month. Answers 'how many days does an owner have to pay me in [state]', 'when must I pay my subs after I get paid', and 'what interest rate can I charge for late payment on a construction project'.",
       "records": 43,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/construction-prompt-payment-deadlines-by-state/",
       "data": "https://referencesource.org/construction-prompt-payment-deadlines-by-state/data.json"
     },
@@ -477,7 +477,7 @@
       "title": "DOT hazmat placarding requirements by hazard class (any-quantity vs. 1,001 lb threshold)",
       "description": "A shipment of hazardous material must be placarded on the transport vehicle, and which placard applies -- and whether it is required at any quantity or only once the aggregate gross weight of that class crosses 1,001 lb (454 kg) -- is fixed by two tables in one regulation, 49 CFR 172.504(e). Table 1's eight categories (explosives 1.1-1.3, poison gas, dangerous-when-wet, temperature-controlled organic peroxide, poison-inhalation-hazard, radioactive) require the named placard regardless of quantity. Table 2's fifteen require it only above 1,001 lb -- but that exception is a highway/rail exception that does not reach bulk packagings, which need a placard at any quantity, so every record carries the general rule and the exception's own scope alongside the number. Each record is one hazard-class / placard pairing. Answers 'do I need to placard this shipment', 'how much of this hazard class triggers a placard', 'which placard goes with hazard class 5.1'.",
       "records": 23,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/dot-hazmat-placarding-thresholds/",
       "data": "https://referencesource.org/dot-hazmat-placarding-thresholds/data.json"
     },
@@ -486,7 +486,7 @@
       "title": "DOT minimum random drug and alcohol testing rates by transportation mode",
       "description": "Every DOT-regulated transportation employer (aviation, transit, rail, trucking/motor carrier, pipeline) must randomly drug- and/or alcohol-test a minimum percentage of its safety-sensitive workforce each calendar year, but each modal agency sets and re-announces its own rate separately, in its own format, based on that mode's industry-wide positive test rate \u2014 and DOT's own cross-modal aggregator page (transportation.gov/odapc/random-testing-rates) is not reachable by an automated fetcher (403). No other page assembles the current year's rate across modes; an employer or safety consultant working across modes has to find each agency's own annual notice. Two things this makes visible that a single-mode page cannot: FRA sets three different rates for three employee categories (covered service, maintenance-of-way, mechanical), and FMCSA publishes no annual notice at all \u2014 its rate stands in the regulation until it changes. Each record is one mode (and, for FRA, one employee category) with its minimum random testing rate(s), the CFR basis where the source states one, and the industry positive rate that held or moved it. Answers 'what percentage of drivers/pilots/transit employees must be randomly drug tested this year', 'why did the random testing rate change', 'is our testing rate above or below the DOT minimum'.",
       "records": 7,
-      "last_verified": "2026-08-19",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/dot-random-drug-alcohol-testing-rates-by-mode/",
       "data": "https://referencesource.org/dot-random-drug-alcohol-testing-rates-by-mode/data.json"
     },
@@ -495,7 +495,7 @@
       "title": "Tap drill size and drill-size decimal equivalents",
       "description": "Two related lookups machinists and hobbyists need together: (1) which tap drill to use for a given inch or metric thread (e.g. 1/4-20 UNC needs a #7 drill for approximately 75% thread engagement), and (2) the decimal-inch size of every number, letter, fraction and metric drill, so a shop can pick the nearest drill it actually owns. Two independent vendor sources are used for each table so a disagreement between them can be flagged rather than silently trusted. Answers 'what size do I drill before tapping 1/4-20', and 'what decimal is a #7 drill' \u2014 a complete range in one place beats looking up one size at a time.",
       "records": 570,
-      "last_verified": "2026-09-08",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/drill-tap-decimal-equivalents/",
       "data": "https://referencesource.org/drill-tap-decimal-equivalents/data.json"
     },
@@ -522,7 +522,7 @@
       "title": "State drug price transparency reporting thresholds, triggers, and penalties for pharmaceutical manufacturers",
       "description": "State-by-state comparison of the dollar thresholds and percentage-increase triggers that require pharmaceutical manufacturers to report drug pricing information to state regulatory agencies. As of 2026, approximately 23 US states have enacted drug price transparency laws, each with different WAC (wholesale acquisition cost) thresholds for new drugs, different percentage-increase triggers for existing drugs, different reporting timeframes, and different penalty structures. Each record is one state with its reporting thresholds. Answers 'at what price or price increase must I report in [state]', 'what is the penalty for not reporting in [state]', and 'which states require drug price transparency reporting'.",
       "records": 10,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/drug-price-transparency-thresholds/",
       "data": "https://referencesource.org/drug-price-transparency-thresholds/data.json"
     },
@@ -531,7 +531,7 @@
       "title": "FDA drug shortage duration tracker",
       "description": "For every package FDA currently lists as in shortage: how long that shortage entry has been open (from openFDA's own `initial_posting_date` to today), what FDA says the package's supply is right now, and any recovery estimate FDA has given. What FDA itself publishes, checked directly on 2026-09-01 rather than assumed: the shortage list page (accessdata.fda.gov/scripts/drugshortages) shows which drugs are short and why and carries no date at all, while each per-drug detail page adds a single 'Date first posted' for the whole drug. Neither prints an elapsed duration, and neither gives the date per manufacturer. openFDA does \u2014 where several manufacturers report a shortage of the same drug, each carries its own posting date, and FDA's page shows only the earliest of them. Cross-checked across 30 drugs against those detail pages: 30 of 30 agreed, and in all 10 multi-manufacturer cases FDA's single date was exactly the earliest of ours. The underlying facts are FDA's own public-domain data; the duration is a computation over them that nobody publishes maintained, because it changes every day and hand-updating it was never worth the effort. A scheduled refetch of the same public API keeps it current for free. Read the duration next to `availability`, and do not read it alone: a shortage entry stays 'Current' until FDA resolves the whole shortage, so 63.8% of listed packages (746 of 1,169, measured 2026-09-01) are marked 'Available' even while their entry has been open for years \u2014 the median entry has been open 1,721 days and 1,118 of 1,169 have been open more than 1,000. Records cite a per-drug, per-manufacturer API query rather than a page offset, because openFDA's result ordering rotates daily and an offset URL stops containing its own record \u2014 see sources.txt. Source: https://api.fda.gov/drug/shortages.json (openFDA, no API key required at this volume). This is a monitored dataset, not a static page \u2014 stale_after_days is short and a build should re-run the fetch on a schedule rather than once.",
       "records": 1172,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/drug-shortage-duration-tracker/",
       "data": "https://referencesource.org/drug-shortage-duration-tracker/data.json"
     },
@@ -576,7 +576,7 @@
       "title": "Which energy code each US state enforces for new homes: the IECC edition (or state equivalent) actually in force, with effective dates and amendments, from the state rules themselves",
       "description": "Which residential energy code is actually in force in a state, taken from the state's own rule or building-code authority, with the effective date and \u2014 where the rule states them \u2014 the state's amendments to it. Coverage is 9 states so far (California, Colorado, Florida, Georgia, New Jersey, Oregon, Pennsylvania, Texas, Washington), deliberately chosen to span the situations that break a one-size-fits-all answer, not the easy ones; the remaining states are listed as work to do in the asset's source notes rather than guessed at. What the pilot found: Georgia still runs the 2015 IECC with Georgia Supplements and Amendments even though it moved its other I-codes to the 2024 editions; Texas never adopted the IECC for homes at all, enforcing Chapter 11 of the 2015 International Residential Code since Sept. 1, 2016; New Jersey moved to the 2024 IECC on August 17, 2026, so anything still showing 2021 for New Jersey is out of date; Pennsylvania adopts the 2021 IECC but amends the residential envelope requirements in its own regulation; California, Florida and Oregon run state-written codes rather than adopting the IECC by name; and Colorado has no single statewide code, requiring local jurisdictions to adopt the state Model Low Energy and Carbon Code when they update any other building code. Answers 'which IECC edition does my state enforce?', 'what energy code applies to new residential construction in my state?', 'does my state amend the IECC or adopt it as written?', 'which states are still on the 2015 IECC?'",
       "records": 9,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-08-18",
       "url": "https://referencesource.org/energy-code-adoption-by-state/",
       "data": "https://referencesource.org/energy-code-adoption-by-state/data.json"
     },
@@ -594,7 +594,7 @@
       "title": "EPA national recommended water quality criteria for human health: pollutant concentration thresholds",
       "description": "EPA Section 304(a) recommended human health ambient water quality criteria for ~120 pollutants. For each pollutant: the CAS number, the 'water + organism' threshold in \u00b5g/L (for waters that are both a drinking-water source and support aquatic life), and the 'organism only' threshold (for waters not used as drinking-water sources). These are recommendations for states adopting water quality standards, NOT enforceable MCLs (which are in drinking-water-contaminant-limits). Used by environmental consultants writing NPDES permits, state agencies setting water quality standards, and industrial dischargers determining compliance. Note: this is a mirror of one EPA table. The stronger juxtaposition version comparing EPA recommended values with state-adopted criteria would not be a mirror, because states adopt different numbers for the same pollutant.",
       "records": 127,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/epa-water-quality-criteria-human-health/",
       "data": "https://referencesource.org/epa-water-quality-criteria-human-health/data.json"
     },
@@ -603,7 +603,7 @@
       "title": "EPCRA Tier II hazardous chemical inventory reporting thresholds by state",
       "description": "The quantity threshold at which a facility must file an annual Tier II hazardous chemical inventory report in each US state, compared to the federal EPCRA Section 312 baseline. Federal thresholds: \u226510,000 lbs for hazardous chemicals, \u2265500 lbs or the threshold planning quantity (whichever is lower) for extremely hazardous substances (40 CFR Part 370). EPA authorizes states to set lower thresholds and add chemicals, and at least 9 states have done so: California (55 gal/500 lbs), Louisiana (500 lbs), Vermont (100 lbs \u2014 among the strictest), Delaware (55 gal/500 lbs), Oregon (dual-level system), Nevada (IFC-based, some categories at 0 lbs), Alaska (any quantity for certain hazard classes), New Jersey (own EHS list), and New York City (own EHS list with very low thresholds). Answers 'does my California facility need to file Tier II for 600 pounds of a hazardous chemical' (yes \u2014 California threshold is 500 lbs, below the federal 10,000), 'what is Nevada's reporting threshold for flammable materials', and 'which states have lower Tier II thresholds than federal'.",
       "records": 19,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/epcra-tier-ii-state-reporting-thresholds/",
       "data": "https://referencesource.org/epcra-tier-ii-state-reporting-thresholds/data.json"
     },
@@ -648,7 +648,7 @@
       "title": "FAA drone weight thresholds that trigger a different rule set",
       "description": "A drone's takeoff weight alone decides which federal rules apply to it, and the thresholds are scattered across three parts of 14 CFR plus the recreational-flying statute, with no single page stating all of them together. Two independent rules exempt anything weighing 0.55 pounds or less: a drone flown under the recreational exception in 49 U.S.C. 44809 does not have to be registered (14 CFR 48.15(b)), and the remote identification design and production requirements do not apply to it (14 CFR 89.501(c)(3)) -- separate exemptions that happen to share the same figure. The same 0.55 pounds is also the ceiling for flying over people as a Category 1 operation (14 CFR 107.110(a)(1)). At the other end, 'small unmanned aircraft' -- the category Part 107 governs at all -- is defined as weighing less than 55 pounds on takeoff (14 CFR 107.3), and a recreational flyer may fly something 55 pounds or heavier only under community-based-organization standards at an approved fixed site (49 U.S.C. 44809(c)(3)). Each record is one threshold: the weight figure verbatim, what crossing it means, and the section that states it, quoted in full. Answers 'do I need to register my drone', 'does my drone need remote ID', 'how heavy can a drone be under Part 107', 'can I fly my drone over people'.",
       "records": 5,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/faa-drone-weight-thresholds/",
       "data": "https://referencesource.org/faa-drone-weight-thresholds/data.json"
     },
@@ -674,8 +674,8 @@
       "slug": "fda-import-alert-red-list",
       "title": "FDA import alert red lists: firms subject to detention without physical examination",
       "description": "Which foreign manufacturers, shippers and growers are on an FDA import alert red list, meaning every shipment from them is detained without physical examination (DWPE) at the US border. Each record is one firm on one import alert, with the firm name and address as FDA prints it, the country, the date FDA published the listing, and the product codes and product descriptions it covers. Answers 'is my supplier on an FDA import alert', 'is [firm] on the red list for import alert 66-41', 'why was my shipment detained without examination', 'which firms are on the FDA red list for undeclared pharmaceutical ingredients in supplements', and 'how do I check a Chinese manufacturer before ordering'. FDA publishes 153 separate import alerts as individual current-state pages with no cross-alert firm index, so answering 'is this firm flagged anywhere' means opening 153 pages; and firms are removed from red lists on petition with no record of the removal published at all, so an assistant answering from memory names firms that were delisted years ago.",
-      "records": 1309,
-      "last_verified": "2026-09-07",
+      "records": 1308,
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/fda-import-alert-red-list/",
       "data": "https://referencesource.org/fda-import-alert-red-list/data.json"
     },
@@ -684,7 +684,7 @@
       "title": "FDA nutrient content claim qualification criteria",
       "description": "Numeric thresholds that qualify a food product for each FDA-regulated nutrient content claim ('free', 'low', 'reduced', 'good source of', 'high', 'light'), broken out by nutrient (calories, fat, saturated fat, cholesterol, sodium, sugar, fiber) and food format (individual food, meal, main dish, dietary supplement, small-RACC food). Each record is one claim-term \u00d7 nutrient \u00d7 food-format combination with the exact threshold and the CFR section that defines it. Answers 'what qualifies as low sodium?' with the full matrix, not just the headline number.",
       "records": 90,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/fda-nutrient-content-claim-criteria/",
       "data": "https://referencesource.org/fda-nutrient-content-claim-criteria/data.json"
     },
@@ -693,7 +693,7 @@
       "title": "Federal Hazardous Occupations Orders for Minors (29 CFR Part 570)",
       "description": "Federal child labor law bans workers under 18 from 17 numbered 'Hazardous Occupations Orders' (29 CFR 570.51-570.68) -- driving, roofing, mining, explosives, power-driven meat slicers, forklifts and other high-lift trucks, circular saws and more -- and separately restricts 14- and 15-year-olds to a closed, positively-defined list of permitted work (29 CFR 570.34), everything outside that list being prohibited (29 CFR 570.33). Limited apprentice and student-learner exemptions apply to some of the orders under 29 CFR 570.50. A state law stricter than federal law controls: North Carolina's own labor department bans nine further 'detrimental' occupations -- welding, work with a risk of falling 10 feet or more, electrician's-helper work, confined spaces, respirator use -- that federal law permits at 16. Each record carries the section it comes from and a verbatim quote of the regulation, so a parent or small-business owner asking 'can I let my 16-year-old operate a forklift' can check the answer against the rule itself. DOL's own summary at webapps.dol.gov/elaws lists the 17 orders one line each with none of the substantive detail; the state layer here is North Carolina only so far. North Carolina's Youth Employment Rules page states separately that 'Employment in hazardous or detrimental occupations are not permitted for youths under the age of 18', but the page listing the nine occupations does not repeat the age, so these records do not claim one.",
       "records": 67,
-      "last_verified": "2026-09-08",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/federal-child-labor-hazardous-occupations/",
       "data": "https://referencesource.org/federal-child-labor-hazardous-occupations/data.json"
     },
@@ -702,7 +702,7 @@
       "title": "Federal civil penalty maximums \u2014 current inflation-adjusted amounts across agencies",
       "description": "The current maximum (and where stated, minimum) civil monetary penalty for each violation type, across federal agencies, as each agency's own inflation-adjustment regulation states it: OSHA (29 CFR 1903.15), EPA (40 CFR 19.4), HHS including HIPAA and Medicare (45 CFR 102.3), DOJ including the False Claims Act (28 CFR 85.5), Coast Guard (33 CFR 27.3), NHTSA (49 CFR 578.6). Each agency publishes its own table in its own CFR part and no cross-agency assembled version exists \u2014 searched 2026-08-10, found only per-agency pages and one-off law-firm articles. The 2026 hook: OMB cancelled the 2026 inflation adjustment (the appropriations lapse meant BLS never produced October 2025 CPI-U data), so every agency's amounts are frozen at 2025 levels \u2014 a recent, counter-intuitive fact ('penalties are adjusted annually' is what the training data says) that makes unaided answers stale in a specific, checkable way. Answers 'what is the maximum OSHA penalty for a willful violation', 'what is the HIPAA tier-4 annual cap', 'what is the FCA per-claim maximum', and 'did penalties go up for 2026' (no \u2014 and the page can say why).",
       "records": 574,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/federal-civil-penalty-maximums/",
       "data": "https://referencesource.org/federal-civil-penalty-maximums/data.json"
     },
@@ -711,7 +711,7 @@
       "title": "Federal hours-of-service exemptions by commercial driver operation type",
       "description": "Commercial motor vehicle drivers are subject to federal hours-of-service limits (49 CFR 395.3: an 11-hour driving cap inside a 14-hour window, a 30-minute break after 8 hours of driving, and a 60-hour/7-day or 70-hour/8-day on-duty cap), but 49 CFR 395.1 says the rules apply to every carrier and driver 'except as provided in paragraphs (b) through (x) of this section' -- a list of operation-specific carve-outs covering short-haul driving, agriculture and livestock, oilfield and well-drilling work, utility service, ready-mixed concrete, motion-picture production, railroad signal work, beekeeping, hi-rail and pipeline welding trucks, and more. Each carve-out removes a different requirement and carries its own radius, time window or condition, and they are scattered through one long section. Each record here is one exemption: who qualifies, the bright-line condition, and exactly which requirement it removes, quoted verbatim from the regulation. Answers 'do hours-of-service rules apply to my delivery route', 'is there an hours-of-service exemption for farm work', 'what counts as short-haul under the FMCSA rules'.",
       "records": 31,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/federal-hours-of-service-exemptions-by-operation-type/",
       "data": "https://referencesource.org/federal-hours-of-service-exemptions-by-operation-type/data.json"
     },
@@ -720,7 +720,7 @@
       "title": "Federal rules taking effect: every US final rule in the Federal Register, by effective date",
       "description": "338 US final rules already published in the Federal Register, listed by the date each one takes effect: 287 in 2026, 44 in 2027 and 7 in 2028 or later, from 54 agencies, running to March 2033. Every record carries the agency, the CFR parts it amends, the effective date as the rule prints it, and the rule's verbatim DATES paragraph. Answers 'which federal regulations take effect on January 1, 2027', 'what rules affecting 47 CFR part 10 are already published but not yet in force', 'what is the compliance date for the DOJ web accessibility rule', and 'what changes are coming for my industry that are already law'. The hard part is that a rule published in 2023 can carry a 2026 or 2033 effective date: the obligation is already binding law, it is nowhere near the front page, and the only way to find it is to know it exists. This is the enumeration keyed on effective date, not a list of things that have not happened yet: a rule stays listed after its date passes until the next re-harvest moves the window, so 56 of the 338 had already taken effect when this was counted on 2026-09-01.",
       "records": 376,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/federal-rules-taking-effect/",
       "data": "https://referencesource.org/federal-rules-taking-effect/data.json"
     },
@@ -729,7 +729,7 @@
       "title": "File format magic numbers",
       "description": "The leading bytes (magic number / file signature) that identify a file format, with its usual extension. Answers 'what actually is this file' when the extension is wrong or missing.",
       "records": 229,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/file-format-signatures/",
       "data": "https://referencesource.org/file-format-signatures/data.json"
     },
@@ -738,7 +738,7 @@
       "title": "GIS vector format capabilities and limitations in GDAL",
       "description": "Key capabilities, version requirements and format limitations for GIS vector drivers in GDAL, the authoritative open-source geospatial library. The question an assistant gets wrong is what is lost when converting between formats \u2014 field name truncation, unsupported types, file size ceilings, geometry constraints.",
       "records": 3,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/file-format-software-version-compatibility/",
       "data": "https://referencesource.org/file-format-software-version-compatibility/data.json"
     },
@@ -801,7 +801,7 @@
       "title": "FLSA overtime exemption duties tests by category (29 CFR Part 541)",
       "description": "Whether a salaried employee is exempt from federal overtime pay turns on two independent tests under 29 CFR Part 541 \u2014 a salary-level test and a duties test \u2014 and the duties test is a different, itemized checklist for each exemption category. Compliance blogs widely publish the salary number ($684/week, $107,432/year HCE) but not the itemized duties criteria for each category quoted directly from the regulation in one place. Each record is one exemption category \u2014 executive, administrative, learned professional, creative professional, teaching professional, practice of law or medicine, computer employee, outside sales, highly compensated employee \u2014 carrying its own general-rule duties test quoted from its section of 29 CFR 541, plus the salary or compensation basis that applies to it (including the lower territorial rates, the computer-employee hourly alternative, and the three categories that have no salary test at all). Answers 'does a salaried manager automatically qualify for the executive exemption', 'what is the duties test for the administrative exemption', 'can a computer employee be paid hourly and still be exempt', 'does a teacher or a doctor have to meet the salary threshold', 'what salary level applies in Puerto Rico or American Samoa'.",
       "records": 9,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/flsa-overtime-exemption-duties-tests/",
       "data": "https://referencesource.org/flsa-overtime-exemption-duties-tests/data.json"
     },
@@ -909,7 +909,7 @@
       "title": "US graduated driver licensing requirements by state",
       "description": "Graduated driver licensing (GDL) requirements for each US state: minimum ages, mandatory hold periods, supervised driving hours, nighttime restrictions, passenger restrictions, the conditions to lift each restriction, and the full footnote text that qualifies each number. One row per state. Answers 'how long do I have to hold my permit in [state]?' and 'what are the restrictions on a provisional license in [state]?' \u2014 questions where assistants flatten the footnotes into wrong answers. Note: IIHS prints calendar-month approximations of statutes written in days (verified: IN 180 days \u2260 '6 months'; MD 151 days \u2260 '5 months').",
       "records": 51,
-      "last_verified": "2026-09-08",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/graduated-driver-licensing/",
       "data": "https://referencesource.org/graduated-driver-licensing/data.json"
     },
@@ -1332,7 +1332,7 @@
       "title": "NFA firearm category definitions and current transfer/making tax",
       "description": "The National Firearms Act regulates six firearm categories -- short-barreled rifle, short-barreled shotgun, any other weapon (AOW), machine gun, silencer, destructive device -- each defined by its own measurement threshold in ATF's regulations at 27 CFR 478.11 and 479.11. Separately, and recently changed: the federal transfer tax and making tax on those items dropped from $200 per item to $0 for every category except machine guns and destructive devices, under section 70436 of the One Big Beautiful Bill Act (Pub. L. 119-21, signed 2025-07-04), which amended 26 U.S.C. 5811(a) and 5821(a). ATF states the change took effect on January 1, 2026, and issued a final rule on 2026-05-08 (ATF No. 2025R-45F, 91 FR 25112) conforming 27 CFR 479.61, 479.62, 479.81, 479.82 and 479.84 to the new rates. Each record is one NFA category, giving its defining measurement threshold and its current and prior transfer/making tax, each quoted verbatim from the regulation or from ATF's own rulemaking. Two things vendor pages routinely get wrong: the paperwork did not change (Form 1/Form 4, fingerprints and the background check are all unchanged), and the AOW transfer tax went from $5 -- not $200 -- to $0. One nuance not carried per-record: the short-barreled rifle and shotgun definitions here are 27 CFR 478.11's, which are the ones that name those terms; the NFA's own list at 27 CFR 479.11(b) and (d) states the 'weapon made from a rifle/shotgun' prong slightly more broadly, as an overall length under 26 inches OR a barrel under 16 (rifle) / 18 (shotgun) inches. Answers 'what barrel length makes a rifle an SBR', 'how much is an ATF tax stamp in 2026', 'is the NFA tax still $200'.",
       "records": 6,
-      "last_verified": "2026-09-08",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/nfa-firearm-category-definitions-and-transfer-tax/",
       "data": "https://referencesource.org/nfa-firearm-category-definitions-and-transfer-tax/data.json"
     },
@@ -1447,9 +1447,9 @@
     {
       "slug": "oem-vehicle-maintenance-schedule-by-model",
       "title": "OEM maintenance schedule by vehicle model and year, sourced from the manufacturer's own document",
-      "description": "What the manufacturer's own maintenance guide says to do at each mileage/time interval, one record per make, model, model year, interval and service item, each quoted from the manufacturer's own PDF. Toyota publishes a Warranty & Maintenance Guide per model and model year at assets.sia.toyota.com, and those documents are behind every record here \u2014 one make so far. Published today: the 2026 Sequoia Hybrid and the 2024 Camry, including the Special Operating Conditions schedule and the condition each of those items applies under. Ten further Toyota guides are listed in sources.txt, fetched and checked, waiting on the one-line parser fix that file describes.",
-      "records": 1044,
-      "last_verified": "2026-08-31",
+      "description": "What the manufacturer's own maintenance guide says to do at each mileage/time interval, one record per make, model, model year, interval and service item, each quoted from the manufacturer's own PDF. Toyota publishes a Warranty & Maintenance Guide per model and model year at assets.sia.toyota.com, and those documents are behind every record here \u2014 one make so far. Published today: the 2024 Camry, the 2026 Camry, the 2025 Corolla, RAV4, Tacoma, Tundra, Highlander, 4Runner and Sienna, and the 2026 Sequoia Hybrid, including the Special Operating Conditions schedule and the condition each of those items applies under. The 2025 Camry and 2025 Prius guides are listed in sources.txt, fetched and checked, and deliberately not harvested yet \u2014 see the note in that file.",
+      "records": 6111,
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/oem-vehicle-maintenance-schedule-by-model/",
       "data": "https://referencesource.org/oem-vehicle-maintenance-schedule-by-model/data.json"
     },
@@ -1467,7 +1467,7 @@
       "title": "OSHA medical surveillance trigger thresholds by substance",
       "description": "The airborne exposure level that triggers mandatory medical surveillance under each OSHA substance-specific standard (29 CFR 1910 Subpart Z), compared across all regulated substances. Each record is one substance, carrying its action level, PEL, the exposure duration that triggers surveillance, the medical exam scope and frequency, biological monitoring requirements if any, and the record retention period. Answers 'what is the action level for lead', 'at what exposure must I provide medical exams for benzene workers', 'how often does cadmium biological monitoring need to happen', and 'which OSHA substances require 40-year record retention'. The action level is typically half the PEL but not always, and the surveillance trigger conditions vary wildly: lead uses blood lead levels, cadmium uses urine cadmium, and most others use airborne concentration plus days-per-year thresholds.",
       "records": 23,
-      "last_verified": "2026-09-08",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/osha-medical-surveillance-triggers/",
       "data": "https://referencesource.org/osha-medical-surveillance-triggers/data.json"
     },
@@ -1917,7 +1917,7 @@
       "title": "Certificate of need programs by US state",
       "description": "Which US states operate a certificate-of-need (CON) program for healthcare facilities, and what each program regulates. Each record is one state or DC: whether a CON program exists, which facility types and services are subject to review, whether any moratorium applies, and the statute citation. Answers 'does [state] require a certificate of need at all' and 'is [hospital beds / imaging equipment / an ambulatory surgery centre] reviewable in [state]'. Where NCSL's overview states a dollar trigger it is recorded here too, but it does so for only about half the CON states \u2014 for dollar thresholds read from each state's own statute, see con-capital-expenditure-thresholds-by-state.",
       "records": 51,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/state-certificate-of-need-programs/",
       "data": "https://referencesource.org/state-certificate-of-need-programs/data.json"
     },
@@ -1944,7 +1944,7 @@
       "title": "State construction defect statute of limitations and statute of repose periods",
       "description": "Can I still sue for this construction defect? Every US state sets two independent clocks: the statute of limitations (SOL \u2014 typically 2-6 years from discovery of the defect) and the statute of repose (SOR \u2014 typically 6-15 years from substantial completion, regardless of discovery). Both must be alive to file a claim. California gives 4 years SOL latent / 10 years SOR. Colorado gives 2 years SOL / 6 years SOR. New York has NO statute of repose for buildings. Getting this wrong means losing the right to file entirely. One record per state, sourced from the state's own statute. Answers 'construction defect statute of limitations by state', 'statute of repose for construction in Texas', 'how long can I sue for a building defect'. Adjacent to mechanics-lien-deadlines and construction-retainage-limits.",
       "records": 20,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/state-construction-defect-limitations-periods/",
       "data": "https://referencesource.org/state-construction-defect-limitations-periods/data.json"
     },
@@ -1998,7 +1998,7 @@
       "title": "State employment law headcount triggers that deviate from federal thresholds",
       "description": "Employee-count thresholds at which state-specific employment laws kick in, focusing on where states deviate from the federal floor. Each record is one state and one law category (mini-COBRA, mini-WARN, state anti-discrimination, state family leave, workers compensation), giving the state's threshold, the federal threshold for comparison, how they differ, and the statute citation. Answers 'at how many employees does [state law] start applying in [state]' and 'does [state] have a mini-COBRA / mini-WARN / state family leave law'. Companion to the existing regulatory-threshold-triggers asset which covers federal thresholds only.",
       "records": 66,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/state-employment-law-headcount-triggers/",
       "data": "https://referencesource.org/state-employment-law-headcount-triggers/data.json"
     },
@@ -2007,7 +2007,7 @@
       "title": "State insurance mandates for fertility treatment and IVF coverage",
       "description": "Which US states require private health insurers to cover fertility diagnosis, treatment, or preservation, and the specific terms of each mandate. Each record is one state, stating the mandate type (treatment, preservation only, or offer/cover distinction), which treatments are covered (IVF, GIFT, ZIFT, fertility preservation), cycle or dollar limits, age restrictions, employer-size thresholds, self-insured plan exemption status, religious employer exemption, effective date, and the statute citation. As of 2026, 25 states plus DC require some form of fertility coverage, but the variation is enormous: California (SB 729, effective January 2026) mandates IVF in large group plans with no cycle limit; Arkansas caps lifetime coverage at $15,000 and requires trying cheaper treatments first; Delaware covers six egg retrievals but only for iatrogenic infertility; several states mandate only fertility preservation for cancer patients. Self-insured employer plans (covering ~65% of workers with job-based insurance) are exempt from all state mandates under federal ERISA. Answers 'does my state require insurance to cover IVF', 'how many IVF cycles does my state mandate', 'does the fertility mandate apply to my employer', and 'what are the age limits for mandated fertility coverage in [state]'.",
       "records": 26,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/state-fertility-insurance-mandates/",
       "data": "https://referencesource.org/state-fertility-insurance-mandates/data.json"
     },
@@ -2043,7 +2043,7 @@
       "title": "State Insurance Department Complaint Index by Company",
       "description": "Every state insurance department publishes, for each licensed insurer and line of business, how many complaints consumers filed against that company and how much premium the company wrote in that state, together with its own summary figure comparing the two. Nobody publishes it across states. Each regulator uses its own file format, its own line-of-business names, its own schedule \u2014 and, the part that catches people out, its own arithmetic. Indiana's \"Complaint Index\" is the company's share of all complaints divided by its share of all premium written in Indiana, so 1.00 is the state average. Michigan's \"Complaint Ratio\" is complaints per $1 million of written premium, which is a different quantity on a different scale with no meaning at 1.00. Putting those two in one column without saying so would get the asset's whole point wrong. So every record here carries the complaint count and the premium alongside the state's published figure, and quotes the state's own heading for that figure. The raw counts compare across states; the summary figures do not.",
       "records": 622,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/state-insurance-complaint-index-by-company/",
       "data": "https://referencesource.org/state-insurance-complaint-index-by-company/data.json"
     },
@@ -2052,7 +2052,7 @@
       "title": "State insurer-of-last-resort programs \u2014 FAIR Plan / Citizens eligibility and coverage limits",
       "description": "When private insurers won't write a property in a wildfire or hurricane state, the state's residual-market insurer (a FAIR Plan or a corporation like Florida's Citizens) is the fallback \u2014 but the dollar limits and the rule that determines who is even eligible differ by state and are stated only in that state's own statute or program announcement. Each record is one state's program, carrying its coverage-category limit and, where the source states one, the rule that makes a property ineligible. Answers 'what's the maximum FAIR Plan payout in California', 'why would Florida Citizens turn down my house', 'which states cap eligibility by a dollar replacement-cost figure vs. a pricing-comparison rule'.",
       "records": 32,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/state-insurer-of-last-resort-coverage-limits/",
       "data": "https://referencesource.org/state-insurer-of-last-resort-coverage-limits/data.json"
     },
@@ -2097,7 +2097,7 @@
       "title": "State Opioid Initial Prescribing Limits",
       "description": "Maximum days' supply for a first opioid prescription for acute pain, by state, with the statutory or regulatory citation. Over half the states cap initial prescriptions at 3 to 14 days; some also cap daily dosage in morphine milligram equivalents (MME).",
       "records": 11,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/state-opioid-prescribing-limits/",
       "data": "https://referencesource.org/state-opioid-prescribing-limits/data.json"
     },
@@ -2115,7 +2115,7 @@
       "title": "State paid family and medical leave program contribution rates, benefits, and eligibility",
       "description": "The mandatory paid family and medical leave programs that US states operate, with each state's current contribution rate, employer/employee split, maximum weekly benefit, wage replacement formula, leave duration, covered reasons, employer-size threshold, and program launch date. As of mid-2026, 14 states plus DC operate programs: California, Colorado, Connecticut, Delaware, DC, Maine, Massachusetts, Minnesota, New Jersey, New York, Oregon, Rhode Island, and Washington. Maryland and Virginia have enacted programs launching in 2028. Contribution rates change annually (Washington rose to 1.13% for 2026; Massachusetts remains at 0.88%). Wage replacement ranges from a flat 67% (New York) to sliding scales giving 90-100% to low-wage workers (Washington, Oregon, Colorado, Minnesota). Duration ranges from 6 weeks (California family-only) to 26 weeks (Massachusetts military family). This is a production-edge asset: maintaining current rates across 15+ annually-changing programs was prohibitive for one person and is now economic. Answers 'what is the paid family leave contribution rate in [state]', 'how much paid leave do employees get in [state]', 'does my state have paid family leave', and 'what is the maximum paid leave benefit in [state]'.",
       "records": 15,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/state-paid-family-leave-programs/",
       "data": "https://referencesource.org/state-paid-family-leave-programs/data.json"
     },
@@ -2160,7 +2160,7 @@
       "title": "State public works payment and performance bond thresholds (Little Miller Acts)",
       "description": "Do I need a surety bond on this public works project in my state, and how much? Every US state has a 'Little Miller Act' requiring performance and/or payment bonds on public construction contracts, but the dollar thresholds, bond percentages, notice requirements, and claim deadlines differ in every state. California requires bonds on all public works contracts (no minimum) with payment bonds over $25,000. Texas requires bonds over $100,000 for state entities, $25,000 for payment bonds. Washington allows retainage in lieu of bond under $150,000. One record per state, sourced from the state's own statute. Answers 'Little Miller Act thresholds by state', 'do I need a bond on a $75,000 public project in Virginia', 'state payment bond requirements for construction'. Adjacent to mechanics-lien-deadlines, construction-retainage-limits, and construction-prompt-payment-deadlines.",
       "records": 53,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/state-public-works-bond-thresholds/",
       "data": "https://referencesource.org/state-public-works-bond-thresholds/data.json"
     },
@@ -2169,7 +2169,7 @@
       "title": "State Residential Radon Disclosure, Testing, and Certification Requirements",
       "description": "State laws governing radon in residential real estate transactions vary dramatically. Some states require sellers to disclose known radon test results (Florida, Illinois, New Jersey). Others fold radon into broader environmental hazard disclosure forms (California, Colorado). Some mandate that radon measurement professionals be certified or licensed; others have no licensing requirement. EPA recommends 4 pCi/L as the action level but this is not a legal standard \u2014 state action levels may differ. This table gives the disclosure requirement, testing mandate, professional certification requirement, action level, and statute citation for each state.",
       "records": 41,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/state-radon-disclosure-requirements/",
       "data": "https://referencesource.org/state-radon-disclosure-requirements/data.json"
     },
@@ -2187,7 +2187,7 @@
       "title": "State Right-to-Repair Laws: Coverage, Requirements, and Effective Dates",
       "description": "Which US states have enacted right-to-repair laws, what products each law covers (electronics, agricultural equipment, powered wheelchairs, automobiles), the price threshold above which parts and documentation must be provided, whether parts-pairing is prohibited, the enforcement mechanism (state AG only vs. private right of action), penalty amounts, and the effective date. As of August 2026, at least 8 states have enacted laws and 28+ have pending legislation.",
       "records": 6,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/state-right-to-repair-laws/",
       "data": "https://referencesource.org/state-right-to-repair-laws/data.json"
     },
@@ -2196,7 +2196,7 @@
       "title": "State conformity to federal Section 179 and bonus depreciation rules",
       "description": "Whether each US state conforms to the federal Section 179 expensing limit and the 100% bonus depreciation deduction, and what state-specific caps or add-back rules apply when it does not. Each record is one state, stating its conformity status for both Section 179 and bonus depreciation, the state's own Section 179 dollar cap if different from federal, whether the state requires a bonus depreciation add-back, the depreciation method the state uses instead, and a statute or administrative citation. The federal Section 179 limit for 2026 is $2,560,000 with a $4,090,000 phase-out; 100% bonus depreciation was made permanent by the One Big Beautiful Bill Act (January 2025). At least a dozen states decouple from bonus depreciation (California, New York, New Jersey, Pennsylvania, Massachusetts, DC, Connecticut, Maryland, Tennessee, North Carolina, Indiana, Wisconsin among others), and several cap Section 179 far below the federal limit (California: $25,000; New Jersey: $25,000; Pennsylvania: not allowed for corporate income tax). A $480,000 equipment purchase in California produces roughly $51,000 in extra state tax in year one. Answers 'does my state allow bonus depreciation', 'what is the Section 179 limit in [state]', 'do I have to add back bonus depreciation on my state return', and 'which states decouple from federal depreciation rules'.",
       "records": 51,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/state-section-179-bonus-depreciation-conformity/",
       "data": "https://referencesource.org/state-section-179-bonus-depreciation-conformity/data.json"
     },
@@ -2214,7 +2214,7 @@
       "title": "State unemployment insurance taxable wage bases and new employer tax rates by US state",
       "description": "For each US state and DC, the taxable wage base (the per-employee annual earnings cap on which unemployment insurance tax is owed) and the tax rate assigned to new employers \u2014 sourced from each state's labor department or employment security agency. Answers 'what is the unemployment tax wage base in [state]', 'what UI rate do new employers pay in [state]', 'SUTA wage base by state 2026', and 'state unemployment insurance taxable wage base comparison'. The federal FUTA wage base is $7,000 and has not changed since 1983, but states range from $7,000 (California, several others) to over $78,000 (Washington), a 10\u00d7 difference in the tax base for the same employee. New employer rates also vary widely. Changes take effect annually and states announce at different times (some January 1, some July 1, some fiscal year). No existing source cross-references all 50 states with per-state citations to the actual .gov announcement.",
       "records": 14,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/state-ui-taxable-wage-bases/",
       "data": "https://referencesource.org/state-ui-taxable-wage-bases/data.json"
     },
@@ -2258,7 +2258,7 @@
       "slug": "stihl-chainsaw-chain-and-bar-specs",
       "title": "Stihl chainsaw chain and bar specifications by model",
       "description": "Chain pitch, gauge, drive link count, bar length and OEM chain part number for each Stihl chainsaw model and bar combination \u2014 including the MSE electric saws and HT pole pruner models the dealer charts list alongside the petrol saws. One row per model per bar length. Answers 'what chain does my Stihl MS261 take', 'Stihl MS440 20 inch bar drive links' and 'Stihl chain part number for [model]' \u2014 the multi-variable lookup assistants get wrong by guessing a plausible pitch/gauge combination.",
-      "records": 869,
+      "records": 857,
       "last_verified": "2026-09-07",
       "url": "https://referencesource.org/stihl-chainsaw-chain-and-bar-specs/",
       "data": "https://referencesource.org/stihl-chainsaw-chain-and-bar-specs/data.json"
@@ -2340,7 +2340,7 @@
       "title": "Toll transponder interoperability: which pass works in which states",
       "description": "For each US toll transponder programme (E-ZPass, SunPass and SunPass PRO, TxTag and the Central US partners, and the rest as their pages prove reachable): the states and networks where that transponder is accepted, from the operating agency's own interoperability page with a verbatim quote. No authority maintains the national matrix \u2014 the E-ZPass Group's member list sits behind an agency login, and the only assembled versions are toll-calculator vendors' blog posts. The answers cross-cut: SunPass PRO works on E-ZPass roads in 19 states but the plain SunPass Mini works in only six; a TxTag works in Kansas and Oklahoma but not on E-ZPass roads; Florida's Turnpike accepts E-ZPass but only via specific transponder models. Answers 'will my E-ZPass work in Florida', 'which toll pass should I get for a Texas-to-Chicago drive', and 'does SunPass work in Georgia'. One record per transponder-programme statement of acceptance, quoting the agency page.",
       "records": 16,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/toll-transponder-interoperability/",
       "data": "https://referencesource.org/toll-transponder-interoperability/data.json"
     },
@@ -2349,7 +2349,7 @@
       "title": "Maximum legal vehicle size and weight limits by US state",
       "description": "For each US state, the maximum legal dimensions and gross weight a vehicle plus load may have on state highways before an oversize/overweight permit is required, from the state's own vehicle code or DOT/DMV page: width, height, semitrailer length, combination length, and gross weight. Height genuinely fragments \u2014 13 feet 6 inches in most eastern states (Florida, Ohio), 14 feet in western states (Washington) \u2014 so a load legal in one state needs a permit in the next. Answers 'how tall can a truck be in [state]', 'what is the maximum legal trailer length in [state]', and 'at what point do I need an oversize permit in [state]'. Values verbatim from statute or the agency page; the many exceptions (auto transporters, safety devices, RVs) stay in the source quote, not in extra fields.",
       "records": 5,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/truck-size-weight-limits-by-state/",
       "data": "https://referencesource.org/truck-size-weight-limits-by-state/data.json"
     },
@@ -2358,7 +2358,7 @@
       "title": "EPA TSCA Section 6 chemical risk management status: prohibitions, effective dates, and exemptions",
       "description": "Status of EPA risk management rules for chemicals found to present unreasonable risk under TSCA Section 6. Each record is one chemical with its current rule status (proposed/final/effective), effective dates for prohibitions, specific uses prohibited, and any exemptions or compliance date extensions. Currently covers ~11 chemicals under Section 6(a) active risk management plus 5 PBT chemicals under Section 6(h). The pipeline has 20+ more chemicals in risk evaluation. Answers 'is [chemical] being regulated under TSCA?', 'when does the prohibition on methylene chloride take effect?', 'which uses of TCE are exempt?', and 'what is the current rule status for 1-bromopropane?'",
       "records": 16,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/tsca-section-6-chemical-risk-management-status/",
       "data": "https://referencesource.org/tsca-section-6-chemical-risk-management-status/data.json"
     },
@@ -2367,7 +2367,7 @@
       "title": "Unemployment insurance: maximum weekly benefit and weeks of duration by US state",
       "description": "For each US state: the maximum (and minimum, where stated) weekly unemployment benefit amount, the maximum number of payable weeks, and \u2014 where the state uses one \u2014 the sliding-scale rule that ties duration to the state unemployment rate. Answers 'how much is unemployment in [state]', 'how many weeks of unemployment can I get in [state]', and 'what is the maximum unemployment benefit in [state]'. The claimant-side counterpart to the employer-side wage-base asset proposed 2026-08-17. The confident-wrong conditions are strong: Texas's cap moved from $591 to $605 in October 2025 (indexed annually, so any trained-in figure decays every October); several states no longer offer the 'standard' 26 weeks (NC and FL are at 12, tied to the unemployment rate by formula), and page one is entirely content mills (savingtoinvest, layoffcalc, remotelaws) \u2014 the DOL comparison of state UI laws is an annual PDF, not an agent-reachable page. One authority per record: the state workforce agency's own page or the state statute. Record the duration formula verbatim where one exists \u2014 the formula is the fact that generic answers flatten.",
       "records": 6,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/ui-weekly-benefit-and-duration-by-state/",
       "data": "https://referencesource.org/ui-weekly-benefit-and-duration-by-state/data.json"
     },
@@ -2484,7 +2484,7 @@
       "title": "VOC content limits for architectural coatings by jurisdiction",
       "description": "Maximum volatile organic compound (VOC) content limits for architectural coatings (paint, primer, stain, sealant, varnish) by regulatory jurisdiction. Each record is one coating category under one jurisdiction, stating the VOC limit in grams per liter and the effective date. Covers US federal (40 CFR 59 Subpart D), SCAQMD Rule 1113, California CARB SCM, OTC Model Rule (NY, NJ and others), LADCO (MI, OH, IL, IN), Massachusetts, and Texas. Answers 'what is the VOC limit for industrial maintenance coatings in California', 'SCAQMD Rule 1113 flat coating VOC limit', and 'VOC limit for primers in OTC states'.",
       "records": 222,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/voc-limits-architectural-coatings/",
       "data": "https://referencesource.org/voc-limits-architectural-coatings/data.json"
     },
@@ -2529,7 +2529,7 @@
       "title": "Private well water testing at property sale: which states require it",
       "description": "For each US state whose statute or health department states a position: whether private well water must be tested when a home is sold, what must be tested for, and who is responsible. Four of the thirteen states here require it by law \u2014 New Jersey's Private Well Testing Act (seven named parameters, as a condition of sale), Oregon's ORS 448.271 (the seller tests for arsenic, nitrate and total coliform and reports the results), Rhode Island's RIGL 23-1-5.3 (eight analytes, prior to sale) and Maryland's Real Property 10-713 (since 2024, and the duty is the purchaser's, waivable in writing). The rest state that they do not: Virginia, Minnesota, Vermont, Wisconsin, Tennessee, Florida and Louisiana each say so in their own words, several while noting that the requirement a seller actually meets is the lender's or the county's \u2014 Minnesota names the lending institution and Dakota County in the same paragraph, and Washington's health department points at the county and the lender rather than at the state. Connecticut requires notice that testing material exists, not a test. Answers 'do I have to test the well water to sell my house in [state]', 'what does [state] require well water to be tested for at closing', and 'is a well test required for the buyer's loan or by law'. States whose authority states nothing get no record, and a duty to disclose a past test is not a duty to test.",
       "records": 13,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-08-19",
       "url": "https://referencesource.org/well-water-testing-at-property-transfer/",
       "data": "https://referencesource.org/well-water-testing-at-property-transfer/data.json"
     },
@@ -2538,7 +2538,7 @@
       "title": "Federal Whistleblower Protection Filing Deadlines by Statute",
       "description": "Filing deadlines, covered industries, and enforcement mechanisms for the 25 federal whistleblower protection statutes administered by OSHA. Each statute protects employees who report violations in a specific industry and requires complaints to be filed within a set number of days \u2014 from 30 (OSH Act, Clean Air Act) to 180 (SOX, FRSA, ACA). Missing the deadline bars the complaint regardless of merit.",
       "records": 25,
-      "last_verified": "2026-09-07",
+      "last_verified": "2026-09-09",
       "url": "https://referencesource.org/whistleblower-filing-deadlines/",
       "data": "https://referencesource.org/whistleblower-filing-deadlines/data.json"
     },

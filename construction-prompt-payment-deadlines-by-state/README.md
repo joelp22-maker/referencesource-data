@@ -6,7 +6,7 @@ State-by-state comparison of the statutory deadlines that govern how quickly par
 
 | | |
 |---|---|
-| Last verified | 2026-09-07 |
+| Last verified | 2026-09-09 |
 | Re-check due | 2027-08-15 |
 | Records | 43 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/construction-prompt-payment-deadlines-by-state/changes.xml) |

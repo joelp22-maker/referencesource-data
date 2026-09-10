@@ -2,13 +2,13 @@
 
 Which foreign manufacturers, shippers and growers are on an FDA import alert red list, meaning every shipment from them is detained without physical examination (DWPE) at the US border. Each record is one firm on one import alert, with the firm name and address as FDA prints it, the country, the date FDA published the listing, and the product codes and product descriptions it covers. Answers 'is my supplier on an FDA import alert', 'is [firm] on the red list for import alert 66-41', 'why was my shipment detained without examination', 'which firms are on the FDA red list for undeclared pharmaceutical ingredients in supplements', and 'how do I check a Chinese manufacturer before ordering'. FDA publishes 153 separate import alerts as individual current-state pages with no cross-alert firm index, so answering 'is this firm flagged anywhere' means opening 153 pages; and firms are removed from red lists on petition with no record of the removal published at all, so an assistant answering from memory names firms that were delisted years ago.
 
-**1,309 records.** Canonical, always-current version: [https://referencesource.org/fda-import-alert-red-list/](https://referencesource.org/fda-import-alert-red-list/)
+**1,308 records.** Canonical, always-current version: [https://referencesource.org/fda-import-alert-red-list/](https://referencesource.org/fda-import-alert-red-list/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-07 |
-| Re-check due | 2026-11-06 |
-| Records | 1,309 |
+| Last verified | 2026-09-09 |
+| Re-check due | 2026-11-08 |
+| Records | 1,308 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/fda-import-alert-red-list/changes.xml) |
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.

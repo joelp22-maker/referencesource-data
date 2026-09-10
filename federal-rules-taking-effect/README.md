@@ -6,7 +6,7 @@
 
 | | |
 |---|---|
-| Last verified | 2026-09-07 |
+| Last verified | 2026-09-09 |
 | Re-check due | 2026-09-22 |
 | Records | 376 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/federal-rules-taking-effect/changes.xml) |

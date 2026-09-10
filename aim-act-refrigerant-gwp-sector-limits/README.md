@@ -6,7 +6,7 @@ Federal sector-specific maximum GWP values for refrigerants and HFC-containing p
 
 | | |
 |---|---|
-| Last verified | 2026-09-07 |
+| Last verified | 2026-09-09 |
 | Re-check due | 2027-02-02 |
 | Records | 71 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/aim-act-refrigerant-gwp-sector-limits/changes.xml) |

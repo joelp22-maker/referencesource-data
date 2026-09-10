@@ -6,7 +6,7 @@ State-by-state comparison of minimum staffing requirements for assisted living f
 
 | | |
 |---|---|
-| Last verified | 2026-09-07 |
+| Last verified | 2026-09-09 |
 | Re-check due | 2027-08-19 |
 | Records | 85 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/assisted-living-facility-staffing-ratios-by-state/changes.xml) |
