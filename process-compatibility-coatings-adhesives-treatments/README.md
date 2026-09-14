@@ -1,12 +1,12 @@
 # Galvanic series and surface energy of engineering materials
 
-Electrode potential in seawater (volts vs SCE) for metals and alloys from the ASM/MIL-STD-889 galvanic series, and surface energy (dyne/cm) for plastics and packaging materials. Answers 'will these two materials corrode each other' and 'will this adhesive wet this plastic'.
+Electrode potential in seawater (volts vs SCE) for metals and alloys from the ASM/MIL-STD-889 galvanic series, and surface energy (dyne/cm) for plastics and packaging materials. Answers 'can I use [coating] directly on galvanised steel', 'will these two metals corrode each other' and 'will this adhesive wet this plastic' — questions where assistants miss the primer/prep requirement for a specific substrate.
 
 **80 records.** Canonical, always-current version: [https://referencesource.org/process-compatibility-coatings-adhesives-treatments/](https://referencesource.org/process-compatibility-coatings-adhesives-treatments/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-08 |
+| Last verified | 2026-09-12 |
 | Re-check due | 2028-08-03 |
 | Records | 80 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/process-compatibility-coatings-adhesives-treatments/changes.xml) |

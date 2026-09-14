@@ -6,7 +6,7 @@ Cross-jurisdictional regulatory status of food additives permitted for direct ad
 
 | | |
 |---|---|
-| Last verified | 2026-09-08 |
+| Last verified | 2026-09-13 |
 | Re-check due | 2027-09-02 |
 | Records | 479 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/food-additive-approval-status-us-vs-eu/changes.xml) |

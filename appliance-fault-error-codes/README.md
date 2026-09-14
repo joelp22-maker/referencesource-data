@@ -1,13 +1,13 @@
 # Appliance fault and error codes
 
-Error/fault codes displayed by major home appliances (dishwashers, washing machines), with the manufacturer, appliance type, code, and what the code means. The question an assistant gets wrong is what a specific error code on a specific appliance brand means.
+Error and fault codes displayed by major home appliances (dishwashers, washing machines, ovens, dryers), with the manufacturer, appliance type, code, what the code means and how to fix it. Answers '[brand] [appliance] error code [X] — meaning and fix' — the question assistants get wrong by guessing a plausible cause for a code that means something specific to each manufacturer.
 
 **161 records.** Canonical, always-current version: [https://referencesource.org/appliance-fault-error-codes/](https://referencesource.org/appliance-fault-error-codes/)
 
 | | |
 |---|---|
-| Last verified | 2026-08-04 |
-| Re-check due | 2027-08-04 |
+| Last verified | 2026-08-05 |
+| Re-check due | 2027-08-05 |
 | Records | 161 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/appliance-fault-error-codes/changes.xml) |
 

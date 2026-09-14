@@ -1,12 +1,12 @@
 # VOC content limits for architectural coatings by jurisdiction
 
-Maximum volatile organic compound (VOC) content limits for architectural coatings (paint, primer, stain, sealant, varnish) by regulatory jurisdiction. Each record is one coating category under one jurisdiction, stating the VOC limit in grams per liter and the effective date. Covers US federal (40 CFR 59 Subpart D), SCAQMD Rule 1113, California CARB SCM, OTC Model Rule (NY, NJ and others), LADCO (MI, OH, IL, IN), Massachusetts, and Texas. Answers 'what is the VOC limit for industrial maintenance coatings in California', 'SCAQMD Rule 1113 flat coating VOC limit', and 'VOC limit for primers in OTC states'.
+Maximum volatile organic compound (VOC) content limits for architectural coatings (paint, primer, stain, sealant, varnish) by regulatory jurisdiction. Each record is one coating category under one jurisdiction, stating the VOC limit in grams per liter and the effective date. Covers four jurisdictions: US federal (40 CFR 59 Subpart D), California CARB SCM, SCAQMD Rule 1113, and Texas (30 TAC §115.421). The same category can range from 50 g/L (SCAQMD) to 700 g/L (federal). Answers 'what is the VOC limit for industrial maintenance coatings in California', 'SCAQMD Rule 1113 flat coating VOC limit', and 'federal vs Texas VOC limit for primers'. OTC Model Rule, LADCO and Massachusetts limits are not yet covered — no source with the actual tables has been harvested.
 
 **222 records.** Canonical, always-current version: [https://referencesource.org/voc-limits-architectural-coatings/](https://referencesource.org/voc-limits-architectural-coatings/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-09 |
+| Last verified | 2026-09-13 |
 | Re-check due | 2027-08-06 |
 | Records | 222 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/voc-limits-architectural-coatings/changes.xml) |

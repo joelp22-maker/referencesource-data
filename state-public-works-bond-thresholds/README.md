@@ -1,12 +1,12 @@
-# State public works payment and performance bond thresholds (Little Miller Acts)
+# State public works payment bond requirements (Little Miller Acts)
 
-Do I need a surety bond on this public works project in my state, and how much? Every US state has a 'Little Miller Act' requiring performance and/or payment bonds on public construction contracts, but the dollar thresholds, bond percentages, notice requirements, and claim deadlines differ in every state. California requires bonds on all public works contracts (no minimum) with payment bonds over $25,000. Texas requires bonds over $100,000 for state entities, $25,000 for payment bonds. Washington allows retainage in lieu of bond under $150,000. One record per state, sourced from the state's own statute. Answers 'Little Miller Act thresholds by state', 'do I need a bond on a $75,000 public project in Virginia', 'state payment bond requirements for construction'. Adjacent to mechanics-lien-deadlines, construction-retainage-limits, and construction-prompt-payment-deadlines.
+Do I need a payment bond on this public works project, and what are the deadlines? Every US state has a 'Little Miller Act' requiring bonds on public construction contracts, but the contract value that triggers the requirement, the bond amount, the notice a subcontractor must serve to preserve a claim, and the deadline for suing on the bond all differ by state. One record per state and territory, each carrying that state's own statutory citation, plus a federal Miller Act row for comparison. Coverage is payment bond law; a performance bond threshold is recorded only for the handful of states whose source states one. Answers 'Little Miller Act thresholds by state', 'do I need a bond on a $75,000 public project in Virginia', 'state payment bond requirements for construction', 'payment bond claim deadline by state'. Adjacent to mechanics-lien-deadlines, construction-retainage-limits, and construction-prompt-payment-deadlines.
 
 **53 records.** Canonical, always-current version: [https://referencesource.org/state-public-works-bond-thresholds/](https://referencesource.org/state-public-works-bond-thresholds/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-09 |
+| Last verified | 2026-09-12 |
 | Re-check due | 2027-08-17 |
 | Records | 53 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-public-works-bond-thresholds/changes.xml) |

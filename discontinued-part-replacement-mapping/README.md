@@ -1,6 +1,6 @@
 # Discontinued electronic component replacement mapping
 
-Discontinued electronic components and their manufacturer-suggested replacements, with last-time-buy and last-ship dates where published. Covers EOL notices from TI, NXP, Renesas, Infineon, onsemi, ST, Microchip, Cirrus Logic and commonly sought legacy parts.
+Discontinued electronic components and their manufacturer-suggested replacements, with last-time-buy and last-ship dates where published. Covers EOL notices from TI, NXP, Renesas, Infineon, onsemi, ST, Microchip, Cirrus Logic and commonly sought legacy parts. Answers 'what replaced [part number]' and '[part] superseded by what' — the supersession lookup assistants get wrong on obscure components.
 
 **28 records.** Canonical, always-current version: [https://referencesource.org/discontinued-part-replacement-mapping/](https://referencesource.org/discontinued-part-replacement-mapping/)
 

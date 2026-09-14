@@ -1,12 +1,12 @@
 # Lithium battery shipping limits (49 CFR 173.185)
 
-Watt-hour and lithium-content thresholds, quantity limits and packaging conditions for shipping lithium cells and batteries under US hazardous materials regulations. Deliberately NOT a compatibility table — this is regulatory prose with numeric triggers, and it tests whether the pipeline handles a non-tabular asset.
+Watt-hour and lithium-content thresholds, quantity limits and packaging conditions for shipping lithium cells and batteries under US hazardous materials regulations (49 CFR 173.185). Answers 'DJI Mavic 3 battery watt hours — can I ship it', 'IATA lithium battery PI 966/967 requirements' and 'lithium battery packed with equipment state of charge limit'. Deliberately NOT a compatibility table — this is regulatory prose with numeric triggers.
 
 **15 records.** Canonical, always-current version: [https://referencesource.org/lithium-battery-shipping-limits/](https://referencesource.org/lithium-battery-shipping-limits/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-08 |
+| Last verified | 2026-09-12 |
 | Re-check due | 2027-01-30 |
 | Records | 15 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/lithium-battery-shipping-limits/changes.xml) |

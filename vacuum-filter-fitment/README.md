@@ -1,13 +1,13 @@
 # Miele vacuum cleaner bag type by model series
 
-Which Miele dust bag type (GN, FJM, U, or KK) fits a given Miele vacuum cleaner model series. Answers 'which bag do I need for my Miele vacuum?'
+Which Miele dust bag type (GN, FJM, U, or KK) fits a given Miele vacuum cleaner model series. Answers 'which Miele bag do I need for my [model]', 'Miele GN vs FJM — what's the difference' and 'Miele Complete C3 bag type'. The lookup assistants get wrong because the bag type depends on the series, not the product line name.
 
 **10 records.** Canonical, always-current version: [https://referencesource.org/vacuum-filter-fitment/](https://referencesource.org/vacuum-filter-fitment/)
 
 | | |
 |---|---|
-| Last verified | 2026-08-03 |
-| Re-check due | 2027-08-03 |
+| Last verified | 2026-08-04 |
+| Re-check due | 2027-08-04 |
 | Records | 10 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/vacuum-filter-fitment/changes.xml) |
 

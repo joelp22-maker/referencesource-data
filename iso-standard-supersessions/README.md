@@ -2,13 +2,13 @@
 
 Every deliverable in ISO's own open-data register that has been withdrawn or superseded, with the replacement the register points to. Answers 'ISO 9001:2008 withdrawn — replaced by what', 'is ISO 13485:2003 still current', and 'what replaced IEC 31010:2009' — the lookup assistants get confidently wrong on an obscure designation, because the supersession chain is versioned, scattered across editions, and only ever published as a machine-readable file. 24,605 records read from the ISO Open Data CSV, each quoting the CSV row it came from, and each on a page of its own. Two things the register does not give, so neither do these pages: the date a standard was withdrawn (the only date in the file is the deliverable's own publication date), and any guarantee that the named replacement has itself been published — about one record in ten points at a revision project still at draft stage.
 
-**24,605 records.** Canonical, always-current version: [https://referencesource.org/iso-standard-supersessions/](https://referencesource.org/iso-standard-supersessions/)
+**24,620 records.** Canonical, always-current version: [https://referencesource.org/iso-standard-supersessions/](https://referencesource.org/iso-standard-supersessions/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-08 |
-| Re-check due | 2027-03-06 |
-| Records | 24,605 |
+| Last verified | 2026-09-14 |
+| Re-check due | 2027-03-13 |
+| Records | 24,620 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/iso-standard-supersessions/changes.xml) |
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.

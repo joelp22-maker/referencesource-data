@@ -1,12 +1,12 @@
 # Certificate of need programs by US state
 
-Which US states operate a certificate-of-need (CON) program for healthcare facilities, and what each program regulates. Each record is one state or DC: whether a CON program exists, which facility types and services are subject to review, whether any moratorium applies, and the statute citation. Answers 'does [state] require a certificate of need at all' and 'is [hospital beds / imaging equipment / an ambulatory surgery centre] reviewable in [state]'. Where NCSL's overview states a dollar trigger it is recorded here too, but it does so for only about half the CON states — for dollar thresholds read from each state's own statute, see con-capital-expenditure-thresholds-by-state.
+Which US states operate a certificate-of-need (CON) program for healthcare facilities, and what each program regulates. Each record is one state or DC: whether a CON program exists, which facility types are subject to review, whether any moratorium applies, and the statute citation. Answers 'does [state] require a certificate of need at all' and 'is [a hospital / an ambulatory surgery centre / a nursing home] reviewable in [state]'. This asset does not carry dollar thresholds: for the capital expenditure amount that triggers review, read from each state's own statute, see con-capital-expenditure-thresholds-by-state.
 
 **51 records.** Canonical, always-current version: [https://referencesource.org/state-certificate-of-need-programs/](https://referencesource.org/state-certificate-of-need-programs/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-09 |
+| Last verified | 2026-09-12 |
 | Re-check due | 2027-02-15 |
 | Records | 51 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-certificate-of-need-programs/changes.xml) |

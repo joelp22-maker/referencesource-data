@@ -6,7 +6,7 @@ Graduated driver licensing (GDL) requirements for each US state: minimum ages, m
 
 | | |
 |---|---|
-| Last verified | 2026-09-09 |
+| Last verified | 2026-09-13 |
 | Re-check due | 2027-09-09 |
 | Records | 51 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/graduated-driver-licensing/changes.xml) |
