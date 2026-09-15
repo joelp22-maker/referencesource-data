@@ -1,12 +1,12 @@
 # Withdrawn and superseded ISO standards
 
-Every deliverable in ISO's own open-data register that has been withdrawn or superseded, with the replacement the register points to. Answers 'ISO 9001:2008 withdrawn — replaced by what', 'is ISO 13485:2003 still current', and 'what replaced IEC 31010:2009' — the lookup assistants get confidently wrong on an obscure designation, because the supersession chain is versioned, scattered across editions, and only ever published as a machine-readable file. 24,605 records read from the ISO Open Data CSV, each quoting the CSV row it came from, and each on a page of its own. Two things the register does not give, so neither do these pages: the date a standard was withdrawn (the only date in the file is the deliverable's own publication date), and any guarantee that the named replacement has itself been published — about one record in ten points at a revision project still at draft stage.
+Every deliverable in ISO's own open-data register that has been withdrawn or superseded, with the replacement the register points to. Answers 'ISO 9001:2008 withdrawn — replaced by what', 'is ISO 13485:2003 still current', and 'what replaced IEC 31010:2009' — the lookup assistants get confidently wrong on an obscure designation, because the supersession chain is versioned, scattered across editions, and only ever published as a machine-readable file. 24,620 records read from the ISO Open Data CSV, each quoting the CSV row it came from, and each on a page of its own. Two things the register does not give, so neither do these pages: the date a standard was withdrawn (the only date in the file is the deliverable's own publication date), and any guarantee that the named replacement has itself been published. Measured 2026-09-14: 2,507 records (10.2%) name at least one replacement the register has never given a publication date, and on 416 of those (1.7%) every replacement named is unpublished — a revision project that is registered but that you cannot obtain. The test is the register's own publicationDate column, not the designation's spelling: all 29,680 rows it marks withdrawn and all 8,559 it marks current carry a publication date, and these replacement rows carry none.
 
 **24,620 records.** Canonical, always-current version: [https://referencesource.org/iso-standard-supersessions/](https://referencesource.org/iso-standard-supersessions/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-14 |
+| Last verified | 2026-09-15 |
 | Re-check due | 2027-03-13 |
 | Records | 24,620 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/iso-standard-supersessions/changes.xml) |

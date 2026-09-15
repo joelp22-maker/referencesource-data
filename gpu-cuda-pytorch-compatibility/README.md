@@ -6,8 +6,8 @@ One record per (PyTorch release, CUDA build) pairing: which CUDA builds each PyT
 
 | | |
 |---|---|
-| Last verified | 2026-09-08 |
-| Re-check due | 2026-12-07 |
+| Last verified | 2026-09-14 |
+| Re-check due | 2026-12-13 |
 | Records | 45 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/gpu-cuda-pytorch-compatibility/changes.xml) |
 

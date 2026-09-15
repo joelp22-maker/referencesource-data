@@ -6,7 +6,7 @@ Cross-program comparison of the two federal reporting thresholds this dataset ca
 
 | | |
 |---|---|
-| Last verified | 2026-09-13 |
+| Last verified | 2026-09-15 |
 | Re-check due | 2027-09-01 |
 | Records | 1,340 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/chemical-regulatory-reporting-thresholds/changes.xml) |

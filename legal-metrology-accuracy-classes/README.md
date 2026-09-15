@@ -6,7 +6,7 @@ Accuracy classes and maximum permissible errors that Directive 2014/32/EU (the M
 
 | | |
 |---|---|
-| Last verified | 2026-09-12 |
+| Last verified | 2026-09-15 |
 | Re-check due | 2027-08-05 |
 | Records | 70 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/legal-metrology-accuracy-classes/changes.xml) |

@@ -6,7 +6,7 @@ US import duty rates organized by Harmonized Tariff Schedule (HTS) chapter, cove
 
 | | |
 |---|---|
-| Last verified | 2026-09-13 |
+| Last verified | 2026-09-15 |
 | Re-check due | 2026-09-14 |
 | Records | 25 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/import-duty-and-tariffs/changes.xml) |
