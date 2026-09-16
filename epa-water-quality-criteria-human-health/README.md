@@ -1,13 +1,13 @@
 # EPA national recommended water quality criteria for human health: pollutant concentration thresholds
 
-EPA Section 304(a) recommended human health ambient water quality criteria for ~120 pollutants. For each pollutant: the CAS number, the 'water + organism' threshold in µg/L (for waters that are both a drinking-water source and support aquatic life), and the 'organism only' threshold (for waters not used as drinking-water sources). These are recommendations for states adopting water quality standards, NOT enforceable MCLs (which are in drinking-water-contaminant-limits). Used by environmental consultants writing NPDES permits, state agencies setting water quality standards, and industrial dischargers determining compliance. Note: this is a mirror of one EPA table. The stronger juxtaposition version comparing EPA recommended values with state-adopted criteria would not be a mirror, because states adopt different numbers for the same pollutant.
+EPA Section 304(a) recommended human health ambient water quality criteria for 127 pollutants. For each pollutant: the CAS number, the 'water + organism' threshold in µg/L (for waters that are both a drinking-water source and support aquatic life), the 'organism only' threshold (for waters not used as drinking-water sources), the year EPA published that pollutant's criterion, and EPA's own note on the criterion where the table carries one. The publication year is worth reading before the number is used: it runs from 1980 to 2019, so two values sitting in the same column can be nearly four decades apart in vintage, and seven rows carry no criterion at all (an em dash), three of them draft PFAS entries. The note is where EPA says what the number means — most often that the criterion is set at a one-in-a-million (10-6) cancer risk and that the decimal point may be moved for a different risk level, or that EPA has also issued an enforceable Maximum Contaminant Level for the same pollutant, or that the organoleptic (taste and odour) criterion may be stricter than the health one. These are recommendations for states adopting water quality standards, NOT enforceable MCLs (which are in drinking-water-contaminant-limits). Used by environmental consultants writing NPDES permits, state agencies setting water quality standards, and industrial dischargers determining compliance. Note: this is a mirror of one EPA table. The stronger juxtaposition version comparing EPA recommended values with state-adopted criteria would not be a mirror, because states adopt different numbers for the same pollutant.
 
 **127 records.** Canonical, always-current version: [https://referencesource.org/epa-water-quality-criteria-human-health/](https://referencesource.org/epa-water-quality-criteria-human-health/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-15 |
-| Re-check due | 2028-08-18 |
+| Last verified | 2026-09-16 |
+| Re-check due | 2028-09-14 |
 | Records | 127 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/epa-water-quality-criteria-human-health/changes.xml) |
 

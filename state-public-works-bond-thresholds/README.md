@@ -6,7 +6,7 @@ Do I need a payment bond on this public works project, and what are the deadline
 
 | | |
 |---|---|
-| Last verified | 2026-09-14 |
+| Last verified | 2026-09-16 |
 | Re-check due | 2027-08-17 |
 | Records | 53 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-public-works-bond-thresholds/changes.xml) |

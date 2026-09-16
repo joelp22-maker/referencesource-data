@@ -6,7 +6,7 @@ A shipment of hazardous material must be placarded on the transport vehicle, and
 
 | | |
 |---|---|
-| Last verified | 2026-09-15 |
+| Last verified | 2026-09-16 |
 | Re-check due | 2027-02-15 |
 | Records | 23 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/dot-hazmat-placarding-thresholds/changes.xml) |

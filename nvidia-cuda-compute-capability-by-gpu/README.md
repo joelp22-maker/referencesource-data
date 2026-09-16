@@ -6,7 +6,7 @@ Which CUDA compute capability version (e.g. '8.9', '12.0') each NVIDIA GPU model
 
 | | |
 |---|---|
-| Last verified | 2026-09-14 |
+| Last verified | 2026-09-16 |
 | Re-check due | 2026-12-26 |
 | Records | 441 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/nvidia-cuda-compute-capability-by-gpu/changes.xml) |

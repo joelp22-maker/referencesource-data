@@ -6,7 +6,7 @@ Every offense that triggers mandatory disqualification of a commercial driver's 
 
 | | |
 |---|---|
-| Last verified | 2026-09-15 |
+| Last verified | 2026-09-16 |
 | Re-check due | 2027-08-19 |
 | Records | 96 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/cdl-disqualification-offenses-and-periods/changes.xml) |

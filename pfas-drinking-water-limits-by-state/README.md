@@ -6,7 +6,7 @@ State-by-state comparison of legally enforceable and advisory concentration limi
 
 | | |
 |---|---|
-| Last verified | 2026-09-14 |
+| Last verified | 2026-09-16 |
 | Re-check due | 2027-02-24 |
 | Records | 89 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/pfas-drinking-water-limits-by-state/changes.xml) |

@@ -6,7 +6,7 @@ All of the specific numeric dimensional tolerances, clearances, safety factors, 
 
 | | |
 |---|---|
-| Last verified | 2026-09-14 |
+| Last verified | 2026-09-16 |
 | Re-check due | 2027-09-01 |
 | Records | 91 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/osha-scaffold-dimensional-tolerances/changes.xml) |

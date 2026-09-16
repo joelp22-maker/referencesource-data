@@ -6,7 +6,7 @@ Key capabilities, version requirements and format limitations for GIS vector dri
 
 | | |
 |---|---|
-| Last verified | 2026-09-15 |
+| Last verified | 2026-09-16 |
 | Re-check due | 2027-01-31 |
 | Records | 3 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/file-format-software-version-compatibility/changes.xml) |
