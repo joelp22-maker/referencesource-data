@@ -6,8 +6,8 @@ If you are partly at fault for your own injury, can you still sue? And if multip
 
 | | |
 |---|---|
-| Last verified | 2026-08-31 |
-| Re-check due | 2027-08-31 |
+| Last verified | 2026-09-16 |
+| Re-check due | 2027-09-16 |
 | Records | 75 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-comparative-fault-joint-liability-rules/changes.xml) |
 
