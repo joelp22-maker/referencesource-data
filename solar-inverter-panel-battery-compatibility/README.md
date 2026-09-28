@@ -6,8 +6,8 @@ Which lithium batteries have been tested with which solar inverter brands for cl
 
 | | |
 |---|---|
-| Last verified | 2026-08-12 |
-| Re-check due | 2027-02-08 |
+| Last verified | 2026-09-23 |
+| Re-check due | 2027-03-22 |
 | Records | 101 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/solar-inverter-panel-battery-compatibility/changes.xml) |
 

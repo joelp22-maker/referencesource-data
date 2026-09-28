@@ -6,8 +6,8 @@ What is the youngest age someone can legally marry in this state, and what excep
 
 | | |
 |---|---|
-| Last verified | 2026-08-31 |
-| Re-check due | 2026-12-29 |
+| Last verified | 2026-09-21 |
+| Re-check due | 2027-01-19 |
 | Records | 56 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-minimum-marriage-age-exceptions/changes.xml) |
 

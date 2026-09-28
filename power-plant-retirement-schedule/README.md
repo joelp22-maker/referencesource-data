@@ -6,8 +6,8 @@ Every utility-scale US electric generating unit its operator has told EIA it pla
 
 | | |
 |---|---|
-| Last verified | 2026-09-01 |
-| Re-check due | 2026-10-11 |
+| Last verified | 2026-09-24 |
+| Re-check due | 2026-11-03 |
 | Records | 1,025 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/power-plant-retirement-schedule/changes.xml) |
 

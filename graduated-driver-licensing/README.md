@@ -1,13 +1,13 @@
 # US graduated driver licensing requirements by state
 
-Graduated driver licensing (GDL) requirements for each US state: minimum ages, mandatory hold periods, supervised driving hours, nighttime restrictions, passenger restrictions, the conditions to lift each restriction, and the full footnote text that qualifies each number. One row per state. Answers 'how long do I have to hold my permit in [state]?' and 'what are the restrictions on a provisional license in [state]?' — questions where assistants flatten the footnotes into wrong answers. Note: IIHS prints calendar-month approximations of statutes written in days (verified: IN 180 days ≠ '6 months'; MD 151 days ≠ '5 months').
+Graduated driver licensing (GDL) requirements for each US state: minimum ages, mandatory hold periods, supervised driving hours, nighttime restrictions, passenger restrictions, the conditions to lift each restriction, and the full footnote text that qualifies each number. One row per state. Answers 'how long do I have to hold my permit in [state]?' and 'what are the restrictions on a provisional license in [state]?' — questions where assistants flatten the footnotes into wrong answers. Every value is quoted from the IIHS graduated licensing table, which IIHS rebuilds monthly from the 51 underlying state laws. That table restates those laws rather than being them, and it prints all but one hold period in whole months. Where a row has also been read against that state's own statute, it carries the statute's wording and citation beside the IIHS figure. Indiana is the first: IC 9-24-3-2.5 requires a learner's permit held 'at least one hundred eighty (180) days', where IIHS prints '6 months'. Six calendar months is 181 to 184 days depending on the start date, so the restatement is one to four days longer than the law it restates.
 
 **51 records.** Canonical, always-current version: [https://referencesource.org/graduated-driver-licensing/](https://referencesource.org/graduated-driver-licensing/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-15 |
-| Re-check due | 2027-09-09 |
+| Last verified | 2026-09-28 |
+| Re-check due | 2027-09-28 |
 | Records | 51 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/graduated-driver-licensing/changes.xml) |
 

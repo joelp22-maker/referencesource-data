@@ -6,8 +6,8 @@ State-by-state comparison of workers' compensation medical fee schedule conversi
 
 | | |
 |---|---|
-| Last verified | 2026-08-18 |
-| Re-check due | 2027-02-14 |
+| Last verified | 2026-09-24 |
+| Re-check due | 2027-03-23 |
 | Records | 6 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/wc-medical-fee-schedule-multipliers-by-state/changes.xml) |
 

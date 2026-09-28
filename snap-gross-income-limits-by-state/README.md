@@ -6,8 +6,8 @@ For each US state: whether it uses Broad-Based Categorical Eligibility (BBCE) fo
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
-| Re-check due | 2027-08-19 |
+| Last verified | 2026-09-24 |
+| Re-check due | 2027-09-24 |
 | Records | 47 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/snap-gross-income-limits-by-state/changes.xml) |
 

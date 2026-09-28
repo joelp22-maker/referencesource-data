@@ -6,8 +6,8 @@ Which CLEP exams each university accepts for credit, the minimum scaled score re
 
 | | |
 |---|---|
-| Last verified | 2026-08-18 |
-| Re-check due | 2027-08-18 |
+| Last verified | 2026-09-23 |
+| Re-check due | 2027-09-23 |
 | Records | 130 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/clep-credit-by-university/changes.xml) |
 

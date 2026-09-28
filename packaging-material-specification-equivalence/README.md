@@ -2,13 +2,13 @@
 
 Cross-reference of packaging specifications that procurement, packaging engineers and brand owners need when substituting materials, matching closures to bottles, or converting between regional standards. Covers three domains: (1) SPI/GPI plastic and glass neck-finish dimensions with tolerances (T, E, H, S, I) for the 400, 410 and 415 thread series; (2) corrugated board grade equivalence between Mullen burst test and ECT edge crush test ratings, with maximum weight limits from both the Fibre Box Handbook and UPS guidelines; (3) EUR/ISO pallet footprint dimensions, load ratings and regional designations. Answers questions like 'what are the T and E dimensions for a 24-410 finish', 'is 200# Mullen the same as 32 ECT', and 'what size is a EUR 2 pallet'.
 
-**111 records.** Canonical, always-current version: [https://referencesource.org/packaging-material-specification-equivalence/](https://referencesource.org/packaging-material-specification-equivalence/)
+**170 records.** Canonical, always-current version: [https://referencesource.org/packaging-material-specification-equivalence/](https://referencesource.org/packaging-material-specification-equivalence/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-16 |
-| Re-check due | 2028-08-11 |
-| Records | 111 |
+| Last verified | 2026-09-24 |
+| Re-check due | 2028-09-23 |
+| Records | 170 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/packaging-material-specification-equivalence/changes.xml) |
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.

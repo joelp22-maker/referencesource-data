@@ -1,13 +1,13 @@
-# Food color additive cross-reference: US FD&C designation vs EU E-number, with regulatory status comparison
+# Food color additive status in the US and the EU: FDA color additive listings and EU E-number authorisations
 
-Cross-reference between US and EU food color additive systems. Each record is one color additive with its FD&C designation (US), E-number (EU), chemical/CI name, CAS number, US regulatory status (approved/banned, permitted uses by application category), EU regulatory status (permitted/banned, Group classification, maximum levels by food category), and key differences. Answers 'is Red 40 banned in Europe?' (no — E129, permitted with warning label), 'what is the EU maximum level of Allura Red in soft drinks?' (Group III combined 100 mg/L), 'which US food colors have no EU equivalent?' (FD&C Green No. 3), 'is titanium dioxide allowed in food in the EU?' (no — E171 banned Aug 2022), and 'what are the Southampton six dyes and what warning do they require?'
+US and EU food color additive listings, each taken from that jurisdiction's own regulation. A record is one color additive as one of the two regimes lists it: from 21 CFR Part 74 (US certified colors) its FD&C designation and food-use status, and from Regulation 1333/2008 Annex II (EU) its E-number, permitted or not-authorised status and Group classification. A record carries both jurisdictions only where a source states both; the two regulations do not cite each other, so most records today state one side and are silent on the other. Answers 'what is the EU status of Allura Red AC?' (E 129, Group III, food colours with a combined maximum limit), 'is titanium dioxide authorised as a food colour in the EU?' (no — E 171, not authorised), 'what is the US food-use status of FD&C Red No. 40?' (may be safely used for foods generally, GMP) and 'what happened to Orange B?' (FDA revoked the authorised food use, effective September 8, 2026). It does not yet put one colour's US and EU status on a single page — those are separate records — and it does not carry EU maximum levels by food category or the Southampton warning-label requirement.
 
 **50 records.** Canonical, always-current version: [https://referencesource.org/food-color-additive-status-us-vs-eu/](https://referencesource.org/food-color-additive-status-us-vs-eu/)
 
 | | |
 |---|---|
-| Last verified | 2026-08-10 |
-| Re-check due | 2027-08-10 |
+| Last verified | 2026-09-24 |
+| Re-check due | 2027-09-24 |
 | Records | 50 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/food-color-additive-status-us-vs-eu/changes.xml) |
 

@@ -6,8 +6,8 @@ State-by-state comparison of the deadlines that determine whether a contractor, 
 
 | | |
 |---|---|
-| Last verified | 2026-08-14 |
-| Re-check due | 2027-08-14 |
+| Last verified | 2026-09-24 |
+| Re-check due | 2027-09-24 |
 | Records | 51 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/mechanics-lien-deadlines-by-state/changes.xml) |
 

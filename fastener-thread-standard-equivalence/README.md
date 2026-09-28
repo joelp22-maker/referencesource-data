@@ -2,13 +2,13 @@
 
 Which ISO or EN standard replaced or corresponds to a given DIN fastener standard, whether the two are dimensionally interchangeable or differ, and what changed. Covers hex bolts, socket screws, set screws, nuts, washers, pins, rivets, machine screws, studs, and other mechanical fastener types. Answers 'is DIN 933 the same as ISO 4017', 'what replaced DIN 912', and 'can I substitute one for the other' — questions where the practical answer depends on specific dimensional changes (width across flats, head height, thread range) that the sources document.
 
-**164 records.** Canonical, always-current version: [https://referencesource.org/fastener-thread-standard-equivalence/](https://referencesource.org/fastener-thread-standard-equivalence/)
+**166 records.** Canonical, always-current version: [https://referencesource.org/fastener-thread-standard-equivalence/](https://referencesource.org/fastener-thread-standard-equivalence/)
 
 | | |
 |---|---|
-| Last verified | 2026-08-12 |
-| Re-check due | 2028-08-11 |
-| Records | 164 |
+| Last verified | 2026-09-22 |
+| Re-check due | 2028-09-21 |
+| Records | 166 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/fastener-thread-standard-equivalence/changes.xml) |
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.

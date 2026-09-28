@@ -6,8 +6,8 @@ Every substance named in the federal drug schedules at 21 CFR 1308.11-1308.15, w
 
 | | |
 |---|---|
-| Last verified | 2026-09-01 |
-| Re-check due | 2026-12-30 |
+| Last verified | 2026-09-21 |
+| Re-check due | 2027-01-19 |
 | Records | 591 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/dea-controlled-substance-schedule-by-drug/changes.xml) |
 

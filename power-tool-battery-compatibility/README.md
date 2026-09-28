@@ -6,8 +6,8 @@ Which power tool batteries, chargers, adapters and accessory interfaces work wit
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
-| Re-check due | 2027-09-02 |
+| Last verified | 2026-09-24 |
+| Re-check due | 2027-09-24 |
 | Records | 197 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/power-tool-battery-compatibility/changes.xml) |
 

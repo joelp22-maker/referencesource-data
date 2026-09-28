@@ -6,8 +6,8 @@ For each US state (and DC, NYC and the territories — 57 vital-records jurisdic
 
 | | |
 |---|---|
-| Last verified | 2026-08-18 |
-| Re-check due | 2027-08-18 |
+| Last verified | 2026-09-22 |
+| Re-check due | 2027-09-22 |
 | Records | 14 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/birth-certificate-fees-by-state/changes.xml) |
 

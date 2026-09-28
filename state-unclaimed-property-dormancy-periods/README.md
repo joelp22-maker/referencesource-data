@@ -6,8 +6,8 @@ How many years of inactivity before each type of property (wages, checks, insura
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
-| Re-check due | 2027-02-11 |
+| Last verified | 2026-09-24 |
+| Re-check due | 2027-03-23 |
 | Records | 81 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-unclaimed-property-dormancy-periods/changes.xml) |
 

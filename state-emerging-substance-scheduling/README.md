@@ -6,8 +6,8 @@ For each US state that has acted, the controlled-substance schedule it assigns t
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
-| Re-check due | 2027-02-15 |
+| Last verified | 2026-09-22 |
+| Re-check due | 2027-03-21 |
 | Records | 15 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-emerging-substance-scheduling/changes.xml) |
 

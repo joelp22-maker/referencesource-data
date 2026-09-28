@@ -6,8 +6,8 @@ For each US state that runs a vehicle emissions inspection (I/M) program: which 
 
 | | |
 |---|---|
-| Last verified | 2026-08-25 |
-| Re-check due | 2027-08-25 |
+| Last verified | 2026-09-22 |
+| Re-check due | 2027-09-22 |
 | Records | 28 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/vehicle-emissions-testing-by-state/changes.xml) |
 

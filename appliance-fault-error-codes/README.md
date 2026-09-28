@@ -6,8 +6,8 @@ Error and fault codes displayed by major home appliances (dishwashers, washing m
 
 | | |
 |---|---|
-| Last verified | 2026-09-16 |
-| Re-check due | 2027-09-16 |
+| Last verified | 2026-09-22 |
+| Re-check due | 2027-09-22 |
 | Records | 149 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/appliance-fault-error-codes/changes.xml) |
 

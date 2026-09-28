@@ -6,8 +6,8 @@ For each US state whose statute, code or environmental agency states a position:
 
 | | |
 |---|---|
-| Last verified | 2026-08-18 |
-| Re-check due | 2027-08-18 |
+| Last verified | 2026-09-22 |
+| Re-check due | 2027-09-22 |
 | Records | 7 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/septic-inspection-at-property-transfer/changes.xml) |
 
