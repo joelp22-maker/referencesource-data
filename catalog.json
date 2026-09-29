@@ -8,8 +8,8 @@
       "slug": "abandoned-vehicle-private-property-timelines-by-state",
       "title": "How long before a car left on your property or towed from it can legally be sold \u2014 by US state",
       "description": "State-by-state comparison of the legal timeline for a vehicle left on private property (or towed from it) to be classified abandoned, held, noticed, and eventually sold or junked. This is a genuinely different process shape per state, not just a different number of days on the same form: Colorado uses a flat 24-hour threshold for a vehicle to count as abandoned on private property, and a separate 48-hour window for the owner to reclaim it from an impound lot before it is treated as abandoned there too. Georgia uses a single flat 30-day unattended-on-property threshold, with no separate notice-and-sale sequence specified at the abandonment-classification stage. Texas runs a multi-step notice sequence instead of a single threshold: the vehicle must sit at least 24 hours before a first notice is sent (within 5 days if Texas-registered, 14 days if out-of-state), a second notice follows 15-20 days after the first, and the storage facility must then wait at least 30 days after the second notice before a public sale \u2014 a ~65-90 day process from tow to sale, compared to Colorado's 24-48 hour classification. Answers 'how long do I have to get my towed car back before it's sold', and 'how long does a car have to sit on my property before I can have it removed as abandoned'. Relevant to property owners, HOAs, landlords, and people whose car has been towed.",
-      "records": 45,
-      "last_verified": "2026-08-19",
+      "records": 44,
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/abandoned-vehicle-private-property-timelines-by-state/",
       "data": "https://referencesource.org/abandoned-vehicle-private-property-timelines-by-state/data.json"
     },
@@ -17,8 +17,8 @@
       "slug": "ai-model-deprecation-and-retirement",
       "title": "AI model deprecation and retirement dates by provider",
       "description": "Which AI API models are deprecated or retired, when the deprecation was announced, when the model shuts off, and what the recommended replacement is \u2014 sourced from each provider's own documentation. Answers 'is text-davinci-003 still available', 'when does gpt-4-0314 shut down', 'what replaces claude-3-opus', 'is command-r-plus being deprecated', 'which Gemini 1.5 Pro version is retired'. Covers OpenAI, Anthropic, Google (Vertex AI, the Gemini Developer API, and the Agent Platform's open- and partner-model schedules), Azure/Microsoft Foundry, AWS Bedrock, Cohere, Mistral AI, Groq, Cerebras, xAI, DeepSeek, Moonshot AI, GitHub Copilot, Together AI, Oracle OCI Generative AI, Alibaba Cloud Model Studio and SambaNova. GitHub Copilot is a different shape from all of the above: not a model's author and not an inference host renting out silicon, but an end-user product that resells other people's hosted models and switches them off on a clock of its own. It deprecates Claude Opus 4.5 on 2026-09-01 while Microsoft Foundry keeps serving it until 2026-10-19, and it is the only source anywhere that states a date for Claude Opus 4.7. Developers who never touch an API \u2014 who just pick a model from the Copilot Chat selector \u2014 have a retirement schedule too, and it is published one changelog post at a time rather than as a standing table. Groq and Cerebras matter beyond being two more companies: both are inference hosts serving other people's open-weight models (Llama, Qwen, Kimi, DeepSeek, Gemma, Mistral, Whisper) on their own silicon, and each publishes its own lifecycle dates for them, which no model author's page states anywhere. They also disagree with each other: both deprecated deepseek-r1-distill-llama-70b, Cerebras on 2025-08-12 pointing users at Qwen 3 32B, Groq seven weeks later pointing them at Llama 3.3 70B, and this dataset shows both on the one record. xAI and DeepSeek matter for the opposite reason: both are already in here at second hand, through Azure/Foundry reselling their models and publishing Foundry's dates, and both authors state different dates for the same model IDs on their own pages \u2014 Foundry retires grok-3 two weeks before xAI's own API does. Moonshot AI is the same story with a far wider gap: Azure/Foundry lists Kimi-K2.5 as a preview retiring on 2027-01-26, while Moonshot's own documentation says the model was discontinued on 2026-08-31 and that calls to it now return a 404 \u2014 nearly five months earlier, and already in the past. The four Google surfaces are held separately on purpose: they publish different shutdown dates for the same model IDs, and where they disagree this dataset shows both. No single original exists \u2014 each provider publishes its own page \u2014 so this is the only place that puts them side by side. Alibaba Cloud Model Studio is the only source here that is both the model's author and its host at once for a family this size: Model Studio rents out the Qwen models Alibaba also writes, so one page carries the author's clock and the host's in the same row. It publishes no standing table \u2014 one dated notice per batch, each superseding the last \u2014 and it is the second place DeepSeek V4 Flash appears: Alibaba stops serving it on 2026-10-10, Microsoft Foundry keeps it until 2028-02-20, and this dataset shows both. SambaNova is the third inference host of the same kind and the one with the widest overlap: 12 of the 27 models on its deprecation page are already in here from Azure, Together AI, Oracle, Cerebras or Groq, so its rows mostly land on existing records rather than adding new ones. Meta-Llama-3.1-405B-Instruct now carries four hosts and three different shutdown dates on a single page \u2014 SambaNova switched it off on 2025-06-25, Azure keeps it to 2026-06-13, Oracle to 2026-08-03 \u2014 a fourteen-month spread for one model ID that no provider's own page discloses. It is also the only source here that answers 'what should I use instead' with a product rather than a model: for Whisper-Large-v3, ALLaM-7B and E5-Mistral-7B-Instruct the recommended replacement is SambaStack, SambaNova's on-premises offering, which is to say the model is not coming back to the cloud at all. Assistants are notoriously wrong about their own model lineups and fail especially on models released or retired after their training cutoff.",
-      "records": 955,
-      "last_verified": "2026-09-28",
+      "records": 956,
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/ai-model-deprecation-and-retirement/",
       "data": "https://referencesource.org/ai-model-deprecation-and-retirement/data.json"
     },
@@ -63,7 +63,7 @@
       "title": "ANSI roller chain sizes and their ISO 606 A-series and BS/DIN B-series counterparts",
       "description": "Industrial roller chain is sold under two numbering systems that look interchangeable and are not. The American system numbers chains 40, 50, 60 and so on, in eighths of an inch of pitch. The British/European system numbers them 08B, 10B, 12B. ISO 606 covers both: its A series is the American chain under a metric name (ANSI 40 is ISO 08A -- the same chain), and its B series is the British chain, which shares the pitch but is a different chain, with a different roller diameter and a different inner width, needing its own sprockets. Somebody replacing chain or matching a sprocket across the two systems has to know which of those two relationships they are looking at, and no catalog states it in one place: manufacturers print an ANSI dimensional table and a separate BS/DIN dimensional table in the same document, never cross-referenced, and the pitch match has to be worked out by eye. Each record here is one ANSI chain number with its pitch, roller diameter and inner width; its ISO 606 A-series name where a publisher states one; and the BS/DIN B-series chain that shares its pitch, with that chain's own pitch, roller diameter and inner width printed alongside, so the difference is visible rather than asserted. Answers 'what is the metric equivalent of ANSI 40 chain', 'is BS 08B the same as ANSI 40', 'ANSI 40 vs 08A vs 08B', 'roller chain size conversion chart'. In scope: the ANSI sizes that the source catalog prints with a roller diameter and that have a B-series chain of the same pitch. Out of scope, and why: ANSI 25 and 35, which are rollerless -- the catalog prints a bushing diameter for them, not a roller diameter, so there is no like-for-like comparison to make; ANSI 41, which has no single-line standard dimension row in the source; and ANSI 180, whose 2 1/4 inch pitch has no B-series counterpart in the source.",
       "records": 10,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/ansi-to-iso-roller-chain-cross-reference/",
       "data": "https://referencesource.org/ansi-to-iso-roller-chain-cross-reference/data.json"
     },
@@ -207,7 +207,7 @@
       "title": "TLS certificate maximum validity by Certificate Authority: what each CA actually issues today",
       "description": "Per-CA table of the maximum TLS certificate validity period each publicly-trusted Certificate Authority actually issues today, with the date the current limit took effect and any announced future reductions. Many CAs issue below the CA/Browser Forum BR ceiling (currently 200 days since March 15, 2026): DigiCert cut to 199 days from February 24, 2026 (three weeks early); Let's Encrypt issues 90 days on its classic profile, 45 days on its tlsserver profile, and 6 days on its shortlived profile; Google Trust Services issues at most 93 days by CP/CPS v6.2; Amazon ACM issues 198 days; Actalis issues 184 days. Entrust sold its public certificate business to Sectigo in January 2025 (completed September 18, 2025) and no longer issues publicly-trusted TLS certificates. Buypass stopped issuing TLS certificates on October 31, 2025. No single page anywhere publishes this side-by-side; the data layer under any CA-aware planner or renewal tool must be assembled from each CA's own announcements. Answers 'what is the maximum TLS certificate validity for Let's Encrypt?', 'how long does DigiCert issue certificates?', 'which CA issues shorter certificates than the BR maximum?', 'does Google Trust Services issue 200-day certificates?', 'what CA is issuing 90-day certificates now?', and 'what happened to Entrust TLS certificates?'",
       "records": 22,
-      "last_verified": "2026-08-18",
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/ca-issuance-validity/",
       "data": "https://referencesource.org/ca-issuance-validity/data.json"
     },
@@ -315,7 +315,7 @@
       "title": "MAPA Professional glove chemical breakthrough times",
       "description": "Per-chemical breakthrough time, permeation level and degradation rating for all 25 MAPA Professional glove models that publish a chemical chart \u2014 the reusable chemical-protection range, the disposable range and the liquidproof range \u2014 drawn from MAPA's own published product pages. Each glove model's page lists a table of chemicals it has been tested against, with the CAS number, the breakthrough time in minutes (how long before the chemical passes through the glove material), the permeation level (an EN 374 scale), the test standard the result was measured under, and a degradation rating. Where MAPA lists the same chemical twice for one glove under two different test standards, both results are kept rather than one being chosen. Answers 'how long can I wear an Ultranitril 480 glove handling acetic acid' and 'which MAPA glove holds up against toluene' \u2014 questions where guessing wrong means a chemical burn. Scoped to MAPA only: no comparably-structured free source was found for any other glove manufacturer (Ansell, Showa and Honeywell/North publish the equivalent data only as PDFs or behind an interactive selector), so this does not yet answer 'which manufacturer's glove is best', only 'how does this MAPA model perform'.",
       "records": 753,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/chemical-resistant-glove-breakthrough-times/",
       "data": "https://referencesource.org/chemical-resistant-glove-breakthrough-times/data.json"
     },
@@ -495,7 +495,7 @@
       "title": "Tap drill size and drill-size decimal equivalents",
       "description": "Two related lookups machinists and hobbyists need together: (1) which tap drill to use for a given inch or metric thread (e.g. 1/4-20 UNC needs a #7 drill for approximately 75% thread engagement), and (2) the decimal-inch size of every number, letter, fraction and metric drill, so a shop can pick the nearest drill it actually owns. Two independent vendor sources are used for each table so a disagreement between them can be flagged rather than silently trusted. Answers 'what size do I drill before tapping 1/4-20', and 'what decimal is a #7 drill' \u2014 a complete range in one place beats looking up one size at a time.",
       "records": 570,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/drill-tap-decimal-equivalents/",
       "data": "https://referencesource.org/drill-tap-decimal-equivalents/data.json"
     },
@@ -531,7 +531,7 @@
       "title": "FDA drug shortage duration tracker",
       "description": "For every package FDA currently lists as in shortage: how long that shortage entry has been open (from openFDA's own `initial_posting_date` to today), what FDA says the package's supply is right now, and any recovery estimate FDA has given. What FDA itself publishes, checked directly on 2026-09-01 rather than assumed: the shortage list page (accessdata.fda.gov/scripts/drugshortages) shows which drugs are short and why and carries no date at all, while each per-drug detail page adds a single 'Date first posted' for the whole drug. Neither prints an elapsed duration, and neither gives the date per manufacturer. openFDA does \u2014 where several manufacturers report a shortage of the same drug, each carries its own posting date, and FDA's page shows only the earliest of them. Cross-checked across 30 drugs against those detail pages: 30 of 30 agreed, and in all 10 multi-manufacturer cases FDA's single date was exactly the earliest of ours. The underlying facts are FDA's own public-domain data; the duration is a computation over them that nobody publishes maintained, because it changes every day and hand-updating it was never worth the effort. A scheduled refetch of the same public API keeps it current for free. Read the duration next to `availability`, and do not read it alone: a shortage entry stays 'Current' until FDA resolves the whole shortage, so 63.8% of listed packages (746 of 1,169, measured 2026-09-01) are marked 'Available' even while their entry has been open for years \u2014 the median entry has been open 1,721 days and 1,118 of 1,169 have been open more than 1,000. Records cite a per-drug, per-manufacturer API query rather than a page offset, because openFDA's result ordering rotates daily and an offset URL stops containing its own record \u2014 see sources.txt. Source: https://api.fda.gov/drug/shortages.json (openFDA, no API key required at this volume). This is a monitored dataset, not a static page \u2014 stale_after_days is short and a build should re-run the fetch on a schedule rather than once.",
       "records": 1149,
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/drug-shortage-duration-tracker/",
       "data": "https://referencesource.org/drug-shortage-duration-tracker/data.json"
     },
@@ -674,8 +674,8 @@
       "slug": "fda-import-alert-red-list",
       "title": "FDA import alert red lists: firms subject to detention without physical examination",
       "description": "Which foreign manufacturers, shippers and growers are on an FDA import alert red list, meaning every shipment from them is detained without physical examination (DWPE) at the US border. Each record is one firm on one import alert, with the firm name and address as FDA prints it, the country, the date FDA published the listing, and the product codes and product descriptions it covers. Answers 'is my supplier on an FDA import alert', 'is [firm] on the red list for import alert 66-41', 'why was my shipment detained without examination', 'which firms are on the FDA red list for undeclared pharmaceutical ingredients in supplements', and 'how do I check a Chinese manufacturer before ordering'. FDA publishes 153 separate import alerts as individual current-state pages with no cross-alert firm index, so answering 'is this firm flagged anywhere' means opening 153 pages; and firms are removed from red lists on petition with no record of the removal published at all, so an assistant answering from memory names firms that were delisted years ago.",
-      "records": 14170,
-      "last_verified": "2026-09-28",
+      "records": 14174,
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/fda-import-alert-red-list/",
       "data": "https://referencesource.org/fda-import-alert-red-list/data.json"
     },
@@ -701,8 +701,8 @@
       "slug": "federal-civil-penalty-maximums",
       "title": "Federal civil penalty maximums \u2014 current inflation-adjusted amounts across agencies",
       "description": "The current maximum (and where stated, minimum) civil monetary penalty for each violation type, across federal agencies, as each agency's own inflation-adjustment regulation states it: OSHA (29 CFR 1903.15), EPA (40 CFR 19.4), HHS including HIPAA and Medicare (45 CFR 102.3), DOJ including the False Claims Act (28 CFR 85.5), Coast Guard (33 CFR 27.3), NHTSA (49 CFR 578.6). Each agency publishes its own table in its own CFR part and no cross-agency assembled version exists \u2014 searched 2026-08-10, found only per-agency pages and one-off law-firm articles. The 2026 hook: OMB cancelled the 2026 inflation adjustment (the appropriations lapse meant BLS never produced October 2025 CPI-U data), so every agency's amounts are frozen at 2025 levels \u2014 a recent, counter-intuitive fact ('penalties are adjusted annually' is what the training data says) that makes unaided answers stale in a specific, checkable way. Answers 'what is the maximum OSHA penalty for a willful violation', 'what is the HIPAA tier-4 annual cap', 'what is the FCA per-claim maximum', and 'did penalties go up for 2026' (no \u2014 and the page can say why).",
-      "records": 574,
-      "last_verified": "2026-08-10",
+      "records": 570,
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/federal-civil-penalty-maximums/",
       "data": "https://referencesource.org/federal-civil-penalty-maximums/data.json"
     },
@@ -764,8 +764,8 @@
       "slug": "fips-140-module-validation-status",
       "title": "FIPS 140 validated cryptographic modules: active, historical or revoked",
       "description": "The current validation status and scheduled expiry date of every cryptographic module certificated by the NIST/CCCS Cryptographic Module Validation Program (CMVP). The FIPS 140-2 sunset has now happened: on 2026-09-21 the last Active FIPS 140-2 certificates moved to the Historical list \u2014 481 of them in that single day, recorded here \u2014 and CMVP's list of Active FIPS 140-2 modules now returns 'No certificates match the search criteria'. Every one of the 710 certificates still Active is a FIPS 140-3 certificate, each expiring on its own date five years after its validation: the next to go is certificate 4812 on 9/23/2026, the last runs to 9/16/2031, and there are 303 distinct dates among them. Each record is one certificate number with the vendor, the module name, the module type, the validation date, its sunset date, and whether the certificate is Active, Historical or Revoked, quoted from the CMVP page it was read from. Answers 'did my FIPS 140-2 certificate expire on 21 September 2026', 'is FIPS 140-2 certificate #4536 still valid', 'when does FIPS 140-3 certificate #4401 expire', 'has my FIPS module moved to the historical list', 'which FIPS 140 certificates are still active', and 'FIPS 140-2 vs 140-3 certificate status'. The status is a value that changes silently: CMVP moves a certificate to the Historical list when it is more than five years old or on a programmatic transition, and publishes no notice per certificate, so an assistant answering from memory reports certificates as Active months after they were retired \u2014 and from 2026-09-21 it will do exactly that for every FIPS 140-2 certificate in existence. Coverage: the complete CMVP register as re-read on 2026-09-22 \u2014 every certificate on every list. 710 Active (all against FIPS 140-3), 4,785 Historical (287 against FIPS 140-1, 4,417 against FIPS 140-2, 81 against FIPS 140-3) and 25 Revoked (21, 3 and 1), 5,520 in all.",
-      "records": 5523,
-      "last_verified": "2026-09-27",
+      "records": 5526,
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/fips-140-module-validation-status/",
       "data": "https://referencesource.org/fips-140-module-validation-status/data.json"
     },
@@ -864,7 +864,7 @@
       "title": "Gas cylinder color codes by standard and country",
       "description": "Color coding of compressed gas cylinders (shoulder and body colors) for medical, industrial and laboratory gases under different national and international standards. Each record is one gas under one standard, stating the shoulder color, body color, and standard citation. Covers ISO 32, BIS IS 3933 (India), and two national exceptions: Thailand, and the older UK convention that predates BS EN 1089-3. Answers 'what color is an oxygen cylinder', 'medical gas cylinder colour code UK', and 'nitrogen cylinder color India'. Oxygen is white under ISO 32, emerald green in Thailand, and white-over-black under the older UK convention \u2014 the kind of difference assistants get wrong by stating one standard as universal. Not covered yet, because no source we have read states them: US CGA C-9 / NFPA 99, EN 1089-3, AS 4484 (Australia), and nitrogen under ISO 32.",
       "records": 17,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/gas-cylinder-color-codes/",
       "data": "https://referencesource.org/gas-cylinder-color-codes/data.json"
     },
@@ -873,7 +873,7 @@
       "title": "General contractor license requirements and dollar thresholds by US state",
       "description": "Do I need a contractor license for this project in my state, and what does it take to get one? Every US state handles general contractor licensing differently: some require a state license for any construction work, others only above a dollar threshold ($1,000 in Arizona, $10,000 residential in Alabama, $100,000 commercial in Alabama), and some have no state-level license at all (municipal only). One record per license type per state, sourced from the state's licensing board. Answers 'do I need a contractor license in Florida', 'what is the minimum project size for a contractor license in Alabama', 'general contractor license requirements by state', and 'how much is a contractor license bond'. New Jersey added a formal licensing system effective February 2026; Montana transitioned from registration to licensing in 2026. The assembled versions on page one are all from insurance lead-gen sites (nextinsurance.com, insureon.com) selling general liability to contractors. Extends the electrician-licence-progression-by-state pattern to general contractors.",
       "records": 11,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-08-17",
       "url": "https://referencesource.org/general-contractor-license-thresholds-by-state/",
       "data": "https://referencesource.org/general-contractor-license-thresholds-by-state/data.json"
     },
@@ -900,7 +900,7 @@
       "title": "PyTorch release, CUDA build and NVIDIA driver pairings",
       "description": "One record per (PyTorch release, CUDA build) pairing: which CUDA builds each PyTorch release ships wheels for, which Python versions it supports, which cuDNN it carries, which GPU architectures (compute capabilities) the wheel was compiled for, and the minimum NVIDIA driver the pairing needs. Answers 'does torch 2.7 run on an RTX 5090', 'nvidia-smi says CUDA 12.4 but torch wants 12.6 \u2014 do I need a new driver', 'which pip index URL do I use for CUDA 12.8', 'why is torch.cuda.is_available() False on a card that CUDA supports'. Nobody publishes this join: PyTorch's release notes state the CUDA builds but not the driver floor, NVIDIA's release notes state the driver floor but say nothing about PyTorch, and the compiled architecture list lives only in PyTorch's own build script. The pairing is what a person actually needs and it is the thing assistants get wrong.",
       "records": 45,
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/gpu-cuda-pytorch-compatibility/",
       "data": "https://referencesource.org/gpu-cuda-pytorch-compatibility/data.json"
     },
@@ -909,7 +909,7 @@
       "title": "US graduated driver licensing requirements by state",
       "description": "Graduated driver licensing (GDL) requirements for each US state: minimum ages, mandatory hold periods, supervised driving hours, nighttime restrictions, passenger restrictions, the conditions to lift each restriction, and the full footnote text that qualifies each number. One row per state. Answers 'how long do I have to hold my permit in [state]?' and 'what are the restrictions on a provisional license in [state]?' \u2014 questions where assistants flatten the footnotes into wrong answers. Every value is quoted from the IIHS graduated licensing table, which IIHS rebuilds monthly from the 51 underlying state laws. That table restates those laws rather than being them, and it prints all but one hold period in whole months. Where a row has also been read against that state's own statute, it carries the statute's wording and citation beside the IIHS figure. Indiana is the first: IC 9-24-3-2.5 requires a learner's permit held 'at least one hundred eighty (180) days', where IIHS prints '6 months'. Six calendar months is 181 to 184 days depending on the start date, so the restatement is one to four days longer than the law it restates.",
       "records": 51,
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/graduated-driver-licensing/",
       "data": "https://referencesource.org/graduated-driver-licensing/data.json"
     },
@@ -963,7 +963,7 @@
       "title": "HFC refrigerant GWP regulations by US state",
       "description": "State-level HFC refrigerant regulations across the US, including GWP limits, equipment-type restrictions, effective dates, and regulatory citations. Each record is one state's regulation for one equipment category (supermarket, new facility, stand-alone unit, bulk HFC sales). Answers 'what refrigerant GWP limit applies to new supermarket systems in California', 'which states have adopted SNAP Rules 20 and 21', 'New York HFC phase-down GWP thresholds', and 'can I use R-410A in a new commercial refrigeration system in [state]'.",
       "records": 42,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/",
       "data": "https://referencesource.org/hfc-refrigerant-regulations-by-state/data.json"
     },
@@ -1017,7 +1017,7 @@
       "title": "Hydraulic and pipe connection type identification",
       "description": "Identifying characteristics of each hydraulic, pipe, and instrumentation connection standard used in fluid power and plumbing systems. For each connection type, gives the governing standard, seat or flare angle, whether the thread is tapered or parallel, how the seal is made, and interchangeability notes with other standards. Answers the recurring field question 'what kind of fitting is this?' \u2014 the identification step that must happen before any cross-reference or adapter lookup.",
       "records": 21,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/hydraulic-pipe-connection-types/",
       "data": "https://referencesource.org/hydraulic-pipe-connection-types/data.json"
     },
@@ -1080,7 +1080,7 @@
       "title": "How long an insurer has to acknowledge, decide and pay a claim, by state: statutory and regulatory claim-handling deadlines",
       "description": "The deadlines each US state puts on an insurance company handling a claim: how many days to acknowledge that a claim was received, how many days to reply to a policyholder's communication, how many days to accept or deny the claim after receiving proof of loss, how many days to pay once it has accepted, and what interest or penalty runs if it misses. Each record is one deadline in one state, carrying the number of days exactly as the state writes it, whether they are calendar, business or working days, the event the clock starts from, the citation to the statute or administrative rule that sets it, and the verbatim sentence. Answers 'how long does an insurance company have to pay a claim in Texas', 'what is the deadline for an insurer to deny a claim', 'how many days does my insurer have to acknowledge my claim in Ohio', and 'my insurer has had my proof of loss for 46 days \u2014 has a deadline passed'. No single original exists: every state adopted its own version of the NAIC Unfair Claims Settlement Practices model, half of them in a statute and half in an administrative rule, and NAIC's own topic page for it is now a 404.",
       "records": 42,
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/insurance-claim-handling-deadlines/",
       "data": "https://referencesource.org/insurance-claim-handling-deadlines/data.json"
     },
@@ -1097,8 +1097,8 @@
       "slug": "interstate-licensure-compact-participation",
       "title": "Interstate Professional Licensure Compact Participation by State",
       "description": "Which U.S. states participate in which interstate licensure compacts (nursing, psychology, physical therapy, counseling, social work, EMS, occupational therapy, audiology/speech pathology, dietetics, physician assistant, respiratory care, school psychology, athletic training), with effective dates and enabling statute citations.",
-      "records": 419,
-      "last_verified": "2026-09-22",
+      "records": 420,
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/interstate-licensure-compact-participation/",
       "data": "https://referencesource.org/interstate-licensure-compact-participation/data.json"
     },
@@ -1116,7 +1116,7 @@
       "title": "Withdrawn and superseded ISO standards",
       "description": "Every deliverable in ISO's own open-data register that has been withdrawn or superseded, with the replacement the register points to. Answers 'ISO 9001:2008 withdrawn \u2014 replaced by what', 'is ISO 13485:2003 still current', and 'what replaced IEC 31010:2009' \u2014 the lookup assistants get confidently wrong on an obscure designation, because the supersession chain is versioned, scattered across editions, and only ever published as a machine-readable file. 24,640 records read from the ISO Open Data CSV, each quoting the CSV row it came from, and each on a page of its own. Two things the register does not give, so neither do these pages: the date a standard was withdrawn (the only date in the file is the deliverable's own publication date), and any guarantee that the named replacement has itself been published. Measured 2026-09-14: 2,507 records (10.2%) name at least one replacement the register has never given a publication date, and on 416 of those (1.7%) every replacement named is unpublished \u2014 a revision project that is registered but that you cannot obtain. The test is the register's own publicationDate column, not the designation's spelling: all 29,680 rows it marks withdrawn and all 8,559 it marks current carry a publication date, and these replacement rows carry none.",
       "records": 24640,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/iso-standard-supersessions/",
       "data": "https://referencesource.org/iso-standard-supersessions/data.json"
     },
@@ -1224,7 +1224,7 @@
       "title": "ACA marketplace subsidy income limits by coverage year, household size and state group",
       "description": "The dollar income limits that decide whether a household qualifies for an ACA premium tax credit, for each coverage year, each household size from 1 to 8, and each of the three federal poverty guideline schedules (48 contiguous states and DC, Alaska, Hawaii). Each record states the poverty guideline the marketplace actually applies to that coverage year, the dollar figures at the 100%, 138%, 150%, 200%, 250%, 300% and 400% marks, the share of income the household is expected to pay at the top of the scale, and whether a hard cutoff applies above 400%. The enhanced credits created by the American Rescue Plan Act and extended by the Inflation Reduction Act lapsed on 31 December 2025, so coverage year 2026 was the first year since 2020 in which a household above 400% of the poverty line received no credit at all. No single page states these dollar figures. HHS publishes the poverty guidelines without the ACA multiples; the IRS publishes the applicable percentages without any dollar amounts; and the marketplace applies the guidelines published before open enrollment opened, not the guidelines bearing the coverage year's own number, which is the step most secondary sources get wrong. Answers 'what is the income limit for marketplace insurance in [year]', 'what is 400% of the federal poverty level for a family of [n]', 'how much can I earn and still get an Obamacare subsidy', 'what is the subsidy cliff', and 'what percentage of income do I have to pay for a benchmark plan'.",
       "records": 48,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/marketplace-subsidy-income-thresholds/",
       "data": "https://referencesource.org/marketplace-subsidy-income-thresholds/data.json"
     },
@@ -1305,7 +1305,7 @@
       "title": "State below-cost motor fuel selling laws and minimum-markup percentages",
       "description": "A handful of states make it illegal for a gas station to sell fuel below its own cost, on the theory that a chain with deep pockets could otherwise sell at a loss long enough to drive independent competitors out and then raise prices. Two separate things have to be known before anyone can act on one of these laws, and they almost always live in two different statute sections: what conduct is actually prohibited (and what the exceptions are), and how the law says 'cost' is calculated. So each state gets a record for each. Only two of the states here bolt a fixed cost-of-doing-business markup percentage onto cost -- Wisconsin (6% retail, 3% wholesale, 9.18% on the average posted terminal price) and West Virginia (4% wholesale) -- which is why the popular name 'minimum markup law' is misleading everywhere else: Minnesota, Missouri, North Carolina and Florida set a cost floor with no fixed percentage on top. No comprehensive compiled version of these laws was found; each state's rule lives only in its own statute or agency guidance page. Answers 'can a gas station legally sell below cost in my state', 'what's the minimum markup percentage for gasoline in Wisconsin', 'what counts as cost for a gas station in Florida', 'is meeting a competitor's price an exception'.",
       "records": 18,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/motor-fuel-minimum-markup-laws-by-state/",
       "data": "https://referencesource.org/motor-fuel-minimum-markup-laws-by-state/data.json"
     },
@@ -1314,7 +1314,7 @@
       "title": "Which National Electrical Code edition each US state enforces: adoption status, effective dates and amendments, from the state boards themselves",
       "description": "The NEC edition currently in force in each US state, with the effective date, the adopting authority, whether state amendments apply, and any announced transition to a newer edition. The spread is real and moving: Minnesota's Board of Electricity put the 2026 NEC in force on Aug. 17, 2026 (permits filed before that date still follow the 2023 NEC); Oregon's 2023 Oregon Electrical Specialty Code, based on the 2023 NEC, took effect Oct. 1, 2023 with a published table of amendments, and the 2026 OESC is in adoption; Washington's WAC 296-46B-010 carries the 2023 NEC with the 2026 edition already written in for Dec. 31, 2026; Nebraska has been on the 2023 NEC since Aug. 1, 2024. Answers 'which NEC edition is in effect in my state?', 'which states have adopted the 2026 NEC?', 'does my state amend the NEC or adopt it unamended?', 'when does the new electrical code take effect for permits?'. Caveat: local jurisdictions (AHJs) may enforce a different edition; this asset records statewide adoption only. Which edition is in force changes month to month, which is why every record carries the date its source states and a verbatim quote \u2014 a static tracker published two weeks before Minnesota's cutover was wrong two weeks later, and so was an earlier version of this asset.",
       "records": 5,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/nec-edition-adoption-by-state/",
       "data": "https://referencesource.org/nec-edition-adoption-by-state/data.json"
     },
@@ -1323,7 +1323,7 @@
       "title": "EPA NESHAP Source Category Applicability Crosswalk",
       "description": "Maps each EPA NESHAP source category to its 40 CFR subpart, whether it applies to major or area sources, the original final rule date, most recent amendment, and residual risk/technology review status.",
       "records": 125,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/neshap-source-category-crosswalk/",
       "data": "https://referencesource.org/neshap-source-category-crosswalk/data.json"
     },
@@ -1341,7 +1341,7 @@
       "title": "NFPA 704 fire diamond ratings by chemical",
       "description": "The NFPA 704 'fire diamond' rating for a chemical \u2014 the health (blue), flammability (red), instability (yellow) numbers and any special (white) notice \u2014 as published on that chemical's own datasheet. Each record is one chemical, with the four quadrants and the datasheet's own wording for what each value means. Answers 'what is the NFPA 704 rating for anhydrous ammonia', 'fire diamond numbers for thionyl chloride', and 'what does a 3 in the blue diamond mean'. NFPA 704 itself is a paywalled standard and the per-chemical ratings are scattered one page at a time across datasheets and SDSs, so no single free table exists \u2014 assembly, one source per record.",
       "records": 4,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/nfpa-704-hazard-ratings/",
       "data": "https://referencesource.org/nfpa-704-hazard-ratings/data.json"
     },
@@ -1350,7 +1350,7 @@
       "title": "NIST cryptographic algorithm deprecation schedule: what is approved, deprecated, and disallowed, and when",
       "description": "Per-algorithm status under NIST guidance for the post-quantum cryptographic transition. Each record is one algorithm or key-length configuration with its current approval status (approved, acceptable, deprecated, restricted, disallowed, legacy use), the date at which the status changes, and the recommended replacement. Drawn from three NIST publications: IR 8547 (post-quantum transition timeline), SP 800-131A Rev 2 (current algorithm status rules) and Rev 3 draft (upcoming changes), and FIPS 203/204/205 (the post-quantum replacement standards). The key deadlines: quantum-vulnerable public-key algorithms (RSA, ECDSA, ECDH, finite-field DH) deprecated after 2030, disallowed after 2035; SHA-1 and 224-bit hashes deprecated through 2030, disallowed thereafter. AES-256 and SHA-2/SHA-3 are NOT on the deprecation schedule. Answers 'when is RSA deprecated?', 'is AES-256 affected by the post-quantum transition?', 'what replaces ECDSA?', and 'what is the current NIST status of 3DES?'",
       "records": 21,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/nist-cryptographic-algorithm-deprecation-schedule/",
       "data": "https://referencesource.org/nist-cryptographic-algorithm-deprecation-schedule/data.json"
     },
@@ -1395,7 +1395,7 @@
       "title": "Deprecated npm packages and their maintainer-named replacement",
       "description": "npm allows a maintainer to attach a 'deprecated' message to a specific published version, and that message often names the exact replacement package or built-in API to use instead -- 'left-pad' points at String.prototype.padStart(), 'istanbul' points at nyc, 'tslint' points at ESLint, 'babel-eslint' points at @babel/eslint-parser. This is first-party, machine-readable data sitting in the registry API itself, but nobody has assembled it into a browsable table: a developer running `npm install` sees the warning once in a terminal scroll and it is gone, and the alternative is a content-mill blog post ranking '10 request alternatives' without quoting what the maintainer actually said. This asset would have been too tedious to maintain by hand across thousands of packages -- watching a firehose of new deprecations and re-checking old ones for changes -- but is a mechanical registry read for one machine, refreshable on a schedule at zero marginal cost per package. Each record is one deprecated package, quoting its maintainer's own deprecated message verbatim and naming the specific replacement stated in it. Answers 'is request deprecated', 'what should I use instead of tslint', 'why is my npm install warning about gulp-util'.",
       "records": 96,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/npm-deprecated-package-recommended-replacement/",
       "data": "https://referencesource.org/npm-deprecated-package-recommended-replacement/data.json"
     },
@@ -1404,7 +1404,7 @@
       "title": "Which OSHA NRTL is recognized for which test standard: all 21 labs' scopes of recognition, cross-referenced",
       "description": "For every OSHA Nationally Recognized Testing Laboratory (NRTL), each test standard the lab is currently recognized for, taken from the lab's own scope-of-recognition page on osha.gov. One record per lab-standard pair. OSHA publishes each lab's scope on a separate page and publishes no cross-lab view, so answering 'which NRTLs can certify to UL 507?' or 'is DEKRA recognized for ANSI/AAMI ES 60601-1?' or 'which labs besides UL can certify commercial cooking appliances?' today means opening up to 21 pages and searching each one. The recognition matters commercially: a product that 29 CFR 1910.7 requires to be NRTL-certified must be certified by a lab whose scope covers the applicable standard, and manufacturers choosing a lab, buyers verifying a certification mark, and safety engineers checking whether a mark is valid for a given standard all need the standard-to-lab direction that OSHA does not publish.",
       "records": 3325,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/nrtl-recognition-scopes/",
       "data": "https://referencesource.org/nrtl-recognition-scopes/data.json"
     },
@@ -1413,7 +1413,7 @@
       "title": "Which OSHA-recognized labs (NRTLs) can certify to a given test standard",
       "description": "The inverted view of OSHA's Nationally Recognized Testing Laboratory program: for each test standard, every NRTL currently recognized to certify products to it. Answers 'which NRTLs can certify to UL 508A', 'can anyone other than UL list to UL 1741', 'is my lab's mark acceptable to OSHA for this product', and 'who else could quote this job'. OSHA publishes the recognition one laboratory at a time \u2014 twenty separate pages, each a long table of that lab's standards \u2014 and its own list-of-standards page says so in as many words: 'See individual NRTL informational web pages to determine which of these standards fall within an NRTL's scope of recognition.' So the question a manufacturer actually has (who may certify my product, and therefore who can I ask for a price) requires opening and searching twenty pages, and nobody publishes the answer.",
       "records": 4334,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/nrtl-recognized-test-standards/",
       "data": "https://referencesource.org/nrtl-recognized-test-standards/data.json"
     },
@@ -1440,7 +1440,7 @@
       "title": "NVIDIA GPU CUDA compute capability by model",
       "description": "Which CUDA compute capability version (e.g. '8.9', '12.0') each NVIDIA GPU model supports, from NVIDIA's own compute-capability table. Compute capability determines which CUDA toolkit version a card needs, which `-arch=sm_XX` / `-gencode` build flags to pass (the target is the capability written without its dot, so 8.9 is sm_89 and 12.0 is sm_120), and whether a PyTorch/TensorFlow wheel built for one architecture will run on a given card. Answers 'what compute capability is my GPU', 'does CUDA 11.8 support the RTX 4090', 'what sm_XX target do I use for an A100'. NVIDIA's own page is the single source of truth and is already well-ranked for individual current-generation cards; the value here is completeness (legacy cards back to the earliest Fermi/Kepler-era GPUs, and every SKU in a generation, not just the flagship) in one machine-readable table, and being current the moment a new architecture (e.g. Blackwell, 12.x) ships, before third-party blogs catch up.",
       "records": 441,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/nvidia-cuda-compute-capability-by-gpu/",
       "data": "https://referencesource.org/nvidia-cuda-compute-capability-by-gpu/data.json"
     },
@@ -1467,7 +1467,7 @@
       "title": "OSHA medical surveillance trigger thresholds by substance",
       "description": "The airborne exposure level that triggers mandatory medical surveillance under each OSHA substance-specific standard (29 CFR 1910 Subpart Z), compared across all regulated substances. Each record is one substance, carrying its action level, PEL, the exposure duration that triggers surveillance, the medical exam scope and frequency, biological monitoring requirements if any, and the record retention period. Answers 'what is the action level for lead', 'at what exposure must I provide medical exams for benzene workers', 'how often does cadmium biological monitoring need to happen', and 'which OSHA substances require 40-year record retention'. The action level is typically half the PEL but not always, and the surveillance trigger conditions vary wildly: lead uses blood lead levels, cadmium uses urine cadmium, and most others use airborne concentration plus days-per-year thresholds.",
       "records": 23,
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/osha-medical-surveillance-triggers/",
       "data": "https://referencesource.org/osha-medical-surveillance-triggers/data.json"
     },
@@ -1503,7 +1503,7 @@
       "title": "Outboard motor service specifications by brand and model",
       "description": "Spark plug, gap, oil capacity, oil filter, gear lube capacity and water pump impeller kit part numbers for outboard motors by brand and model range. One row per model or model range. Answers 'what spark plug does my Yamaha F150 take?', 'Yamaha F150 water pump repair kit part number', and 'Mercury serial number year chart' \u2014 questions where assistants guess a plausible but wrong part number, capacity or model year.",
       "records": 53,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/outboard-motor-service-specs/",
       "data": "https://referencesource.org/outboard-motor-service-specs/data.json"
     },
@@ -1629,7 +1629,7 @@
       "title": "Galvanic series and surface energy of engineering materials",
       "description": "Electrode potential in seawater (volts vs SCE) for metals and alloys from the ASM/MIL-STD-889 galvanic series, and surface energy (dyne/cm) for plastics and packaging materials. Answers 'can I use [coating] directly on galvanised steel', 'will these two metals corrode each other' and 'will this adhesive wet this plastic' \u2014 questions where assistants miss the primer/prep requirement for a specific substrate.",
       "records": 80,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/",
       "data": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/data.json"
     },
@@ -1647,7 +1647,7 @@
       "title": "CPA continuing professional education (CPE) requirements by US jurisdiction",
       "description": "The CPE hours a licensed CPA must complete in each US state and territory to renew, as published by NASBA's National Registry of CPE Sponsors. Covers total hours, reporting period, ethics requirement, and other subject-area mandates. Answers 'how many CPE hours does a CPA need in [state]', 'what is the ethics CPE requirement for CPAs in Texas', 'which states require CPA CPE in government auditing or accounting and auditing', and 'do my CPE hours from another state count'. The scenario as briefed ('professional licensing CE by jurisdiction') spans dozens of independent regulatory datasets across professions; this asset covers CPAs because NASBA publishes a structured, per-jurisdiction page for all 55 boards of accountancy \u2014 the only profession in the scenario with a single cross-jurisdiction authority table. Nursing and insurance producer CE are different datasets with different regulators and no equivalent assembled source.",
       "records": 53,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/professional-licensing-continuing-education-by-jurisdiction/",
       "data": "https://referencesource.org/professional-licensing-continuing-education-by-jurisdiction/data.json"
     },
@@ -1726,9 +1726,9 @@
     {
       "slug": "regulatory-threshold-triggers",
       "title": "US federal employment law thresholds by employee count",
-      "description": "Employee-count thresholds that trigger US federal employment laws (FMLA, ADA, COBRA, Title VII, ACA, ERISA and more). Each record is one law at one threshold, stating the trigger point, what the employer is required to do, and how employees are counted for that statute \u2014 including whether part-time, remote or FTE counts apply. Answers 'how many employees before [law] applies' and 'does FMLA count remote workers within 75 miles'.",
-      "records": 32,
-      "last_verified": "2026-09-27",
+      "description": "Employee-count thresholds that trigger US federal employment laws, with the number quoted from the statute itself or from the enforcing agency's own coverage page -- never from a vendor summary. Two kinds of record: a law that states a count (Title VII, ADA, ADEA, GINA, the Pregnancy Discrimination Act, FMLA, COBRA, the ACA employer mandate, WARN, EEO-1 reporting, IRCA) carries that number; a law whose coverage clause names who it covers without stating any employee count (FLSA, ERISA, the OSH Act, USERRA, FCRA, EPPA, the Equal Pay Act, the Consumer Credit Protection Act's garnishment rule, jury-duty protection) carries no threshold at all, is marked 'no employee-count threshold', and quotes the test its coverage does turn on. Note what the second kind does NOT say: that the law covers every employer. It says the statute sets no headcount -- several set some other test, and that test is quoted where the clause states one. A few laws state two counts, because a named class of employer is covered at a lower one -- EEO-1 reporting binds private employers at 100 but federal contractors at 50. Those records carry both numbers, so that reading only the headline figure cannot give the wrong answer to a contractor.",
+      "records": 20,
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/regulatory-threshold-triggers/",
       "data": "https://referencesource.org/regulatory-threshold-triggers/data.json"
     },
@@ -2178,7 +2178,7 @@
       "title": "Real estate transfer tax by state: rate, who pays, brackets and first-time buyer relief",
       "description": "What does it cost to transfer a house, who is legally liable for the tax, and does a first-time buyer get relief? The state-level transfer, conveyance, deed excise or documentary stamp tax varies from none at all to 3 percent of the price, and the parts that move real money are the parts the assembled tables on the open web get wrong or omit. Delaware charges 3 percent, reduced to 2.5 percent where the county or municipality has enacted its own 1.5 percent tax, apportioned equally between grantor and grantee, with a first-time home buyer reduction of half a percent on the first $400,000 \u2014 content-mill tables print a flat '2%' or '2.5%' and none mention the first-time buyer relief. Florida is 70 cents per $100 statewide but 60 cents in Miami-Dade, where the widely-copied tables say Miami-Dade is higher. Washington and Hawaii are graduated by price band; Massachusetts prints a lower rate for Barnstable County than for the rest of the state; Virginia and Wisconsin impose the tax on the grantor by statute while Delaware splits it and New York's mansion tax falls on the buyer. One record per state, quoted from the state revenue department's own page or from the state statute that sets the rate. Answers 'how much is transfer tax in my state', 'who pays transfer tax buyer or seller', 'is there a first-time home buyer transfer tax exemption', and 'what is the deed excise on a $500,000 house'.",
       "records": 22,
-      "last_verified": "2026-08-31",
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/state-real-estate-transfer-tax/",
       "data": "https://referencesource.org/state-real-estate-transfer-tax/data.json"
     },
@@ -2258,8 +2258,8 @@
       "slug": "stihl-chainsaw-chain-and-bar-specs",
       "title": "Stihl chainsaw chain and bar specifications by model",
       "description": "Chain pitch, gauge, drive link count, bar length and OEM chain part number for each Stihl chainsaw model and bar combination \u2014 including the MSE electric saws and HT pole pruner models the dealer charts list alongside the petrol saws. One row per model per bar length. Answers 'what chain does my Stihl MS261 take', 'Stihl MS440 20 inch bar drive links' and 'Stihl chain part number for [model]' \u2014 the multi-variable lookup assistants get wrong by guessing a plausible pitch/gauge combination.",
-      "records": 857,
-      "last_verified": "2026-09-07",
+      "records": 843,
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/stihl-chainsaw-chain-and-bar-specs/",
       "data": "https://referencesource.org/stihl-chainsaw-chain-and-bar-specs/data.json"
     },
@@ -2564,8 +2564,8 @@
       "slug": "workplace-exposure-limits",
       "title": "US workplace chemical exposure limits: federal OSHA, Cal/OSHA and NIOSH, side by side",
       "description": "Airborne exposure limits for workplace chemicals as stated by three independent authorities: federal OSHA's Table Z-1 (29 CFR 1910.1000), California's own Table AC-1 (8 CCR 5155), and NIOSH's Pocket Guide entry for the substance. Each record is one substance with the limit that agency publishes for it, the URL it came from and the verbatim line it was read from. **The product is the disagreement**: where more than one of them covers a substance the numbers are frequently far apart \u2014 acetone is 1000 ppm federally, 500 ppm in California and 250 ppm recommended by NIOSH; acetaldehyde is 200 ppm federally against 25 ppm in California; 1,1-dimethylhydrazine 0.5 against 0.01 \u2014 and exceeding a PEL is what triggers engineering controls, PPE and medical surveillance, so which number applies is consequential. OSHA's and California's are legal limits (PELs); NIOSH's is a recommendation (an REL), which is why it is carried in its own fields and never mixed into the PEL columns. Answers 'what is the exposure limit for [chemical]?', 'is the California PEL different from OSHA's?', 'what is the NIOSH REL for acetone' \u2014 the questions where an assistant gives one number without saying whose it is, or hands back an REL when it was asked for the legal limit.",
-      "records": 812,
-      "last_verified": "2026-09-25",
+      "records": 803,
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/workplace-exposure-limits/",
       "data": "https://referencesource.org/workplace-exposure-limits/data.json"
     }

@@ -6,8 +6,8 @@ Per-CA table of the maximum TLS certificate validity period each publicly-truste
 
 | | |
 |---|---|
-| Last verified | 2026-08-18 |
-| Re-check due | 2026-09-17 |
+| Last verified | 2026-09-29 |
+| Re-check due | 2026-10-29 |
 | Records | 22 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/ca-issuance-validity/changes.xml) |
 

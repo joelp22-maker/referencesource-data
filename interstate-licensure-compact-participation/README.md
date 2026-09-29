@@ -2,13 +2,13 @@
 
 Which U.S. states participate in which interstate licensure compacts (nursing, psychology, physical therapy, counseling, social work, EMS, occupational therapy, audiology/speech pathology, dietetics, physician assistant, respiratory care, school psychology, athletic training), with effective dates and enabling statute citations.
 
-**419 records.** Canonical, always-current version: [https://referencesource.org/interstate-licensure-compact-participation/](https://referencesource.org/interstate-licensure-compact-participation/)
+**420 records.** Canonical, always-current version: [https://referencesource.org/interstate-licensure-compact-participation/](https://referencesource.org/interstate-licensure-compact-participation/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-22 |
-| Re-check due | 2026-12-21 |
-| Records | 419 |
+| Last verified | 2026-09-29 |
+| Re-check due | 2026-12-28 |
+| Records | 420 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/interstate-licensure-compact-participation/changes.xml) |
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.
