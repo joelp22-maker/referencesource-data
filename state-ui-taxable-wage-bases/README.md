@@ -6,8 +6,8 @@ For each US state and DC, the taxable wage base (the per-employee annual earning
 
 | | |
 |---|---|
-| Last verified | 2026-09-28 |
-| Re-check due | 2027-09-28 |
+| Last verified | 2026-08-17 |
+| Re-check due | 2027-08-17 |
 | Records | 14 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-ui-taxable-wage-bases/changes.xml) |
 

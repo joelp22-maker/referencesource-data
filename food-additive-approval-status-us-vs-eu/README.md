@@ -1,13 +1,13 @@
 # Food additive regulatory approval status — US FDA vs EU
 
-Cross-jurisdictional regulatory status of food additives permitted for direct addition to food. Each record is one additive with its approval status in both the US (FDA, 21 CFR Parts 172–178) and the EU (Regulation 1333/2008, Annex II). Covers whether the substance is permitted, prohibited, or conditionally restricted in each jurisdiction, with the regulatory citation and any concentration limits or use conditions. Answers 'is titanium dioxide allowed in food in the EU' (no, banned since August 2022), 'is potassium bromate permitted in the US' (yes, 21 CFR 172.730), 'which food additives are approved in the US but banned in the EU', and 'what is the E-number for sodium nitrite' (E250). The divergences are the product: BHA, BHT, TBHQ, titanium dioxide, potassium bromate, and azodicarbonamide all have different regulatory status between the US and EU, and an assistant that states one jurisdiction's position as universal is wrong for the other.
+What one regulator says about one food additive, for two regulators side by side. Each record is one additive as ONE jurisdiction lists it — the US (FDA, 21 CFR Parts 172–178) or the EU (Regulation 1333/2008, Annex II) — carrying that jurisdiction's status, the regulatory citation, any use conditions the regulation imposes, and the E-number where the EU assigns one. Where both regulators list the same substance under the same name, each record links to its counterpart in the other jurisdiction, so the comparison is one click away. Answers 'what does 21 CFR say about potassium bromate' (permitted, 21 CFR 172.730), 'is BHA authorised in the EU and under what number' (yes, E 320), 'what is the E-number for sodium nitrite' (E 250), and 'which additives has the EU removed from Annex II' (titanium dioxide among them). Read it as two authoritative lists that can be checked against each other, not as a single verdict per substance: a record states what its own regulation says and nothing about the other jurisdiction, and a substance's absence from one list is not evidence that it is banned there.
 
 **479 records.** Canonical, always-current version: [https://referencesource.org/food-additive-approval-status-us-vs-eu/](https://referencesource.org/food-additive-approval-status-us-vs-eu/)
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
-| Re-check due | 2027-09-02 |
+| Last verified | 2026-08-15 |
+| Re-check due | 2027-08-15 |
 | Records | 479 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/food-additive-approval-status-us-vs-eu/changes.xml) |
 

@@ -7,7 +7,7 @@ A handful of states make it illegal for a gas station to sell fuel below its own
 | | |
 |---|---|
 | Last verified | 2026-09-28 |
-| Re-check due | 2027-02-16 |
+| Re-check due | 2027-08-20 |
 | Records | 18 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/motor-fuel-minimum-markup-laws-by-state/changes.xml) |
 

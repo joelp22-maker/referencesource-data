@@ -6,8 +6,8 @@ For each US state with a statewide tuition-free college ('promise' or 'reconnect
 
 | | |
 |---|---|
-| Last verified | 2026-09-22 |
-| Re-check due | 2027-09-22 |
+| Last verified | 2026-08-18 |
+| Re-check due | 2027-08-18 |
 | Records | 5 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-promise-free-college-programs/changes.xml) |
 

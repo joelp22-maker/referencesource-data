@@ -6,8 +6,8 @@ The maximum number of pharmacy technicians a single pharmacist may supervise in 
 
 | | |
 |---|---|
-| Last verified | 2026-08-16 |
-| Re-check due | 2027-08-16 |
+| Last verified | 2026-08-15 |
+| Re-check due | 2027-08-15 |
 | Records | 21 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/pharmacy-technician-supervision-ratios/changes.xml) |
 

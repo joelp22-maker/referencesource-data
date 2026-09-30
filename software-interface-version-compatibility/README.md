@@ -6,8 +6,8 @@ Which versions of common software dependencies are compatible with each other â€
 
 | | |
 |---|---|
-| Last verified | 2026-09-24 |
-| Re-check due | 2026-11-23 |
+| Last verified | 2026-08-04 |
+| Re-check due | 2026-10-03 |
 | Records | 417 |
 | Machine-readable | [`data.json`](data.json) Â· [changes feed](https://referencesource.org/software-interface-version-compatibility/changes.xml) |
 

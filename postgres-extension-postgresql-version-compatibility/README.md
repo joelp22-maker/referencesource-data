@@ -6,8 +6,8 @@ Which major versions of PostgreSQL a popular server extension supports, taken fr
 
 | | |
 |---|---|
-| Last verified | 2026-09-28 |
-| Re-check due | 2027-01-26 |
+| Last verified | 2026-08-31 |
+| Re-check due | 2026-12-29 |
 | Records | 9 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/postgres-extension-postgresql-version-compatibility/changes.xml) |
 

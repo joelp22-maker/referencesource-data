@@ -7,7 +7,7 @@ The mandatory notification deadlines triggered by workplace, environmental, and 
 | | |
 |---|---|
 | Last verified | 2026-08-12 |
-| Re-check due | 2027-02-08 |
+| Re-check due | 2027-08-12 |
 | Records | 23 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/incident-notification-deadlines/changes.xml) |
 

@@ -6,8 +6,8 @@ If the person who injured you was a city, a county, a school district or the sta
 
 | | |
 |---|---|
-| Last verified | 2026-08-31 |
-| Re-check due | 2027-08-31 |
+| Last verified | 2026-08-26 |
+| Re-check due | 2027-08-26 |
 | Records | 96 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/government-tort-claim-notice-deadlines-by-state/changes.xml) |
 

@@ -6,8 +6,8 @@ When you trade a car in, does the state charge sales tax on the full price of th
 
 | | |
 |---|---|
-| Last verified | 2026-08-20 |
-| Re-check due | 2027-08-20 |
+| Last verified | 2026-08-19 |
+| Re-check due | 2027-08-19 |
 | Records | 47 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/vehicle-trade-in-sales-tax-credit-by-state/changes.xml) |
 

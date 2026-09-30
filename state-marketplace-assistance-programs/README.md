@@ -6,8 +6,8 @@ One record per US state and the District of Columbia, stating who operates its h
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
-| Re-check due | 2026-12-18 |
+| Last verified | 2026-08-14 |
+| Re-check due | 2026-12-12 |
 | Records | 51 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-marketplace-assistance-programs/changes.xml) |
 

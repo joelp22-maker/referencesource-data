@@ -6,8 +6,8 @@ For each US state and DC, the number of days an injured worker must wait before 
 
 | | |
 |---|---|
-| Last verified | 2026-09-22 |
-| Re-check due | 2027-09-22 |
+| Last verified | 2026-08-17 |
+| Re-check due | 2027-08-17 |
 | Records | 17 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/wc-waiting-periods-by-state/changes.xml) |
 

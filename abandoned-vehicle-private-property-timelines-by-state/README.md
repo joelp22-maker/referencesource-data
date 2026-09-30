@@ -6,8 +6,8 @@ State-by-state comparison of the legal timeline for a vehicle left on private pr
 
 | | |
 |---|---|
-| Last verified | 2026-09-28 |
-| Re-check due | 2027-09-28 |
+| Last verified | 2026-08-18 |
+| Re-check due | 2027-08-18 |
 | Records | 44 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/abandoned-vehicle-private-property-timelines-by-state/changes.xml) |
 

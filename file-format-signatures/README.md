@@ -1,6 +1,6 @@
 # File format magic numbers
 
-The leading bytes (magic number / file signature) that identify a file format, with its usual extension. Answers 'what actually is this file' when the extension is wrong or missing.
+The leading bytes (magic number / file signature) that identify a file format, with its usual extension. Answers 'what actually is this file' when the extension is wrong or missing. Covers what Wikipedia's List of file signatures publishes — a broad cross-section, not every format that exists.
 
 **337 records.** Canonical, always-current version: [https://referencesource.org/file-format-signatures/](https://referencesource.org/file-format-signatures/)
 

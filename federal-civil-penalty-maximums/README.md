@@ -6,8 +6,8 @@ The current maximum (and where stated, minimum) civil monetary penalty for each 
 
 | | |
 |---|---|
-| Last verified | 2026-09-29 |
-| Re-check due | 2027-04-17 |
+| Last verified | 2026-08-10 |
+| Re-check due | 2027-02-26 |
 | Records | 570 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/federal-civil-penalty-maximums/changes.xml) |
 

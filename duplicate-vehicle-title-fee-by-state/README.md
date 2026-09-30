@@ -6,8 +6,8 @@ What it costs and how long it takes to replace a lost, stolen or destroyed vehic
 
 | | |
 |---|---|
-| Last verified | 2026-08-28 |
-| Re-check due | 2027-08-28 |
+| Last verified | 2026-08-27 |
+| Re-check due | 2027-08-27 |
 | Records | 50 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/duplicate-vehicle-title-fee-by-state/changes.xml) |
 

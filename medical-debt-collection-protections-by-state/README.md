@@ -6,8 +6,8 @@ Since 2022, at least nine states have passed medical-debt-specific consumer prot
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
-| Re-check due | 2027-03-01 |
+| Last verified | 2026-08-27 |
+| Re-check due | 2027-02-23 |
 | Records | 9 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/medical-debt-collection-protections-by-state/changes.xml) |
 

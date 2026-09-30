@@ -6,8 +6,8 @@ Withdrawn standards, deprecated API models and retired identifiers mapped to the
 
 | | |
 |---|---|
-| Last verified | 2026-09-24 |
-| Re-check due | 2027-03-23 |
+| Last verified | 2026-09-30 |
+| Re-check due | 2027-01-31 |
 | Records | 140 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/superseded-standards-mappings/changes.xml) |
 

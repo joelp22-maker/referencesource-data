@@ -6,8 +6,8 @@ The mandatory paid family and medical leave programs that US states operate, wit
 
 | | |
 |---|---|
-| Last verified | 2026-09-27 |
-| Re-check due | 2026-12-31 |
+| Last verified | 2026-09-29 |
+| Re-check due | 2026-12-15 |
 | Records | 15 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-paid-family-leave-programs/changes.xml) |
 

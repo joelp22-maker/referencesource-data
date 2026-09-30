@@ -6,8 +6,8 @@ State-by-state comparison of legally mandated minimum staffing levels for nursin
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
-| Re-check due | 2027-08-15 |
+| Last verified | 2026-08-14 |
+| Re-check due | 2027-08-14 |
 | Records | 51 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/nursing-home-minimum-staffing-by-state/changes.xml) |
 

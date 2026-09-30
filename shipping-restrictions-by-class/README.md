@@ -6,8 +6,8 @@ Whether a named substance or item may be mailed, or carried by air, and on what 
 
 | | |
 |---|---|
-| Last verified | 2026-09-22 |
-| Re-check due | 2027-09-22 |
+| Last verified | 2026-08-03 |
+| Re-check due | 2027-08-03 |
 | Records | 3,168 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/shipping-restrictions-by-class/changes.xml) |
 

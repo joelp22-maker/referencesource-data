@@ -6,8 +6,8 @@ State-by-state comparison of Certificate of Need (CON) program requirements for 
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
-| Re-check due | 2027-08-19 |
+| Last verified | 2026-08-15 |
+| Re-check due | 2027-08-15 |
 | Records | 13 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/con-capital-expenditure-thresholds-by-state/changes.xml) |
 

@@ -6,8 +6,8 @@ What does it cost to transfer a house, who is legally liable for the tax, and do
 
 | | |
 |---|---|
-| Last verified | 2026-09-29 |
-| Re-check due | 2027-09-29 |
+| Last verified | 2026-08-31 |
+| Re-check due | 2027-08-31 |
 | Records | 22 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-real-estate-transfer-tax/changes.xml) |
 

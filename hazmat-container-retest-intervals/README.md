@@ -6,14 +6,14 @@ Mandatory requalification, retest and inspection intervals for pressure containe
 
 | | |
 |---|---|
-| Last verified | 2026-09-24 |
-| Re-check due | 2027-09-24 |
+| Last verified | 2026-09-30 |
+| Re-check due | 2027-08-06 |
 | Records | 67 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/hazmat-container-retest-intervals/changes.xml) |
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.
 
-**Licence position for this dataset.** Facts extracted from the US Code of Federal Regulations, a US government work not subject to copyright. Text is read via law.cornell.edu because eCFR blocks our fetcher; the fact is the regulation's, not Cornell's, and each record quotes a short verbatim span and links back to the section.
+**Licence position for this dataset.** Facts extracted from the US Code of Federal Regulations, a US government work not subject to copyright. Text is read via law.cornell.edu for historical reasons (eCFR used to block our fetcher; retested 2026-09-24 and it no longer does), and via govinfo where Cornell's rendering mangles a typeset fraction; the fact is the regulation's, not the host's, and each record quotes a short verbatim span and links back to the section.
 
 ---
 

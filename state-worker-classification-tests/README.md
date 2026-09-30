@@ -6,8 +6,8 @@ Which legal test each U.S. state uses to distinguish employees from independent 
 
 | | |
 |---|---|
-| Last verified | 2026-08-18 |
-| Re-check due | 2027-08-18 |
+| Last verified | 2026-08-17 |
+| Re-check due | 2027-08-17 |
 | Records | 10 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-worker-classification-tests/changes.xml) |
 

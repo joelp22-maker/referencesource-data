@@ -6,14 +6,14 @@ Equivalence between withdrawn DIN fastener standards and their current ISO and B
 
 | | |
 |---|---|
-| Last verified | 2026-09-22 |
-| Re-check due | 2029-09-21 |
+| Last verified | 2026-08-05 |
+| Re-check due | 2029-08-04 |
 | Records | 296 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/fastener-standard-interchangeability-exceptions/changes.xml) |
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.
 
-**Licence position for this dataset.** Facts extracted from freely published distributor technical pages. Dimensions are facts, not copyrightable expression (US: Feist, 1991). ISO 4017 and the other ISO fastener documents were not purchased or opened; ISO's own terms restrict use of ISO content, and no ISO content is used here -- only dimensions as facts, quoted from distributors who published them. Three distributor groups, no bulk take from any one: the exception rows come from Wurth (the German page, and a free English technical booklet from Wurth Industry of Canada), the pair list from Monster Bolts, the BS column from TR Fastenings. Of the Canadian booklet only the rows where two standards DIFFER were taken -- 148 cells out of several thousand printed -- so what is reproduced is the divergence, not the compilation.
+**Licence position for this dataset.** Facts extracted from freely published distributor technical pages. Dimensions are facts, not copyrightable expression (US: Feist, 1991). ISO 4017 and the other ISO fastener documents were not purchased or opened; ISO's own terms restrict use of ISO content, and no ISO content is used here -- only dimensions as facts, quoted from distributors who published them. Three distributor groups, no bulk take from any one: the exception rows come from Wurth (the German page, and a free English technical booklet from Wurth Industry of Canada), the pair list from Monster Bolts, the BS column from TR Fastenings. Of the Canadian booklet only the rows where two standards DIFFER were taken -- 134 rows out of several thousand cells printed -- so what is reproduced is the divergence, not the compilation.
 
 ---
 

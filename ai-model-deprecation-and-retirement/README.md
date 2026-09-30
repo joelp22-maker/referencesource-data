@@ -6,8 +6,8 @@ Which AI API models are deprecated or retired, when the deprecation was announce
 
 | | |
 |---|---|
-| Last verified | 2026-09-29 |
-| Re-check due | 2026-10-29 |
+| Last verified | 2026-09-30 |
+| Re-check due | 2026-10-30 |
 | Records | 956 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/ai-model-deprecation-and-retirement/changes.xml) |
 

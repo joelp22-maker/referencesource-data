@@ -6,8 +6,8 @@ When and for which drugs each US state requires prescribers to check the Prescri
 
 | | |
 |---|---|
-| Last verified | 2026-08-17 |
-| Re-check due | 2027-02-13 |
+| Last verified | 2026-08-15 |
+| Re-check due | 2027-02-11 |
 | Records | 53 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/pdmp-mandatory-check-requirements/changes.xml) |
 

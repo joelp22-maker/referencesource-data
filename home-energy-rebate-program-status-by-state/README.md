@@ -6,8 +6,8 @@ With the federal 25C and 25D tax credits gone for anything placed in service aft
 
 | | |
 |---|---|
-| Last verified | 2026-09-24 |
-| Re-check due | 2026-10-24 |
+| Last verified | 2026-09-30 |
+| Re-check due | 2026-10-29 |
 | Records | 47 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/home-energy-rebate-program-status-by-state/changes.xml) |
 

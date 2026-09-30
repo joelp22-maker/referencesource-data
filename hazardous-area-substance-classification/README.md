@@ -6,7 +6,7 @@ Hazardous area (explosive atmosphere) classification of individual flammable gas
 
 | | |
 |---|---|
-| Last verified | 2026-08-06 |
+| Last verified | 2026-09-30 |
 | Re-check due | 2028-08-05 |
 | Records | 60 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/hazardous-area-substance-classification/changes.xml) |

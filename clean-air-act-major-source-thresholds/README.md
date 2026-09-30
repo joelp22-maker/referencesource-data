@@ -6,8 +6,8 @@ Whether a stationary source (a factory, plant, or facility) needs a federal Clea
 
 | | |
 |---|---|
-| Last verified | 2026-08-31 |
-| Re-check due | 2027-08-31 |
+| Last verified | 2026-08-19 |
+| Re-check due | 2027-08-19 |
 | Records | 15 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/clean-air-act-major-source-thresholds/changes.xml) |
 

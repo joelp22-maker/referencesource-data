@@ -6,8 +6,8 @@ Which product-safety certification mark applies in which market, who administers
 
 | | |
 |---|---|
-| Last verified | 2026-09-22 |
-| Re-check due | 2027-09-22 |
+| Last verified | 2026-08-11 |
+| Re-check due | 2027-08-11 |
 | Records | 200 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/certification-standards-equivalence/changes.xml) |
 

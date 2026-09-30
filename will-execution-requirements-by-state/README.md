@@ -6,8 +6,8 @@ What each US state's probate/estates code requires for a will to be validly exec
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
-| Re-check due | 2028-02-24 |
+| Last verified | 2026-08-18 |
+| Re-check due | 2028-02-09 |
 | Records | 50 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/will-execution-requirements-by-state/changes.xml) |
 

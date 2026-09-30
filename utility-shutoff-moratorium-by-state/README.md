@@ -6,8 +6,8 @@ Whether a utility can disconnect service for non-payment during winter, and unde
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
-| Re-check due | 2027-03-01 |
+| Last verified | 2026-08-19 |
+| Re-check due | 2027-02-15 |
 | Records | 13 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/utility-shutoff-moratorium-by-state/changes.xml) |
 

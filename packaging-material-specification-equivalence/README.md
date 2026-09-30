@@ -6,8 +6,8 @@ Cross-reference of packaging specifications that procurement, packaging engineer
 
 | | |
 |---|---|
-| Last verified | 2026-09-24 |
-| Re-check due | 2028-09-23 |
+| Last verified | 2026-09-23 |
+| Re-check due | 2028-09-22 |
 | Records | 170 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/packaging-material-specification-equivalence/changes.xml) |
 

@@ -6,8 +6,8 @@ What the fault and alarm codes on the display of an industrial variable-frequenc
 
 | | |
 |---|---|
-| Last verified | 2026-09-01 |
-| Re-check due | 2028-08-31 |
+| Last verified | 2026-09-30 |
+| Re-check due | 2028-08-25 |
 | Records | 340 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/industrial-vfd-fault-alarm-codes-by-brand/changes.xml) |
 

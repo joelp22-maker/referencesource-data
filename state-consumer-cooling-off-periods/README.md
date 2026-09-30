@@ -6,8 +6,8 @@ State-by-state comparison of the cancellation windows consumers have after signi
 
 | | |
 |---|---|
-| Last verified | 2026-08-18 |
-| Re-check due | 2027-08-18 |
+| Last verified | 2026-08-16 |
+| Re-check due | 2027-08-16 |
 | Records | 31 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-consumer-cooling-off-periods/changes.xml) |
 

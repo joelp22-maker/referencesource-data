@@ -6,8 +6,8 @@ How much property tax does a disabled veteran owe in each state? All 50 states o
 
 | | |
 |---|---|
-| Last verified | 2026-08-18 |
-| Re-check due | 2027-08-18 |
+| Last verified | 2026-08-17 |
+| Re-check due | 2027-08-17 |
 | Records | 9 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/veteran-property-tax-exemptions-by-state/changes.xml) |
 

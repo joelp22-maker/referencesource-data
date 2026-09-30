@@ -6,8 +6,8 @@ An index of US hospitals' price-transparency machine-readable files, harvested f
 
 | | |
 |---|---|
-| Last verified | 2026-09-28 |
-| Re-check due | 2026-12-27 |
+| Last verified | 2026-08-17 |
+| Re-check due | 2026-11-15 |
 | Records | 974 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/hospital-price-transparency-mrf-index/changes.xml) |
 

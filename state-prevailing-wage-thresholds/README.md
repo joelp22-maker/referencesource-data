@@ -6,8 +6,8 @@ At what project dollar amount does the prevailing wage apply in each state? Abou
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
-| Re-check due | 2027-08-15 |
+| Last verified | 2026-08-13 |
+| Re-check due | 2027-08-13 |
 | Records | 11 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-prevailing-wage-thresholds/changes.xml) |
 

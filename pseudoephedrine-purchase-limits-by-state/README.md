@@ -6,8 +6,8 @@ How much pseudoephedrine (Sudafed and equivalents) a person may buy, per day and
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
-| Re-check due | 2027-08-19 |
+| Last verified | 2026-08-18 |
+| Re-check due | 2027-08-18 |
 | Records | 34 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/pseudoephedrine-purchase-limits-by-state/changes.xml) |
 

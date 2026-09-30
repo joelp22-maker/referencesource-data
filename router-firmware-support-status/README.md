@@ -6,8 +6,8 @@ End-of-life and end-of-support dates for home networking hardware, each read off
 
 | | |
 |---|---|
-| Last verified | 2026-09-24 |
-| Re-check due | 2026-12-23 |
+| Last verified | 2026-08-11 |
+| Re-check due | 2026-11-09 |
 | Records | 941 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/router-firmware-support-status/changes.xml) |
 

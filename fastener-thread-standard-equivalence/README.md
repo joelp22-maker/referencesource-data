@@ -6,8 +6,8 @@ Which ISO or EN standard replaced or corresponds to a given DIN fastener standar
 
 | | |
 |---|---|
-| Last verified | 2026-09-22 |
-| Re-check due | 2028-09-21 |
+| Last verified | 2026-08-12 |
+| Re-check due | 2028-08-11 |
 | Records | 166 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/fastener-thread-standard-equivalence/changes.xml) |
 

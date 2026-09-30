@@ -6,8 +6,8 @@ State-by-state comparison of the laws passed 2021-2024 restricting who may buy, 
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
-| Re-check due | 2027-08-19 |
+| Last verified | 2026-08-18 |
+| Re-check due | 2027-08-18 |
 | Records | 7 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/catalytic-converter-theft-laws-by-state/changes.xml) |
 

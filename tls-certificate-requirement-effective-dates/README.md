@@ -6,8 +6,8 @@ Forward-dated schedule of when each TLS certificate and certificate authority re
 
 | | |
 |---|---|
-| Last verified | 2026-09-24 |
-| Re-check due | 2026-12-23 |
+| Last verified | 2026-08-05 |
+| Re-check due | 2026-11-03 |
 | Records | 46 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/tls-certificate-requirement-effective-dates/changes.xml) |
 

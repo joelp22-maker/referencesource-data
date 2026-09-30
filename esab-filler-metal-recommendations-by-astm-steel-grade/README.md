@@ -6,8 +6,8 @@ Which filler metals ESAB recommends for welding a given ASTM steel grade, and wh
 
 | | |
 |---|---|
-| Last verified | 2026-09-21 |
-| Re-check due | 2028-09-20 |
+| Last verified | 2026-08-19 |
+| Re-check due | 2028-08-18 |
 | Records | 794 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/esab-filler-metal-recommendations-by-astm-steel-grade/changes.xml) |
 

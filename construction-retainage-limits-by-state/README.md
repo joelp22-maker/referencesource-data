@@ -6,8 +6,8 @@ State-by-state comparison of the statutory rules governing retainage (retention)
 
 | | |
 |---|---|
-| Last verified | 2026-08-17 |
-| Re-check due | 2027-08-17 |
+| Last verified | 2026-08-15 |
+| Re-check due | 2027-08-15 |
 | Records | 30 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/construction-retainage-limits-by-state/changes.xml) |
 

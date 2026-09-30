@@ -6,8 +6,8 @@ The income floor a US state's own law forces hospitals to meet before they may b
 
 | | |
 |---|---|
-| Last verified | 2026-08-27 |
-| Re-check due | 2027-02-23 |
+| Last verified | 2026-08-26 |
+| Re-check due | 2027-02-22 |
 | Records | 14 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-hospital-financial-assistance-thresholds/changes.xml) |
 

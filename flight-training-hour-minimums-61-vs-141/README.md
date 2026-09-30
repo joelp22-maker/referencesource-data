@@ -6,8 +6,8 @@ The minimum flight-time and training-hour requirements for each FAA pilot certif
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
-| Re-check due | 2027-08-19 |
+| Last verified | 2026-08-18 |
+| Re-check due | 2027-08-18 |
 | Records | 164 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/flight-training-hour-minimums-61-vs-141/changes.xml) |
 

@@ -7,7 +7,7 @@ Whether an employer must disclose a salary/wage range in a job posting varies by
 | | |
 |---|---|
 | Last verified | 2026-08-19 |
-| Re-check due | 2027-02-15 |
+| Re-check due | 2027-08-19 |
 | Records | 14 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-pay-transparency-salary-range-disclosure/changes.xml) |
 

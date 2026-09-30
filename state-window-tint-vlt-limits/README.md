@@ -6,8 +6,8 @@ Every state sets its own minimum visible-light-transmittance (VLT) percentage fo
 
 | | |
 |---|---|
-| Last verified | 2026-08-28 |
-| Re-check due | 2027-02-24 |
+| Last verified | 2026-08-27 |
+| Re-check due | 2027-02-23 |
 | Records | 83 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-window-tint-vlt-limits/changes.xml) |
 

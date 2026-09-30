@@ -6,8 +6,8 @@ For each US state that runs a demerit-point system: how many points trigger a li
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
-| Re-check due | 2027-08-19 |
+| Last verified | 2026-08-18 |
+| Re-check due | 2027-08-18 |
 | Records | 14 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/driver-license-points-thresholds-by-state/changes.xml) |
 

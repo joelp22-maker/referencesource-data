@@ -6,8 +6,8 @@ State-by-state Medicaid estate recovery rules, taken from each state's own statu
 
 | | |
 |---|---|
-| Last verified | 2026-09-01 |
-| Re-check due | 2027-09-01 |
+| Last verified | 2026-08-31 |
+| Re-check due | 2027-08-31 |
 | Records | 35 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/medicaid-estate-recovery-rules-by-state/changes.xml) |
 

@@ -6,8 +6,8 @@ A civil money judgment does not stay enforceable forever. Every state sets a clo
 
 | | |
 |---|---|
-| Last verified | 2026-09-02 |
-| Re-check due | 2027-09-02 |
+| Last verified | 2026-09-01 |
+| Re-check due | 2027-09-01 |
 | Records | 8 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/judgment-renewal-deadlines-by-state/changes.xml) |
 

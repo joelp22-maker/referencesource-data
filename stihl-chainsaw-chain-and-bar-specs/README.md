@@ -6,8 +6,8 @@ Chain pitch, gauge, drive link count, bar length and OEM chain part number for e
 
 | | |
 |---|---|
-| Last verified | 2026-09-28 |
-| Re-check due | 2028-09-27 |
+| Last verified | 2026-08-04 |
+| Re-check due | 2028-08-03 |
 | Records | 843 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/stihl-chainsaw-chain-and-bar-specs/changes.xml) |
 

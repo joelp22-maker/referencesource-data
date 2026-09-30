@@ -6,8 +6,8 @@ Garage door opener manufacturers (LiftMaster/Chamberlain/Craftsman, Genie, Overh
 
 | | |
 |---|---|
-| Last verified | 2026-09-21 |
-| Re-check due | 2027-09-21 |
+| Last verified | 2026-08-31 |
+| Re-check due | 2027-08-31 |
 | Records | 693 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/garage-door-opener-remote-keypad-compatibility/changes.xml) |
 

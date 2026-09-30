@@ -6,8 +6,8 @@ State laws governing radon in residential real estate transactions vary dramatic
 
 | | |
 |---|---|
-| Last verified | 2026-09-27 |
-| Re-check due | 2027-08-18 |
+| Last verified | 2026-09-29 |
+| Re-check due | 2027-08-15 |
 | Records | 41 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-radon-disclosure-requirements/changes.xml) |
 
