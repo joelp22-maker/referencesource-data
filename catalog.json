@@ -17,7 +17,7 @@
       "slug": "ai-model-deprecation-and-retirement",
       "title": "AI model deprecation and retirement dates by provider",
       "description": "Which AI API models are deprecated or retired, when the deprecation was announced, when the model shuts off, and what the recommended replacement is \u2014 sourced from each provider's own documentation. Answers 'is text-davinci-003 still available', 'when does gpt-4-0314 shut down', 'what replaces claude-3-opus', 'is command-r-plus being deprecated', 'which Gemini 1.5 Pro version is retired'. Covers OpenAI, Anthropic, Google (Vertex AI, the Gemini Developer API, and the Agent Platform's open- and partner-model schedules), Azure/Microsoft Foundry, AWS Bedrock, Cohere, Mistral AI, Groq, Cerebras, xAI, DeepSeek, Moonshot AI, GitHub Copilot, Together AI, Oracle OCI Generative AI, Alibaba Cloud Model Studio and SambaNova. GitHub Copilot is a different shape from all of the above: not a model's author and not an inference host renting out silicon, but an end-user product that resells other people's hosted models and switches them off on a clock of its own. It deprecates Claude Opus 4.5 on 2026-09-01 while Microsoft Foundry keeps serving it until 2026-10-19, and it is the only source anywhere that states a date for Claude Opus 4.7. Developers who never touch an API \u2014 who just pick a model from the Copilot Chat selector \u2014 have a retirement schedule too, and it is published one changelog post at a time rather than as a standing table. Groq and Cerebras matter beyond being two more companies: both are inference hosts serving other people's open-weight models (Llama, Qwen, Kimi, DeepSeek, Gemma, Mistral, Whisper) on their own silicon, and each publishes its own lifecycle dates for them, which no model author's page states anywhere. They also disagree with each other: both deprecated deepseek-r1-distill-llama-70b, Cerebras on 2025-08-12 pointing users at Qwen 3 32B, Groq seven weeks later pointing them at Llama 3.3 70B, and this dataset shows both on the one record. xAI and DeepSeek matter for the opposite reason: both are already in here at second hand, through Azure/Foundry reselling their models and publishing Foundry's dates, and both authors state different dates for the same model IDs on their own pages \u2014 Foundry retires grok-3 two weeks before xAI's own API does. Moonshot AI is the same story with a far wider gap: Azure/Foundry lists Kimi-K2.5 as a preview retiring on 2027-01-26, while Moonshot's own documentation says the model was discontinued on 2026-08-31 and that calls to it now return a 404 \u2014 nearly five months earlier, and already in the past. The four Google surfaces are held separately on purpose: they publish different shutdown dates for the same model IDs, and where they disagree this dataset shows both. No single original exists \u2014 each provider publishes its own page \u2014 so this is the only place that puts them side by side. Alibaba Cloud Model Studio is the only source here that is both the model's author and its host at once for a family this size: Model Studio rents out the Qwen models Alibaba also writes, so one page carries the author's clock and the host's in the same row. It publishes no standing table \u2014 one dated notice per batch, each superseding the last \u2014 and it is the second place DeepSeek V4 Flash appears: Alibaba stops serving it on 2026-10-10, Microsoft Foundry keeps it until 2028-02-20, and this dataset shows both. SambaNova is the third inference host of the same kind and the one with the widest overlap: 12 of the 27 models on its deprecation page are already in here from Azure, Together AI, Oracle, Cerebras or Groq, so its rows mostly land on existing records rather than adding new ones. Meta-Llama-3.1-405B-Instruct now carries four hosts and three different shutdown dates on a single page \u2014 SambaNova switched it off on 2025-06-25, Azure keeps it to 2026-06-13, Oracle to 2026-08-03 \u2014 a fourteen-month spread for one model ID that no provider's own page discloses. It is also the only source here that answers 'what should I use instead' with a product rather than a model: for Whisper-Large-v3, ALLaM-7B and E5-Mistral-7B-Instruct the recommended replacement is SambaStack, SambaNova's on-premises offering, which is to say the model is not coming back to the cloud at all. Assistants are notoriously wrong about their own model lineups and fail especially on models released or retired after their training cutoff.",
-      "records": 956,
+      "records": 962,
       "last_verified": "2026-09-30",
       "url": "https://referencesource.org/ai-model-deprecation-and-retirement/",
       "data": "https://referencesource.org/ai-model-deprecation-and-retirement/data.json"
@@ -63,7 +63,7 @@
       "title": "ANSI roller chain sizes and their ISO 606 A-series and BS/DIN B-series counterparts",
       "description": "Industrial roller chain is sold under two numbering systems that look interchangeable and are not. The American system numbers chains 40, 50, 60 and so on, in eighths of an inch of pitch. The British/European system numbers them 08B, 10B, 12B. ISO 606 covers both: its A series is the American chain under a metric name (ANSI 40 is ISO 08A -- the same chain), and its B series is the British chain, which shares the pitch but is a different chain, with a different roller diameter and a different inner width, needing its own sprockets. Somebody replacing chain or matching a sprocket across the two systems has to know which of those two relationships they are looking at, and no catalog states it in one place: manufacturers print an ANSI dimensional table and a separate BS/DIN dimensional table in the same document, never cross-referenced, and the pitch match has to be worked out by eye. Each record here is one ANSI chain number with its pitch, roller diameter and inner width; its ISO 606 A-series name where a publisher states one; and the BS/DIN B-series chain that shares its pitch, with that chain's own pitch, roller diameter and inner width printed alongside, so the difference is visible rather than asserted. Answers 'what is the metric equivalent of ANSI 40 chain', 'is BS 08B the same as ANSI 40', 'ANSI 40 vs 08A vs 08B', 'roller chain size conversion chart'. In scope: the ANSI sizes that the source catalog prints with a roller diameter and that have a B-series chain of the same pitch. Out of scope, and why: ANSI 25 and 35, which are rollerless -- the catalog prints a bushing diameter for them, not a roller diameter, so there is no like-for-like comparison to make; ANSI 41, which has no single-line standard dimension row in the source; and ANSI 180, whose 2 1/4 inch pitch has no B-series counterpart in the source.",
       "records": 10,
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/ansi-to-iso-roller-chain-cross-reference/",
       "data": "https://referencesource.org/ansi-to-iso-roller-chain-cross-reference/data.json"
     },
@@ -531,7 +531,7 @@
       "title": "FDA drug shortage duration tracker",
       "description": "For every package FDA currently lists as in shortage: how long that shortage entry has been open (from openFDA's own `initial_posting_date` to today), what FDA says the package's supply is right now, and any recovery estimate FDA has given. What FDA itself publishes, checked directly on 2026-09-01 rather than assumed: the shortage list page (accessdata.fda.gov/scripts/drugshortages) shows which drugs are short and why and carries no date at all, while each per-drug detail page adds a single 'Date first posted' for the whole drug. Neither prints an elapsed duration, and neither gives the date per manufacturer. openFDA does \u2014 where several manufacturers report a shortage of the same drug, each carries its own posting date, and FDA's page shows only the earliest of them. Cross-checked across 30 drugs against those detail pages: 30 of 30 agreed, and in all 10 multi-manufacturer cases FDA's single date was exactly the earliest of ours. The underlying facts are FDA's own public-domain data; the duration is a computation over them that nobody publishes maintained, because it changes every day and hand-updating it was never worth the effort. A scheduled refetch of the same public API keeps it current for free. Read the duration next to `availability`, and do not read it alone: a shortage entry stays 'Current' until FDA resolves the whole shortage, so 63.8% of listed packages (746 of 1,169, measured 2026-09-01) are marked 'Available' even while their entry has been open for years \u2014 the median entry has been open 1,721 days and 1,118 of 1,169 have been open more than 1,000. Records cite a per-drug, per-manufacturer API query rather than a page offset, because openFDA's result ordering rotates daily and an offset URL stops containing its own record \u2014 see sources.txt. Source: https://api.fda.gov/drug/shortages.json (openFDA, no API key required at this volume). This is a monitored dataset, not a static page \u2014 stale_after_days is short and a build should re-run the fetch on a schedule rather than once.",
       "records": 1149,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/drug-shortage-duration-tracker/",
       "data": "https://referencesource.org/drug-shortage-duration-tracker/data.json"
     },
@@ -610,7 +610,7 @@
     {
       "slug": "esab-filler-metal-recommendations-by-astm-steel-grade",
       "title": "ESAB recommended filler metals and suggested preheat group, by ASTM steel grade",
-      "description": "Which filler metals ESAB recommends for welding a given ASTM steel grade, and which of its four preheat groups (A-D) that grade falls in. Answers 'what ESAB rod do I use to weld ASTM A106 Grade C pipe'. WHICH WELDING PROCESSES THESE PAGES COVER: all six that the source covers, as of 2026-09-16. ESAB's table runs across FACING pages. The left page carries the preheat group, stick (SMAW) and gas-shielded wire/rod (GMAW/GTAW); the right page recommends fillers for the same grade rows under submerged arc (SAW), gas-shielded flux-cored (FCAW), self-shielded flux-cored (FCAW) and metal-cored (MCAW). 699 of the 794 records now answer at least one of those four. The other 95 give the left page only, for two different reasons, and neither is an omission that can be quietly filled in: 57 of them sit in 10 ASTM blocks (A269, A487, A508, A333, A334, A420, A989, A536, A494, A589) where one row of the block is blank on the right and nothing in the PDF says WHICH end it is blank at, so every row in the block could be shifted by one; the remaining 38 are rows where ESAB prints no right-hand recommendation at all. A row we cannot place is left empty rather than guessed, because guessing would invent a welding recommendation for a named steel. HOW THE ROW ALIGNMENT WAS PROVED, since the right page carries no ASTM or grade column and a row's only identity is its position: every block is anchored in a second, column-major reading of the same PDF and its four left-hand columns consumed out of that reading character for character, then each row placed by the span of the surviving blank lines rather than by packing lines from the top. That is checked against the source itself, not assumed -- of the 704 placed rows, 347 name an alloy on BOTH pages (308L, B3, 2209, NiCrMo-3), and in all 347 the two pages agree; shifting the join by one row inside the same block drops that agreement to 36%. The hand check the brief asked for passes: A47 and A48 both read 'OK NiFeCI-A/NiFeCI-A0' on the left and both land on 'NC 55' under gas-shielded flux-cored with the other three processes blank. Every record comes from one section of one manufacturer's databook, headed on the page itself as 'Recommended ESAB Filler Metals' -- so this is that vendor's advice, not a vendor-neutral cross-reference, and the name says so. Two things follow from that. First, the filler values are ESAB product names (Atom Arc 7018, Spoolarc 120, OK 61.81) and ESAB group codes, and a group code is defined separately for each welding process: 'Group 1' for stick means SW 6010 / SW 10P / SW 6011 / SW 6013 / SW 7014, while 'Group 1' for MIG means Spoolarc 29S / 82 / 86 / 87HP / Aristorod 12.50. Same label, different products; the databook expands both in its own legend at printed page 7-2, and each record now carries the expansion for the group its own row names, quoted from under that legend's process heading. Under gas-shielded flux-cored (Dual Shield), which is the one process whose legend runs to four groups, the expansion is published one field per group rather than as a single list: 52 rows name more than one group, and 15 of those name a set the legend does not print side by side ('Group 1, Group 2, Group 4'), so any single value for them would have to be either a string ESAB never printed or a span that swallows a group ESAB did not recommend for that steel. One field per group avoids both \u2014 every value is one printed legend line, and a row simply fills the fields for the groups it names. Second, the preheat value is a letter and not a temperature: A-D index a preheat-temperature-by-steel-thickness table at the head of the section. That table is now carried too, so a record states the temperatures its letter points to rather than only the letter -- but they remain what the source calls 'suggested ranges', adding 'Check your welding procedure for a more specific preheat temperature.' A vendor-neutral version of this cross-reference does exist but is sold rather than published: AWS's Filler Metal Comparison Charts (FMC:2000). Adding a second manufacturer's catalog would put a second brand's product codes beside these, not turn either into generic ones.",
+      "description": "Which filler metals ESAB recommends for welding a given ASTM steel grade, and which of its four preheat groups (A-D) that grade falls in. Answers 'what ESAB rod do I use to weld ASTM A106 Grade C pipe'. WHICH WELDING PROCESSES THESE PAGES COVER: all six that the source covers, as of 2026-09-16. ESAB's table runs across FACING pages. The left page carries the preheat group, stick (SMAW) and gas-shielded wire/rod (GMAW/GTAW); the right page recommends fillers for the same grade rows under submerged arc (SAW), gas-shielded flux-cored (FCAW), self-shielded flux-cored (FCAW) and metal-cored (MCAW). 699 of the 794 records now answer at least one of those four. The other 95 give the left page only, for two different reasons, and neither is an omission that can be quietly filled in: 57 of them sit in 10 ASTM blocks (A269, A487, A508, A333, A334, A420, A989, A536, A494, A589) where one row of the block is blank on the right and nothing in the PDF says WHICH end it is blank at, so every row in the block could be shifted by one; the remaining 38 are rows where ESAB prints no right-hand recommendation at all. A row we cannot place is left empty rather than guessed, because guessing would invent a welding recommendation for a named steel. HOW THE ROW ALIGNMENT WAS PROVED, since the right page carries no ASTM or grade column and a row's only identity is its position: every block is anchored in a second, column-major reading of the same PDF and its four left-hand columns consumed out of that reading character for character, then each row placed by the span of the surviving blank lines rather than by packing lines from the top. That is checked against the source itself, not assumed -- of the 704 placed rows, 347 name an alloy on BOTH pages (308L, B3, 2209, NiCrMo-3), and in all 347 the two pages agree; shifting the join by one row inside the same block drops that agreement to 36%. The hand check the brief asked for passes: A47 and A48 both read 'OK NiFeCI-A/NiFeCI-A0' on the left and both land on 'NC 55' under gas-shielded flux-cored with the other three processes blank. WHAT THE QUOTE UNDER THOSE FOUR FIELDS CAN AND CANNOT SHOW, because it is easy to expect more of it than it can give: the right-hand page prints no ASTM or grade column, so the passage quoted for a SAW, flux-cored or metal-cored value is that page's row exactly as printed, and it cannot name the steel it belongs to. Its column headings sit roughly 170 printed lines above the data, so no contiguous passage carries a heading and a value together either. 1,464 of those 1,697 row quotes name at least one product and are distinctive; the remaining 233 are nothing but bare group numbers ('Group 1 Group1 Group 1'), a string that occurs up to 546 times in this section and states nothing on its own. So for these four fields the quote shows that the page prints this value in this row, and which steel the row belongs to rests on the alignment above rather than on the quote. That alignment was re-checked independently on 2026-10-01, from the published records alone rather than from the extraction that wrote them: of 327 rows naming an alloy on both pages, 297 agree outright, and all 30 apparent exceptions are ESAB's two naming systems for one metallurgy ('7018-Mo' against '7000-A1', '308' against '308L', '8018-C1' against '8-Ni2') -- against 28% agreement if the join is shifted one row down, 24% one row up, and 12% two. Every record comes from one section of one manufacturer's databook, headed on the page itself as 'Recommended ESAB Filler Metals' -- so this is that vendor's advice, not a vendor-neutral cross-reference, and the name says so. Two things follow from that. First, the filler values are ESAB product names (Atom Arc 7018, Spoolarc 120, OK 61.81) and ESAB group codes, and a group code is defined separately for each welding process: 'Group 1' for stick means SW 6010 / SW 10P / SW 6011 / SW 6013 / SW 7014, while 'Group 1' for MIG means Spoolarc 29S / 82 / 86 / 87HP / Aristorod 12.50. Same label, different products; the databook expands both in its own legend at printed page 7-2, and each record now carries the expansion for the group its own row names, quoted from under that legend's process heading. Under gas-shielded flux-cored (Dual Shield), which is the one process whose legend runs to four groups, the expansion is published one field per group rather than as a single list: 52 rows name more than one group, and 15 of those name a set the legend does not print side by side ('Group 1, Group 2, Group 4'), so any single value for them would have to be either a string ESAB never printed or a span that swallows a group ESAB did not recommend for that steel. One field per group avoids both \u2014 every value is one printed legend line, and a row simply fills the fields for the groups it names. Second, the preheat value is a letter and not a temperature: A-D index a preheat-temperature-by-steel-thickness table at the head of the section. That table is now carried too, so a record states the temperatures its letter points to rather than only the letter -- but they remain what the source calls 'suggested ranges', adding 'Check your welding procedure for a more specific preheat temperature.' The two temperature fields have the same kind of limit as the four process fields above, and it is worth stating because the numbers look more self-evident than they are: the passage quoted under them is the WHOLE preheat table, all four columns, and nothing inside it says which column belongs to this steel. That comes from the preheat letter, which this record also publishes with the row that prints it, so the check is two steps and both are on the page: read the letter off the row, then read down that column of the table. Every one of the 738 temperature values was re-checked against the printed table by letter on 2026-10-01 and all 738 agree. A vendor-neutral version of this cross-reference does exist but is sold rather than published: AWS's Filler Metal Comparison Charts (FMC:2000). Adding a second manufacturer's catalog would put a second brand's product codes beside these, not turn either into generic ones.",
       "records": 794,
       "last_verified": "2026-08-19",
       "url": "https://referencesource.org/esab-filler-metal-recommendations-by-astm-steel-grade/",
@@ -674,7 +674,7 @@
       "slug": "fda-import-alert-red-list",
       "title": "FDA import alert red lists: firms subject to detention without physical examination",
       "description": "Which foreign manufacturers, shippers and growers are on an FDA import alert red list, meaning every shipment from them is detained without physical examination (DWPE) at the US border. Each record is one firm on one import alert, with the firm name and address as FDA prints it, the country, the date FDA published the listing, and the product codes and product descriptions it covers. Answers 'is my supplier on an FDA import alert', 'is [firm] on the red list for import alert 66-41', 'why was my shipment detained without examination', 'which firms are on the FDA red list for undeclared pharmaceutical ingredients in supplements', and 'how do I check a Chinese manufacturer before ordering'. FDA publishes 153 separate import alerts as individual current-state pages with no cross-alert firm index, so answering 'is this firm flagged anywhere' means opening 153 pages; and firms are removed from red lists on petition with no record of the removal published at all, so an assistant answering from memory names firms that were delisted years ago.",
-      "records": 14176,
+      "records": 14181,
       "last_verified": "2026-09-30",
       "url": "https://referencesource.org/fda-import-alert-red-list/",
       "data": "https://referencesource.org/fda-import-alert-red-list/data.json"
@@ -783,7 +783,7 @@
       "title": "Firewall and network security appliance hardware end-of-life dates by brand",
       "description": "End-of-sale and end-of-support dates for the physical hardware of firewall and network security appliances (not the OS or firmware version, the box itself), taken from each manufacturer's own hardware lifecycle page. Answers 'when does support end for [model] firewall hardware', the question a network admin planning a refresh needs answered, where the free software-lifecycle aggregators (e.g. endoflife.date) do not cover hardware end-of-support and each vendor's own lifecycle page uses a different format and a different name for the same two dates.",
       "records": 93,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-08-26",
       "url": "https://referencesource.org/firewall-hardware-end-of-life-dates-by-brand/",
       "data": "https://referencesource.org/firewall-hardware-end-of-life-dates-by-brand/data.json"
     },
@@ -846,7 +846,7 @@
       "title": "Low-voltage fuse cross-reference by UL class and manufacturer",
       "description": "Which fuse catalog series from each major manufacturer (Edison, Brush/Dorman, Bussmann, Mersen/Gould, GEC/CEFCO, Littelfuse) is the interchangeable equivalent for a given UL fuse class (CC, RK1, RK5, J, T, L, Midget, ceramic/glass supplementals). One record is one fuse type/class/voltage combination, with each manufacturer's series designation printed against it, plus the amp rating that must be added to complete the catalog number. Answers 'what is the Bussmann equivalent of a Littelfuse KLKR fuse', 'I have an old panel fused with Gould A2D fuses, what do I replace them with', 'what class is an FRN-R fuse'. There is no federal or UL-published cross-reference; each manufacturer prints only its own outbound mapping (its series vs everyone else's), never a neutral grid, and distributor sites that do publish one (Bussmann's own cross-reference tool, Mersen's own page) still favour their own house brand and are JS-driven lookup tools rather than a static table a reader or an assistant can scan in one place.",
       "records": 24,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-08-31",
       "url": "https://referencesource.org/fuse-cross-reference-by-manufacturer-class/",
       "data": "https://referencesource.org/fuse-cross-reference-by-manufacturer-class/data.json"
     },
@@ -864,7 +864,7 @@
       "title": "Gas cylinder color codes by standard and country",
       "description": "Color coding of compressed gas cylinders (shoulder and body colors) for medical, industrial and laboratory gases under different national and international standards. Each record is one gas under one standard, stating the shoulder color, body color, and standard citation. Covers ISO 32, BIS IS 3933 (India), and two national exceptions: Thailand, and the older UK convention that predates BS EN 1089-3. Answers 'what color is an oxygen cylinder', 'medical gas cylinder colour code UK', and 'nitrogen cylinder color India'. Oxygen is white under ISO 32, emerald green in Thailand, and white-over-black under the older UK convention \u2014 the kind of difference assistants get wrong by stating one standard as universal. Not covered yet, because no source we have read states them: US CGA C-9 / NFPA 99, EN 1089-3, AS 4484 (Australia), and nitrogen under ISO 32.",
       "records": 17,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/gas-cylinder-color-codes/",
       "data": "https://referencesource.org/gas-cylinder-color-codes/data.json"
     },
@@ -873,7 +873,7 @@
       "title": "General contractor license requirements and dollar thresholds by US state",
       "description": "Do I need a contractor license for this project in my state, and what does it take to get one? Every US state handles general contractor licensing differently: some require a state license for any construction work, others only above a dollar threshold ($1,000 in Arizona, $10,000 residential in Alabama, $100,000 commercial in Alabama), and some have no state-level license at all (municipal only). One record per license type per state, sourced from the state's licensing board. Answers 'do I need a contractor license in Florida', 'what is the minimum project size for a contractor license in Alabama', 'general contractor license requirements by state', and 'how much is a contractor license bond'. New Jersey added a formal licensing system effective February 2026; Montana transitioned from registration to licensing in 2026. The assembled versions on page one are all from insurance lead-gen sites (nextinsurance.com, insureon.com) selling general liability to contractors. Extends the electrician-licence-progression-by-state pattern to general contractors.",
       "records": 11,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-08-17",
       "url": "https://referencesource.org/general-contractor-license-thresholds-by-state/",
       "data": "https://referencesource.org/general-contractor-license-thresholds-by-state/data.json"
     },
@@ -900,7 +900,7 @@
       "title": "PyTorch release, CUDA build and NVIDIA driver pairings",
       "description": "One record per (PyTorch release, CUDA build) pairing: which CUDA builds each PyTorch release ships wheels for, which Python versions it supports, which cuDNN it carries, which GPU architectures (compute capabilities) the wheel was compiled for, and the minimum NVIDIA driver the pairing needs. Answers 'does torch 2.7 run on an RTX 5090', 'nvidia-smi says CUDA 12.4 but torch wants 12.6 \u2014 do I need a new driver', 'which pip index URL do I use for CUDA 12.8', 'why is torch.cuda.is_available() False on a card that CUDA supports'. Nobody publishes this join: PyTorch's release notes state the CUDA builds but not the driver floor, NVIDIA's release notes state the driver floor but say nothing about PyTorch, and the compiled architecture list lives only in PyTorch's own build script. The pairing is what a person actually needs and it is the thing assistants get wrong.",
       "records": 45,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/gpu-cuda-pytorch-compatibility/",
       "data": "https://referencesource.org/gpu-cuda-pytorch-compatibility/data.json"
     },
@@ -909,7 +909,7 @@
       "title": "US graduated driver licensing requirements by state",
       "description": "Graduated driver licensing (GDL) requirements for each US state: minimum ages, mandatory hold periods, supervised driving hours, nighttime restrictions, passenger restrictions, the conditions to lift each restriction, and the full footnote text that qualifies each number. One row per state. Answers 'how long do I have to hold my permit in [state]?' and 'what are the restrictions on a provisional license in [state]?' \u2014 questions where assistants flatten the footnotes into wrong answers. Every value is quoted from the IIHS graduated licensing table, which IIHS rebuilds monthly from the 51 underlying state laws. That table restates those laws rather than being them, and it prints all but one hold period in whole months. Four states have also been read against their own statute, and the statute's wording and citation sit beside the IIHS figure on those rows. Three of the four agree with it exactly \u2014 California (Veh. Code 12814.6) and Texas (Transp. Code 521.204) both require six months, Florida (F.S. 322.05) twelve. Indiana does not: IC 9-24-3-2.5 requires a learner's permit held 'at least one hundred eighty (180) days' where IIHS prints '6 months', and six calendar months is 181 to 184 days depending on the start date, so on that one row the restatement runs one to four days longer than the law it restates.",
       "records": 51,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/graduated-driver-licensing/",
       "data": "https://referencesource.org/graduated-driver-licensing/data.json"
     },
@@ -918,7 +918,7 @@
       "title": "Gas group, temperature class and autoignition temperature by substance",
       "description": "Hazardous area (explosive atmosphere) classification of individual flammable gases, vapours and combustible dusts. Each record is one substance as classified by one publisher, giving the apparatus / gas group (IIA, IIB, IIC, IIB+H2 under IEC 60079 and ATEX, or Class I Group A/B/C/D under the US National Electrical Code), the temperature class (T1 to T6), and the autoignition temperature the publisher prints. Answers 'is toluene IIA or IIB', 'what temperature class is acetone', 'MEK autoignition temperature for explosion proof equipment', 'NEC Group C equivalent IEC gas group', 'what gas group is hydrogen sulphide', and 'ethylene gas group and T class'. Publishers disagree on the autoignition temperature of the same substance -- hydrogen is printed as 500 C, 520 C and 560 C by three different manufacturers, and ethylene as 450 C and 490 C -- and because the temperature class is derived from that number the disagreement changes which equipment is legal to install. Every value is quoted from the page that printed it and attributed, so the disagreements are visible rather than averaged away.",
       "records": 60,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-08-06",
       "url": "https://referencesource.org/hazardous-area-substance-classification/",
       "data": "https://referencesource.org/hazardous-area-substance-classification/data.json"
     },
@@ -927,7 +927,7 @@
       "title": "US state hazardous waste generator annual fees by category",
       "description": "State-by-state annual registration and compliance fees for hazardous waste generators. Each record is one state\u2019s fee for one generator category (VSQG, SQG, LQG, transporter, TSD facility), with the dollar amount, the fee basis (flat annual, per-ton, revenue-based), the due date, and the legal citation. Answers 'what is the annual hazardous waste fee for an SQG in [state]', 'which states charge VSQGs', 'what are the hazardous waste fees in North Carolina vs Vermont'. Fees range from $75 (Vermont VSQG) to $3,880+ (Massachusetts SQG) \u2014 a 50\u00d7 range across states for equivalent generator categories.",
       "records": 29,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-08-14",
       "url": "https://referencesource.org/hazardous-waste-generator-fees-by-state/",
       "data": "https://referencesource.org/hazardous-waste-generator-fees-by-state/data.json"
     },
@@ -936,7 +936,7 @@
       "title": "How often hazmat cylinders, cargo tanks, IBCs and portable tanks must be retested",
       "description": "Mandatory requalification, retest and inspection intervals for pressure containers under 49 CFR Part 180, with the qualifier that decides which interval applies. Each record is one container specification under one test type, stating the interval in years and the condition attached to it. Covers cylinders (49 CFR 180.209), cargo tanks (180.407), intermediate bulk containers (180.352) and portable tanks (180.605). Answers 'how often does a scuba tank need hydro testing', 'DOT 3AL requalification 5 years or 12', 'IBC tote retest interval 2.5 years', 'MC-331 propane cargo tank internal visual inspection frequency', and 'when does a DOT 3AA cylinder qualify for the 10 year star'. The interval is a property of the specification, the service and the configuration together, not of the container alone, and the exceptions are where the answers go wrong: DOT 3AL is 5 or 12 years depending on service, and an MC-331 under 3,500 gallons in dedicated propane service built from non-quenched-and-tempered SA-612 gets 10 years where every other cargo tank gets 5. Past the due date the container may not be filled and offered for transportation.",
       "records": 67,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-08-06",
       "url": "https://referencesource.org/hazmat-container-retest-intervals/",
       "data": "https://referencesource.org/hazmat-container-retest-intervals/data.json"
     },
@@ -963,7 +963,7 @@
       "title": "HFC refrigerant GWP regulations by US state",
       "description": "State-level HFC refrigerant regulations across the US, including GWP limits, equipment-type restrictions, effective dates, and regulatory citations. Each record is one state's regulation for one equipment category (supermarket, new facility, stand-alone unit, bulk HFC sales). Answers 'what refrigerant GWP limit applies to new supermarket systems in California', 'which states have adopted SNAP Rules 20 and 21', 'New York HFC phase-down GWP thresholds', and 'can I use R-410A in a new commercial refrigeration system in [state]'.",
       "records": 42,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/",
       "data": "https://referencesource.org/hfc-refrigerant-regulations-by-state/data.json"
     },
@@ -981,7 +981,7 @@
       "title": "Home Energy Rebates \u2014 is my state's programme open, and what does it still pay for?",
       "description": "With the federal 25C and 25D tax credits gone for anything placed in service after 31 December 2025, the Inflation Reduction Act's Home Energy Rebates are the main money left for a US home energy upgrade \u2014 but they are run by each state's energy office, not by the federal government, and most states have not opened theirs. DOE's own page says only 'Home Energy Rebates are now available in select states' and tells you to contact your State Energy Office; its state-by-state progress tracker now returns 404. Each record is one state or territory, carrying what that state calls its programmes, whether the electrification (HEEHR/HEAR) and efficiency (HOMES/HER) halves are open, closed, waitlisted or not yet launched, the date the state's own page gives for that status, the rebate cap, the income band, what the new appliance is allowed to replace, and how you apply. Answers 'can I get the $8,000 heat pump rebate in my state right now', 'is Colorado's HEAR programme still taking applications', 'which states have actually launched', and 'does the rebate still cover swapping out my gas furnace'.",
       "records": 47,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-09-29",
       "url": "https://referencesource.org/home-energy-rebate-program-status-by-state/",
       "data": "https://referencesource.org/home-energy-rebate-program-status-by-state/data.json"
     },
@@ -999,7 +999,7 @@
       "title": "HPLC column equivalents to other manufacturers' columns",
       "description": "Which replacement HPLC column a vendor offers for a named column from another manufacturer, keyed on the column being replaced. A lab whose method is built around a discontinued or hard-to-source column needs a same-selectivity substitute, and the column makers publish their own mappings from a competitor's product name to their own. Two such charts are merged here, and most of the table is one of them. GL Sciences' equivalent list supplies the bulk -- 597 rows across eight brands (Agilent, Waters, Phenomenex, Thermo Fisher, Sigma-Aldrich/Merck, YMC, Restek, Shimadzu), each row giving a direct replacement and an alternative. Waters' Column Comparison Chart adds 158 rows across seventeen brands, each row giving a bonded phase, a closest-selectivity column, and recommended UPLC, HPLC and preparative columns. Of 696 records, 538 carry GL Sciences' answer only, 99 carry Waters' answer only, and 59 carry both. Where both answer they do not agree, and are not meant to: each vendor recommends its own products, so a two-vendor record is two competing answers rather than one answer confirmed twice. What the merge adds over either vendor's own page is those 59 records, and the fact that the combined table runs both ways where each vendor's chart runs only outward -- GL Sciences answers for 106 Waters columns, Waters for 8 GL Sciences ones. For the other 637 records the vendor's own chart says the same thing and is the original.",
       "records": 696,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-08-31",
       "url": "https://referencesource.org/hplc-column-equivalents-by-manufacturer/",
       "data": "https://referencesource.org/hplc-column-equivalents-by-manufacturer/data.json"
     },
@@ -1017,14 +1017,14 @@
       "title": "Hydraulic and pipe connection type identification",
       "description": "Identifying characteristics of each hydraulic, pipe, and instrumentation connection standard used in fluid power and plumbing systems. For each connection type, gives the governing standard, seat or flare angle, whether the thread is tapered or parallel, how the seal is made, and interchangeability notes with other standards. Answers the recurring field question 'what kind of fitting is this?' \u2014 the identification step that must happen before any cross-reference or adapter lookup.",
       "records": 21,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/hydraulic-pipe-connection-types/",
       "data": "https://referencesource.org/hydraulic-pipe-connection-types/data.json"
     },
     {
       "slug": "ibc-irc-code-edition-adoption-by-state",
-      "title": "Which edition of the International Building Code, Residential Code and 15 other I-Codes each US state enforces, from the ICC's own published adoption chart",
-      "description": "Which edition of each International Code Council (ICC) code family is adopted in each US state and territory, taken from the ICC's own published adoption chart. The ICC publishes 17 code families (IBC, IRC, IFC, IMC, IPC, IPSDC, IFGC, IgCC, IPMC, IEBC, ISPSC, ICCPC, IWUIC, IZC, ICC 700), and states adopt different editions of each -- Ohio is on IBC 2015 but IRC 2018, Texas is on IBC 2012 but IRC 2012, Wyoming is on IBC 2021 but has adopted the IRC only locally. Each record is one state, with the adopted edition year for each code family. Answers 'what edition of the IBC is adopted in Ohio', 'which states are still on IBC 2012', 'does my state enforce the International Plumbing Code', 'what building code edition applies in Texas'. This is the ICC's own snapshot, dated on the chart and carried on every record as 'Chart as of'; a state that has adopted a newer edition since that date will still show the edition the chart recorded. Editions are printed as two-digit years, per the chart's own key: 21 = 2021, 18 = 2018, 15 = 2015, 12 = 2012, 09 = 2009, 06 = 2006, 04 = 2004, 03 = 2003, 00 = 2000. 'X' means one or more state or local agencies have adopted an edition of that code, but it is not used as a standard for all buildings, and a code family is left blank here when the chart shows no adoption in that state. Three cells are printed with an asterisk (Hawaii IPC 'X*', Idaho ISPSC '*15', Oregon IWUIC 'X*'); the chart carries no legend for it in any of the three ways the PDF can be read, so the asterisk is reproduced as printed and not interpreted. New Jersey's fire code cell reads '15 (IBC)' -- the chart's legend glosses parentheses as a stretch code, but here the parenthetical names the code the provisions come from, so it too is reproduced as printed. American Samoa's building code cell reads '1964 UBC', an edition of the Uniform Building Code rather than an I-Code. The two energy columns (IECC-R, IECC-C) are deliberately not published here: energy-code-adoption-by-state carries those from each state's adopting regulation, which is current, whereas this chart's energy values have gone stale since January 2024. NEC/NFPA 70 is covered by nec-edition-adoption-by-state. The other 15 code families (IBC, IRC, IFC, IMC, IPC, IPSDC, IFGC, IgCC, IPMC, IEBC, ISPSC, ICCPC, IWUIC, IZC, ICC 700) are not covered anywhere else in the portfolio.",
+      "title": "Which edition of the International Building Code, Residential Code and 15 other I-Codes the ICC's adoption chart of January 2024 records for each US state",
+      "description": "What the International Code Council's own I-Code adoption chart, published January 2024, records for each US state and territory. The ICC publishes 17 code families (IBC, IRC, IFC, IMC, IPC, IPSDC, IFGC, IgCC, IPMC, IEBC, ISPSC, ICCPC, IWUIC, IZC, ICC 700) and states adopt different editions of each, so the chart is a grid of state against code family and each record here is one state's row of it -- the chart records Ohio at IBC 2015 but IRC 2018, Texas at IBC 2012 and IRC 2012, Wyoming at IBC 2021 with the IRC adopted only locally. This is a January 2024 snapshot and not a statement of what is in force today. Fifteen states have now been checked against their own adopting regulation. Five match the chart and ten do not, and the misses do not all run the same way: Washington and Pennsylvania read 18 where the regulation adopts the 2021 edition, New Mexico and Wisconsin read 15 where it adopts 2021, Rhode Island reads 18 where it adopts 2021, New Jersey reads 21 where the subcodes are already on the 2024 editions, Iowa reads 15 where the rule adopts the 2024 editions -- three editions of drift, the widest found so far -- and New Hampshire reads 18 where the law is already on the 2024 editions. But Virginia's 21, Minnesota's 18, Nebraska's 18, Kentucky's 15 and South Carolina's 21 are all exactly right, so an old-looking year in a cell is not by itself a sign the cell is stale, and a recent-looking one is not a guarantee. For the edition actually in force, read the state's own adopting regulation -- which is what the two 'in force' columns below do, where they are present. Since 2026-09-30 some states carry two further columns that do exactly that -- 'IBC edition in force' and 'IRC edition in force', each quoted from the state's own adopting regulation and not from this chart, with the regulation named beside them -- so those pages show the chart's January 2024 value and the law side by side. Fifteen states are done. Virginia, Minnesota, Nebraska, Kentucky and South Carolina agree with the chart; Washington, Pennsylvania, New Mexico, Rhode Island and Iowa are behind it, Iowa by three editions, its cell reading 15 against a rule on the 2024 codes; New Jersey is one edition behind on both families; New Hampshire is two editions behind in the other direction, because the state moved on to the 2024 codes and the chart still reads 18; Wisconsin is two editions behind on the IBC and adopts no IRC edition at all, substituting its own Uniform Dwelling Code; Michigan is two editions behind on the IBC while its IRC column, which reads 15, is still right, because Michigan updated its building rules and left its residential rules alone; and Oregon is the same shape, its structural code now built on the 2024 IBC while its residential code stays on the 2021 IRC, which is what the chart's 21 already says. Those are the useful warning -- whether the chart is stale turns on the code family, not on the chart's own value, so a state's columns can be right and wrong at the same time. What does not go stale at that rate is coverage -- whether a state has adopted a given code family at all, and whether statewide or only locally -- and that is what this chart is good for. Every record carries the chart's own date as 'Chart as of'. Editions are printed as two-digit years, per the chart's own key: 21 = 2021, 18 = 2018, 15 = 2015, 12 = 2012, 09 = 2009, 06 = 2006, 04 = 2004, 03 = 2003, 00 = 2000. 'X' means one or more state or local agencies have adopted an edition of that code, but it is not used as a standard for all buildings, and a code family is left blank here when the chart shows no adoption in that state. Three cells are printed with an asterisk (Hawaii IPC 'X*', Idaho ISPSC '*15', Oregon IWUIC 'X*'); the chart carries no legend for it in any of the three ways the PDF can be read, so the asterisk is reproduced as printed and not interpreted. New Jersey's fire code cell reads '15 (IBC)' -- the chart's legend glosses parentheses as a stretch code, but here the parenthetical names the code the provisions come from, so it too is reproduced as printed. American Samoa's building code cell reads '1964 UBC', an edition of the Uniform Building Code rather than an I-Code. The two energy columns (IECC-R, IECC-C) are deliberately not published here: energy-code-adoption-by-state carries those from each state's adopting regulation, which is current, whereas this chart's energy values have gone stale since January 2024. NEC/NFPA 70 is covered by nec-edition-adoption-by-state. The other 15 code families (IBC, IRC, IFC, IMC, IPC, IPSDC, IFGC, IgCC, IPMC, IEBC, ISPSC, ICCPC, IWUIC, IZC, ICC 700) are not covered anywhere else in the portfolio.",
       "records": 56,
       "last_verified": "2026-09-30",
       "url": "https://referencesource.org/ibc-irc-code-edition-adoption-by-state/",
@@ -1035,7 +1035,7 @@
       "title": "Domain registrar accreditation status and ICANN enforcement history, by IANA ID",
       "description": "Whether a domain name registrar is still ICANN-accredited, and what enforcement action ICANN has taken against it. Each record is one registrar identified by its IANA registrar ID, carrying the accreditation status IANA publishes ('Accredited', 'Terminated', 'Reserved') and, where one exists, the dated ICANN Contractual Compliance notice ('Notice of Breach', 'Notice of Suspension', 'Notice of Termination', 'Notice of Non-Renewal') with the date and the notice PDF. Answers 'is my domain registrar still ICANN accredited', 'which registrars lost their accreditation in 2026', 'is IANA ID 3221 accredited', 'what happens to my domain if my registrar is terminated', and 'has this registrar been issued a breach notice'. The two authorities publish complementary halves and neither publishes the other's: IANA states a registrar is Terminated but never says when or why, and ICANN dates every enforcement action but never states current status. A registrar termination triggers a bulk transfer of every domain under it, so the answer is consequential and it changes several times a year.",
       "records": 4538,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/icann-registrar-accreditation-status/",
       "data": "https://referencesource.org/icann-registrar-accreditation-status/data.json"
     },
@@ -1044,7 +1044,7 @@
       "title": "IECC/Building America climate zone by U.S. county, 2021 code cycle",
       "description": "Which IECC climate zone (1-8, with A/B/C moisture regime) and which DOE Building America climate zone each U.S. county falls in under the 2021 code cycle, and whether that county's designation changed from the pre-2021 (2018 IECC) map. Answers 'what climate zone is my county in for insulation R-value and HVAC-sizing purposes' and 'did my county's zone change in the 2021 code' -- both load-bearing for code-compliance software, HVAC equipment sizing, and DOE Zero Energy Ready Home certification, and both wrong if answered from a pre-2021 map or a general knowledge cutoff. Source is a single DOE/Pacific Northwest National Laboratory report (PNNL-33270, Sept 2022) that prints one table row per county -- the free public proxy for ASHRAE Standard 169 Table B-1, which is paywalled. No free site was found that republishes PNNL's full, current, cited county table as clean HTML; the closest match (a GitHub gist CSV) carries no source citation or edition statement.",
       "records": 3134,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-08-19",
       "url": "https://referencesource.org/iecc-climate-zone-by-county/",
       "data": "https://referencesource.org/iecc-climate-zone-by-county/data.json"
     },
@@ -1071,7 +1071,7 @@
       "title": "Industrial VFD fault and alarm codes by brand",
       "description": "What the fault and alarm codes on the display of an industrial variable-frequency drive (VFD) stand for, taken from each manufacturer's own manual. Codes are short strings that look alike across brands and mean different things: 13 is over current on a Danfoss VLT and a ground fault on an Allen-Bradley PowerFlex 40. Each record gives the code exactly as the keypad shows it, the name the manual prints beside it, and \u2014 where the manual grades events \u2014 whether it is a warning the drive keeps running through or a fault that trips it. Where the manual's own troubleshooting table states a cause and a corrective action for the code, those are carried too; where it doesn't, the linked manual page is the place to check.",
       "records": 340,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-08-26",
       "url": "https://referencesource.org/industrial-vfd-fault-alarm-codes-by-brand/",
       "data": "https://referencesource.org/industrial-vfd-fault-alarm-codes-by-brand/data.json"
     },
@@ -1080,7 +1080,7 @@
       "title": "How long an insurer has to acknowledge, decide and pay a claim, by state: statutory and regulatory claim-handling deadlines",
       "description": "The deadlines each US state puts on an insurance company handling a claim: how many days to acknowledge that a claim was received, how many days to reply to a policyholder's communication, how many days to accept or deny the claim after receiving proof of loss, how many days to pay once it has accepted, and what interest or penalty runs if it misses. Each record is one deadline in one state, carrying the number of days exactly as the state writes it, whether they are calendar, business or working days, the event the clock starts from, the citation to the statute or administrative rule that sets it, and the verbatim sentence. Answers 'how long does an insurance company have to pay a claim in Texas', 'what is the deadline for an insurer to deny a claim', 'how many days does my insurer have to acknowledge my claim in Ohio', and 'my insurer has had my proof of loss for 46 days \u2014 has a deadline passed'. No single original exists: every state adopted its own version of the NAIC Unfair Claims Settlement Practices model, half of them in a statute and half in an administrative rule, and NAIC's own topic page for it is now a 404.",
       "records": 42,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/insurance-claim-handling-deadlines/",
       "data": "https://referencesource.org/insurance-claim-handling-deadlines/data.json"
     },
@@ -1089,7 +1089,7 @@
       "title": "State life and health insurance guaranty association benefit limits \u2014 how much is protected if your insurer fails",
       "description": "Every US state runs a life/health insurance guaranty association \u2014 a state-chartered backstop, funded by assessments on other insurers, that pays policyholders (up to a cap) if their life, annuity, disability, long-term-care or health insurer becomes insolvent. FDIC/SIPC-style protection, but almost nobody outside the insurance industry knows it exists or what it actually covers, because unlike bank deposit insurance there is no single federal number \u2014 each state sets its own dollar caps by statute, and the caps genuinely differ: California caps life death benefit at $300,000 and lumps all health benefits into one $200,000, CPI-adjusted figure; Florida caps life at just $100,000 (cash value only) but health benefit plans at $500,000; Virginia, Illinois and Ohio each split accident-and-sickness coverage into four separate tiers (general, disability income, long-term care, health benefit plans) with different caps for each \u2014 and even those three, which look identical at a glance, differ: Virginia caps total benefits per life at $350,000 where Illinois and Ohio cap them at $300,000, and Ohio has no per-owner cap on multiple policies at all. California additionally pays no more than 80 percent of what the failed insurer owed, a haircut none of the others impose. Answers 'is my life insurance policy protected if the company goes under', 'how much of my annuity would I actually get back', and 'why did my neighbor in another state get a different payout' \u2014 the kind of question someone asks in the middle of an actual insurer failure, when the industry's own explainer (NOLHGA) is a member-funded index, not a citable comparison table.",
       "records": 5,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-08-19",
       "url": "https://referencesource.org/insurance-guaranty-association-limits-by-state/",
       "data": "https://referencesource.org/insurance-guaranty-association-limits-by-state/data.json"
     },
@@ -1098,7 +1098,7 @@
       "title": "Interstate Professional Licensure Compact Participation by State",
       "description": "Which U.S. states participate in which interstate licensure compacts (nursing, psychology, physical therapy, counseling, social work, EMS, occupational therapy, audiology/speech pathology, dietetics, physician assistant, respiratory care, school psychology, athletic training), with effective dates and enabling statute citations.",
       "records": 420,
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-08-17",
       "url": "https://referencesource.org/interstate-licensure-compact-participation/",
       "data": "https://referencesource.org/interstate-licensure-compact-participation/data.json"
     },
@@ -1116,7 +1116,7 @@
       "title": "Withdrawn and superseded ISO standards",
       "description": "Every deliverable in ISO's own open-data register that has been withdrawn or superseded, with the replacement the register points to. Answers 'ISO 9001:2008 withdrawn \u2014 replaced by what', 'is ISO 13485:2003 still current', and 'what replaced IEC 31010:2009' \u2014 the lookup assistants get confidently wrong on an obscure designation, because the supersession chain is versioned, scattered across editions, and only ever published as a machine-readable file. 24,640 records read from the ISO Open Data CSV, each quoting the CSV row it came from, and each on a page of its own. Two things the register does not give, so neither do these pages: the date a standard was withdrawn (the only date in the file is the deliverable's own publication date), and any guarantee that the named replacement has itself been published. Measured 2026-09-14: 2,507 records (10.2%) name at least one replacement the register has never given a publication date, and on 416 of those (1.7%) every replacement named is unpublished \u2014 a revision project that is registered but that you cannot obtain. The test is the register's own publicationDate column, not the designation's spelling: all 29,680 rows it marks withdrawn and all 8,559 it marks current carry a publication date, and these replacement rows carry none.",
       "records": 24640,
-      "last_verified": "2026-09-14",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/iso-standard-supersessions/",
       "data": "https://referencesource.org/iso-standard-supersessions/data.json"
     },
@@ -1143,7 +1143,7 @@
       "title": "Kubernetes component version skew policy: how far apart component versions can be in a supported cluster",
       "description": "The maximum version difference Kubernetes supports between cluster components, one record per governed component pair (kube-apiserver to kubelet, kube-proxy, kubectl, and the kube-controller-manager/kube-scheduler/cloud-controller-manager group, plus the kube-apiserver-to-kube-apiserver HA rule and the kube-proxy-to-kubelet rule), from the project's own version-skew-policy page. Answers 'how many minor versions behind can my kubelet be', 'can kubectl be newer than kube-apiserver', 'what must already be upgraded before I upgrade this component'. Getting this wrong during a rolling upgrade breaks node registration or blocks the upgrade path, usually discovered mid-rollout. The rule text is stable in structure release to release; the version numbers in the worked examples move with each Kubernetes minor release, so the numeric examples need re-verification on that cadence.",
       "records": 6,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/kubernetes-version-skew-policy/",
       "data": "https://referencesource.org/kubernetes-version-skew-policy/data.json"
     },
@@ -1224,7 +1224,7 @@
       "title": "ACA marketplace subsidy income limits by coverage year, household size and state group",
       "description": "The dollar income limits that decide whether a household qualifies for an ACA premium tax credit, for each coverage year, each household size from 1 to 8, and each of the three federal poverty guideline schedules (48 contiguous states and DC, Alaska, Hawaii). Each record states the poverty guideline the marketplace actually applies to that coverage year, the dollar figures at the 100%, 138%, 150%, 200%, 250%, 300% and 400% marks, the share of income the household is expected to pay at the top of the scale, and whether a hard cutoff applies above 400%. The enhanced credits created by the American Rescue Plan Act and extended by the Inflation Reduction Act lapsed on 31 December 2025, so coverage year 2026 was the first year since 2020 in which a household above 400% of the poverty line received no credit at all. No single page states these dollar figures. HHS publishes the poverty guidelines without the ACA multiples; the IRS publishes the applicable percentages without any dollar amounts; and the marketplace applies the guidelines published before open enrollment opened, not the guidelines bearing the coverage year's own number, which is the step most secondary sources get wrong. Answers 'what is the income limit for marketplace insurance in [year]', 'what is 400% of the federal poverty level for a family of [n]', 'how much can I earn and still get an Obamacare subsidy', 'what is the subsidy cliff', and 'what percentage of income do I have to pay for a benchmark plan'.",
       "records": 48,
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/marketplace-subsidy-income-thresholds/",
       "data": "https://referencesource.org/marketplace-subsidy-income-thresholds/data.json"
     },
@@ -1305,7 +1305,7 @@
       "title": "State below-cost motor fuel selling laws and minimum-markup percentages",
       "description": "A handful of states make it illegal for a gas station to sell fuel below its own cost, on the theory that a chain with deep pockets could otherwise sell at a loss long enough to drive independent competitors out and then raise prices. Two separate things have to be known before anyone can act on one of these laws, and they almost always live in two different statute sections: what conduct is actually prohibited (and what the exceptions are), and how the law says 'cost' is calculated. So each state gets a record for each. Only two of the states here bolt a fixed cost-of-doing-business markup percentage onto cost -- Wisconsin (6% retail, 3% wholesale, 9.18% on the average posted terminal price) and West Virginia (4% wholesale) -- which is why the popular name 'minimum markup law' is misleading everywhere else: Minnesota, Missouri, North Carolina and Florida set a cost floor with no fixed percentage on top. No comprehensive compiled version of these laws was found; each state's rule lives only in its own statute or agency guidance page. Answers 'can a gas station legally sell below cost in my state', 'what's the minimum markup percentage for gasoline in Wisconsin', 'what counts as cost for a gas station in Florida', 'is meeting a competitor's price an exception'.",
       "records": 18,
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/motor-fuel-minimum-markup-laws-by-state/",
       "data": "https://referencesource.org/motor-fuel-minimum-markup-laws-by-state/data.json"
     },
@@ -1314,7 +1314,7 @@
       "title": "Which National Electrical Code edition each US state enforces: adoption status, effective dates and amendments, from the state boards themselves",
       "description": "The NEC edition currently in force in each US state, with the effective date, the adopting authority, whether state amendments apply, and any announced transition to a newer edition. The spread is real and moving: Minnesota's Board of Electricity put the 2026 NEC in force on Aug. 17, 2026 (permits filed before that date still follow the 2023 NEC); Oregon's 2023 Oregon Electrical Specialty Code, based on the 2023 NEC, took effect Oct. 1, 2023 with a published table of amendments, and the 2026 OESC is in adoption; Washington's WAC 296-46B-010 carries the 2023 NEC with the 2026 edition already written in for Dec. 31, 2026; Nebraska has been on the 2023 NEC since Aug. 1, 2024. Answers 'which NEC edition is in effect in my state?', 'which states have adopted the 2026 NEC?', 'does my state amend the NEC or adopt it unamended?', 'when does the new electrical code take effect for permits?'. Caveat: local jurisdictions (AHJs) may enforce a different edition; this asset records statewide adoption only. Which edition is in force changes month to month, which is why every record carries the date its source states and a verbatim quote \u2014 a static tracker published two weeks before Minnesota's cutover was wrong two weeks later, and so was an earlier version of this asset.",
       "records": 5,
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/nec-edition-adoption-by-state/",
       "data": "https://referencesource.org/nec-edition-adoption-by-state/data.json"
     },
@@ -1323,7 +1323,7 @@
       "title": "EPA NESHAP Source Category Applicability Crosswalk",
       "description": "Maps each EPA NESHAP source category to its 40 CFR subpart, whether it applies to major or area sources, the original final rule date, most recent amendment, and residual risk/technology review status.",
       "records": 125,
-      "last_verified": "2026-08-15",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/neshap-source-category-crosswalk/",
       "data": "https://referencesource.org/neshap-source-category-crosswalk/data.json"
     },
@@ -1341,7 +1341,7 @@
       "title": "NFPA 704 fire diamond ratings by chemical",
       "description": "The NFPA 704 'fire diamond' rating for a chemical \u2014 the health (blue), flammability (red), instability (yellow) numbers and any special (white) notice \u2014 as published on that chemical's own datasheet. Each record is one chemical, with the four quadrants and the datasheet's own wording for what each value means. Answers 'what is the NFPA 704 rating for anhydrous ammonia', 'fire diamond numbers for thionyl chloride', and 'what does a 3 in the blue diamond mean'. NFPA 704 itself is a paywalled standard and the per-chemical ratings are scattered one page at a time across datasheets and SDSs, so no single free table exists \u2014 assembly, one source per record.",
       "records": 4,
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/nfpa-704-hazard-ratings/",
       "data": "https://referencesource.org/nfpa-704-hazard-ratings/data.json"
     },
@@ -1350,7 +1350,7 @@
       "title": "NIST cryptographic algorithm deprecation schedule: what is approved, deprecated, and disallowed, and when",
       "description": "Per-algorithm status under NIST guidance for the post-quantum cryptographic transition. Each record is one algorithm or key-length configuration with its current approval status (approved, acceptable, deprecated, restricted, disallowed, legacy use), the date at which the status changes, and the recommended replacement. Drawn from three NIST publications: IR 8547 (post-quantum transition timeline), SP 800-131A Rev 2 (current algorithm status rules) and Rev 3 draft (upcoming changes), and FIPS 203/204/205 (the post-quantum replacement standards). The key deadlines: quantum-vulnerable public-key algorithms (RSA, ECDSA, ECDH, finite-field DH) deprecated after 2030, disallowed after 2035; SHA-1 and 224-bit hashes deprecated through 2030, disallowed thereafter. AES-256 and SHA-2/SHA-3 are NOT on the deprecation schedule. Answers 'when is RSA deprecated?', 'is AES-256 affected by the post-quantum transition?', 'what replaces ECDSA?', and 'what is the current NIST status of 3DES?'",
       "records": 21,
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/nist-cryptographic-algorithm-deprecation-schedule/",
       "data": "https://referencesource.org/nist-cryptographic-algorithm-deprecation-schedule/data.json"
     },
@@ -1395,7 +1395,7 @@
       "title": "Deprecated npm packages and their maintainer-named replacement",
       "description": "npm allows a maintainer to attach a 'deprecated' message to a specific published version, and that message often names the exact replacement package or built-in API to use instead -- 'left-pad' points at String.prototype.padStart(), 'istanbul' points at nyc, 'tslint' points at ESLint, 'babel-eslint' points at @babel/eslint-parser. This is first-party, machine-readable data sitting in the registry API itself, but nobody has assembled it into a browsable table: a developer running `npm install` sees the warning once in a terminal scroll and it is gone, and the alternative is a content-mill blog post ranking '10 request alternatives' without quoting what the maintainer actually said. This asset would have been too tedious to maintain by hand across thousands of packages -- watching a firehose of new deprecations and re-checking old ones for changes -- but is a mechanical registry read for one machine, refreshable on a schedule at zero marginal cost per package. Each record is one deprecated package, quoting its maintainer's own deprecated message verbatim and naming the specific replacement stated in it. Answers 'is request deprecated', 'what should I use instead of tslint', 'why is my npm install warning about gulp-util'.",
       "records": 96,
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/npm-deprecated-package-recommended-replacement/",
       "data": "https://referencesource.org/npm-deprecated-package-recommended-replacement/data.json"
     },
@@ -1404,7 +1404,7 @@
       "title": "Which OSHA-recognized labs (NRTLs) can certify to a given test standard",
       "description": "The inverted view of OSHA's Nationally Recognized Testing Laboratory program: for each test standard, every NRTL currently recognized to certify products to it. Answers 'which NRTLs can certify to UL 508A', 'can anyone other than UL list to UL 1741', 'is my lab's mark acceptable to OSHA for this product', and 'who else could quote this job'. OSHA publishes the recognition one laboratory at a time \u2014 twenty separate pages, each a long table of that lab's standards \u2014 and its own list-of-standards page says so in as many words: 'See individual NRTL informational web pages to determine which of these standards fall within an NRTL's scope of recognition.' So the question a manufacturer actually has (who may certify my product, and therefore who can I ask for a price) requires opening and searching twenty pages, and nobody publishes the answer.",
       "records": 4334,
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/nrtl-recognized-test-standards/",
       "data": "https://referencesource.org/nrtl-recognized-test-standards/data.json"
     },
@@ -1430,8 +1430,8 @@
       "slug": "nvidia-cuda-compute-capability-by-gpu",
       "title": "NVIDIA GPU CUDA compute capability by model",
       "description": "Which CUDA compute capability version (e.g. '8.9', '12.0') each NVIDIA GPU model supports, from NVIDIA's own compute-capability table. Compute capability determines which CUDA toolkit version a card needs, which `-arch=sm_XX` / `-gencode` build flags to pass (the target is the capability written without its dot, so 8.9 is sm_89 and 12.0 is sm_120), and whether a PyTorch/TensorFlow wheel built for one architecture will run on a given card. Answers 'what compute capability is my GPU', 'does CUDA 11.8 support the RTX 4090', 'what sm_XX target do I use for an A100'. NVIDIA's own page is the single source of truth and is already well-ranked for individual current-generation cards; the value here is completeness (legacy cards back to the earliest Fermi/Kepler-era GPUs, and every SKU in a generation, not just the flagship) in one machine-readable table, and being current the moment a new architecture (e.g. Blackwell, 12.x) ships, before third-party blogs catch up.",
-      "records": 441,
-      "last_verified": "2026-09-28",
+      "records": 442,
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/nvidia-cuda-compute-capability-by-gpu/",
       "data": "https://referencesource.org/nvidia-cuda-compute-capability-by-gpu/data.json"
     },
@@ -1494,7 +1494,7 @@
       "title": "Outboard motor service specifications by brand and model",
       "description": "Spark plug, gap, oil capacity, oil filter, gear lube capacity and water pump impeller kit part numbers for outboard motors by brand and model range. One row per model or model range. Answers 'what spark plug does my Yamaha F150 take?', 'Yamaha F150 water pump repair kit part number', and 'Mercury serial number year chart' \u2014 questions where assistants guess a plausible but wrong part number, capacity or model year.",
       "records": 53,
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-08-05",
       "url": "https://referencesource.org/outboard-motor-service-specs/",
       "data": "https://referencesource.org/outboard-motor-service-specs/data.json"
     },
@@ -1620,7 +1620,7 @@
       "title": "Galvanic series and surface energy of engineering materials",
       "description": "Electrode potential in seawater (volts vs SCE) for metals and alloys from the ASM/MIL-STD-889 galvanic series, and surface energy (dyne/cm) for plastics and packaging materials. Answers 'can I use [coating] directly on galvanised steel', 'will these two metals corrode each other' and 'will this adhesive wet this plastic' \u2014 questions where assistants miss the primer/prep requirement for a specific substrate.",
       "records": 80,
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/",
       "data": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/data.json"
     },
@@ -1638,7 +1638,7 @@
       "title": "CPA continuing professional education (CPE) requirements by US jurisdiction",
       "description": "The CPE hours a licensed CPA must complete in each US state and territory to renew, as published by NASBA's National Registry of CPE Sponsors. Covers total hours, reporting period, ethics requirement, and other subject-area mandates. Answers 'how many CPE hours does a CPA need in [state]', 'what is the ethics CPE requirement for CPAs in Texas', 'which states require CPA CPE in government auditing or accounting and auditing', and 'do my CPE hours from another state count'. The scenario as briefed ('professional licensing CE by jurisdiction') spans dozens of independent regulatory datasets across professions; this asset covers CPAs because NASBA publishes a structured, per-jurisdiction page for all 55 boards of accountancy \u2014 the only profession in the scenario with a single cross-jurisdiction authority table. Nursing and insurance producer CE are different datasets with different regulators and no equivalent assembled source.",
       "records": 53,
-      "last_verified": "2026-09-28",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/professional-licensing-continuing-education-by-jurisdiction/",
       "data": "https://referencesource.org/professional-licensing-continuing-education-by-jurisdiction/data.json"
     },
@@ -1719,7 +1719,7 @@
       "title": "US federal employment law thresholds by employee count",
       "description": "Employee-count thresholds that trigger US federal employment laws, with the number quoted from the statute itself or from the enforcing agency's own coverage page -- never from a vendor summary. Two kinds of record: a law that states a count (Title VII, ADA, ADEA, GINA, the Pregnancy Discrimination Act, FMLA, COBRA, the ACA employer mandate, WARN, EEO-1 reporting, IRCA) carries that number; a law whose coverage clause names who it covers without stating any employee count (FLSA, ERISA, the OSH Act, USERRA, FCRA, EPPA, the Equal Pay Act, the Consumer Credit Protection Act's garnishment rule, jury-duty protection) carries no threshold at all, is marked 'no employee-count threshold', and quotes the test its coverage does turn on. Note what the second kind does NOT say: that the law covers every employer. It says the statute sets no headcount -- several set some other test, and that test is quoted where the clause states one. A few laws state two counts, because a named class of employer is covered at a lower one -- EEO-1 reporting binds private employers at 100 but federal contractors at 50. Those records carry both numbers, so that reading only the headline figure cannot give the wrong answer to a contractor.",
       "records": 20,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/regulatory-threshold-triggers/",
       "data": "https://referencesource.org/regulatory-threshold-triggers/data.json"
     },
@@ -1908,7 +1908,7 @@
       "title": "Certificate of need programs by US state",
       "description": "Which US states operate a certificate-of-need (CON) program for healthcare facilities, and what each program regulates. Each record is one state or DC: whether a CON program exists, which facility types are subject to review, whether any moratorium applies, and the statute citation. Answers 'does [state] require a certificate of need at all' and 'is [a hospital / an ambulatory surgery centre / a nursing home] reviewable in [state]'. This asset does not carry dollar thresholds: for the capital expenditure amount that triggers review, read from each state's own statute, see con-capital-expenditure-thresholds-by-state.",
       "records": 51,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/state-certificate-of-need-programs/",
       "data": "https://referencesource.org/state-certificate-of-need-programs/data.json"
     },
@@ -1935,7 +1935,7 @@
       "title": "State construction defect statute of limitations and statute of repose periods",
       "description": "Can I still sue for this construction defect? Every US state sets two independent clocks: the statute of limitations (SOL \u2014 typically 2-6 years from discovery of the defect) and the statute of repose (SOR \u2014 typically 6-15 years from substantial completion, regardless of discovery). Both must be alive to file a claim. California gives 4 years SOL latent / 10 years SOR. Colorado gives 2 years SOL / 6 years SOR. New York has NO statute of repose for buildings. Getting this wrong means losing the right to file entirely. One record per state, sourced from the state's own statute. Answers 'construction defect statute of limitations by state', 'statute of repose for construction in Texas', 'how long can I sue for a building defect'. Adjacent to mechanics-lien-deadlines and construction-retainage-limits.",
       "records": 20,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/state-construction-defect-limitations-periods/",
       "data": "https://referencesource.org/state-construction-defect-limitations-periods/data.json"
     },
@@ -1989,7 +1989,7 @@
       "title": "State employment law headcount triggers that deviate from federal thresholds",
       "description": "Employee-count thresholds at which state-specific employment laws kick in, focusing on where states deviate from the federal floor. Each record is one state and one law category (mini-COBRA, mini-WARN, state anti-discrimination, state family leave, workers compensation), giving the state's threshold, the federal threshold for comparison, how they differ, and the statute citation. Answers 'at how many employees does [state law] start applying in [state]' and 'does [state] have a mini-COBRA / mini-WARN / state family leave law'. Companion to the existing regulatory-threshold-triggers asset which covers federal thresholds only.",
       "records": 66,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/state-employment-law-headcount-triggers/",
       "data": "https://referencesource.org/state-employment-law-headcount-triggers/data.json"
     },
@@ -1998,7 +1998,7 @@
       "title": "State insurance mandates for fertility treatment and IVF coverage",
       "description": "Which US states require private health insurers to cover fertility diagnosis, treatment, or preservation, and the specific terms of each mandate. Each record is one state, stating the mandate type (treatment, preservation only, or offer/cover distinction), which treatments are covered (IVF, GIFT, ZIFT, fertility preservation), cycle or dollar limits, age restrictions, employer-size thresholds, self-insured plan exemption status, religious employer exemption, effective date, and the statute citation. As of 2026, 25 states plus DC require some form of fertility coverage, but the variation is enormous: California (SB 729, effective January 2026) mandates IVF in large group plans with no cycle limit; Arkansas caps lifetime coverage at $15,000 and requires trying cheaper treatments first; Delaware covers six egg retrievals but only for iatrogenic infertility; several states mandate only fertility preservation for cancer patients. Self-insured employer plans (covering ~65% of workers with job-based insurance) are exempt from all state mandates under federal ERISA. Answers 'does my state require insurance to cover IVF', 'how many IVF cycles does my state mandate', 'does the fertility mandate apply to my employer', and 'what are the age limits for mandated fertility coverage in [state]'.",
       "records": 26,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/state-fertility-insurance-mandates/",
       "data": "https://referencesource.org/state-fertility-insurance-mandates/data.json"
     },
@@ -2034,7 +2034,7 @@
       "title": "State Insurance Department Complaint Index by Company",
       "description": "Every state insurance department publishes, for each licensed insurer and line of business, how many complaints consumers filed against that company and how much premium the company wrote in that state, together with its own summary figure comparing the two. Nobody publishes it across states. Each regulator uses its own file format, its own line-of-business names, its own schedule \u2014 and, the part that catches people out, its own arithmetic. Indiana's \"Complaint Index\" is the company's share of all complaints divided by its share of all premium written in Indiana, so 1.00 is the state average. Michigan's \"Complaint Ratio\" is complaints per $1 million of written premium, which is a different quantity on a different scale with no meaning at 1.00. Putting those two in one column without saying so would get the asset's whole point wrong. So every record here carries the complaint count and the premium alongside the state's published figure, and quotes the state's own heading for that figure. The raw counts compare across states; the summary figures do not.",
       "records": 622,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/state-insurance-complaint-index-by-company/",
       "data": "https://referencesource.org/state-insurance-complaint-index-by-company/data.json"
     },
@@ -2043,7 +2043,7 @@
       "title": "State insurer-of-last-resort programs \u2014 FAIR Plan / Citizens eligibility and coverage limits",
       "description": "When private insurers won't write a property in a wildfire or hurricane state, the state's residual-market insurer (a FAIR Plan or a corporation like Florida's Citizens) is the fallback \u2014 but the dollar limits and the rule that determines who is even eligible differ by state and are stated only in that state's own statute or program announcement. Each record is one state's program, carrying its coverage-category limit and, where the source states one, the rule that makes a property ineligible. Answers 'what's the maximum FAIR Plan payout in California', 'why would Florida Citizens turn down my house', 'which states cap eligibility by a dollar replacement-cost figure vs. a pricing-comparison rule'.",
       "records": 32,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/state-insurer-of-last-resort-coverage-limits/",
       "data": "https://referencesource.org/state-insurer-of-last-resort-coverage-limits/data.json"
     },
@@ -2088,7 +2088,7 @@
       "title": "State Opioid Initial Prescribing Limits",
       "description": "Maximum days' supply for a first opioid prescription for acute pain, by state, with the statutory or regulatory citation. Over half the states cap initial prescriptions at 3 to 14 days; some also cap daily dosage in morphine milligram equivalents (MME).",
       "records": 11,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/state-opioid-prescribing-limits/",
       "data": "https://referencesource.org/state-opioid-prescribing-limits/data.json"
     },
@@ -2106,7 +2106,7 @@
       "title": "State paid family and medical leave program contribution rates, benefits, and eligibility",
       "description": "The mandatory paid family and medical leave programs that US states operate, with each state's current contribution rate, employer/employee split, maximum weekly benefit, wage replacement formula, leave duration, covered reasons, employer-size threshold, and program launch date. As of mid-2026, 14 states plus DC operate programs: California, Colorado, Connecticut, Delaware, DC, Maine, Massachusetts, Minnesota, New Jersey, New York, Oregon, Rhode Island, and Washington. Maryland and Virginia have enacted programs launching in 2028. Contribution rates change annually (Washington rose to 1.13% for 2026; Massachusetts remains at 0.88%). Wage replacement ranges from a flat 67% (New York) to sliding scales giving 90-100% to low-wage workers (Washington, Oregon, Colorado, Minnesota). Family-leave duration ranges from 8 weeks (California, Rhode Island) to 12 weeks in most programs, with Massachusetts allowing 26 weeks to care for a service member. This is a production-edge asset: maintaining current rates across 15+ annually-changing programs was prohibitive for one person and is now economic. Answers 'what is the paid family leave contribution rate in [state]', 'how much paid leave do employees get in [state]', 'does my state have paid family leave', and 'what is the maximum paid leave benefit in [state]'.",
       "records": 15,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/state-paid-family-leave-programs/",
       "data": "https://referencesource.org/state-paid-family-leave-programs/data.json"
     },
@@ -2151,7 +2151,7 @@
       "title": "State public works payment bond requirements (Little Miller Acts)",
       "description": "Do I need a payment bond on this public works project, and what are the deadlines? Every US state has a 'Little Miller Act' requiring bonds on public construction contracts, but the contract value that triggers the requirement, the bond amount, the notice a subcontractor must serve to preserve a claim, and the deadline for suing on the bond all differ by state. One record per state and territory, each carrying that state's own statutory citation, plus a federal Miller Act row for comparison. Coverage is payment bond law; a performance bond threshold is recorded only for the handful of states whose source states one. Answers 'Little Miller Act thresholds by state', 'do I need a bond on a $75,000 public project in Virginia', 'state payment bond requirements for construction', 'payment bond claim deadline by state'. Adjacent to mechanics-lien-deadlines, construction-retainage-limits, and construction-prompt-payment-deadlines.",
       "records": 53,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/state-public-works-bond-thresholds/",
       "data": "https://referencesource.org/state-public-works-bond-thresholds/data.json"
     },
@@ -2160,7 +2160,7 @@
       "title": "State Residential Radon Disclosure, Testing, and Certification Requirements",
       "description": "State laws governing radon in residential real estate transactions vary dramatically. Some states require sellers to disclose known radon test results (Florida, Illinois, New Jersey). Others fold radon into broader environmental hazard disclosure forms (California, Colorado). Some mandate that radon measurement professionals be certified or licensed; others have no licensing requirement. EPA recommends 4 pCi/L as the action level but this is not a legal standard \u2014 state action levels may differ. This table gives the disclosure requirement, testing mandate, professional certification requirement, action level, and statute citation for each state.",
       "records": 41,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/state-radon-disclosure-requirements/",
       "data": "https://referencesource.org/state-radon-disclosure-requirements/data.json"
     },
@@ -2178,7 +2178,7 @@
       "title": "State Right-to-Repair Laws: Coverage, Requirements, and Effective Dates",
       "description": "Which US states have enacted right-to-repair laws, what products each law covers (electronics, agricultural equipment, powered wheelchairs, automobiles), the price threshold above which parts and documentation must be provided, whether parts-pairing is prohibited, the enforcement mechanism (state AG only vs. private right of action), penalty amounts, and the effective date. As of August 2026, at least 8 states have enacted laws and 28+ have pending legislation.",
       "records": 6,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/state-right-to-repair-laws/",
       "data": "https://referencesource.org/state-right-to-repair-laws/data.json"
     },
@@ -2187,7 +2187,7 @@
       "title": "State conformity to federal Section 179 and bonus depreciation rules",
       "description": "Whether each US state conforms to the federal Section 179 expensing limit and the 100% bonus depreciation deduction, and what state-specific caps or add-back rules apply when it does not. Each record is one state, stating its conformity status for both Section 179 and bonus depreciation, the state's own Section 179 dollar cap if different from federal, whether the state requires a bonus depreciation add-back, the depreciation method the state uses instead, and a statute or administrative citation. The federal Section 179 limit for 2026 is $2,560,000 with a $4,090,000 phase-out; 100% bonus depreciation was made permanent by the One Big Beautiful Bill Act (January 2025). At least a dozen states decouple from bonus depreciation (California, New York, New Jersey, Pennsylvania, Massachusetts, DC, Connecticut, Maryland, Tennessee, North Carolina, Indiana, Wisconsin among others), and several cap Section 179 far below the federal limit (California: $25,000; New Jersey: $25,000; Pennsylvania: not allowed for corporate income tax). A $480,000 equipment purchase in California produces roughly $51,000 in extra state tax in year one. Answers 'does my state allow bonus depreciation', 'what is the Section 179 limit in [state]', 'do I have to add back bonus depreciation on my state return', and 'which states decouple from federal depreciation rules'.",
       "records": 51,
-      "last_verified": "2026-09-29",
+      "last_verified": "2026-10-01",
       "url": "https://referencesource.org/state-section-179-bonus-depreciation-conformity/",
       "data": "https://referencesource.org/state-section-179-bonus-depreciation-conformity/data.json"
     },

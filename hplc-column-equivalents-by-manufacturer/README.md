@@ -6,7 +6,7 @@ Which replacement HPLC column a vendor offers for a named column from another ma
 
 | | |
 |---|---|
-| Last verified | 2026-09-30 |
+| Last verified | 2026-08-31 |
 | Re-check due | 2027-08-31 |
 | Records | 696 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/hplc-column-equivalents-by-manufacturer/changes.xml) |
