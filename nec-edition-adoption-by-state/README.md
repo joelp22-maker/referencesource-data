@@ -6,7 +6,7 @@ The NEC edition currently in force in each US state, with the effective date, th
 
 | | |
 |---|---|
-| Last verified | 2026-10-01 |
+| Last verified | 2026-08-11 |
 | Re-check due | 2026-12-09 |
 | Records | 5 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/nec-edition-adoption-by-state/changes.xml) |

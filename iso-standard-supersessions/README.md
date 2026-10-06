@@ -6,7 +6,7 @@ Every deliverable in ISO's own open-data register that has been withdrawn or sup
 
 | | |
 |---|---|
-| Last verified | 2026-10-01 |
+| Last verified | 2026-10-05 |
 | Re-check due | 2027-03-13 |
 | Records | 24,640 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/iso-standard-supersessions/changes.xml) |

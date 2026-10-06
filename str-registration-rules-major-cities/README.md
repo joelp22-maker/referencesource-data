@@ -6,8 +6,8 @@ For each major US city, from the city government's own page: whether short-term 
 
 | | |
 |---|---|
-| Last verified | 2026-08-18 |
-| Re-check due | 2027-02-14 |
+| Last verified | 2026-10-05 |
+| Re-check due | 2027-04-03 |
 | Records | 7 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/str-registration-rules-major-cities/changes.xml) |
 

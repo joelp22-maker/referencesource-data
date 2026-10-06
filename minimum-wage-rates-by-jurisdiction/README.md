@@ -6,8 +6,8 @@ Current minimum wage, tipped (subminimum) wage, and small-employer rates for eve
 
 | | |
 |---|---|
-| Last verified | 2026-08-12 |
-| Re-check due | 2026-11-10 |
+| Last verified | 2026-10-05 |
+| Re-check due | 2027-01-03 |
 | Records | 60 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/minimum-wage-rates-by-jurisdiction/changes.xml) |
 

@@ -6,8 +6,8 @@ How much of a debtor's pay a creditor may garnish for an ordinary money judgment
 
 | | |
 |---|---|
-| Last verified | 2026-08-26 |
-| Re-check due | 2027-02-22 |
+| Last verified | 2026-08-29 |
+| Re-check due | 2027-02-25 |
 | Records | 39 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/wage-garnishment-exemption-thresholds-by-state/changes.xml) |
 

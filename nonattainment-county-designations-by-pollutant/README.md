@@ -6,8 +6,8 @@ Whether a US county is in 'nonattainment' for a given Clean Air Act pollutant (a
 
 | | |
 |---|---|
-| Last verified | 2026-08-31 |
-| Re-check due | 2027-02-27 |
+| Last verified | 2026-10-05 |
+| Re-check due | 2027-04-03 |
 | Records | 463 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/nonattainment-county-designations-by-pollutant/changes.xml) |
 
