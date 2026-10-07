@@ -6,7 +6,7 @@ Which US states operate a certificate-of-need (CON) program for healthcare facil
 
 | | |
 |---|---|
-| Last verified | 2026-10-04 |
+| Last verified | 2026-10-06 |
 | Re-check due | 2027-02-15 |
 | Records | 51 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-certificate-of-need-programs/changes.xml) |

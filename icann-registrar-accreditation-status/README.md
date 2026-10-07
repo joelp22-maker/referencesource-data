@@ -6,8 +6,8 @@ Whether a domain name registrar is still ICANN-accredited, and what enforcement 
 
 | | |
 |---|---|
-| Last verified | 2026-09-30 |
-| Re-check due | 2026-10-14 |
+| Last verified | 2026-10-06 |
+| Re-check due | 2026-10-20 |
 | Records | 4,538 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/icann-registrar-accreditation-status/changes.xml) |
 

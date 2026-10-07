@@ -6,7 +6,7 @@ Employee-count thresholds at which state-specific employment laws kick in, focus
 
 | | |
 |---|---|
-| Last verified | 2026-10-04 |
+| Last verified | 2026-10-06 |
 | Re-check due | 2027-02-10 |
 | Records | 66 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-employment-law-headcount-triggers/changes.xml) |

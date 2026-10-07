@@ -6,7 +6,7 @@ The airborne exposure level that triggers mandatory medical surveillance under e
 
 | | |
 |---|---|
-| Last verified | 2026-10-04 |
+| Last verified | 2026-10-06 |
 | Re-check due | 2027-08-12 |
 | Records | 23 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/osha-medical-surveillance-triggers/changes.xml) |

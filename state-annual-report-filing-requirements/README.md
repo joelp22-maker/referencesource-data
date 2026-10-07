@@ -6,8 +6,8 @@ Annual or periodic report filing deadlines, fees, and administrative dissolution
 
 | | |
 |---|---|
-| Last verified | 2026-08-31 |
-| Re-check due | 2027-08-31 |
+| Last verified | 2026-10-05 |
+| Re-check due | 2027-10-05 |
 | Records | 39 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-annual-report-filing-requirements/changes.xml) |
 
