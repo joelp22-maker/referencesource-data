@@ -1,13 +1,13 @@
 # NFPA 704 fire diamond ratings by chemical
 
-The NFPA 704 'fire diamond' rating for a chemical — the health (blue), flammability (red), instability (yellow) numbers and any special (white) notice — as published on that chemical's own datasheet. Each record is one chemical, with the four quadrants and the datasheet's own wording for what each value means. Answers 'what is the NFPA 704 rating for anhydrous ammonia', 'fire diamond numbers for thionyl chloride', and 'what does a 3 in the blue diamond mean'. NFPA 704 itself is a paywalled standard and the per-chemical ratings are scattered one page at a time across datasheets and SDSs, so no single free table exists — assembly, one source per record.
+The NFPA 704 'fire diamond' rating for a chemical — the health (blue), flammability (red), instability (yellow) numbers and any special (white) notice — as published on that chemical's own datasheet. Each record is one chemical, with the four quadrants, each quoted from its own printed row of the datasheet's table so that the page's own wording for what the number means sits beside it, plus any footnote the datasheet prints under that table. Answers 'what is the NFPA 704 rating for anhydrous ammonia', 'fire diamond numbers for thionyl chloride', and 'what does a 3 in the blue diamond mean'. NFPA 704 itself is a paywalled standard and the per-chemical ratings are scattered one page at a time across datasheets and SDSs, so no single free table exists — assembly, one source per record.
 
 **4 records.** Canonical, always-current version: [https://referencesource.org/nfpa-704-hazard-ratings/](https://referencesource.org/nfpa-704-hazard-ratings/)
 
 | | |
 |---|---|
-| Last verified | 2026-10-05 |
-| Re-check due | 2028-08-05 |
+| Last verified | 2026-10-07 |
+| Re-check due | 2028-08-31 |
 | Records | 4 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/nfpa-704-hazard-ratings/changes.xml) |
 

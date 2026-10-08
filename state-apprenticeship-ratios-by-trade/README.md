@@ -6,8 +6,8 @@ Apprentice-to-journeyman ratio requirements for construction trades in each US s
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
-| Re-check due | 2027-08-15 |
+| Last verified | 2026-09-03 |
+| Re-check due | 2027-09-03 |
 | Records | 43 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-apprenticeship-ratios-by-trade/changes.xml) |
 

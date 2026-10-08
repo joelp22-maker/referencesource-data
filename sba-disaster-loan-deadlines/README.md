@@ -6,7 +6,7 @@ Every SBA disaster declaration (state/administrative and physical) currently ope
 
 | | |
 |---|---|
-| Last verified | 2026-10-05 |
+| Last verified | 2026-10-07 |
 | Re-check due | 2026-10-12 |
 | Records | 125 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/sba-disaster-loan-deadlines/changes.xml) |

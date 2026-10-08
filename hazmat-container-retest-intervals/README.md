@@ -6,8 +6,8 @@ Mandatory requalification, retest and inspection intervals for pressure containe
 
 | | |
 |---|---|
-| Last verified | 2026-08-06 |
-| Re-check due | 2027-08-06 |
+| Last verified | 2026-10-05 |
+| Re-check due | 2027-10-05 |
 | Records | 67 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/hazmat-container-retest-intervals/changes.xml) |
 

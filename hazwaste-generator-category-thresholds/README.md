@@ -6,8 +6,8 @@ The quantity thresholds that put a hazardous waste generator into a category, an
 
 | | |
 |---|---|
-| Last verified | 2026-08-11 |
-| Re-check due | 2027-08-11 |
+| Last verified | 2026-08-10 |
+| Re-check due | 2027-08-10 |
 | Records | 17 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/hazwaste-generator-category-thresholds/changes.xml) |
 

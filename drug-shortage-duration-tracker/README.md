@@ -6,8 +6,8 @@ For every package FDA currently lists as in shortage: how long that shortage ent
 
 | | |
 |---|---|
-| Last verified | 2026-10-06 |
-| Re-check due | 2026-10-09 |
+| Last verified | 2026-10-07 |
+| Re-check due | 2026-10-10 |
 | Records | 1,137 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/drug-shortage-duration-tracker/changes.xml) |
 

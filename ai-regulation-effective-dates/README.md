@@ -1,14 +1,14 @@
 # AI law and regulation effective dates by jurisdiction
 
-When each AI-specific law, regulation and milestone actually takes effect — the instrument, the provision that states the date, the date itself, what it applies to, and the statutory text quoted verbatim from the enacted bill or the official journal. Answers 'when does the Colorado AI Act take effect', 'when do the EU AI Act high-risk obligations apply', 'when does Texas HB 149 start', 'what date does the Illinois AI hiring law kick in'. Covers US states, the EU, and the UK. Every date is quoted from the instrument itself — a signed bill, a session law, or the Official Journal — because the widely-repeated dates are frequently the superseded ones: Colorado's SB24-205 was moved to 2026-06-30 and then to 2027-01-01 by SB26-189, and the EU AI Act's Annex III high-risk date was moved from 2026-08-02 to 2027-12-02 by Regulation (EU) 2026/1744, while secondary trackers still print the old dates.
+When each AI-specific law, regulation and milestone actually takes effect — the instrument, the provision that states the date, the date itself, what it applies to, and the statutory text quoted verbatim from the enacted bill or the official journal. Answers 'when does the Colorado AI Act take effect', 'when does Colorado SB 24-205 take effect', 'when do the EU AI Act high-risk obligations apply', 'when does Texas HB 149 start', 'what date does the Illinois AI hiring law kick in'. Covers US states, the EU, and the UK. Every date is quoted from the instrument itself — a signed bill, a session law, or the Official Journal — because these dates move, often more than once, and a date with no instrument behind it cannot be told apart from a superseded one. Colorado's SB 24-205 was enacted with duties from 2026-02-01, moved to 2026-06-30 by SB 25B-004, and its part 17 is repealed and reenacted with amendments from 2027-01-01 by SB 26-189; the EU AI Act's Annex III high-risk date was moved from 2026-08-02 to 2027-12-02 by Regulation (EU) 2026/1744. Each record names the instrument whose own words state its date, and says which later instrument replaced it.
 
-**66 records.** Canonical, always-current version: [https://referencesource.org/ai-regulation-effective-dates/](https://referencesource.org/ai-regulation-effective-dates/)
+**69 records.** Canonical, always-current version: [https://referencesource.org/ai-regulation-effective-dates/](https://referencesource.org/ai-regulation-effective-dates/)
 
 | | |
 |---|---|
 | Last verified | 2026-09-08 |
 | Re-check due | 2026-10-23 |
-| Records | 66 |
+| Records | 69 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/ai-regulation-effective-dates/changes.xml) |
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.

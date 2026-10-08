@@ -6,8 +6,8 @@ For each US state, whether a filial support statute is on the books and what it 
 
 | | |
 |---|---|
-| Last verified | 2026-08-31 |
-| Re-check due | 2027-08-31 |
+| Last verified | 2026-08-29 |
+| Re-check due | 2027-08-29 |
 | Records | 22 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/filial-responsibility-laws-by-state/changes.xml) |
 

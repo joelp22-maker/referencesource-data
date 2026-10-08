@@ -6,7 +6,7 @@ Employee-count thresholds that trigger US federal employment laws, with the numb
 
 | | |
 |---|---|
-| Last verified | 2026-09-29 |
+| Last verified | 2026-10-07 |
 | Re-check due | 2027-09-29 |
 | Records | 24 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/regulatory-threshold-triggers/changes.xml) |
