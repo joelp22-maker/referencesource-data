@@ -2,13 +2,13 @@
 
 Which lithium batteries have been tested with which solar inverter brands for closed-loop BMS communication, from the inverter and battery manufacturers' own published compatibility lists. Each record names the inverter brand, the battery brand and model, the communication protocol (CAN, RS485, etc.), minimum firmware versions required, system types supported (off-grid, backup, ESS), and any noted restrictions. Answers 'will battery X talk to inverter Y' — the question the scenario research found assistants hedge on with 'check the manufacturer's compatibility PDF' rather than stating the pairing.
 
-**101 records.** Canonical, always-current version: [https://referencesource.org/solar-inverter-panel-battery-compatibility/](https://referencesource.org/solar-inverter-panel-battery-compatibility/)
+**112 records.** Canonical, always-current version: [https://referencesource.org/solar-inverter-panel-battery-compatibility/](https://referencesource.org/solar-inverter-panel-battery-compatibility/)
 
 | | |
 |---|---|
-| Last verified | 2026-08-12 |
-| Re-check due | 2027-02-08 |
-| Records | 101 |
+| Last verified | 2026-10-12 |
+| Re-check due | 2027-04-10 |
+| Records | 112 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/solar-inverter-panel-battery-compatibility/changes.xml) |
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.
