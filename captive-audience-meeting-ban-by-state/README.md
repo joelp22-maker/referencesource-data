@@ -13,7 +13,7 @@ A growing number of states now bar employers from disciplining or firing a worke
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.
 
-**Licence position for this dataset.** unknown
+**Licence position for this dataset.** Facts from state statutes; statutory text is government work and the facts in it are not copyrightable (Feist, 1991). Each record quotes a short attributed excerpt and links back to the page it was read from. Citation note, checked 2026-10-14: The New Jersey row is cited to law.justia.com rather than to an official state host, because New Jersey does not publish its code anywhere a single section can be fetched at a stable URL — New Jersey's official statutes site, lis.njleg.state.nj.us, is a Folio frameset whose internal document numbers are not stable section addresses. That mirror now sits behind a Cloudflare challenge and returns 403 to everyone, an invented-slug control included, so these rows cannot at present be re-checked against the page they cite. The values were read from those pages when the records were harvested and nothing here has changed them; what is missing is any ongoing check that they are still current.
 
 ---
 
