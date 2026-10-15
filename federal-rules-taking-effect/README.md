@@ -6,7 +6,7 @@ US final rules already published in the Federal Register, listed by the date eac
 
 | | |
 |---|---|
-| Last verified | 2026-10-12 |
+| Last verified | 2026-10-14 |
 | Re-check due | 2026-10-20 |
 | Records | 607 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/federal-rules-taking-effect/changes.xml) |
