@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22115966.svg)](https://doi.org/10.5281/zenodo.22115966)
 
-**108,974 checkable facts across 285 reference datasets. Every record
+**108,975 checkable facts across 285 reference datasets. Every record
 carries the URL it came from and the verbatim line on that page which states
 it.**
 
@@ -324,10 +324,10 @@ fixed or pulled rather than left up.
 | [Notary public commission term length by US state — how many years a commission lasts before it must be renewed, quoted from the state's own statute](notary-public-commission-term-length-by-state/) | 17 | 2026-09-02 | [referencesource.org/notary-public-commission-term-length-by-state/](https://referencesource.org/notary-public-commission-term-length-by-state/) |
 | [Underground storage tank financial responsibility minimum coverage amounts](ust-financial-responsibility-minimum-coverage/) | 17 | 2026-08-26 | [referencesource.org/ust-financial-responsibility-minimum-coverage/](https://referencesource.org/ust-financial-responsibility-minimum-coverage/) |
 | [Workers' compensation waiting periods and retroactive thresholds by US state](wc-waiting-periods-by-state/) | 17 | 2026-08-17 | [referencesource.org/wc-waiting-periods-by-state/](https://referencesource.org/wc-waiting-periods-by-state/) |
+| [Electrician licence reciprocity by state: which states accept which licences, in which direction, on what conditions](electrician-licence-reciprocity-by-state/) | 16 | 2026-10-15 | [referencesource.org/electrician-licence-reciprocity-by-state/](https://referencesource.org/electrician-licence-reciprocity-by-state/) |
 | [Toll transponder interoperability: which pass works in which states](toll-transponder-interoperability/) | 16 | 2026-10-15 | [referencesource.org/toll-transponder-interoperability/](https://referencesource.org/toll-transponder-interoperability/) |
 | [EPA TSCA Section 6 chemical risk management status: prohibitions, effective dates, and exemptions](tsca-section-6-chemical-risk-management-status/) | 16 | 2026-10-15 | [referencesource.org/tsca-section-6-chemical-risk-management-status/](https://referencesource.org/tsca-section-6-chemical-risk-management-status/) |
 | [Clean Air Act "major source" emission thresholds by pollutant and area classification](clean-air-act-major-source-thresholds/) | 15 | 2026-10-13 | [referencesource.org/clean-air-act-major-source-thresholds/](https://referencesource.org/clean-air-act-major-source-thresholds/) |
-| [Electrician licence reciprocity by state: which states accept which licences, in which direction, on what conditions](electrician-licence-reciprocity-by-state/) | 15 | 2026-08-11 | [referencesource.org/electrician-licence-reciprocity-by-state/](https://referencesource.org/electrician-licence-reciprocity-by-state/) |
 | [Lithium battery shipping limits (49 CFR 173.185)](lithium-battery-shipping-limits/) | 15 | 2026-10-14 | [referencesource.org/lithium-battery-shipping-limits/](https://referencesource.org/lithium-battery-shipping-limits/) |
 | [State controlled-substance scheduling of xylazine and tianeptine](state-emerging-substance-scheduling/) | 15 | 2026-08-19 | [referencesource.org/state-emerging-substance-scheduling/](https://referencesource.org/state-emerging-substance-scheduling/) |
 | [State paid family and medical leave program contribution rates, benefits, and eligibility](state-paid-family-leave-programs/) | 15 | 2026-10-15 | [referencesource.org/state-paid-family-leave-programs/](https://referencesource.org/state-paid-family-leave-programs/) |
