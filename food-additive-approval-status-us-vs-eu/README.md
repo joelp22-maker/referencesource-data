@@ -6,7 +6,7 @@ What one regulator says about one food additive, for two regulators side by side
 
 | | |
 |---|---|
-| Last verified | 2026-10-14 |
+| Last verified | 2026-08-15 |
 | Re-check due | 2027-08-15 |
 | Records | 479 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/food-additive-approval-status-us-vs-eu/changes.xml) |
