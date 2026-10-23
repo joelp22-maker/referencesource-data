@@ -162,7 +162,7 @@
       "title": "Ordering a birth certificate: each state's own fee and process",
       "description": "For each US state (and DC, NYC and the territories \u2014 57 vital-records jurisdictions): what a certified birth certificate costs when ordered directly from the state's vital records office, how to order, and what the state itself says about third-party ordering services. The federal compilation of exactly this \u2014 CDC's 'Where to Write for Vital Records' \u2014 was last updated March 2023 and its pages 403 automated fetchers, so the assembled answer is stale or unreachable, and the gap is filled by commercial middlemen: VitalChek and lookalike sites charge processing markups on top of the state fee, and Washington's health department itself warns that 'other third-party companies charge customers high fees'. Actual fees vary threefold (Minnesota $26, New York $45 plus vendor fee). Answers 'how much does a birth certificate cost in [state]', 'how do I order a birth certificate directly from the state', and 'is [ordering site] official or a middleman'. Every value comes from the state health department's own page.",
       "records": 14,
-      "last_verified": "2026-08-18",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/birth-certificate-fees-by-state/",
       "data": "https://referencesource.org/birth-certificate-fees-by-state/data.json"
     },
@@ -207,7 +207,7 @@
       "title": "Building permit expiry, progress and renewal rules by jurisdiction",
       "description": "How long a building permit stays valid, what keeps it alive, what it costs to renew once it has lapsed, and how the local rule differs from the model-code section it amends. One record is one rule for one jurisdiction, placed next to the adopted code section it replaces. Answers 'how long is a building permit valid before it expires', 'does an inspection reset the permit clock', 'my building permit expired what do I do', 'building permit renewal fee after expiration', and 'IRC 105.5 permit expiration'. The memorised answer is 180 days and it is wrong in the places people ask about: unincorporated San Diego County allows two years to start work, then requires a passed inspection every 180 days, with an outer life of three years and renewal at one-half of current permit fees \u2014 one-quarter if only a final inspection remains. DC's adopted code gives one year to begin, with a 180-day carve-out for residential work and no more than four extensions per permit.",
       "records": 7,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/building-permit-validity-and-renewal/",
       "data": "https://referencesource.org/building-permit-validity-and-renewal/data.json"
     },
@@ -270,7 +270,7 @@
       "title": "FMCSA commercial driver disqualification offenses and periods",
       "description": "Every offense that triggers mandatory disqualification of a commercial driver's license (CDL) holder under 49 CFR 383.51, with the disqualification period for each combination of offense, vehicle type (CMV, non-CMV, hazmat), and occurrence count (first, second, third). Covers four federal tables: major offenses (DUI, leaving scene, felony \u2014 1 year to lifetime), serious traffic violations (speeding 15+ mph, reckless driving, improper lane change \u2014 60 to 120 days), railroad-highway grade crossing violations (60 days to 1 year), and violating out-of-service orders (180 days to 5 years). Answers 'my driver got a DUI in their personal car \u2014 is their CDL at risk?' with the exact period and the regulatory citation.",
       "records": 96,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/cdl-disqualification-offenses-and-periods/",
       "data": "https://referencesource.org/cdl-disqualification-offenses-and-periods/data.json"
     },
@@ -279,7 +279,7 @@
       "title": "CDL endorsement prerequisites and testing sequence",
       "description": "Getting a CDL endorsement is a sequence, not a single application: which test type is required (knowledge-only vs. knowledge plus skills), whether the endorsement can be added at the commercial-learner's-permit (CLP) stage or only after a full CDL, and \u2014 for the hazardous materials endorsement specifically \u2014 a separate federal TSA security threat assessment that gates issuance independent of the state testing process, with its own renewal clock. Each record is one endorsement type, carrying the required test, its CLP eligibility, what the permit actually lets you drive once you have it, and any federal prerequisite beyond state testing. Being allowed an endorsement on a CLP is not the same as being allowed to do the work: a learner's permit tanker endorsement covers an empty tank only, and a permit passenger or school bus endorsement carries no passengers but examiners and trainees. Answers 'can I get my tanker endorsement on a learner's permit', 'can I haul a load on it', 'do I need a background check for a hazmat endorsement', 'how often does the TSA hazmat clearance have to be renewed'.",
       "records": 5,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/cdl-endorsement-prerequisites/",
       "data": "https://referencesource.org/cdl-endorsement-prerequisites/data.json"
     },
@@ -306,7 +306,7 @@
       "title": "Chemical resistance ratings for common elastomers",
       "description": "The compatibility rating of a chemical against thirteen common elastomer families, as published in an industry chemical resistance chart. Each record is one chemical carrying its rating for Nitrile (NBR), EPDM, Neoprene (CR), SBR, Silicone (VMQ), Butyl (IIR), Polyacrylate (ACM), Hypalon (CSM), Viton (FKM), Polyurethane (AU/EU), Fluorosilicone (FVMQ), Aflas (TFE/P), and Kalrez (FFKM). Answers 'is Viton compatible with acetone', 'which elastomer resists sulfuric acid', 'can I use EPDM with gasoline', and 'Nitrile vs EPDM for sodium hydroxide'. Ratings use a 1-4 scale: 1 = Satisfactory, 2 = Fair, 3 = Doubtful, 4 = Unsatisfactory, X = Insufficient Data.",
       "records": 2086,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-08-12",
       "url": "https://referencesource.org/chemical-elastomer-material-compatibility/",
       "data": "https://referencesource.org/chemical-elastomer-material-compatibility/data.json"
     },
@@ -315,7 +315,7 @@
       "title": "US federal chemical regulatory reporting thresholds by program (CERCLA and EPCRA)",
       "description": "Cross-program comparison of the two federal reporting thresholds this dataset carries for hazardous chemicals: the CERCLA reportable quantity from 40 CFR 302.4, which triggers release reporting to the National Response Center, and the EPCRA Section 302 threshold planning quantity and Section 304 reportable quantity from 40 CFR 355 Appendix A, which trigger emergency planning and release notification. A chemical on both lists carries both numbers side by side \u2014 chlorine's CERCLA reportable quantity is 10 lb and its EPCRA threshold planning quantity is 100 lb \u2014 and a chemical on only one list carries only that programme's number. Answers 'what is the reportable quantity for [chemical]' and 'is [chemical] an extremely hazardous substance under EPCRA'. Two further programmes are named in the source list and are not carried here yet, so no record shows them: the Clean Air Act Section 112(r) threshold quantity (40 CFR 68.130, the risk management plan rule) and the lowered EPCRA Section 313 reporting thresholds for chemicals of special concern (40 CFR 372.28). Section 313's ordinary reporting threshold is deliberately not a field here: 40 CFR 372.25 sets it programme-wide at 25,000 lb manufactured or processed and 10,000 lb otherwise used, so it is the same number for every chemical. Only the lowered thresholds in 40 CFR 372.28 vary by chemical.",
       "records": 1340,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/chemical-regulatory-reporting-thresholds/",
       "data": "https://referencesource.org/chemical-regulatory-reporting-thresholds/data.json"
     },
@@ -333,7 +333,7 @@
       "title": "Clean Air Act \"major source\" emission thresholds by pollutant and area classification",
       "description": "Whether a stationary source (a factory, plant, or facility) needs a federal Clean Air Act permit turns on whether its potential to emit crosses a tons-per-year (tpy) threshold -- and 'major source' is not one number but several, set by different regulations that do not agree. The Title V definition at 40 CFR 70.2 alone carries three overlapping tests: the section 112 hazardous-air-pollutant test (10 tpy of a single HAP, 25 tpy of any combination), the section 302 test (100 tpy of any air pollutant subject to regulation, with greenhouse gases counting only at 100,000 tpy CO2 equivalent), and the part D title I nonattainment test, tiered by pollutant (VOC, NOx, CO, PM-10) and by how severely out of attainment the area is (ozone precursors at 100 tpy in Marginal or Moderate areas, 50 in Serious, 25 in Severe, 10 in Extreme). PSD is a separate definition in a separate part -- 40 CFR 52.21(b)(1)(i) -- and it splits again: 100 tpy for the source categories the rule lists by name, 250 tpy for everything else. That last distinction is the one most often flattened: a facility told 'the threshold is 100 tons a year' is being given the Title V number, which is the wrong answer for any source outside the listed categories. Each record is one test/pollutant/classification combination and the threshold that test sets, quoted from the regulation that sets it. Answers 'what's the major-source threshold for VOC in a Severe ozone nonattainment area', 'does 25 tpy of a HAP make me major', and 'is my PSD threshold 100 or 250 tons a year'.",
       "records": 15,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/clean-air-act-major-source-thresholds/",
       "data": "https://referencesource.org/clean-air-act-major-source-thresholds/data.json"
     },
@@ -387,7 +387,7 @@
       "title": "Construction prompt payment act deadlines by US state \u2014 owner-to-contractor and contractor-to-subcontractor payment windows, retention release deadlines, and late-payment interest rates",
       "description": "State-by-state comparison of the statutory deadlines that govern how quickly parties on a construction project must pay each other. Each record is one state with the owner-to-contractor payment deadline (days from invoice), contractor-to-subcontractor flow-down deadline (days from receipt of payment), retention release deadline (days from completion), late-payment interest rate (monthly or annual), whether the statute covers private projects, public projects, or both, and the statutory citation. Deadlines range from 7 days (some flow-down requirements) to 45+ days. Interest rates range from 1% to 2% per month. Answers 'how many days does an owner have to pay me in [state]', 'when must I pay my subs after I get paid', and 'what interest rate can I charge for late payment on a construction project'.",
       "records": 43,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/construction-prompt-payment-deadlines-by-state/",
       "data": "https://referencesource.org/construction-prompt-payment-deadlines-by-state/data.json"
     },
@@ -486,7 +486,7 @@
       "title": "DOT hazmat placarding requirements by hazard class (any-quantity vs. 1,001 lb threshold)",
       "description": "A shipment of hazardous material must be placarded on the transport vehicle, and which placard applies -- and whether it is required at any quantity or only once the aggregate gross weight of that class crosses 1,001 lb (454 kg) -- is fixed by two tables in one regulation, 49 CFR 172.504(e). Table 1's eight categories (explosives 1.1-1.3, poison gas, dangerous-when-wet, temperature-controlled organic peroxide, poison-inhalation-hazard, radioactive) require the named placard regardless of quantity. Table 2's fifteen require it only above 1,001 lb -- but that exception is a highway/rail exception that does not reach bulk packagings, which need a placard at any quantity, so every record carries the general rule and the exception's own scope alongside the number. Each record is one hazard-class / placard pairing. Answers 'do I need to placard this shipment', 'how much of this hazard class triggers a placard', 'which placard goes with hazard class 5.1'.",
       "records": 23,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/dot-hazmat-placarding-thresholds/",
       "data": "https://referencesource.org/dot-hazmat-placarding-thresholds/data.json"
     },
@@ -495,7 +495,7 @@
       "title": "DOT minimum random drug and alcohol testing rates by transportation mode",
       "description": "Every DOT-regulated transportation employer (aviation, transit, rail, trucking/motor carrier, pipeline) must randomly drug- and/or alcohol-test a minimum percentage of its safety-sensitive workforce each calendar year, but each modal agency sets and re-announces its own rate separately, in its own format, based on that mode's industry-wide positive test rate \u2014 and DOT's own cross-modal aggregator page (transportation.gov/odapc/random-testing-rates) is not reachable by an automated fetcher (403). No other page assembles the current year's rate across modes; an employer or safety consultant working across modes has to find each agency's own annual notice. Two things this makes visible that a single-mode page cannot: FRA sets three different rates for three employee categories (covered service, maintenance-of-way, mechanical), and FMCSA publishes no annual notice at all \u2014 its rate stands in the regulation until it changes. Each record is one mode (and, for FRA, one employee category) with its minimum random testing rate(s), the CFR basis where the source states one, and the industry positive rate that held or moved it. Answers 'what percentage of drivers/pilots/transit employees must be randomly drug tested this year', 'why did the random testing rate change', 'is our testing rate above or below the DOT minimum'.",
       "records": 7,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/dot-random-drug-alcohol-testing-rates-by-mode/",
       "data": "https://referencesource.org/dot-random-drug-alcohol-testing-rates-by-mode/data.json"
     },
@@ -531,7 +531,7 @@
       "title": "State drug price transparency reporting thresholds, triggers, and penalties for pharmaceutical manufacturers",
       "description": "State-by-state comparison of the dollar thresholds and percentage-increase triggers that require pharmaceutical manufacturers to report drug pricing information to state regulatory agencies. As of 2026, approximately 23 US states have enacted drug price transparency laws, each with different WAC (wholesale acquisition cost) thresholds for new drugs, different percentage-increase triggers for existing drugs, different reporting timeframes, and different penalty structures. Each record is one state with its reporting thresholds. Answers 'at what price or price increase must I report in [state]', 'what is the penalty for not reporting in [state]', and 'which states require drug price transparency reporting'.",
       "records": 10,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/drug-price-transparency-thresholds/",
       "data": "https://referencesource.org/drug-price-transparency-thresholds/data.json"
     },
@@ -585,7 +585,7 @@
       "title": "Which energy code each US state enforces for new homes: the IECC edition (or state equivalent) actually in force, with effective dates and amendments, from the state rules themselves",
       "description": "Which residential energy code is actually in force in a state, taken from the state's own rule or building-code authority, with the effective date and \u2014 where the rule states them \u2014 the state's amendments to it. Coverage is 9 states so far (California, Colorado, Florida, Georgia, New Jersey, Oregon, Pennsylvania, Texas, Washington), deliberately chosen to span the situations that break a one-size-fits-all answer, not the easy ones; the remaining states are listed as work to do in the asset's source notes rather than guessed at. What the pilot found: Georgia still runs the 2015 IECC with Georgia Supplements and Amendments even though it moved its other I-codes to the 2024 editions; Texas never adopted the IECC for homes at all, enforcing Chapter 11 of the 2015 International Residential Code since Sept. 1, 2016; New Jersey moved to the 2024 IECC on August 17, 2026, so anything still showing 2021 for New Jersey is out of date; Pennsylvania adopts the 2021 IECC but amends the residential envelope requirements in its own regulation; California, Florida and Oregon run state-written codes rather than adopting the IECC by name; and Colorado has no single statewide code, requiring local jurisdictions to adopt the state Model Low Energy and Carbon Code when they update any other building code. Answers 'which IECC edition does my state enforce?', 'what energy code applies to new residential construction in my state?', 'does my state amend the IECC or adopt it as written?', 'which states are still on the 2015 IECC?'",
       "records": 9,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/energy-code-adoption-by-state/",
       "data": "https://referencesource.org/energy-code-adoption-by-state/data.json"
     },
@@ -603,7 +603,7 @@
       "title": "EPA national recommended water quality criteria for human health: pollutant concentration thresholds",
       "description": "EPA Section 304(a) recommended human health ambient water quality criteria for 127 pollutants. For each pollutant: the CAS number, the 'water + organism' threshold in \u00b5g/L (for waters that are both a drinking-water source and support aquatic life), the 'organism only' threshold (for waters not used as drinking-water sources), the year EPA published that pollutant's criterion, and EPA's own note on the criterion where the table carries one. The publication year is worth reading before the number is used: it runs from 1980 to 2019, so two values sitting in the same column can be nearly four decades apart in vintage, and seven rows carry no criterion at all (an em dash), three of them draft PFAS entries. The note is where EPA says what the number means \u2014 most often that the criterion is set at a one-in-a-million (10-6) cancer risk and that the decimal point may be moved for a different risk level, or that EPA has also issued an enforceable Maximum Contaminant Level for the same pollutant, or that the organoleptic (taste and odour) criterion may be stricter than the health one. These are recommendations for states adopting water quality standards, NOT enforceable MCLs (which are in drinking-water-contaminant-limits). Used by environmental consultants writing NPDES permits, state agencies setting water quality standards, and industrial dischargers determining compliance. Note: this is a mirror of one EPA table. The stronger juxtaposition version comparing EPA recommended values with state-adopted criteria would not be a mirror, because states adopt different numbers for the same pollutant.",
       "records": 127,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/epa-water-quality-criteria-human-health/",
       "data": "https://referencesource.org/epa-water-quality-criteria-human-health/data.json"
     },
@@ -612,7 +612,7 @@
       "title": "EPCRA Tier II hazardous chemical inventory reporting thresholds by state",
       "description": "The quantity threshold at which a facility must file an annual Tier II hazardous chemical inventory report, taken from each jurisdiction's own statute or rule and compared to the federal EPCRA Section 312 baseline. Federal thresholds: \u226510,000 lbs for hazardous chemicals, \u2265500 lbs or the threshold planning quantity (whichever is lower) for extremely hazardous substances (40 CFR Part 370). EPA authorizes states to set lower thresholds and add chemicals. Seven jurisdictions are published here as doing so, each quoted from the instrument that sets it: California (55 gal / 500 lbs / 200 cu ft, Cal. Health & Safety Code \u00a7 25507), Vermont (100 lbs or the TPQ, whichever is less \u2014 the strictest general threshold found), New York City (500 lbs with a hazard-category table reaching down to 1 lb, 15 RCNY 41-04), Delaware (55 gal / 500 lbs, 16 Del. C. \u00a7 6306), Louisiana (500 lbs, LAC 33:V.10109), Oregon (a graduated table, OAR 837-085-0070), and New Jersey (EHS at 500 lbs or the SARA 302 TPQ, N.J.A.C. 7:1G). Sixteen states are published at the federal figures, each because its own SERC or environmental agency states those figures in its own words \u2014 Nevada, Utah, Virginia, Kansas, Maryland, Hawaii, Texas, North Carolina, Rhode Island, Illinois, Colorado, Pennsylvania, Ohio, Washington, Michigan and South Dakota. Four of them reach the same numbers through an instrument of their own: Illinois under 430 ILCS 100 and 29 Ill. Adm. Code 620, Pennsylvania under Act 165 of 1990 \u00a7 207(c), Ohio under ORC \u00a7 3750.08, and Hawaii which collects them on its own HCI/Tier II Form. Utah states the pattern outright \u2014 its DEQ answers the question directly: 'No, currently Utah has not implemented any other Tier 2 reporting requirements in addition to the federal requirements'. Nevada's International Fire Code quantities are a separate permit obligation that secondary sources routinely mistake for the reporting threshold. Answers 'does my California facility need to file Tier II for 600 pounds of a hazardous chemical' (yes \u2014 the California threshold is 500 lbs for solids, below the federal 10,000), 'what is Vermont's Tier II threshold', 'is Texas at the federal Tier II threshold', and 'which states have lower Tier II thresholds than federal'. States absent from this dataset are states whose own instrument has not been read, not states confirmed to match the federal baseline: a state appears here only once its own agency page states a number, never because no lower number was found.",
       "records": 24,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/epcra-tier-ii-state-reporting-thresholds/",
       "data": "https://referencesource.org/epcra-tier-ii-state-reporting-thresholds/data.json"
     },
@@ -693,7 +693,7 @@
       "title": "FDA nutrient content claim qualification criteria",
       "description": "Numeric thresholds that qualify a food product for each FDA-regulated nutrient content claim ('free', 'low', 'reduced', 'good source of', 'high', 'light'), broken out by nutrient (calories, fat, saturated fat, cholesterol, sodium, sugar, fiber) and food format (individual food, meal, main dish, dietary supplement, small-RACC food). Each record is one claim-term \u00d7 nutrient \u00d7 food-format combination with the exact threshold and the CFR section that defines it. Answers 'what qualifies as low sodium?' with the full matrix, not just the headline number.",
       "records": 90,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/fda-nutrient-content-claim-criteria/",
       "data": "https://referencesource.org/fda-nutrient-content-claim-criteria/data.json"
     },
@@ -711,7 +711,7 @@
       "title": "Federal civil penalty maximums \u2014 current inflation-adjusted amounts across agencies",
       "description": "The current maximum (and where stated, minimum) civil monetary penalty for each violation type, across federal agencies, as each agency's own inflation-adjustment regulation states it: OSHA (29 CFR 1903.15), EPA (40 CFR 19.4), HHS including HIPAA and Medicare (45 CFR 102.3), DOJ including the False Claims Act (28 CFR 85.5), Coast Guard (33 CFR 27.3), NHTSA (49 CFR 578.6). Each agency publishes its own table in its own CFR part and no cross-agency assembled version exists \u2014 searched 2026-08-10, found only per-agency pages and one-off law-firm articles. The 2026 hook: OMB cancelled the 2026 inflation adjustment (the appropriations lapse meant BLS never produced October 2025 CPI-U data), so every agency's amounts are frozen at 2025 levels \u2014 a recent, counter-intuitive fact ('penalties are adjusted annually' is what the training data says) that makes unaided answers stale in a specific, checkable way. Answers 'what is the maximum OSHA penalty for a willful violation', 'what is the HIPAA tier-4 annual cap', 'what is the FCA per-claim maximum', and 'did penalties go up for 2026' (no \u2014 and the page can say why).",
       "records": 570,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/federal-civil-penalty-maximums/",
       "data": "https://referencesource.org/federal-civil-penalty-maximums/data.json"
     },
@@ -729,7 +729,7 @@
       "title": "Federal rules taking effect: every US final rule in the Federal Register, by effective date",
       "description": "US final rules already published in the Federal Register, listed by the date each one takes effect: near-term dates and dates years away, all of them already binding law. Every record carries the agency, the CFR parts it amends, the effective date as the rule prints it, and the rule's verbatim DATES paragraph. Answers 'which federal regulations take effect on January 1, 2027', 'what rules affecting 47 CFR part 10 are already published but not yet in force', 'what is the compliance date for the DOJ web accessibility rule', and 'what changes are coming for my industry that are already law'. The hard part is that a rule published in 2023 can carry a 2026 or 2033 effective date: the obligation is already binding law, it is nowhere near the front page, and the only way to find it is to know it exists. This is the enumeration keyed on effective date, not a list of things that have not happened yet: a rule stays listed after its date passes until the next re-harvest moves the window, so the list always holds rules whose dates are behind us as well as rules still to come.",
       "records": 662,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/federal-rules-taking-effect/",
       "data": "https://referencesource.org/federal-rules-taking-effect/data.json"
     },
@@ -747,7 +747,7 @@
       "title": "GIS vector format capabilities and limitations in GDAL",
       "description": "Key capabilities, version requirements and format limitations for GIS vector drivers in GDAL, the authoritative open-source geospatial library. The question an assistant gets wrong is what is lost when converting between formats \u2014 field name truncation, unsupported types, file size ceilings, geometry constraints.",
       "records": 3,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/file-format-software-version-compatibility/",
       "data": "https://referencesource.org/file-format-software-version-compatibility/data.json"
     },
@@ -810,7 +810,7 @@
       "title": "FLSA overtime exemption duties tests by category (29 CFR Part 541)",
       "description": "Whether a salaried employee is exempt from federal overtime pay turns on two independent tests under 29 CFR Part 541 \u2014 a salary-level test and a duties test \u2014 and the duties test is a different, itemized checklist for each exemption category. Compliance blogs widely publish the salary number ($684/week, $107,432/year HCE) but not the itemized duties criteria for each category quoted directly from the regulation in one place. Each record is one exemption category \u2014 executive, administrative, learned professional, creative professional, teaching professional, practice of law or medicine, computer employee, outside sales, highly compensated employee \u2014 carrying its own general-rule duties test quoted from its section of 29 CFR 541, plus the salary or compensation basis that applies to it (including the lower territorial rates, the computer-employee hourly alternative, and the three categories that have no salary test at all). Answers 'does a salaried manager automatically qualify for the executive exemption', 'what is the duties test for the administrative exemption', 'can a computer employee be paid hourly and still be exempt', 'does a teacher or a doctor have to meet the salary threshold', 'what salary level applies in Puerto Rico or American Samoa'.",
       "records": 9,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/flsa-overtime-exemption-duties-tests/",
       "data": "https://referencesource.org/flsa-overtime-exemption-duties-tests/data.json"
     },
@@ -1827,7 +1827,7 @@
       "title": "Software end-of-support dates",
       "description": "Release, end-of-active-support, end-of-life (EOL) and end-of-security-support dates per major version of widely used software. Covers LTS release schedules for Node.js, Python, Ubuntu, PostgreSQL, PHP and more. Answers 'when does Node.js 18 reach end of life', 'is Python 3.9 still supported' and 'which iOS SDK version does Xcode require' \u2014 the questions assistants get wrong because support dates change every release cycle.",
       "records": 62,
-      "last_verified": "2026-10-19",
+      "last_verified": "2026-10-22",
       "url": "https://referencesource.org/software-end-of-support/",
       "data": "https://referencesource.org/software-end-of-support/data.json"
     },
