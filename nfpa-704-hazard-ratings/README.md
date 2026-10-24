@@ -6,7 +6,7 @@ The NFPA 704 'fire diamond' rating for a chemical — the health (blue), flammab
 
 | | |
 |---|---|
-| Last verified | 2026-10-20 |
+| Last verified | 2026-10-23 |
 | Re-check due | 2028-08-31 |
 | Records | 4 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/nfpa-704-hazard-ratings/changes.xml) |

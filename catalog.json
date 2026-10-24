@@ -324,7 +324,7 @@
       "title": "MAPA Professional glove chemical breakthrough times",
       "description": "Per-chemical breakthrough time, permeation level and degradation rating for all 25 MAPA Professional glove models that publish a chemical chart \u2014 the reusable chemical-protection range, the disposable range and the liquidproof range \u2014 drawn from MAPA's own published product pages. Each glove model's page lists a table of chemicals it has been tested against, with the CAS number, the breakthrough time in minutes (how long before the chemical passes through the glove material), the permeation level (an EN 374 scale), the test standard the result was measured under, and a degradation rating. Where MAPA lists the same chemical twice for one glove under two different test standards, both results are kept rather than one being chosen. Answers 'how long can I wear an Ultranitril 480 glove handling acetic acid' and 'which MAPA glove holds up against toluene' \u2014 questions where guessing wrong means a chemical burn. Scoped to MAPA only: no comparably-structured free source was found for any other glove manufacturer (Ansell, Showa and Honeywell/North publish the equivalent data only as PDFs or behind an interactive selector), so this does not yet answer 'which manufacturer's glove is best', only 'how does this MAPA model perform'.",
       "records": 753,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/chemical-resistant-glove-breakthrough-times/",
       "data": "https://referencesource.org/chemical-resistant-glove-breakthrough-times/data.json"
     },
@@ -477,7 +477,7 @@
       "title": "Medical conditions that disqualify a commercial driver under 49 CFR 391.41",
       "description": "The physical qualification standards every interstate commercial driver (truck or bus, CDL or not) must meet under 49 CFR 391.41(b), one record per numbered clause: diabetes treated with insulin, high blood pressure, epilepsy, respiratory dysfunction, cardiovascular disease, vision (20/40 acuity, 70-degree field, colour recognition), hearing (whispered voice at 5 feet or 40 dB average loss), and the rest of the thirteen. Answers 'can a diabetic driver get a CDL', 'what blood pressure disqualifies a truck driver', 'CDL hearing requirement', 'CDL vision requirement 20/40'. The regulation is short and stable, but its numbered clauses set exact numeric thresholds (decibels, Snellen ratios, degrees of visual field) that generalist summaries routinely round off or drop the exception clause from -- e.g. the insulin clause is not an absolute bar, it defers to the exemption program at 391.46, and a summary that omits that turns a conditional disqualification into an absolute one.",
       "records": 17,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/dot-cdl-medical-disqualifying-conditions/",
       "data": "https://referencesource.org/dot-cdl-medical-disqualifying-conditions/data.json"
     },
@@ -504,7 +504,7 @@
       "title": "Tap drill size and drill-size decimal equivalents",
       "description": "Two related lookups machinists and hobbyists need together: (1) which tap drill to use for a given inch or metric thread (e.g. 1/4-20 UNC needs a #7 drill for approximately 75% thread engagement), and (2) the decimal-inch size of every number, letter, fraction and metric drill, so a shop can pick the nearest drill it actually owns. Two independent vendor sources are used for each table so a disagreement between them can be flagged rather than silently trusted. Answers 'what size do I drill before tapping 1/4-20', and 'what decimal is a #7 drill' \u2014 a complete range in one place beats looking up one size at a time.",
       "records": 570,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/drill-tap-decimal-equivalents/",
       "data": "https://referencesource.org/drill-tap-decimal-equivalents/data.json"
     },
@@ -540,7 +540,7 @@
       "title": "FDA drug shortage duration tracker",
       "description": "For every package FDA currently lists as in shortage: how long that shortage entry has been open (from openFDA's own `initial_posting_date` to today), what FDA says the package's supply is right now, and any recovery estimate FDA has given. What FDA itself publishes, checked directly on 2026-09-01 rather than assumed: the shortage list page (accessdata.fda.gov/scripts/drugshortages) shows which drugs are short and why and carries no date at all, while each per-drug detail page adds a single 'Date first posted' for the whole drug. Neither prints an elapsed duration, and neither gives the date per manufacturer. openFDA does \u2014 where several manufacturers report a shortage of the same drug, each carries its own posting date, and FDA's page shows only the earliest of them. Cross-checked across 30 drugs against those detail pages: 30 of 30 agreed, and in all 10 multi-manufacturer cases FDA's single date was exactly the earliest of ours. The underlying facts are FDA's own public-domain data; the duration is a computation over them that nobody publishes maintained, because it changes every day and hand-updating it was never worth the effort. A scheduled refetch of the same public API keeps it current for free. Read the duration next to `availability`, and do not read it alone: a shortage entry stays 'Current' until FDA resolves the whole shortage, so 63.8% of listed packages (746 of 1,169, measured 2026-09-01) are marked 'Available' even while their entry has been open for years \u2014 the median entry has been open 1,721 days and 1,118 of 1,169 have been open more than 1,000. Records cite a per-drug, per-manufacturer API query rather than a page offset, because openFDA's result ordering rotates daily and an offset URL stops containing its own record \u2014 see sources.txt. Source: https://api.fda.gov/drug/shortages.json (openFDA, no API key required at this volume). This is a monitored dataset, not a static page \u2014 stale_after_days is short and a build should re-run the fetch on a schedule rather than once.",
       "records": 1137,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-15",
       "url": "https://referencesource.org/drug-shortage-duration-tracker/",
       "data": "https://referencesource.org/drug-shortage-duration-tracker/data.json"
     },
@@ -702,7 +702,7 @@
       "title": "Federal Hazardous Occupations Orders for Minors (29 CFR Part 570)",
       "description": "Federal child labor law bans workers under 18 from 17 numbered 'Hazardous Occupations Orders' (29 CFR 570.51-570.68) -- driving, roofing, mining, explosives, power-driven meat slicers, forklifts and other high-lift trucks, circular saws and more -- and separately restricts 14- and 15-year-olds to a closed, positively-defined list of permitted work (29 CFR 570.34), everything outside that list being prohibited (29 CFR 570.33). Limited apprentice and student-learner exemptions apply to some of the orders under 29 CFR 570.50. A state law stricter than federal law controls: North Carolina's own labor department bans nine further 'detrimental' occupations -- welding, work with a risk of falling 10 feet or more, electrician's-helper work, confined spaces, respirator use -- that federal law permits at 16. Each record carries the section it comes from and a verbatim quote of the regulation, so a parent or small-business owner asking 'can I let my 16-year-old operate a forklift' can check the answer against the rule itself. DOL's own summary at webapps.dol.gov/elaws lists the 17 orders one line each with none of the substantive detail; the state layer here is North Carolina only so far. North Carolina's Youth Employment Rules page states separately that 'Employment in hazardous or detrimental occupations are not permitted for youths under the age of 18', but the page listing the nine occupations does not repeat the age, so these records do not claim one.",
       "records": 67,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/federal-child-labor-hazardous-occupations/",
       "data": "https://referencesource.org/federal-child-labor-hazardous-occupations/data.json"
     },
@@ -801,7 +801,7 @@
       "title": "FAA flight training hour minimums: Part 61 vs Part 141, by certificate and rating",
       "description": "The minimum flight-time and training-hour requirements for each FAA pilot certificate and rating, under Part 61 and under an approved Part 141 course, side by side, from the eCFR text of both parts. Answers 'how many hours for a private pilot license', 'part 61 vs part 141 hours', 'commercial pilot minimum hours part 141', and 'instrument rating hour requirements'. The pairs are easy to confuse and constantly mixed up by flight-school marketing pages: private 40 h (61.109) vs 35 h (141 Appendix B), commercial 250 h (61.129) vs 120 h (141 Appendix D), instrument 40 h instrument time (61.65) vs 35 h of instrument training (141 Appendix C). Both columns come from the same publisher (eCFR) but different parts \u2014 no single CFR page states the comparison, and the assembled versions online are flight-school lead-gen pages with no citations. The audience is someone choosing a training path for a purchase that runs $15k-$100k.",
       "records": 164,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/flight-training-hour-minimums-61-vs-141/",
       "data": "https://referencesource.org/flight-training-hour-minimums-61-vs-141/data.json"
     },
@@ -837,7 +837,7 @@
       "title": "What a food must legally contain to use its name: FDA standards of identity, in one table",
       "description": "The FDA standards of identity from 21 CFR Parts 131\u2013169: for each standardized food, the composition minimums and maximums that a product must meet to be labeled with that name. Ice cream must contain not less than 10 percent milkfat and not less than 10 percent nonfat milk solids, and weigh not less than 4.5 pounds to the gallon (21 CFR 135.110); frozen custard is ice cream with at least 1.4 percent egg yolk solids, from the same section; peanut butter must be at least 90 percent peanuts (21 CFR 164.150); white chocolate, milk chocolate and the other cacao products each have their own minimums in Part 163. More than 250 standards exist, scattered across ~19 CFR parts, and no comprehensive table is published anywhere \u2014 FDA's own overview page describes the programme without tabulating it. Answers 'what has to be in ice cream legally?', 'what is the difference between ice cream and frozen custard?', 'does this product have an FDA standard of identity at all?'",
       "records": 41,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/food-standards-of-identity/",
       "data": "https://referencesource.org/food-standards-of-identity/data.json"
     },
@@ -873,7 +873,7 @@
       "title": "Gas cylinder color codes by standard and country",
       "description": "Color coding of compressed gas cylinders (shoulder and body colors) for medical, industrial and laboratory gases under different national and international standards. Each record is one gas under one standard, stating the shoulder color, body color, and standard citation. Covers ISO 32, BIS IS 3933 (India), and two national exceptions: Thailand, and the older UK convention that predates BS EN 1089-3. Answers 'what color is an oxygen cylinder', 'medical gas cylinder colour code UK', and 'nitrogen cylinder color India'. Oxygen is white under ISO 32, emerald green in Thailand, and white-over-black under the older UK convention \u2014 the kind of difference assistants get wrong by stating one standard as universal. Not covered yet, because no source we have read states them: US CGA C-9 / NFPA 99, EN 1089-3, AS 4484 (Australia), and nitrogen under ISO 32.",
       "records": 17,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/gas-cylinder-color-codes/",
       "data": "https://referencesource.org/gas-cylinder-color-codes/data.json"
     },
@@ -954,7 +954,7 @@
       "title": "Hazmat load segregation \u2014 which hazard classes may travel together, highway vs vessel",
       "description": "The pairwise load-segregation rules for hazardous materials: for each pair of hazard classes/divisions, whether they may be loaded, transported or stored together on a highway vehicle (49 CFR 177.848) or on a vessel (49 CFR 176.83). One record is one intersection under one mode: the two classes, the code the table prints in that cell ('X' may not be loaded together, 'O' separated so no commingling on leakage, '*' see the class-1 compatibility table, blank no restriction, plus the ammonium-nitrate note 'A'), and what that code requires in the section's own words. Resolving the code is what the page is for \u2014 the table prints a bare letter and its meaning sits in a note paragraph further down the section, so reading one cell off the regulation takes two lookups. Both modes are in the dataset, as separate records: the two tables label their Class 1 rows differently ('1.1 and 1.2' on highway against '1.1, 1.2, 1.5' on vessel), so putting one pair's two answers on a single page is a mapping decision and not a fold. Answers 'can Division 4.3 ride with Class 8 corrosive liquids' (yes on highway with separation \u2014 the O cell), 'can I load oxidizers with flammable liquids', and the per-pair questions shippers and freight brokers ask before booking mixed loads. A pairwise matrix is a shape the portfolio has not tried: the record is an intersection, not a row.",
       "records": 788,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-08-10",
       "url": "https://referencesource.org/hazmat-segregation-matrix/",
       "data": "https://referencesource.org/hazmat-segregation-matrix/data.json"
     },
@@ -972,7 +972,7 @@
       "title": "HFC refrigerant GWP regulations by US state",
       "description": "State-level HFC refrigerant regulations across the US, including GWP limits, equipment-type restrictions, effective dates, and regulatory citations. Each record is one state's regulation for one equipment category (supermarket, new facility, stand-alone unit, bulk HFC sales). Answers 'what refrigerant GWP limit applies to new supermarket systems in California', 'which states have adopted SNAP Rules 20 and 21', 'New York HFC phase-down GWP thresholds', and 'can I use R-410A in a new commercial refrigeration system in [state]'.",
       "records": 42,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/",
       "data": "https://referencesource.org/hfc-refrigerant-regulations-by-state/data.json"
     },
@@ -1026,7 +1026,7 @@
       "title": "Hydraulic and pipe connection type identification",
       "description": "Identifying characteristics of each hydraulic, pipe, and instrumentation connection standard used in fluid power and plumbing systems. For each connection type, gives the governing standard, seat or flare angle, whether the thread is tapered or parallel, how the seal is made, and interchangeability notes with other standards. Answers the recurring field question 'what kind of fitting is this?' \u2014 the identification step that must happen before any cross-reference or adapter lookup.",
       "records": 21,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/hydraulic-pipe-connection-types/",
       "data": "https://referencesource.org/hydraulic-pipe-connection-types/data.json"
     },
@@ -1062,7 +1062,7 @@
       "title": "US reciprocal (IEEPA) tariff add-on and Section 232 exceptions by HTS chapter",
       "description": "The extra US import tariff that sits on top of the ordinary duty rate, by Harmonized Tariff Schedule (HTS) chapter: the reciprocal tariff imposed under the International Emergency Economic Powers Act (IEEPA), whether a chapter is excepted from it, and whether goods in the chapter are caught instead by Section 232 steel, aluminium, copper or auto duties. The baseline add-on is 10% ad valorem on goods of trading partners not listed in Annex I to Executive Order 14326; some chapters escape it outright \u2014 Chapter 49 printed matter and headings 9701 through 9705 artwork qualify as informational materials under HTSUS 9903.01.22, and goods already subject to Section 232 duties are excepted under 9903.01.33. Answers 'is there a reciprocal tariff on this kind of goods', 'is printed matter exempt from the IEEPA tariff', 'do Section 232 steel duties and the reciprocal tariff both apply to the same entry line', and 'which HTSUS 9903 heading carries the exception'. Each record covers one two-digit HTS chapter and states the add-on or the exception in the words CBP or the executive order itself uses, with the passage quoted. 25 chapters are covered, chosen for search volume: electronics (84, 85), clothing and textiles (61, 62, 63), vehicles (87), steel and iron (72, 73), aluminium (76), plastics (39), pharmaceuticals (30), footwear (64), furniture (94), toys (95), tools (82, 83), optical and medical instruments (90), printed matter (49), artwork (97), and a sample of food and drink categories (02, 04, 08, 22). What this dataset does not give you is the ordinary duty rate itself \u2014 the Column 1 general (MFN) rate, or the Section 301 China rate, for a particular product. Those are set per eight-digit HTS line rather than per chapter, so no page states a chapter-wide figure that could be quoted here; the authoritative source for them is the USITC Harmonized Tariff Schedule at hts.usitc.gov. The total rate on an entry is the Column 1 rate from the HTS plus whichever add-on below applies.",
       "records": 25,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/import-duty-and-tariffs/",
       "data": "https://referencesource.org/import-duty-and-tariffs/data.json"
     },
@@ -1089,7 +1089,7 @@
       "title": "How long an insurer has to acknowledge, decide and pay a claim, by state: statutory and regulatory claim-handling deadlines",
       "description": "The deadlines each US state puts on an insurance company handling a claim: how many days to acknowledge that a claim was received, how many days to reply to a policyholder's communication, how many days to accept or deny the claim after receiving proof of loss, how many days to pay once it has accepted, and what interest or penalty runs if it misses. Each record is one deadline in one state, carrying the number of days exactly as the state writes it, whether they are calendar, business or working days, the event the clock starts from, the citation to the statute or administrative rule that sets it, and the verbatim sentence. Answers 'how long does an insurance company have to pay a claim in Texas', 'what is the deadline for an insurer to deny a claim', 'how many days does my insurer have to acknowledge my claim in Ohio', and 'my insurer has had my proof of loss for 46 days \u2014 has a deadline passed'. No single original exists: every state adopted its own version of the NAIC Unfair Claims Settlement Practices model, half of them in a statute and half in an administrative rule, and NAIC's own topic page for it is now a 404.",
       "records": 42,
-      "last_verified": "2026-08-11",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/insurance-claim-handling-deadlines/",
       "data": "https://referencesource.org/insurance-claim-handling-deadlines/data.json"
     },
@@ -1125,7 +1125,7 @@
       "title": "Withdrawn and superseded ISO standards",
       "description": "Every deliverable in ISO's own open-data register that has been withdrawn or superseded, with the replacement the register points to. Answers 'ISO 9001:2008 withdrawn \u2014 replaced by what', 'is ISO 13485:2003 still current', and 'what replaced IEC 31010:2009' \u2014 the lookup assistants get confidently wrong on an obscure designation, because the supersession chain is versioned, scattered across editions, and only ever published as a machine-readable file. 24,640 records read from the ISO Open Data CSV, each quoting the CSV row it came from, and each on a page of its own. Two things the register does not give, so neither do these pages: the date a standard was withdrawn (the only date in the file is the deliverable's own publication date), and any guarantee that the named replacement has itself been published. Measured 2026-09-14: 2,507 records (10.2%) name at least one replacement the register has never given a publication date, and on 416 of those (1.7%) every replacement named is unpublished \u2014 a revision project that is registered but that you cannot obtain. The test is the register's own publicationDate column, not the designation's spelling: all 29,680 rows it marks withdrawn and all 8,559 it marks current carry a publication date, and these replacement rows carry none.",
       "records": 24640,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/iso-standard-supersessions/",
       "data": "https://referencesource.org/iso-standard-supersessions/data.json"
     },
@@ -1215,7 +1215,7 @@
       "title": "Lithium battery shipping limits (49 CFR 173.185)",
       "description": "Watt-hour and lithium-content thresholds, quantity limits and packaging conditions for shipping lithium cells and batteries under US hazardous materials regulations (49 CFR 173.185). Answers 'DJI Mavic 3 battery watt hours \u2014 can I ship it', 'IATA lithium battery PI 966/967 requirements' and 'lithium battery packed with equipment state of charge limit'. Deliberately NOT a compatibility table \u2014 this is regulatory prose with numeric triggers.",
       "records": 15,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/lithium-battery-shipping-limits/",
       "data": "https://referencesource.org/lithium-battery-shipping-limits/data.json"
     },
@@ -1233,7 +1233,7 @@
       "title": "ACA marketplace subsidy income limits by coverage year, household size and state group",
       "description": "The dollar income limits that decide whether a household qualifies for an ACA premium tax credit, for each coverage year, each household size from 1 to 8, and each of the three federal poverty guideline schedules (48 contiguous states and DC, Alaska, Hawaii). Each record states the poverty guideline the marketplace actually applies to that coverage year, the dollar figures at the 100%, 138%, 150%, 200%, 250%, 300% and 400% marks, the share of income the household is expected to pay at the top of the scale, and whether a hard cutoff applies above 400%. The enhanced credits created by the American Rescue Plan Act and extended by the Inflation Reduction Act lapsed on 31 December 2025, so coverage year 2026 was the first year since 2020 in which a household above 400% of the poverty line received no credit at all. No single page states these dollar figures. HHS publishes the poverty guidelines without the ACA multiples; the IRS publishes the applicable percentages without any dollar amounts; and the marketplace applies the guidelines published before open enrollment opened, not the guidelines bearing the coverage year's own number, which is the step most secondary sources get wrong. Answers 'what is the income limit for marketplace insurance in [year]', 'what is 400% of the federal poverty level for a family of [n]', 'how much can I earn and still get an Obamacare subsidy', 'what is the subsidy cliff', and 'what percentage of income do I have to pay for a benchmark plan'.",
       "records": 48,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/marketplace-subsidy-income-thresholds/",
       "data": "https://referencesource.org/marketplace-subsidy-income-thresholds/data.json"
     },
@@ -1269,7 +1269,7 @@
       "title": "How long medical certificates last for pilots, commercial drivers and merchant mariners \u2014 by class, age and service type",
       "description": "How long a federally required medical certificate remains valid for each regulated transport occupation, and what it depends on. FAA pilot medicals (14 CFR 61.23) cascade by class and age \u2014 a first-class certificate carries first-class privileges to the 12th month for pilots under 40 but only the 6th month at 40 or older, then downgrades to second- and third-class privileges on a schedule; commercial drivers need a medical examiner's certificate on a cycle set by 49 CFR 391.45; merchant mariner medical certificates run 2 years for STCW service but 5 years for national-only credentials, and only 1 year for mariners under 18 (46 CFR 10.301). Same question \u2014 'how long is my medical good for?' \u2014 three regulators, three completely different answer structures. Answers 'how long is a first class medical valid for a 45-year-old pilot?', 'how often does a truck driver need a DOT physical?', 'why is my mariner medical certificate only valid two years?'",
       "records": 17,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/medical-certificate-validity-by-occupation/",
       "data": "https://referencesource.org/medical-certificate-validity-by-occupation/data.json"
     },
@@ -1314,7 +1314,7 @@
       "title": "State below-cost motor fuel selling laws and minimum-markup percentages",
       "description": "A handful of states make it illegal for a gas station to sell fuel below its own cost, on the theory that a chain with deep pockets could otherwise sell at a loss long enough to drive independent competitors out and then raise prices. Two separate things have to be known before anyone can act on one of these laws, and they almost always live in two different statute sections: what conduct is actually prohibited (and what the exceptions are), and how the law says 'cost' is calculated. So each state gets a record for each. Only two of the states here bolt a fixed cost-of-doing-business markup percentage onto cost -- Wisconsin (6% retail, 3% wholesale, 9.18% on the average posted terminal price) and West Virginia (4% wholesale) -- which is why the popular name 'minimum markup law' is misleading everywhere else: Minnesota, Missouri, North Carolina and Florida set a cost floor with no fixed percentage on top. No comprehensive compiled version of these laws was found; each state's rule lives only in its own statute or agency guidance page. Answers 'can a gas station legally sell below cost in my state', 'what's the minimum markup percentage for gasoline in Wisconsin', 'what counts as cost for a gas station in Florida', 'is meeting a competitor's price an exception'.",
       "records": 18,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/motor-fuel-minimum-markup-laws-by-state/",
       "data": "https://referencesource.org/motor-fuel-minimum-markup-laws-by-state/data.json"
     },
@@ -1332,7 +1332,7 @@
       "title": "EPA NESHAP Source Category Applicability Crosswalk",
       "description": "Maps each EPA NESHAP source category to its 40 CFR subpart, whether it applies to major or area sources, the original final rule date, most recent amendment, and residual risk/technology review status.",
       "records": 125,
-      "last_verified": "2026-08-15",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/neshap-source-category-crosswalk/",
       "data": "https://referencesource.org/neshap-source-category-crosswalk/data.json"
     },
@@ -1341,7 +1341,7 @@
       "title": "NFA firearm category definitions and current transfer/making tax",
       "description": "The National Firearms Act regulates six firearm categories -- short-barreled rifle, short-barreled shotgun, any other weapon (AOW), machine gun, silencer, destructive device -- each defined by its own measurement threshold in ATF's regulations at 27 CFR 478.11 and 479.11. Separately, and recently changed: the federal transfer tax and making tax on those items dropped from $200 per item to $0 for every category except machine guns and destructive devices, under section 70436 of the One Big Beautiful Bill Act (Pub. L. 119-21, signed 2025-07-04), which amended 26 U.S.C. 5811(a) and 5821(a). ATF states the change took effect on January 1, 2026, and issued a final rule on 2026-05-08 (ATF No. 2025R-45F, 91 FR 25112) conforming 27 CFR 479.61, 479.62, 479.81, 479.82 and 479.84 to the new rates. Each record is one NFA category, giving its defining measurement threshold and its current and prior transfer/making tax, each quoted verbatim from the regulation or from ATF's own rulemaking. Two things vendor pages routinely get wrong: the paperwork did not change (Form 1/Form 4, fingerprints and the background check are all unchanged), and the AOW transfer tax went from $5 -- not $200 -- to $0. One nuance not carried per-record: the short-barreled rifle and shotgun definitions here are 27 CFR 478.11's, which are the ones that name those terms; the NFA's own list at 27 CFR 479.11(b) and (d) states the 'weapon made from a rifle/shotgun' prong slightly more broadly, as an overall length under 26 inches OR a barrel under 16 (rifle) / 18 (shotgun) inches. Answers 'what barrel length makes a rifle an SBR', 'how much is an ATF tax stamp in 2026', 'is the NFA tax still $200'.",
       "records": 6,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/nfa-firearm-category-definitions-and-transfer-tax/",
       "data": "https://referencesource.org/nfa-firearm-category-definitions-and-transfer-tax/data.json"
     },
@@ -1350,7 +1350,7 @@
       "title": "NFPA 704 fire diamond ratings by chemical",
       "description": "The NFPA 704 'fire diamond' rating for a chemical \u2014 the health (blue), flammability (red), instability (yellow) numbers and any special (white) notice \u2014 as published on that chemical's own datasheet. Each record is one chemical, with the four quadrants, each quoted from its own printed row of the datasheet's table so that the page's own wording for what the number means sits beside it, plus any footnote the datasheet prints under that table. Answers 'what is the NFPA 704 rating for anhydrous ammonia', 'fire diamond numbers for thionyl chloride', and 'what does a 3 in the blue diamond mean'. NFPA 704 itself is a paywalled standard and the per-chemical ratings are scattered one page at a time across datasheets and SDSs, so no single free table exists \u2014 assembly, one source per record.",
       "records": 4,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/nfpa-704-hazard-ratings/",
       "data": "https://referencesource.org/nfpa-704-hazard-ratings/data.json"
     },
@@ -1359,7 +1359,7 @@
       "title": "NIST cryptographic algorithm deprecation schedule: what is approved, deprecated, and disallowed, and when",
       "description": "Per-algorithm status under NIST guidance for the post-quantum cryptographic transition. Each record is one algorithm or key-length configuration with its current approval status (approved, acceptable, deprecated, restricted, disallowed, legacy use), the date at which the status changes, and the recommended replacement. Drawn from three NIST publications: IR 8547 (post-quantum transition timeline), SP 800-131A Rev 2 (current algorithm status rules) and Rev 3 draft (upcoming changes), and FIPS 203/204/205 (the post-quantum replacement standards). The key deadlines: quantum-vulnerable public-key algorithms (RSA, ECDSA, ECDH, finite-field DH) deprecated after 2030, disallowed after 2035; SHA-1 and 224-bit hashes deprecated through 2030, disallowed thereafter. AES-256 and SHA-2/SHA-3 are NOT on the deprecation schedule. Answers 'when is RSA deprecated?', 'is AES-256 affected by the post-quantum transition?', 'what replaces ECDSA?', and 'what is the current NIST status of 3DES?'",
       "records": 21,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/nist-cryptographic-algorithm-deprecation-schedule/",
       "data": "https://referencesource.org/nist-cryptographic-algorithm-deprecation-schedule/data.json"
     },
@@ -1404,7 +1404,7 @@
       "title": "Deprecated npm packages and their maintainer-named replacement",
       "description": "npm allows a maintainer to attach a 'deprecated' message to a specific published version, and that message often names the exact replacement package or built-in API to use instead -- 'left-pad' points at String.prototype.padStart(), 'istanbul' points at nyc, 'tslint' points at ESLint, 'babel-eslint' points at @babel/eslint-parser. This is first-party, machine-readable data sitting in the registry API itself, but nobody has assembled it into a browsable table: a developer running `npm install` sees the warning once in a terminal scroll and it is gone, and the alternative is a content-mill blog post ranking '10 request alternatives' without quoting what the maintainer actually said. This asset would have been too tedious to maintain by hand across thousands of packages -- watching a firehose of new deprecations and re-checking old ones for changes -- but is a mechanical registry read for one machine, refreshable on a schedule at zero marginal cost per package. Each record is one deprecated package, quoting its maintainer's own deprecated message verbatim and naming the specific replacement stated in it. Answers 'is request deprecated', 'what should I use instead of tslint', 'why is my npm install warning about gulp-util'.",
       "records": 96,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/npm-deprecated-package-recommended-replacement/",
       "data": "https://referencesource.org/npm-deprecated-package-recommended-replacement/data.json"
     },
@@ -1413,7 +1413,7 @@
       "title": "Which OSHA-recognized labs (NRTLs) can certify to a given test standard",
       "description": "The inverted view of OSHA's Nationally Recognized Testing Laboratory program: for each test standard, every NRTL currently recognized to certify products to it. Answers 'which NRTLs can certify to UL 508A', 'can anyone other than UL list to UL 1741', 'is my lab's mark acceptable to OSHA for this product', and 'who else could quote this job'. OSHA publishes the recognition one laboratory at a time \u2014 twenty separate pages, each a long table of that lab's standards \u2014 and its own list-of-standards page says so in as many words: 'See individual NRTL informational web pages to determine which of these standards fall within an NRTL's scope of recognition.' So the question a manufacturer actually has (who may certify my product, and therefore who can I ask for a price) requires opening and searching twenty pages, and nobody publishes the answer.",
       "records": 4334,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/nrtl-recognized-test-standards/",
       "data": "https://referencesource.org/nrtl-recognized-test-standards/data.json"
     },
@@ -1458,7 +1458,7 @@
       "title": "OSHA fall protection trigger height by standard",
       "description": "OSHA does not set one fall-protection trigger height. General industry (29 CFR 1910.28) sets 4 feet, general construction (1926.501) sets 6 feet, scaffolds (1926.451) sets 10 feet, and steel erection (1926.760) sets 15 feet -- the same worker doing the same job can cross from one trigger to another by changing which standard applies. Nor does any one standard set a single height: within general industry a fixed ladder triggers at 24 feet, a repair pit is exempt below 10 feet, and low-slope roof work is governed by distance from the edge rather than height at all. Each record is one named hazard situation inside one standard -- the numbered paragraph the regulation itself uses, such as 'Hoist areas', 'Holes' or 'Steep roofs' -- stating the height that triggers protection there and exactly what the paragraph requires once it does, quoted from the regulation. Safety consultants and OSHA-training blogs restate the 4/6/10/15 numbers constantly but rarely cite the paragraph or state what is required, which is the part that matters for compliance. Answers 'what height do I need fall protection at', 'is scaffold fall protection 6 feet or 10 feet', 'what height do I need fall protection around a floor hole', 'what OSHA standard covers steel erection fall protection'.",
       "records": 42,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/osha-fall-protection-trigger-height-by-standard/",
       "data": "https://referencesource.org/osha-fall-protection-trigger-height-by-standard/data.json"
     },
@@ -1467,7 +1467,7 @@
       "title": "OSHA medical surveillance trigger thresholds by substance",
       "description": "The airborne exposure level that triggers mandatory medical surveillance under each OSHA substance-specific standard (29 CFR 1910 Subpart Z), compared across all regulated substances. Each record is one substance, carrying its action level, PEL, the exposure duration that triggers surveillance, the medical exam scope and frequency, biological monitoring requirements if any, and the record retention period. Answers 'what is the action level for lead', 'at what exposure must I provide medical exams for benzene workers', 'how often does cadmium biological monitoring need to happen', and 'which OSHA substances require 40-year record retention'. The action level is typically half the PEL but not always, and the surveillance trigger conditions vary wildly: lead uses blood lead levels, cadmium uses urine cadmium, and most others use airborne concentration plus days-per-year thresholds.",
       "records": 23,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/osha-medical-surveillance-triggers/",
       "data": "https://referencesource.org/osha-medical-surveillance-triggers/data.json"
     },
@@ -1476,7 +1476,7 @@
       "title": "OSHA injury and illness recordkeeping exemptions by industry (NAICS)",
       "description": "Whether a business must keep OSHA 300 injury/illness logs turns on two independent rules: a company-size exemption (10 or fewer employees, company-wide, at any time in the last calendar year) under 29 CFR 1904.1, and a partial industry exemption for specific NAICS codes under 29 CFR 1904 Subpart B Appendix A, which applies regardless of size. The eCFR page for subpart B prints both; what this dataset adds is one addressable, quoted page per NAICS code instead of one long appendix to scroll. Each record is one partially-exempt industry, carrying its NAICS code and the regulation's own industry label. Separate page-level notes carry what the exemption actually does (and the written-request condition that suspends it), that the industry exemption attaches to an establishment rather than a whole company, the company-size rule, and the fatality/hospitalization/amputation/eye-loss reporting requirement that survives both exemptions. Answers 'does a gas station have to keep an OSHA log', 'is my software company exempt from OSHA recordkeeping', 'do I still have to report a fatality if I'm exempt', 'my company has an exempt office and a non-exempt warehouse'.",
       "records": 82,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/osha-recordkeeping-exemptions/",
       "data": "https://referencesource.org/osha-recordkeeping-exemptions/data.json"
     },
@@ -1494,7 +1494,7 @@
       "title": "OSHA training requirements by standard: topic, frequency, and CFR citation",
       "description": "Which OSHA standards require employee training, what the training must cover, how often it must be repeated, and who must receive it. Each record is one training requirement tied to a specific CFR section. Training frequencies vary: some are annual (respiratory protection 1910.134, bloodborne pathogens 1910.1030), some are event-driven (lockout/tagout 1910.147 \u2014 retrain when procedures change), some are initial-only with situational retraining (PPE 1910.132). Answers 'what OSHA training does my construction crew need', 'how often is respiratory protection training required', and 'does OSHA require annual forklift certification'.",
       "records": 31,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/osha-training-requirements-by-standard/",
       "data": "https://referencesource.org/osha-training-requirements-by-standard/data.json"
     },
@@ -1503,7 +1503,7 @@
       "title": "Outboard motor spark plugs and gaps by brand, with Yamaha oil and gear lube capacities",
       "description": "Spark plug part number and electrode gap for outboard motors from five brands \u2014 Yamaha, Mercury, Johnson/Evinrude, Honda and Suzuki \u2014 by model or model range. Yamaha models additionally carry an oil filter part number, engine oil capacity and gear lube capacity; the other four brands carry spark plug and gap only, because the two dealer charts this is assembled from publish capacities for Yamaha alone. One row per model or model range. Answers 'what spark plug does my Yamaha F150 take?', 'what gap does a Mercury 150-300 HP Verado run?' and 'how much gear lube does an F150 lower unit hold?' \u2014 questions where assistants guess a plausible but wrong part number or capacity.",
       "records": 53,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-08-05",
       "url": "https://referencesource.org/outboard-motor-service-specs/",
       "data": "https://referencesource.org/outboard-motor-service-specs/data.json"
     },
@@ -1530,7 +1530,7 @@
       "title": "US EPA pesticide residue tolerance limits by active ingredient and crop commodity",
       "description": "What is the maximum legal pesticide residue allowed on this food in the United States? EPA sets tolerances in 40 CFR Part 180, one section per active ingredient, each listing ppm limits by crop or crop group. There are ~500 sections and no single cross-reference table exists. This asset assembles them: one record per active ingredient \u00d7 commodity, with the ppm tolerance, the CFR section, and the crop group. Answers 'glyphosate tolerance on soybeans', 'what is the MRL for chlorpyrifos on apples', 'EPA pesticide tolerance list by crop'. Food importers check tolerances against shipment lab results; farmers compare tolerances when choosing pesticide products.",
       "records": 1324,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/pesticide-residue-tolerance-limits/",
       "data": "https://referencesource.org/pesticide-residue-tolerance-limits/data.json"
     },
@@ -1620,7 +1620,7 @@
       "title": "What must pass before the next step: mandated step order in regulated processes",
       "description": "The mandated order of steps in multi-step regulated processes, from the authority that enforces the order: which inspection or filing must be approved before the next one may happen, what may not proceed until it passes, and the deadline attached to it. One record is one step in one authority's published sequence. Covers municipal building inspection sequences (the rough-in must pass before the wall closes; no concrete before the footing inspection) and the US import Importer Security Filing chain (ISF no later than 24 hours before lading; flexible filings finalised no later than 24 hours before arrival; cargo release withheld without an ISF). Answers 'did I need an inspection before drywall', 'what order do building inspections happen in', 'when does the ISF have to be filed', and 'what happens if the ISF is late'. The sequence is usually published only as prose on the enforcing authority's own page, one jurisdiction at a time; no comparison table exists anywhere.",
       "records": 37,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-23",
       "url": "https://referencesource.org/prerequisite-sequencing-regulated-processes/",
       "data": "https://referencesource.org/prerequisite-sequencing-regulated-processes/data.json"
     },
