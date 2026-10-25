@@ -450,7 +450,7 @@
       "title": "DEA telemedicine controlled-substance prescribing flexibility -- extension history",
       "description": "Under the Ryan Haight Act a practitioner may normally prescribe a controlled substance only after at least one in-person evaluation of that patient. In March 2020 the DEA suspended that requirement for the COVID-19 public health emergency, and since the emergency ended on 11 May 2023 the suspension has been kept alive only by a chain of temporary rules -- four of them so far, each amending 21 CFR 1307.41 and 42 CFR 12.1 to push one expiry date to a later one, with a permanent 'special registration' rule still only a proposal. This asset is one record per temporary rule, carrying the rule's own DATES statement, the date it extended the flexibility to, and the earlier expiry date it replaced, each quoted from that rule's own Federal Register document. Two things make the history worth assembling. First, the dates are easy to get wrong: the First Temporary Rule is dated 'effective May 11, 2023, through November 11, 2024', but the general flexibility under it actually ran only to 11 November 2023 -- the extra year applied solely to practitioner-patient relationships already established by that date. Second, each rule is a standalone document that supersedes the last without amending it, so a reader who lands on any one of the first three sees a deadline that has already passed with nothing on the page to say so. The newest rule's preamble does narrate the earlier three in prose, which is where a careful reader can reconstruct the sequence; this asset states it as four dated, separately-sourced records instead.",
       "records": 4,
-      "last_verified": "2026-10-21",
+      "last_verified": "2026-10-24",
       "url": "https://referencesource.org/dea-telemedicine-prescribing-flexibility-extensions/",
       "data": "https://referencesource.org/dea-telemedicine-prescribing-flexibility-extensions/data.json"
     },
@@ -720,7 +720,7 @@
       "title": "Federal hours-of-service exemptions by commercial driver operation type",
       "description": "Commercial motor vehicle drivers are subject to federal hours-of-service limits (49 CFR 395.3: an 11-hour driving cap inside a 14-hour window, a 30-minute break after 8 hours of driving, and a 60-hour/7-day or 70-hour/8-day on-duty cap), but 49 CFR 395.1 says the rules apply to every carrier and driver 'except as provided in paragraphs (b) through (x) of this section' -- a list of operation-specific carve-outs covering short-haul driving, agriculture and livestock, oilfield and well-drilling work, utility service, ready-mixed concrete, motion-picture production, railroad signal work, beekeeping, hi-rail and pipeline welding trucks, and more. Each carve-out removes a different requirement and carries its own radius, time window or condition, and they are scattered through one long section. Each record here is one exemption: who qualifies, the bright-line condition, and exactly which requirement it removes, quoted verbatim from the regulation. Answers 'do hours-of-service rules apply to my delivery route', 'is there an hours-of-service exemption for farm work', 'what counts as short-haul under the FMCSA rules'.",
       "records": 31,
-      "last_verified": "2026-10-21",
+      "last_verified": "2026-10-24",
       "url": "https://referencesource.org/federal-hours-of-service-exemptions-by-operation-type/",
       "data": "https://referencesource.org/federal-hours-of-service-exemptions-by-operation-type/data.json"
     },
@@ -1152,7 +1152,7 @@
       "title": "Kubernetes component version skew policy: how far apart component versions can be in a supported cluster",
       "description": "The maximum version difference Kubernetes supports between cluster components, one record per governed component pair (kube-apiserver to kubelet, kube-proxy, kubectl, and the kube-controller-manager/kube-scheduler/cloud-controller-manager group, plus the kube-apiserver-to-kube-apiserver HA rule and the kube-proxy-to-kubelet rule), from the project's own version-skew-policy page. Answers 'how many minor versions behind can my kubelet be', 'can kubectl be newer than kube-apiserver', 'what must already be upgraded before I upgrade this component'. Getting this wrong during a rolling upgrade breaks node registration or blocks the upgrade path, usually discovered mid-rollout. The rule text is stable in structure release to release; the version numbers in the worked examples move with each Kubernetes minor release, so the numeric examples need re-verification on that cadence.",
       "records": 6,
-      "last_verified": "2026-10-21",
+      "last_verified": "2026-10-24",
       "url": "https://referencesource.org/kubernetes-version-skew-policy/",
       "data": "https://referencesource.org/kubernetes-version-skew-policy/data.json"
     },
@@ -1485,7 +1485,7 @@
       "title": "Every numeric requirement in OSHA's scaffold standard (29 CFR 1926.451) \u2014 dimensions, strengths, angles, safety factors and trigger heights",
       "description": "Every numeric requirement stated in 29 CFR 1926.451 (General requirements for scaffolds), extracted from the eCFR text and tabulated so a scaffold erector or safety inspector can look up any value without reading the full 60,000-character regulation. The values are not all dimensions: alongside the widths, gaps, clearances, overhangs, spacings and heights, the section states minimum strengths as forces in pounds, stairway and ramp angles in degrees, counts of parts (three wire rope clips, four rope wraps on a winding drum), wire-rope replacement thresholds in broken wires, load safety factors as multiples of the intended load, and the heights at which a duty such as fall protection or guardrailing begins. Each record is one requirement with its exact value as printed, in imperial and (where the regulation prints one) metric units, the paragraph citation, and the condition or scaffold type it applies to. Answers 'what is the maximum gap between scaffold planks', 'how far can a scaffold plank overhang its support', 'what is the minimum platform width for a scaffold', 'how much force must a scaffold toeboard withstand', 'how many wire rope clips does OSHA require on a suspension scaffold', 'what angle may a scaffold stairway be installed at', 'at what height-to-base ratio must a scaffold be tied', 'what is the load safety factor for scaffold suspension ropes', 'at what height does fall protection become required on a scaffold'. Scaffolding is among OSHA's top 10 most cited standards every year (6th in FY 2025) and the numeric values are scattered across paragraphs (a) through (h) of a long regulation -- a tabulation that puts them all in one place with their paragraph citations is genuinely useful and does not exist as a structured page anywhere found.",
       "records": 91,
-      "last_verified": "2026-10-21",
+      "last_verified": "2026-10-24",
       "url": "https://referencesource.org/osha-scaffold-dimensional-tolerances/",
       "data": "https://referencesource.org/osha-scaffold-dimensional-tolerances/data.json"
     },
@@ -1629,7 +1629,7 @@
       "title": "Galvanic series and surface energy of engineering materials",
       "description": "Three published reference tables, each keyed by material, with no material appearing in more than one of them: the ASM seawater galvanic series (steady-state electrode potential in volts vs SCE, 27 metals and alloys); the MIL-STD-889 anodic index (galvanic voltage relative to gold, 19 material groups); and a printing and packaging dyne-level chart (surface energy in dyne/cm plus that chart's own 'needs treatment' column, 34 substrates ranging from PTFE and stainless steel to BOPP film and overprint varnish). Answers 'will these two metals corrode each other if I join them' and 'is this substrate's surface energy high enough for an ink or adhesive to wet it'. It does not say whether a particular coating needs a primer on a particular substrate: no source here states that, so the question this asset was originally built for \u2014 can paint go straight onto galvanised steel \u2014 is not one it can answer.",
       "records": 80,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-24",
       "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/",
       "data": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/data.json"
     },
@@ -1647,7 +1647,7 @@
       "title": "CPA continuing professional education (CPE) requirements by US jurisdiction",
       "description": "The CPE hours a licensed CPA must complete in each US state and territory to renew, as published by NASBA's National Registry of CPE Sponsors. Covers total hours, reporting period, ethics requirement, and other subject-area mandates. Answers 'how many CPE hours does a CPA need in [state]', 'what is the ethics CPE requirement for CPAs in Texas', 'which states require CPA CPE in government auditing or accounting and auditing', and 'do my CPE hours from another state count'. The scenario as briefed ('professional licensing CE by jurisdiction') spans dozens of independent regulatory datasets across professions; this asset covers CPAs because NASBA publishes a structured, per-jurisdiction page for all 55 boards of accountancy \u2014 the only profession in the scenario with a single cross-jurisdiction authority table. Nursing and insurance producer CE are different datasets with different regulators and no equivalent assembled source.",
       "records": 53,
-      "last_verified": "2026-10-20",
+      "last_verified": "2026-10-24",
       "url": "https://referencesource.org/professional-licensing-continuing-education-by-jurisdiction/",
       "data": "https://referencesource.org/professional-licensing-continuing-education-by-jurisdiction/data.json"
     },
@@ -1674,7 +1674,7 @@
       "title": "OSHA PSM vs EPA RMP: chemical threshold quantities side by side",
       "description": "Side-by-side comparison of threshold quantities for hazardous chemicals regulated under OSHA's Process Safety Management standard (29 CFR 1910.119 Appendix A) and EPA's Risk Management Program (40 CFR 68.130). Each record is one chemical with the threshold quantity in pounds that triggers obligations under each program. Many chemicals appear on both lists with different thresholds \u2014 chlorine is 1,500 lbs under PSM and 2,500 lbs under RMP; ethylene oxide is 5,000 lbs under PSM and 10,000 lbs under RMP. EPA has ~27 chemicals not on the OSHA list and OSHA has ~79 not on EPA's. Answers 'is [chemical] covered by PSM, RMP, or both?', 'what is the threshold quantity for chlorine under each program?', and 'which chemicals have different thresholds under PSM and RMP?'",
       "records": 225,
-      "last_verified": "2026-10-21",
+      "last_verified": "2026-10-24",
       "url": "https://referencesource.org/psm-rmp-chemical-threshold-crossref/",
       "data": "https://referencesource.org/psm-rmp-chemical-threshold-crossref/data.json"
     },
@@ -1710,7 +1710,7 @@
       "title": "How long federal regulations require records to be kept: retention periods, what starts the clock, and who they bind",
       "description": "The retention period each federal regulation attaches to a record type, with the trigger that starts the clock \u2014 which is where the confusion lives. OSHA employee exposure records: at least 30 years (29 CFR 1910.1020); OSHA medical records: duration of employment plus 30 years, from the same section; the OSHA 300 injury log: 5 years following the end of the covered calendar year (29 CFR 1904.33); FLSA payroll records: 3 years, but the records wage computations are based on: 2 years (29 CFR 516); HIPAA compliance documentation: 6 years from creation or last effective date, whichever is later (45 CFR 164.316); FMLA records: no less than 3 years (29 CFR 825.500); EEOC personnel records: 1 year, extended if a charge is filed (29 CFR 1602.14); driver qualification files: employment plus 3 years (49 CFR 391.51); hazardous waste manifests: 3 years from shipment acceptance (40 CFR 262.40); drug GMP batch records: 1 year past expiration date (21 CFR 211.180). Answers 'how long do I have to keep payroll records?', 'when can I destroy old employee medical records?', 'how long must a motor carrier keep a driver qualification file after the driver leaves?'",
       "records": 24,
-      "last_verified": "2026-10-21",
+      "last_verified": "2026-10-24",
       "url": "https://referencesource.org/record-retention-periods-federal/",
       "data": "https://referencesource.org/record-retention-periods-federal/data.json"
     },
@@ -1719,7 +1719,7 @@
       "title": "Recreational boat safety equipment requirements by vessel length",
       "description": "Coast Guard rules on what safety gear a recreational boat must carry are not stated as one table -- personal flotation devices, portable fire extinguishers, and visual distress signals are each governed by a different subpart of 33 CFR Part 175, and each is triggered at a different length breakpoint (16, 26, 40, 65 feet). Getting this wrong is a citable offense during a boarding, and the probe run found search results dominated by marina blogs and boating-school pages rather than the regulation itself. Each record is one length band, stating exactly what each subpart requires at that band, quoted from the regulation. Answers 'how many fire extinguishers do I need on a 30-foot boat', 'do I need visual distress signals on a 14-foot boat', 'what size boat needs a throwable PFD'.",
       "records": 11,
-      "last_verified": "2026-10-21",
+      "last_verified": "2026-10-24",
       "url": "https://referencesource.org/recreational-boat-safety-equipment-requirements-by-length/",
       "data": "https://referencesource.org/recreational-boat-safety-equipment-requirements-by-length/data.json"
     },
@@ -1728,7 +1728,7 @@
       "title": "US federal employment law thresholds by employee count",
       "description": "Employee-count thresholds that trigger US federal employment laws, with the number quoted from the statute itself or from the enforcing agency's own coverage page -- never from a vendor summary. Two kinds of record: a law that states a count (Title VII, ADA, ADEA, GINA, the Pregnancy Discrimination Act, FMLA, COBRA, the ACA employer mandate, WARN, EEO-1 reporting, IRCA) carries that number; a law whose coverage clause names who it covers without stating any employee count (FLSA, ERISA, the OSH Act, USERRA, FCRA, EPPA, the Equal Pay Act, the Consumer Credit Protection Act's garnishment rule, jury-duty protection) carries no threshold at all, is marked 'no employee-count threshold', and quotes the test its coverage does turn on. Note what the second kind does NOT say: that the law covers every employer. It says the statute sets no headcount -- several set some other test, and that test is quoted where the clause states one. A few laws state two counts, because a named class of employer is covered at a lower one -- EEO-1 reporting binds private employers at 100 but federal contractors at 50. Those records carry both numbers, so that reading only the headline figure cannot give the wrong answer to a contractor. Two further shapes exist because reference pages elsewhere get them wrong in the same direction, by printing a number as a threshold when it is not one. A law can cover every employer and separately excuse a small one -- the PUMP Act binds every FLSA employer and lets an employer under 50 out only if compliance would impose an undue hardship -- so that 50 is quoted as an exemption, with its condition attached, and the record carries no threshold. And a threshold can stop existing: the 50-employee affirmative-action programme requirement rested on Executive Order 11246, which was revoked in January 2025, so that record is marked 'threshold revoked' and quotes the order that revoked it rather than the number vendor summaries still publish.",
       "records": 24,
-      "last_verified": "2026-10-21",
+      "last_verified": "2026-10-24",
       "url": "https://referencesource.org/regulatory-threshold-triggers/",
       "data": "https://referencesource.org/regulatory-threshold-triggers/data.json"
     },
@@ -1764,7 +1764,7 @@
       "title": "SBA disaster loan filing deadlines, live",
       "description": "Every SBA disaster declaration (state/administrative and physical) currently open, with its physical-damage loan application deadline and its Economic Injury Disaster Loan (EIDL) application deadline, taken verbatim from SBA's own Federal Register notice. One record is one declaration. Both dates come from the notice; where the physical loan deadline had already passed on the day this page was last built, the record says so. Where it had not, the record says nothing either way -- a page that can be a week old cannot honestly tell anyone a deadline is still open, so it does not try, and there is no days-remaining count for the same reason. Answers 'when does the SBA disaster loan deadline close for the Illinois severe storms', 'how much time is left to apply for an SBA EIDL loan after my state's disaster declaration', 'is the SBA disaster loan deadline for my county still open'. Retrieval check 2026-08-28 (probe.py, Anthropic, searched, 2 queries): the model itself concluded 'there's no official page that ranks declarations by days left' and pointed at SBA's own portal (one declaration searched at a time, JS-driven) and the Federal Register API as the only two raw sources -- confirming the gap is real and not just under-searched. SBA's own site (disasterloanassistance.sba.gov, lending.sba.gov) is a per-declaration JS search tool, not a nationwide sortable list; no third-party aggregator was found either.",
       "records": 141,
-      "last_verified": "2026-10-21",
+      "last_verified": "2026-10-24",
       "url": "https://referencesource.org/sba-disaster-loan-deadlines/",
       "data": "https://referencesource.org/sba-disaster-loan-deadlines/data.json"
     },
@@ -1836,7 +1836,7 @@
       "title": "Software end-of-life date changes \u2014 which dates moved and what they were before",
       "description": "A change log of software end-of-life and end-of-support dates across 462 products, built by diffing the endoflife.date API between snapshots: for each changed date, the product, release cycle, which field moved, the old value and the new value. Answers 'did the Python 3.9 EOL date change?', 'which Node.js support dates were extended this month?', and 'what EOL dates moved in July 2026?' \u2014 the question shape nobody publishes. endoflife.date tracks current state; endoflife.ai publishes a free monthly digest of what is critical now; neither publishes the before-and-after diff. New product additions are also captured. This is a parser case: the API returns structured JSON, no model supplies values.",
       "records": 2156,
-      "last_verified": "2026-10-21",
+      "last_verified": "2026-10-19",
       "url": "https://referencesource.org/software-eol-change-feed/",
       "data": "https://referencesource.org/software-eol-change-feed/data.json"
     },
@@ -1917,7 +1917,7 @@
       "title": "Certificate of need programs by US state",
       "description": "Which US states operate a certificate-of-need (CON) program for healthcare facilities, and what each program regulates. Each record is one state or DC: whether a CON program exists, which facility types are subject to review, whether any moratorium applies, and the statute citation. Answers 'does [state] require a certificate of need at all' and 'is [a hospital / an ambulatory surgery centre / a nursing home] reviewable in [state]'. This asset does not carry dollar thresholds: for the capital expenditure amount that triggers review, read from each state's own statute, see con-capital-expenditure-thresholds-by-state.",
       "records": 51,
-      "last_verified": "2026-10-21",
+      "last_verified": "2026-10-24",
       "url": "https://referencesource.org/state-certificate-of-need-programs/",
       "data": "https://referencesource.org/state-certificate-of-need-programs/data.json"
     },

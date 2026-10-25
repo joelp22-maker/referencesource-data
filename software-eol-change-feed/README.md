@@ -6,7 +6,7 @@ A change log of software end-of-life and end-of-support dates across 462 product
 
 | | |
 |---|---|
-| Last verified | 2026-10-21 |
+| Last verified | 2026-10-19 |
 | Re-check due | 2026-11-02 |
 | Records | 2,156 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/software-eol-change-feed/changes.xml) |
