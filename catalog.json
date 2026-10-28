@@ -450,7 +450,7 @@
       "title": "DEA telemedicine controlled-substance prescribing flexibility -- extension history",
       "description": "Under the Ryan Haight Act a practitioner may normally prescribe a controlled substance only after at least one in-person evaluation of that patient. In March 2020 the DEA suspended that requirement for the COVID-19 public health emergency, and since the emergency ended on 11 May 2023 the suspension has been kept alive only by a chain of temporary rules -- four of them so far, each amending 21 CFR 1307.41 and 42 CFR 12.1 to push one expiry date to a later one, with a permanent 'special registration' rule still only a proposal. This asset is one record per temporary rule, carrying the rule's own DATES statement, the date it extended the flexibility to, and the earlier expiry date it replaced, each quoted from that rule's own Federal Register document. Two things make the history worth assembling. First, the dates are easy to get wrong: the First Temporary Rule is dated 'effective May 11, 2023, through November 11, 2024', but the general flexibility under it actually ran only to 11 November 2023 -- the extra year applied solely to practitioner-patient relationships already established by that date. Second, each rule is a standalone document that supersedes the last without amending it, so a reader who lands on any one of the first three sees a deadline that has already passed with nothing on the page to say so. The newest rule's preamble does narrate the earlier three in prose, which is where a careful reader can reconstruct the sequence; this asset states it as four dated, separately-sourced records instead.",
       "records": 4,
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/dea-telemedicine-prescribing-flexibility-extensions/",
       "data": "https://referencesource.org/dea-telemedicine-prescribing-flexibility-extensions/data.json"
     },
@@ -540,7 +540,7 @@
       "title": "FDA drug shortage duration tracker",
       "description": "For every package FDA currently lists as in shortage: how long that shortage entry has been open (from openFDA's own `initial_posting_date` to today), what FDA says the package's supply is right now, and any recovery estimate FDA has given. What FDA itself publishes, checked directly on 2026-09-01 rather than assumed: the shortage list page (accessdata.fda.gov/scripts/drugshortages) shows which drugs are short and why and carries no date at all, while each per-drug detail page adds a single 'Date first posted' for the whole drug. Neither prints an elapsed duration, and neither gives the date per manufacturer. openFDA does \u2014 where several manufacturers report a shortage of the same drug, each carries its own posting date, and FDA's page shows only the earliest of them. Cross-checked across 30 drugs against those detail pages: 30 of 30 agreed, and in all 10 multi-manufacturer cases FDA's single date was exactly the earliest of ours. The underlying facts are FDA's own public-domain data; the duration is a computation over them that nobody publishes maintained, because it changes every day and hand-updating it was never worth the effort. A scheduled refetch of the same public API keeps it current for free. Read the duration next to `availability`, and do not read it alone: a shortage entry stays 'Current' until FDA resolves the whole shortage, so 63.8% of listed packages (746 of 1,169, measured 2026-09-01) are marked 'Available' even while their entry has been open for years \u2014 the median entry has been open 1,721 days and 1,118 of 1,169 have been open more than 1,000. Records cite a per-drug, per-manufacturer API query rather than a page offset, because openFDA's result ordering rotates daily and an offset URL stops containing its own record \u2014 see sources.txt. Source: https://api.fda.gov/drug/shortages.json (openFDA, no API key required at this volume). This is a monitored dataset, not a static page \u2014 stale_after_days is short and a build should re-run the fetch on a schedule rather than once.",
       "records": 1139,
-      "last_verified": "2026-10-16",
+      "last_verified": "2026-10-26",
       "url": "https://referencesource.org/drug-shortage-duration-tracker/",
       "data": "https://referencesource.org/drug-shortage-duration-tracker/data.json"
     },
@@ -720,7 +720,7 @@
       "title": "Federal hours-of-service exemptions by commercial driver operation type",
       "description": "Commercial motor vehicle drivers are subject to federal hours-of-service limits (49 CFR 395.3: an 11-hour driving cap inside a 14-hour window, a 30-minute break after 8 hours of driving, and a 60-hour/7-day or 70-hour/8-day on-duty cap), but 49 CFR 395.1 says the rules apply to every carrier and driver 'except as provided in paragraphs (b) through (x) of this section' -- a list of operation-specific carve-outs covering short-haul driving, agriculture and livestock, oilfield and well-drilling work, utility service, ready-mixed concrete, motion-picture production, railroad signal work, beekeeping, hi-rail and pipeline welding trucks, and more. Each carve-out removes a different requirement and carries its own radius, time window or condition, and they are scattered through one long section. Each record here is one exemption: who qualifies, the bright-line condition, and exactly which requirement it removes, quoted verbatim from the regulation. Answers 'do hours-of-service rules apply to my delivery route', 'is there an hours-of-service exemption for farm work', 'what counts as short-haul under the FMCSA rules'.",
       "records": 31,
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/federal-hours-of-service-exemptions-by-operation-type/",
       "data": "https://referencesource.org/federal-hours-of-service-exemptions-by-operation-type/data.json"
     },
@@ -1152,7 +1152,7 @@
       "title": "Kubernetes component version skew policy: how far apart component versions can be in a supported cluster",
       "description": "The maximum version difference Kubernetes supports between cluster components, one record per governed component pair (kube-apiserver to kubelet, kube-proxy, kubectl, and the kube-controller-manager/kube-scheduler/cloud-controller-manager group, plus the kube-apiserver-to-kube-apiserver HA rule and the kube-proxy-to-kubelet rule), from the project's own version-skew-policy page. Answers 'how many minor versions behind can my kubelet be', 'can kubectl be newer than kube-apiserver', 'what must already be upgraded before I upgrade this component'. Getting this wrong during a rolling upgrade breaks node registration or blocks the upgrade path, usually discovered mid-rollout. The rule text is stable in structure release to release; the version numbers in the worked examples move with each Kubernetes minor release, so the numeric examples need re-verification on that cadence.",
       "records": 6,
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/kubernetes-version-skew-policy/",
       "data": "https://referencesource.org/kubernetes-version-skew-policy/data.json"
     },
@@ -1215,7 +1215,7 @@
       "title": "Lithium battery shipping limits (49 CFR 173.185)",
       "description": "Watt-hour and lithium-content thresholds, quantity limits and packaging conditions for shipping lithium cells and batteries under US hazardous materials regulations (49 CFR 173.185). Answers 'DJI Mavic 3 battery watt hours \u2014 can I ship it', 'IATA lithium battery PI 966/967 requirements' and 'lithium battery packed with equipment state of charge limit'. Deliberately NOT a compatibility table \u2014 this is regulatory prose with numeric triggers.",
       "records": 15,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/lithium-battery-shipping-limits/",
       "data": "https://referencesource.org/lithium-battery-shipping-limits/data.json"
     },
@@ -1233,7 +1233,7 @@
       "title": "ACA marketplace subsidy income limits by coverage year, household size and state group",
       "description": "The dollar income limits that decide whether a household qualifies for an ACA premium tax credit, for each coverage year, each household size from 1 to 8, and each of the three federal poverty guideline schedules (48 contiguous states and DC, Alaska, Hawaii). Each record states the poverty guideline the marketplace actually applies to that coverage year, the dollar figures at the 100%, 138%, 150%, 200%, 250%, 300% and 400% marks, the share of income the household is expected to pay at the top of the scale, and whether a hard cutoff applies above 400%. The enhanced credits created by the American Rescue Plan Act and extended by the Inflation Reduction Act lapsed on 31 December 2025, so coverage year 2026 was the first year since 2020 in which a household above 400% of the poverty line received no credit at all. No single page states these dollar figures. HHS publishes the poverty guidelines without the ACA multiples; the IRS publishes the applicable percentages without any dollar amounts; and the marketplace applies the guidelines published before open enrollment opened, not the guidelines bearing the coverage year's own number, which is the step most secondary sources get wrong. Answers 'what is the income limit for marketplace insurance in [year]', 'what is 400% of the federal poverty level for a family of [n]', 'how much can I earn and still get an Obamacare subsidy', 'what is the subsidy cliff', and 'what percentage of income do I have to pay for a benchmark plan'.",
       "records": 48,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/marketplace-subsidy-income-thresholds/",
       "data": "https://referencesource.org/marketplace-subsidy-income-thresholds/data.json"
     },
@@ -1269,7 +1269,7 @@
       "title": "How long medical certificates last for pilots, commercial drivers and merchant mariners \u2014 by class, age and service type",
       "description": "How long a federally required medical certificate remains valid for each regulated transport occupation, and what it depends on. FAA pilot medicals (14 CFR 61.23) cascade by class and age \u2014 a first-class certificate carries first-class privileges to the 12th month for pilots under 40 but only the 6th month at 40 or older, then downgrades to second- and third-class privileges on a schedule; commercial drivers need a medical examiner's certificate on a cycle set by 49 CFR 391.45; merchant mariner medical certificates run 2 years for STCW service but 5 years for national-only credentials, and only 1 year for mariners under 18 (46 CFR 10.301). Same question \u2014 'how long is my medical good for?' \u2014 three regulators, three completely different answer structures. Answers 'how long is a first class medical valid for a 45-year-old pilot?', 'how often does a truck driver need a DOT physical?', 'why is my mariner medical certificate only valid two years?'",
       "records": 17,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/medical-certificate-validity-by-occupation/",
       "data": "https://referencesource.org/medical-certificate-validity-by-occupation/data.json"
     },
@@ -1314,7 +1314,7 @@
       "title": "State below-cost motor fuel selling laws and minimum-markup percentages",
       "description": "A handful of states make it illegal for a gas station to sell fuel below its own cost, on the theory that a chain with deep pockets could otherwise sell at a loss long enough to drive independent competitors out and then raise prices. Two separate things have to be known before anyone can act on one of these laws, and they almost always live in two different statute sections: what conduct is actually prohibited (and what the exceptions are), and how the law says 'cost' is calculated. So each state gets a record for each. Only two of the states here bolt a fixed cost-of-doing-business markup percentage onto cost -- Wisconsin (6% retail, 3% wholesale, 9.18% on the average posted terminal price) and West Virginia (4% wholesale) -- which is why the popular name 'minimum markup law' is misleading everywhere else: Minnesota, Missouri, North Carolina and Florida set a cost floor with no fixed percentage on top. No comprehensive compiled version of these laws was found; each state's rule lives only in its own statute or agency guidance page. Answers 'can a gas station legally sell below cost in my state', 'what's the minimum markup percentage for gasoline in Wisconsin', 'what counts as cost for a gas station in Florida', 'is meeting a competitor's price an exception'.",
       "records": 18,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/motor-fuel-minimum-markup-laws-by-state/",
       "data": "https://referencesource.org/motor-fuel-minimum-markup-laws-by-state/data.json"
     },
@@ -1332,7 +1332,7 @@
       "title": "EPA NESHAP Source Category Applicability Crosswalk",
       "description": "Maps each EPA NESHAP source category to its 40 CFR subpart, whether it applies to major or area sources, the original final rule date, most recent amendment, and residual risk/technology review status.",
       "records": 125,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/neshap-source-category-crosswalk/",
       "data": "https://referencesource.org/neshap-source-category-crosswalk/data.json"
     },
@@ -1350,7 +1350,7 @@
       "title": "NFPA 704 fire diamond ratings by chemical",
       "description": "The NFPA 704 'fire diamond' rating for a chemical \u2014 the health (blue), flammability (red), instability (yellow) numbers and any special (white) notice \u2014 as published on that chemical's own datasheet. Each record is one chemical, with the four quadrants, each quoted from its own printed row of the datasheet's table so that the page's own wording for what the number means sits beside it, plus any footnote the datasheet prints under that table. Answers 'what is the NFPA 704 rating for anhydrous ammonia', 'fire diamond numbers for thionyl chloride', and 'what does a 3 in the blue diamond mean'. NFPA 704 itself is a paywalled standard and the per-chemical ratings are scattered one page at a time across datasheets and SDSs, so no single free table exists \u2014 assembly, one source per record.",
       "records": 4,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/nfpa-704-hazard-ratings/",
       "data": "https://referencesource.org/nfpa-704-hazard-ratings/data.json"
     },
@@ -1359,7 +1359,7 @@
       "title": "NIST cryptographic algorithm deprecation schedule: what is approved, deprecated, and disallowed, and when",
       "description": "Per-algorithm status under NIST guidance for the post-quantum cryptographic transition. Each record is one algorithm or key-length configuration with its current approval status (approved, acceptable, deprecated, restricted, disallowed, legacy use), the date at which the status changes, and the recommended replacement. Drawn from three NIST publications: IR 8547 (post-quantum transition timeline), SP 800-131A Rev 2 (current algorithm status rules) and Rev 3 draft (upcoming changes), and FIPS 203/204/205 (the post-quantum replacement standards). The key deadlines: quantum-vulnerable public-key algorithms (RSA, ECDSA, ECDH, finite-field DH) deprecated after 2030, disallowed after 2035; SHA-1 and 224-bit hashes deprecated through 2030, disallowed thereafter. AES-256 and SHA-2/SHA-3 are NOT on the deprecation schedule. Answers 'when is RSA deprecated?', 'is AES-256 affected by the post-quantum transition?', 'what replaces ECDSA?', and 'what is the current NIST status of 3DES?'",
       "records": 21,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/nist-cryptographic-algorithm-deprecation-schedule/",
       "data": "https://referencesource.org/nist-cryptographic-algorithm-deprecation-schedule/data.json"
     },
@@ -1404,7 +1404,7 @@
       "title": "Deprecated npm packages and their maintainer-named replacement",
       "description": "npm allows a maintainer to attach a 'deprecated' message to a specific published version, and that message often names the exact replacement package or built-in API to use instead -- 'left-pad' points at String.prototype.padStart(), 'istanbul' points at nyc, 'tslint' points at ESLint, 'babel-eslint' points at @babel/eslint-parser. This is first-party, machine-readable data sitting in the registry API itself, but nobody has assembled it into a browsable table: a developer running `npm install` sees the warning once in a terminal scroll and it is gone, and the alternative is a content-mill blog post ranking '10 request alternatives' without quoting what the maintainer actually said. This asset would have been too tedious to maintain by hand across thousands of packages -- watching a firehose of new deprecations and re-checking old ones for changes -- but is a mechanical registry read for one machine, refreshable on a schedule at zero marginal cost per package. Each record is one deprecated package, quoting its maintainer's own deprecated message verbatim and naming the specific replacement stated in it. Answers 'is request deprecated', 'what should I use instead of tslint', 'why is my npm install warning about gulp-util'.",
       "records": 96,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/npm-deprecated-package-recommended-replacement/",
       "data": "https://referencesource.org/npm-deprecated-package-recommended-replacement/data.json"
     },
@@ -1413,7 +1413,7 @@
       "title": "Which OSHA-recognized labs (NRTLs) can certify to a given test standard",
       "description": "The inverted view of OSHA's Nationally Recognized Testing Laboratory program: for each test standard, every NRTL currently recognized to certify products to it. Answers 'which NRTLs can certify to UL 508A', 'can anyone other than UL list to UL 1741', 'is my lab's mark acceptable to OSHA for this product', and 'who else could quote this job'. OSHA publishes the recognition one laboratory at a time \u2014 twenty separate pages, each a long table of that lab's standards \u2014 and its own list-of-standards page says so in as many words: 'See individual NRTL informational web pages to determine which of these standards fall within an NRTL's scope of recognition.' So the question a manufacturer actually has (who may certify my product, and therefore who can I ask for a price) requires opening and searching twenty pages, and nobody publishes the answer.",
       "records": 4334,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/nrtl-recognized-test-standards/",
       "data": "https://referencesource.org/nrtl-recognized-test-standards/data.json"
     },
@@ -1458,7 +1458,7 @@
       "title": "OSHA fall protection trigger height by standard",
       "description": "OSHA does not set one fall-protection trigger height. General industry (29 CFR 1910.28) sets 4 feet, general construction (1926.501) sets 6 feet, scaffolds (1926.451) sets 10 feet, and steel erection (1926.760) sets 15 feet -- the same worker doing the same job can cross from one trigger to another by changing which standard applies. Nor does any one standard set a single height: within general industry a fixed ladder triggers at 24 feet, a repair pit is exempt below 10 feet, and low-slope roof work is governed by distance from the edge rather than height at all. Each record is one named hazard situation inside one standard -- the numbered paragraph the regulation itself uses, such as 'Hoist areas', 'Holes' or 'Steep roofs' -- stating the height that triggers protection there and exactly what the paragraph requires once it does, quoted from the regulation. Safety consultants and OSHA-training blogs restate the 4/6/10/15 numbers constantly but rarely cite the paragraph or state what is required, which is the part that matters for compliance. Answers 'what height do I need fall protection at', 'is scaffold fall protection 6 feet or 10 feet', 'what height do I need fall protection around a floor hole', 'what OSHA standard covers steel erection fall protection'.",
       "records": 42,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/osha-fall-protection-trigger-height-by-standard/",
       "data": "https://referencesource.org/osha-fall-protection-trigger-height-by-standard/data.json"
     },
@@ -1476,7 +1476,7 @@
       "title": "OSHA injury and illness recordkeeping exemptions by industry (NAICS)",
       "description": "Whether a business must keep OSHA 300 injury/illness logs turns on two independent rules: a company-size exemption (10 or fewer employees, company-wide, at any time in the last calendar year) under 29 CFR 1904.1, and a partial industry exemption for specific NAICS codes under 29 CFR 1904 Subpart B Appendix A, which applies regardless of size. The eCFR page for subpart B prints both; what this dataset adds is one addressable, quoted page per NAICS code instead of one long appendix to scroll. Each record is one partially-exempt industry, carrying its NAICS code and the regulation's own industry label. Separate page-level notes carry what the exemption actually does (and the written-request condition that suspends it), that the industry exemption attaches to an establishment rather than a whole company, the company-size rule, and the fatality/hospitalization/amputation/eye-loss reporting requirement that survives both exemptions. Answers 'does a gas station have to keep an OSHA log', 'is my software company exempt from OSHA recordkeeping', 'do I still have to report a fatality if I'm exempt', 'my company has an exempt office and a non-exempt warehouse'.",
       "records": 82,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/osha-recordkeeping-exemptions/",
       "data": "https://referencesource.org/osha-recordkeeping-exemptions/data.json"
     },
@@ -1485,7 +1485,7 @@
       "title": "Every numeric requirement in OSHA's scaffold standard (29 CFR 1926.451) \u2014 dimensions, strengths, angles, safety factors and trigger heights",
       "description": "Every numeric requirement stated in 29 CFR 1926.451 (General requirements for scaffolds), extracted from the eCFR text and tabulated so a scaffold erector or safety inspector can look up any value without reading the full 60,000-character regulation. The values are not all dimensions: alongside the widths, gaps, clearances, overhangs, spacings and heights, the section states minimum strengths as forces in pounds, stairway and ramp angles in degrees, counts of parts (three wire rope clips, four rope wraps on a winding drum), wire-rope replacement thresholds in broken wires, load safety factors as multiples of the intended load, and the heights at which a duty such as fall protection or guardrailing begins. Each record is one requirement with its exact value as printed, in imperial and (where the regulation prints one) metric units, the paragraph citation, and the condition or scaffold type it applies to. Answers 'what is the maximum gap between scaffold planks', 'how far can a scaffold plank overhang its support', 'what is the minimum platform width for a scaffold', 'how much force must a scaffold toeboard withstand', 'how many wire rope clips does OSHA require on a suspension scaffold', 'what angle may a scaffold stairway be installed at', 'at what height-to-base ratio must a scaffold be tied', 'what is the load safety factor for scaffold suspension ropes', 'at what height does fall protection become required on a scaffold'. Scaffolding is among OSHA's top 10 most cited standards every year (6th in FY 2025) and the numeric values are scattered across paragraphs (a) through (h) of a long regulation -- a tabulation that puts them all in one place with their paragraph citations is genuinely useful and does not exist as a structured page anywhere found.",
       "records": 91,
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/osha-scaffold-dimensional-tolerances/",
       "data": "https://referencesource.org/osha-scaffold-dimensional-tolerances/data.json"
     },
@@ -1494,7 +1494,7 @@
       "title": "OSHA training requirements by standard: topic, frequency, and CFR citation",
       "description": "Which OSHA standards require employee training, what the training must cover, how often it must be repeated, and who must receive it. Each record is one training requirement tied to a specific CFR section. Training frequencies vary: some are annual (respiratory protection 1910.134, bloodborne pathogens 1910.1030), some are event-driven (lockout/tagout 1910.147 \u2014 retrain when procedures change), some are initial-only with situational retraining (PPE 1910.132). Answers 'what OSHA training does my construction crew need', 'how often is respiratory protection training required', and 'does OSHA require annual forklift certification'.",
       "records": 31,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/osha-training-requirements-by-standard/",
       "data": "https://referencesource.org/osha-training-requirements-by-standard/data.json"
     },
@@ -1503,7 +1503,7 @@
       "title": "Outboard motor spark plugs and gaps by brand, with Yamaha oil and gear lube capacities",
       "description": "Spark plug part number and electrode gap for outboard motors from five brands \u2014 Yamaha, Mercury, Johnson/Evinrude, Honda and Suzuki \u2014 by model or model range. Yamaha models additionally carry an oil filter part number, engine oil capacity and gear lube capacity; the other four brands carry spark plug and gap only, because the two dealer charts this is assembled from publish capacities for Yamaha alone. One row per model or model range. Answers 'what spark plug does my Yamaha F150 take?', 'what gap does a Mercury 150-300 HP Verado run?' and 'how much gear lube does an F150 lower unit hold?' \u2014 questions where assistants guess a plausible but wrong part number or capacity.",
       "records": 53,
-      "last_verified": "2026-08-05",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/outboard-motor-service-specs/",
       "data": "https://referencesource.org/outboard-motor-service-specs/data.json"
     },
@@ -1530,7 +1530,7 @@
       "title": "US EPA pesticide residue tolerance limits by active ingredient and crop commodity",
       "description": "What is the maximum legal pesticide residue allowed on this food in the United States? EPA sets tolerances in 40 CFR Part 180, one section per active ingredient, each listing ppm limits by crop or crop group. There are ~500 sections and no single cross-reference table exists. This asset assembles them: one record per active ingredient \u00d7 commodity, with the ppm tolerance, the CFR section, and the crop group. Answers 'glyphosate tolerance on soybeans', 'what is the MRL for chlorpyrifos on apples', 'EPA pesticide tolerance list by crop'. Food importers check tolerances against shipment lab results; farmers compare tolerances when choosing pesticide products.",
       "records": 1324,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/pesticide-residue-tolerance-limits/",
       "data": "https://referencesource.org/pesticide-residue-tolerance-limits/data.json"
     },
@@ -1620,7 +1620,7 @@
       "title": "What must pass before the next step: mandated step order in regulated processes",
       "description": "The mandated order of steps in multi-step regulated processes, from the authority that enforces the order: which inspection or filing must be approved before the next one may happen, what may not proceed until it passes, and the deadline attached to it. One record is one step in one authority's published sequence. Covers municipal building inspection sequences (the rough-in must pass before the wall closes; no concrete before the footing inspection) and the US import Importer Security Filing chain (ISF no later than 24 hours before lading; flexible filings finalised no later than 24 hours before arrival; cargo release withheld without an ISF). Answers 'did I need an inspection before drywall', 'what order do building inspections happen in', 'when does the ISF have to be filed', and 'what happens if the ISF is late'. The sequence is usually published only as prose on the enforcing authority's own page, one jurisdiction at a time; no comparison table exists anywhere.",
       "records": 37,
-      "last_verified": "2026-10-23",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/prerequisite-sequencing-regulated-processes/",
       "data": "https://referencesource.org/prerequisite-sequencing-regulated-processes/data.json"
     },
@@ -1629,7 +1629,7 @@
       "title": "Galvanic series and surface energy of engineering materials",
       "description": "Three published reference tables, each keyed by material, with no material appearing in more than one of them: the ASM seawater galvanic series (steady-state electrode potential in volts vs SCE, 27 metals and alloys); the MIL-STD-889 anodic index (galvanic voltage relative to gold, 19 material groups); and a printing and packaging dyne-level chart (surface energy in dyne/cm plus that chart's own 'needs treatment' column, 34 substrates ranging from PTFE and stainless steel to BOPP film and overprint varnish). Answers 'will these two metals corrode each other if I join them' and 'is this substrate's surface energy high enough for an ink or adhesive to wet it'. It does not say whether a particular coating needs a primer on a particular substrate: no source here states that, so the question this asset was originally built for \u2014 can paint go straight onto galvanised steel \u2014 is not one it can answer.",
       "records": 80,
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/",
       "data": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/data.json"
     },
@@ -1647,7 +1647,7 @@
       "title": "CPA continuing professional education (CPE) requirements by US jurisdiction",
       "description": "The CPE hours a licensed CPA must complete in each US state and territory to renew, as published by NASBA's National Registry of CPE Sponsors. Covers total hours, reporting period, ethics requirement, and other subject-area mandates. Answers 'how many CPE hours does a CPA need in [state]', 'what is the ethics CPE requirement for CPAs in Texas', 'which states require CPA CPE in government auditing or accounting and auditing', and 'do my CPE hours from another state count'. The scenario as briefed ('professional licensing CE by jurisdiction') spans dozens of independent regulatory datasets across professions; this asset covers CPAs because NASBA publishes a structured, per-jurisdiction page for all 55 boards of accountancy \u2014 the only profession in the scenario with a single cross-jurisdiction authority table. Nursing and insurance producer CE are different datasets with different regulators and no equivalent assembled source.",
       "records": 53,
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/professional-licensing-continuing-education-by-jurisdiction/",
       "data": "https://referencesource.org/professional-licensing-continuing-education-by-jurisdiction/data.json"
     },
@@ -1674,7 +1674,7 @@
       "title": "OSHA PSM vs EPA RMP: chemical threshold quantities side by side",
       "description": "Side-by-side comparison of threshold quantities for hazardous chemicals regulated under OSHA's Process Safety Management standard (29 CFR 1910.119 Appendix A) and EPA's Risk Management Program (40 CFR 68.130). Each record is one chemical with the threshold quantity in pounds that triggers obligations under each program. Many chemicals appear on both lists with different thresholds \u2014 chlorine is 1,500 lbs under PSM and 2,500 lbs under RMP; ethylene oxide is 5,000 lbs under PSM and 10,000 lbs under RMP. EPA has ~27 chemicals not on the OSHA list and OSHA has ~79 not on EPA's. Answers 'is [chemical] covered by PSM, RMP, or both?', 'what is the threshold quantity for chlorine under each program?', and 'which chemicals have different thresholds under PSM and RMP?'",
       "records": 225,
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/psm-rmp-chemical-threshold-crossref/",
       "data": "https://referencesource.org/psm-rmp-chemical-threshold-crossref/data.json"
     },
@@ -1710,7 +1710,7 @@
       "title": "How long federal regulations require records to be kept: retention periods, what starts the clock, and who they bind",
       "description": "The retention period each federal regulation attaches to a record type, with the trigger that starts the clock \u2014 which is where the confusion lives. OSHA employee exposure records: at least 30 years (29 CFR 1910.1020); OSHA medical records: duration of employment plus 30 years, from the same section; the OSHA 300 injury log: 5 years following the end of the covered calendar year (29 CFR 1904.33); FLSA payroll records: 3 years, but the records wage computations are based on: 2 years (29 CFR 516); HIPAA compliance documentation: 6 years from creation or last effective date, whichever is later (45 CFR 164.316); FMLA records: no less than 3 years (29 CFR 825.500); EEOC personnel records: 1 year, extended if a charge is filed (29 CFR 1602.14); driver qualification files: employment plus 3 years (49 CFR 391.51); hazardous waste manifests: 3 years from shipment acceptance (40 CFR 262.40); drug GMP batch records: 1 year past expiration date (21 CFR 211.180). Answers 'how long do I have to keep payroll records?', 'when can I destroy old employee medical records?', 'how long must a motor carrier keep a driver qualification file after the driver leaves?'",
       "records": 24,
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/record-retention-periods-federal/",
       "data": "https://referencesource.org/record-retention-periods-federal/data.json"
     },
@@ -1719,7 +1719,7 @@
       "title": "Recreational boat safety equipment requirements by vessel length",
       "description": "Coast Guard rules on what safety gear a recreational boat must carry are not stated as one table -- personal flotation devices, portable fire extinguishers, and visual distress signals are each governed by a different subpart of 33 CFR Part 175, and each is triggered at a different length breakpoint (16, 26, 40, 65 feet). Getting this wrong is a citable offense during a boarding, and the probe run found search results dominated by marina blogs and boating-school pages rather than the regulation itself. Each record is one length band, stating exactly what each subpart requires at that band, quoted from the regulation. Answers 'how many fire extinguishers do I need on a 30-foot boat', 'do I need visual distress signals on a 14-foot boat', 'what size boat needs a throwable PFD'.",
       "records": 11,
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/recreational-boat-safety-equipment-requirements-by-length/",
       "data": "https://referencesource.org/recreational-boat-safety-equipment-requirements-by-length/data.json"
     },
@@ -1728,7 +1728,7 @@
       "title": "US federal employment law thresholds by employee count",
       "description": "Employee-count thresholds that trigger US federal employment laws, with the number quoted from the statute itself or from the enforcing agency's own coverage page -- never from a vendor summary. Two kinds of record: a law that states a count (Title VII, ADA, ADEA, GINA, the Pregnancy Discrimination Act, FMLA, COBRA, the ACA employer mandate, WARN, EEO-1 reporting, IRCA) carries that number; a law whose coverage clause names who it covers without stating any employee count (FLSA, ERISA, the OSH Act, USERRA, FCRA, EPPA, the Equal Pay Act, the Consumer Credit Protection Act's garnishment rule, jury-duty protection) carries no threshold at all, is marked 'no employee-count threshold', and quotes the test its coverage does turn on. Note what the second kind does NOT say: that the law covers every employer. It says the statute sets no headcount -- several set some other test, and that test is quoted where the clause states one. A few laws state two counts, because a named class of employer is covered at a lower one -- EEO-1 reporting binds private employers at 100 but federal contractors at 50. Those records carry both numbers, so that reading only the headline figure cannot give the wrong answer to a contractor. Two further shapes exist because reference pages elsewhere get them wrong in the same direction, by printing a number as a threshold when it is not one. A law can cover every employer and separately excuse a small one -- the PUMP Act binds every FLSA employer and lets an employer under 50 out only if compliance would impose an undue hardship -- so that 50 is quoted as an exemption, with its condition attached, and the record carries no threshold. And a threshold can stop existing: the 50-employee affirmative-action programme requirement rested on Executive Order 11246, which was revoked in January 2025, so that record is marked 'threshold revoked' and quotes the order that revoked it rather than the number vendor summaries still publish.",
       "records": 24,
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/regulatory-threshold-triggers/",
       "data": "https://referencesource.org/regulatory-threshold-triggers/data.json"
     },
@@ -1764,7 +1764,7 @@
       "title": "SBA disaster loan filing deadlines, live",
       "description": "Every SBA disaster declaration (state/administrative and physical) currently open, with its physical-damage loan application deadline and its Economic Injury Disaster Loan (EIDL) application deadline, taken verbatim from SBA's own Federal Register notice. One record is one declaration. Both dates come from the notice; where the physical loan deadline had already passed on the day this page was last built, the record says so. Where it had not, the record says nothing either way -- a page that can be a week old cannot honestly tell anyone a deadline is still open, so it does not try, and there is no days-remaining count for the same reason. Answers 'when does the SBA disaster loan deadline close for the Illinois severe storms', 'how much time is left to apply for an SBA EIDL loan after my state's disaster declaration', 'is the SBA disaster loan deadline for my county still open'. Retrieval check 2026-08-28 (probe.py, Anthropic, searched, 2 queries): the model itself concluded 'there's no official page that ranks declarations by days left' and pointed at SBA's own portal (one declaration searched at a time, JS-driven) and the Federal Register API as the only two raw sources -- confirming the gap is real and not just under-searched. SBA's own site (disasterloanassistance.sba.gov, lending.sba.gov) is a per-declaration JS search tool, not a nationwide sortable list; no third-party aggregator was found either.",
       "records": 149,
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/sba-disaster-loan-deadlines/",
       "data": "https://referencesource.org/sba-disaster-loan-deadlines/data.json"
     },
@@ -1917,7 +1917,7 @@
       "title": "Certificate of need programs by US state",
       "description": "Which US states operate a certificate-of-need (CON) program for healthcare facilities, and what each program regulates. Each record is one state or DC: whether a CON program exists, which facility types are subject to review, whether any moratorium applies, and the statute citation. Answers 'does [state] require a certificate of need at all' and 'is [a hospital / an ambulatory surgery centre / a nursing home] reviewable in [state]'. This asset does not carry dollar thresholds: for the capital expenditure amount that triggers review, read from each state's own statute, see con-capital-expenditure-thresholds-by-state.",
       "records": 51,
-      "last_verified": "2026-10-24",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/state-certificate-of-need-programs/",
       "data": "https://referencesource.org/state-certificate-of-need-programs/data.json"
     },
@@ -1944,7 +1944,7 @@
       "title": "State construction defect statute of limitations and statute of repose periods",
       "description": "Can I still sue for this construction defect? Every US state sets two independent clocks: the statute of limitations (SOL \u2014 typically 2-6 years from discovery of the defect) and the statute of repose (SOR \u2014 typically 6-15 years from substantial completion, regardless of discovery). Both must be alive to file a claim. California gives 4 years SOL latent / 10 years SOR. Colorado gives 2 years SOL / 6 years SOR. New York has NO statute of repose for buildings. Getting this wrong means losing the right to file entirely. One record per state, sourced from the state's own statute. Answers 'construction defect statute of limitations by state', 'statute of repose for construction in Texas', 'how long can I sue for a building defect'. Adjacent to mechanics-lien-deadlines and construction-retainage-limits.",
       "records": 20,
-      "last_verified": "2026-10-25",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/state-construction-defect-limitations-periods/",
       "data": "https://referencesource.org/state-construction-defect-limitations-periods/data.json"
     },
@@ -1998,7 +1998,7 @@
       "title": "State employment law headcount triggers that deviate from federal thresholds",
       "description": "Employee-count thresholds at which state-specific employment laws kick in, focusing on where states deviate from the federal floor. Each record is one state and one law category (mini-COBRA, mini-WARN, state anti-discrimination, state family leave, workers compensation), giving the state's threshold, the federal threshold for comparison, how they differ, and the statute citation. Answers 'at how many employees does [state law] start applying in [state]' and 'does [state] have a mini-COBRA / mini-WARN / state family leave law'. Companion to the existing regulatory-threshold-triggers asset which covers federal thresholds only.",
       "records": 66,
-      "last_verified": "2026-10-25",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/state-employment-law-headcount-triggers/",
       "data": "https://referencesource.org/state-employment-law-headcount-triggers/data.json"
     },
@@ -2007,7 +2007,7 @@
       "title": "State insurance mandates for fertility treatment and IVF coverage",
       "description": "Which US states require private health insurers to cover fertility diagnosis, treatment, or preservation, and the specific terms of each mandate. Each record is one state, stating the mandate type (treatment, preservation only, or offer/cover distinction), which treatments are covered (IVF, GIFT, ZIFT, fertility preservation), cycle or dollar limits, age restrictions, employer-size thresholds, self-insured plan exemption status, religious employer exemption, effective date, and the statute citation. As of 2026, 25 states plus DC require some form of fertility coverage, but the variation is enormous: California (SB 729, effective January 2026) mandates IVF in large group plans with no cycle limit; Arkansas caps lifetime coverage at $15,000 and requires trying cheaper treatments first; Delaware covers six egg retrievals but only for iatrogenic infertility; several states mandate only fertility preservation for cancer patients. Self-insured employer plans (covering ~65% of workers with job-based insurance) are exempt from all state mandates under federal ERISA. Answers 'does my state require insurance to cover IVF', 'how many IVF cycles does my state mandate', 'does the fertility mandate apply to my employer', and 'what are the age limits for mandated fertility coverage in [state]'.",
       "records": 26,
-      "last_verified": "2026-10-25",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/state-fertility-insurance-mandates/",
       "data": "https://referencesource.org/state-fertility-insurance-mandates/data.json"
     },
@@ -2043,7 +2043,7 @@
       "title": "State Insurance Department Complaint Index by Company",
       "description": "Every state insurance department publishes, for each licensed insurer and line of business, how many complaints consumers filed against that company and how much premium the company wrote in that state, together with its own summary figure comparing the two. Nobody publishes it across states. Each regulator uses its own file format, its own line-of-business names, its own schedule \u2014 and, the part that catches people out, its own arithmetic. Indiana's \"Complaint Index\" is the company's share of all complaints divided by its share of all premium written in Indiana, so 1.00 is the state average. Michigan's \"Complaint Ratio\" is complaints per $1 million of written premium, which is a different quantity on a different scale with no meaning at 1.00. Putting those two in one column without saying so would get the asset's whole point wrong. So every record here carries the complaint count and the premium alongside the state's published figure, and quotes the state's own heading for that figure. The raw counts compare across states; the summary figures do not.",
       "records": 622,
-      "last_verified": "2026-10-25",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/state-insurance-complaint-index-by-company/",
       "data": "https://referencesource.org/state-insurance-complaint-index-by-company/data.json"
     },
@@ -2052,7 +2052,7 @@
       "title": "State insurer-of-last-resort programs \u2014 FAIR Plan / Citizens eligibility and coverage limits",
       "description": "When private insurers won't write a property in a wildfire or hurricane state, the state's residual-market insurer (a FAIR Plan or a corporation like Florida's Citizens) is the fallback \u2014 but the dollar limits and the rule that determines who is even eligible differ by state and are stated only in that state's own statute or program announcement. Each record is one state's program, carrying its coverage-category limit and, where the source states one, the rule that makes a property ineligible. Answers 'what's the maximum FAIR Plan payout in California', 'why would Florida Citizens turn down my house', 'which states cap eligibility by a dollar replacement-cost figure vs. a pricing-comparison rule'.",
       "records": 32,
-      "last_verified": "2026-10-25",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/state-insurer-of-last-resort-coverage-limits/",
       "data": "https://referencesource.org/state-insurer-of-last-resort-coverage-limits/data.json"
     },
@@ -2160,7 +2160,7 @@
       "title": "State public works payment bond requirements (Little Miller Acts)",
       "description": "Do I need a payment bond on this public works project, and what are the deadlines? Every US state has a 'Little Miller Act' requiring bonds on public construction contracts, but the contract value that triggers the requirement, the bond amount, the notice a subcontractor must serve to preserve a claim, and the deadline for suing on the bond all differ by state. One record per state and territory, each carrying that state's own statutory citation, plus a federal Miller Act row for comparison. Coverage is payment bond law; a performance bond threshold is recorded only for the handful of states whose source states one. States answer the contract-value question in two different ways and the record says which: 'Payment bond required above' is a figure the source states a bond IS required at or above, and 'Contracts excluded' is a figure or class the source states is outside the requirement, or that the public body may waive. A job just above a 'Contracts excluded' figure is bonded. Answers 'Little Miller Act thresholds by state', 'do I need a bond on a $75,000 public project in Virginia', 'state payment bond requirements for construction', 'payment bond claim deadline by state'. Adjacent to mechanics-lien-deadlines, construction-retainage-limits, and construction-prompt-payment-deadlines.",
       "records": 53,
-      "last_verified": "2026-10-25",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/state-public-works-bond-thresholds/",
       "data": "https://referencesource.org/state-public-works-bond-thresholds/data.json"
     },
@@ -2169,7 +2169,7 @@
       "title": "State Residential Radon Disclosure, Testing, and Certification Requirements",
       "description": "State laws governing radon in residential real estate transactions vary dramatically. Some states require sellers to disclose known radon test results (Florida, Illinois, New Jersey). Others fold radon into broader environmental hazard disclosure forms (California, Colorado). Some mandate that radon measurement professionals be certified or licensed; others have no licensing requirement. EPA recommends 4 pCi/L as the action level but this is not a legal standard \u2014 state action levels may differ. This table gives the disclosure requirement, testing mandate, professional certification requirement, action level, and statute citation for each state.",
       "records": 41,
-      "last_verified": "2026-10-25",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/state-radon-disclosure-requirements/",
       "data": "https://referencesource.org/state-radon-disclosure-requirements/data.json"
     },
@@ -2187,7 +2187,7 @@
       "title": "State Right-to-Repair Laws: Coverage, Requirements, and Effective Dates",
       "description": "Which US states have enacted right-to-repair laws, what products each law covers (electronics, agricultural equipment, powered wheelchairs, automobiles), the price threshold above which parts and documentation must be provided, whether parts-pairing is prohibited, the enforcement mechanism (state AG only vs. private right of action), penalty amounts, and the effective date. As of August 2026, at least 8 states have enacted laws and 28+ have pending legislation.",
       "records": 6,
-      "last_verified": "2026-10-25",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/state-right-to-repair-laws/",
       "data": "https://referencesource.org/state-right-to-repair-laws/data.json"
     },
@@ -2196,7 +2196,7 @@
       "title": "State conformity to federal Section 179 and bonus depreciation rules",
       "description": "Whether each US state conforms to the federal Section 179 expensing limit and the 100% bonus depreciation deduction, and what state-specific caps or add-back rules apply when it does not. Each record is one state, stating its conformity status for both Section 179 and bonus depreciation, the state's own Section 179 dollar cap if different from federal, whether the state requires a bonus depreciation add-back, the depreciation method the state uses instead, and a statute or administrative citation. The federal Section 179 limit for 2026 is $2,560,000 with a $4,090,000 phase-out; 100% bonus depreciation was made permanent by the One Big Beautiful Bill Act (January 2025). At least a dozen states decouple from bonus depreciation (California, New York, New Jersey, Pennsylvania, Massachusetts, DC, Connecticut, Maryland, Tennessee, North Carolina, Indiana, Wisconsin among others), and several cap Section 179 far below the federal limit (California: $25,000; New Jersey: $25,000; Pennsylvania: not allowed for corporate income tax). A $480,000 equipment purchase in California produces roughly $51,000 in extra state tax in year one. Answers 'does my state allow bonus depreciation', 'what is the Section 179 limit in [state]', 'do I have to add back bonus depreciation on my state return', and 'which states decouple from federal depreciation rules'.",
       "records": 51,
-      "last_verified": "2026-10-25",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/state-section-179-bonus-depreciation-conformity/",
       "data": "https://referencesource.org/state-section-179-bonus-depreciation-conformity/data.json"
     },
@@ -2340,7 +2340,7 @@
       "title": "Toll transponder interoperability: which pass works in which states",
       "description": "For each US toll transponder programme (E-ZPass, SunPass and SunPass PRO, TxTag and the Central US partners, and the rest as their pages prove reachable): the states and networks where that transponder is accepted, from the operating agency's own interoperability page with a verbatim quote. No authority maintains the national matrix \u2014 the E-ZPass Group's member list sits behind an agency login, and the only assembled versions are toll-calculator vendors' blog posts. The answers cross-cut: SunPass PRO works on E-ZPass roads in 19 states but the plain SunPass Mini works in only six; a TxTag works in Kansas and Oklahoma but not on E-ZPass roads; Florida's Turnpike accepts E-ZPass but only via specific transponder models. Answers 'will my E-ZPass work in Florida', 'which toll pass should I get for a Texas-to-Chicago drive', and 'does SunPass work in Georgia'. One record per transponder-programme statement of acceptance, quoting the agency page.",
       "records": 16,
-      "last_verified": "2026-10-25",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/toll-transponder-interoperability/",
       "data": "https://referencesource.org/toll-transponder-interoperability/data.json"
     },
@@ -2349,7 +2349,7 @@
       "title": "Maximum legal vehicle size and weight limits by US state",
       "description": "For each US state, the maximum legal dimensions and gross weight a vehicle plus load may have on state highways before an oversize/overweight permit is required, from the state's own vehicle code or DOT/DMV page: width, height, semitrailer length, combination length, and gross weight. Height genuinely fragments \u2014 13 feet 6 inches in most eastern states (Florida, Ohio), 14 feet in western states (Washington) \u2014 so a load legal in one state needs a permit in the next. Answers 'how tall can a truck be in [state]', 'what is the maximum legal trailer length in [state]', and 'at what point do I need an oversize permit in [state]'. Values verbatim from statute or the agency page; the many exceptions (auto transporters, safety devices, RVs) stay in the source quote, not in extra fields.",
       "records": 5,
-      "last_verified": "2026-10-25",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/truck-size-weight-limits-by-state/",
       "data": "https://referencesource.org/truck-size-weight-limits-by-state/data.json"
     },
@@ -2358,7 +2358,7 @@
       "title": "EPA TSCA Section 6 chemical risk management status: prohibitions, effective dates, and exemptions",
       "description": "Status of EPA risk management rules for chemicals found to present unreasonable risk under TSCA Section 6. Each record is one chemical with its current rule status (proposed/final/effective), effective dates for prohibitions, specific uses prohibited, and any exemptions or compliance date extensions. Currently covers ~11 chemicals under Section 6(a) active risk management plus 5 PBT chemicals under Section 6(h). The pipeline has 20+ more chemicals in risk evaluation. Answers 'is [chemical] being regulated under TSCA?', 'when does the prohibition on methylene chloride take effect?', 'which uses of TCE are exempt?', and 'what is the current rule status for 1-bromopropane?'",
       "records": 16,
-      "last_verified": "2026-10-25",
+      "last_verified": "2026-10-27",
       "url": "https://referencesource.org/tsca-section-6-chemical-risk-management-status/",
       "data": "https://referencesource.org/tsca-section-6-chemical-risk-management-status/data.json"
     },
