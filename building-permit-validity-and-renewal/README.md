@@ -6,7 +6,7 @@ How long a building permit stays valid, what keeps it alive, what it costs to re
 
 | | |
 |---|---|
-| Last verified | 2026-10-25 |
+| Last verified | 2026-10-28 |
 | Re-check due | 2027-08-11 |
 | Records | 7 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/building-permit-validity-and-renewal/changes.xml) |

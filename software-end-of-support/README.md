@@ -6,7 +6,7 @@ Release, end-of-active-support, end-of-life (EOL) and end-of-security-support da
 
 | | |
 |---|---|
-| Last verified | 2026-10-25 |
+| Last verified | 2026-10-28 |
 | Re-check due | 2027-01-03 |
 | Records | 62 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/software-end-of-support/changes.xml) |
