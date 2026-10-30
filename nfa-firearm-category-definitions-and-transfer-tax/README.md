@@ -6,7 +6,7 @@ The National Firearms Act regulates six firearm categories -- short-barreled rif
 
 | | |
 |---|---|
-| Last verified | 2026-10-26 |
+| Last verified | 2026-10-29 |
 | Re-check due | 2027-02-21 |
 | Records | 6 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/nfa-firearm-category-definitions-and-transfer-tax/changes.xml) |
