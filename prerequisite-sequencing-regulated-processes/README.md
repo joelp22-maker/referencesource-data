@@ -6,7 +6,7 @@ The mandated order of steps in multi-step regulated processes, from the authorit
 
 | | |
 |---|---|
-| Last verified | 2026-10-27 |
+| Last verified | 2026-10-30 |
 | Re-check due | 2027-08-11 |
 | Records | 37 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/prerequisite-sequencing-regulated-processes/changes.xml) |

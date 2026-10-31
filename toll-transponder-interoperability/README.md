@@ -6,7 +6,7 @@ For each US toll transponder programme (E-ZPass, SunPass and SunPass PRO, TxTag 
 
 | | |
 |---|---|
-| Last verified | 2026-10-27 |
+| Last verified | 2026-10-30 |
 | Re-check due | 2027-08-19 |
 | Records | 16 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/toll-transponder-interoperability/changes.xml) |

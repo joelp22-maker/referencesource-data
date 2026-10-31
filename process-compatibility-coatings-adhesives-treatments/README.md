@@ -6,7 +6,7 @@ Three published reference tables, each keyed by material, with no material appea
 
 | | |
 |---|---|
-| Last verified | 2026-10-27 |
+| Last verified | 2026-10-30 |
 | Re-check due | 2028-08-03 |
 | Records | 80 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/process-compatibility-coatings-adhesives-treatments/changes.xml) |
