@@ -6,7 +6,7 @@ The pairwise load-segregation rules for hazardous materials: for each pair of ha
 
 | | |
 |---|---|
-| Last verified | 2026-10-29 |
+| Last verified | 2026-10-31 |
 | Re-check due | 2027-08-10 |
 | Records | 788 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/hazmat-segregation-matrix/changes.xml) |
