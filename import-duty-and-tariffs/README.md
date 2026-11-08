@@ -6,7 +6,7 @@ The extra US import tariff that sits on top of the ordinary duty rate, by Harmon
 
 | | |
 |---|---|
-| Last verified | 2026-11-03 |
+| Last verified | 2026-11-06 |
 | Re-check due | 2026-09-14 |
 | Records | 25 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/import-duty-and-tariffs/changes.xml) |
