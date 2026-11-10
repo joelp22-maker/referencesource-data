@@ -324,7 +324,7 @@
       "title": "MAPA Professional glove chemical breakthrough times",
       "description": "Per-chemical breakthrough time, permeation level and degradation rating for all 25 MAPA Professional glove models that publish a chemical chart \u2014 the reusable chemical-protection range, the disposable range and the liquidproof range \u2014 drawn from MAPA's own published product pages. Each glove model's page lists a table of chemicals it has been tested against, with the CAS number, the breakthrough time in minutes (how long before the chemical passes through the glove material), the permeation level (an EN 374 scale), the test standard the result was measured under, and a degradation rating. Where MAPA lists the same chemical twice for one glove under two different test standards, both results are kept rather than one being chosen. Answers 'how long can I wear an Ultranitril 480 glove handling acetic acid' and 'which MAPA glove holds up against toluene' \u2014 questions where guessing wrong means a chemical burn. Scoped to MAPA only: no comparably-structured free source was found for any other glove manufacturer (Ansell, Showa and Honeywell/North publish the equivalent data only as PDFs or behind an interactive selector), so this does not yet answer 'which manufacturer's glove is best', only 'how does this MAPA model perform'.",
       "records": 753,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/chemical-resistant-glove-breakthrough-times/",
       "data": "https://referencesource.org/chemical-resistant-glove-breakthrough-times/data.json"
     },
@@ -477,7 +477,7 @@
       "title": "Medical conditions that disqualify a commercial driver under 49 CFR 391.41",
       "description": "The physical qualification standards every interstate commercial driver (truck or bus, CDL or not) must meet under 49 CFR 391.41(b), one record per numbered clause: diabetes treated with insulin, high blood pressure, epilepsy, respiratory dysfunction, cardiovascular disease, vision (20/40 acuity, 70-degree field, colour recognition), hearing (whispered voice at 5 feet or 40 dB average loss), and the rest of the thirteen. Answers 'can a diabetic driver get a CDL', 'what blood pressure disqualifies a truck driver', 'CDL hearing requirement', 'CDL vision requirement 20/40'. The regulation is short and stable, but its numbered clauses set exact numeric thresholds (decibels, Snellen ratios, degrees of visual field) that generalist summaries routinely round off or drop the exception clause from -- e.g. the insulin clause is not an absolute bar, it defers to the exemption program at 391.46, and a summary that omits that turns a conditional disqualification into an absolute one.",
       "records": 17,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/dot-cdl-medical-disqualifying-conditions/",
       "data": "https://referencesource.org/dot-cdl-medical-disqualifying-conditions/data.json"
     },
@@ -504,7 +504,7 @@
       "title": "Tap drill size and drill-size decimal equivalents",
       "description": "Two related lookups machinists and hobbyists need together: (1) which tap drill to use for a given inch or metric thread (e.g. 1/4-20 UNC needs a #7 drill for approximately 75% thread engagement), and (2) the decimal-inch size of every number, letter, fraction and metric drill, so a shop can pick the nearest drill it actually owns. Two independent vendor sources are used for each table so a disagreement between them can be flagged rather than silently trusted. Answers 'what size do I drill before tapping 1/4-20', and 'what decimal is a #7 drill' \u2014 a complete range in one place beats looking up one size at a time.",
       "records": 570,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/drill-tap-decimal-equivalents/",
       "data": "https://referencesource.org/drill-tap-decimal-equivalents/data.json"
     },
@@ -693,7 +693,7 @@
       "title": "FDA nutrient content claim qualification criteria",
       "description": "Numeric thresholds that qualify a food product for each FDA-regulated nutrient content claim ('free', 'low', 'reduced', 'good source of', 'high', 'light'), broken out by nutrient (calories, fat, saturated fat, cholesterol, sodium, sugar, fiber) and food format (individual food, meal, main dish, dietary supplement, small-RACC food). Each record is one claim-term \u00d7 nutrient \u00d7 food-format combination with the exact threshold and the CFR section that defines it. Answers 'what qualifies as low sodium?' with the full matrix, not just the headline number.",
       "records": 90,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/fda-nutrient-content-claim-criteria/",
       "data": "https://referencesource.org/fda-nutrient-content-claim-criteria/data.json"
     },
@@ -702,7 +702,7 @@
       "title": "Federal Hazardous Occupations Orders for Minors (29 CFR Part 570)",
       "description": "Federal child labor law bans workers under 18 from 17 numbered 'Hazardous Occupations Orders' (29 CFR 570.51-570.68) -- driving, roofing, mining, explosives, power-driven meat slicers, forklifts and other high-lift trucks, circular saws and more -- and separately restricts 14- and 15-year-olds to a closed, positively-defined list of permitted work (29 CFR 570.34), everything outside that list being prohibited (29 CFR 570.33). Limited apprentice and student-learner exemptions apply to some of the orders under 29 CFR 570.50. A state law stricter than federal law controls: North Carolina's own labor department bans nine further 'detrimental' occupations -- welding, work with a risk of falling 10 feet or more, electrician's-helper work, confined spaces, respirator use -- that federal law permits at 16. Each record carries the section it comes from and a verbatim quote of the regulation, so a parent or small-business owner asking 'can I let my 16-year-old operate a forklift' can check the answer against the rule itself. DOL's own summary at webapps.dol.gov/elaws lists the 17 orders one line each with none of the substantive detail; the state layer here is North Carolina only so far. North Carolina's Youth Employment Rules page states separately that 'Employment in hazardous or detrimental occupations are not permitted for youths under the age of 18', but the page listing the nine occupations does not repeat the age, so these records do not claim one.",
       "records": 67,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/federal-child-labor-hazardous-occupations/",
       "data": "https://referencesource.org/federal-child-labor-hazardous-occupations/data.json"
     },
@@ -711,7 +711,7 @@
       "title": "Federal civil penalty maximums \u2014 current inflation-adjusted amounts across agencies",
       "description": "The current maximum (and where stated, minimum) civil monetary penalty for each violation type, across federal agencies, as each agency's own inflation-adjustment regulation states it: OSHA (29 CFR 1903.15), EPA (40 CFR 19.4), HHS including HIPAA and Medicare (45 CFR 102.3), DOJ including the False Claims Act (28 CFR 85.5), Coast Guard (33 CFR 27.3), NHTSA (49 CFR 578.6). Each agency publishes its own table in its own CFR part and no cross-agency assembled version exists \u2014 searched 2026-08-10, found only per-agency pages and one-off law-firm articles. The 2026 hook: OMB cancelled the 2026 inflation adjustment (the appropriations lapse meant BLS never produced October 2025 CPI-U data), so every agency's amounts are frozen at 2025 levels \u2014 a recent, counter-intuitive fact ('penalties are adjusted annually' is what the training data says) that makes unaided answers stale in a specific, checkable way. Answers 'what is the maximum OSHA penalty for a willful violation', 'what is the HIPAA tier-4 annual cap', 'what is the FCA per-claim maximum', and 'did penalties go up for 2026' (no \u2014 and the page can say why).",
       "records": 570,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-08-10",
       "url": "https://referencesource.org/federal-civil-penalty-maximums/",
       "data": "https://referencesource.org/federal-civil-penalty-maximums/data.json"
     },
@@ -728,8 +728,8 @@
       "slug": "federal-rules-taking-effect",
       "title": "Federal rules taking effect: every US final rule in the Federal Register, by effective date",
       "description": "US final rules already published in the Federal Register, listed by the date each one takes effect: near-term dates and dates years away, all of them already binding law. Every record carries the agency, the CFR parts it amends, the effective date as the rule prints it, and the rule's verbatim DATES paragraph. Answers 'which federal regulations take effect on January 1, 2027', 'what rules affecting 47 CFR part 10 are already published but not yet in force', 'what is the compliance date for the DOJ web accessibility rule', and 'what changes are coming for my industry that are already law'. The hard part is that a rule published in 2023 can carry a 2026 or 2033 effective date: the obligation is already binding law, it is nowhere near the front page, and the only way to find it is to know it exists. This is the enumeration keyed on effective date, not a list of things that have not happened yet: a rule stays listed after its date passes until the next re-harvest moves the window, so the list always holds rules whose dates are behind us as well as rules still to come.",
-      "records": 743,
-      "last_verified": "2026-11-06",
+      "records": 792,
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/federal-rules-taking-effect/",
       "data": "https://referencesource.org/federal-rules-taking-effect/data.json"
     },
@@ -747,7 +747,7 @@
       "title": "GIS vector format capabilities and limitations in GDAL",
       "description": "Key capabilities, version requirements and format limitations for GIS vector drivers in GDAL, the authoritative open-source geospatial library. The question an assistant gets wrong is what is lost when converting between formats \u2014 field name truncation, unsupported types, file size ceilings, geometry constraints.",
       "records": 3,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/file-format-software-version-compatibility/",
       "data": "https://referencesource.org/file-format-software-version-compatibility/data.json"
     },
@@ -773,8 +773,8 @@
       "slug": "fips-140-module-validation-status",
       "title": "FIPS 140 validated cryptographic modules: active, historical or revoked",
       "description": "The current validation status and scheduled expiry date of every cryptographic module certificated by the NIST/CCCS Cryptographic Module Validation Program (CMVP). The FIPS 140-2 sunset has now happened: on 2026-09-21 the last Active FIPS 140-2 certificates moved to the Historical list \u2014 481 of them in that single day, recorded here \u2014 and CMVP's list of Active FIPS 140-2 modules now returns 'No certificates match the search criteria'. Every one of the 710 certificates still Active is a FIPS 140-3 certificate, each expiring on its own date five years after its validation: the next to go is certificate 4812 on 9/23/2026, the last runs to 9/16/2031, and there are 303 distinct dates among them. Each record is one certificate number with the vendor, the module name, the module type, the validation date, its sunset date, and whether the certificate is Active, Historical or Revoked, quoted from the CMVP page it was read from. Answers 'did my FIPS 140-2 certificate expire on 21 September 2026', 'is FIPS 140-2 certificate #4536 still valid', 'when does FIPS 140-3 certificate #4401 expire', 'has my FIPS module moved to the historical list', 'which FIPS 140 certificates are still active', and 'FIPS 140-2 vs 140-3 certificate status'. The status is a value that changes silently: CMVP moves a certificate to the Historical list when it is more than five years old or on a programmatic transition, and publishes no notice per certificate, so an assistant answering from memory reports certificates as Active months after they were retired \u2014 and from 2026-09-21 it will do exactly that for every FIPS 140-2 certificate in existence. Coverage: the complete CMVP register as re-read on 2026-09-22 \u2014 every certificate on every list. 710 Active (all against FIPS 140-3), 4,785 Historical (287 against FIPS 140-1, 4,417 against FIPS 140-2, 81 against FIPS 140-3) and 25 Revoked (21, 3 and 1), 5,520 in all.",
-      "records": 5560,
-      "last_verified": "2026-11-04",
+      "records": 5567,
+      "last_verified": "2026-11-07",
       "url": "https://referencesource.org/fips-140-module-validation-status/",
       "data": "https://referencesource.org/fips-140-module-validation-status/data.json"
     },
@@ -801,7 +801,7 @@
       "title": "FAA flight training hour minimums: Part 61 vs Part 141, by certificate and rating",
       "description": "The minimum flight-time and training-hour requirements for each FAA pilot certificate and rating, under Part 61 and under an approved Part 141 course, side by side, from the eCFR text of both parts. Answers 'how many hours for a private pilot license', 'part 61 vs part 141 hours', 'commercial pilot minimum hours part 141', and 'instrument rating hour requirements'. The pairs are easy to confuse and constantly mixed up by flight-school marketing pages: private 40 h (61.109) vs 35 h (141 Appendix B), commercial 250 h (61.129) vs 120 h (141 Appendix D), instrument 40 h instrument time (61.65) vs 35 h of instrument training (141 Appendix C). Both columns come from the same publisher (eCFR) but different parts \u2014 no single CFR page states the comparison, and the assembled versions online are flight-school lead-gen pages with no citations. The audience is someone choosing a training path for a purchase that runs $15k-$100k.",
       "records": 164,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/flight-training-hour-minimums-61-vs-141/",
       "data": "https://referencesource.org/flight-training-hour-minimums-61-vs-141/data.json"
     },
@@ -837,7 +837,7 @@
       "title": "What a food must legally contain to use its name: FDA standards of identity, in one table",
       "description": "The FDA standards of identity from 21 CFR Parts 131\u2013169: for each standardized food, the composition minimums and maximums that a product must meet to be labeled with that name. Ice cream must contain not less than 10 percent milkfat and not less than 10 percent nonfat milk solids, and weigh not less than 4.5 pounds to the gallon (21 CFR 135.110); frozen custard is ice cream with at least 1.4 percent egg yolk solids, from the same section; peanut butter must be at least 90 percent peanuts (21 CFR 164.150); white chocolate, milk chocolate and the other cacao products each have their own minimums in Part 163. More than 250 standards exist, scattered across ~19 CFR parts, and no comprehensive table is published anywhere \u2014 FDA's own overview page describes the programme without tabulating it. Answers 'what has to be in ice cream legally?', 'what is the difference between ice cream and frozen custard?', 'does this product have an FDA standard of identity at all?'",
       "records": 41,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/food-standards-of-identity/",
       "data": "https://referencesource.org/food-standards-of-identity/data.json"
     },
@@ -873,7 +873,7 @@
       "title": "Gas cylinder color codes by standard and country",
       "description": "Color coding of compressed gas cylinders (shoulder and body colors) for medical, industrial and laboratory gases under different national and international standards. Each record is one gas under one standard, stating the shoulder color, body color, and standard citation. Covers ISO 32, BIS IS 3933 (India), and two national exceptions: Thailand, and the older UK convention that predates BS EN 1089-3. Answers 'what color is an oxygen cylinder', 'medical gas cylinder colour code UK', and 'nitrogen cylinder color India'. Oxygen is white under ISO 32, emerald green in Thailand, and white-over-black under the older UK convention \u2014 the kind of difference assistants get wrong by stating one standard as universal. Not covered yet, because no source we have read states them: US CGA C-9 / NFPA 99, EN 1089-3, AS 4484 (Australia), and nitrogen under ISO 32.",
       "records": 17,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/gas-cylinder-color-codes/",
       "data": "https://referencesource.org/gas-cylinder-color-codes/data.json"
     },
@@ -882,7 +882,7 @@
       "title": "General contractor license requirements and dollar thresholds by US state",
       "description": "Do I need a contractor license for this project in my state, and what does it take to get one? Every US state handles general contractor licensing differently: some require a state license for any construction work, others only above a dollar threshold ($1,000 in Arizona, $10,000 residential in Alabama, $100,000 commercial in Alabama), and some have no state-level license at all (municipal only). One record per license type per state, sourced from the state's licensing board. Answers 'do I need a contractor license in Florida', 'what is the minimum project size for a contractor license in Alabama', 'general contractor license requirements by state', and 'how much is a contractor license bond'. New Jersey added a formal licensing system effective February 2026; Montana transitioned from registration to licensing in 2026. The assembled versions on page one are all from insurance lead-gen sites (nextinsurance.com, insureon.com) selling general liability to contractors. Extends the electrician-licence-progression-by-state pattern to general contractors.",
       "records": 11,
-      "last_verified": "2026-08-17",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/general-contractor-license-thresholds-by-state/",
       "data": "https://referencesource.org/general-contractor-license-thresholds-by-state/data.json"
     },
@@ -954,7 +954,7 @@
       "title": "Hazmat load segregation \u2014 which hazard classes may travel together, highway vs vessel",
       "description": "The pairwise load-segregation rules for hazardous materials: for each pair of hazard classes/divisions, whether they may be loaded, transported or stored together on a highway vehicle (49 CFR 177.848) or on a vessel (49 CFR 176.83). One record is one intersection under one mode: the two classes, the code the table prints in that cell ('X' may not be loaded together, 'O' separated so no commingling on leakage, '*' see the class-1 compatibility table, blank no restriction, plus the ammonium-nitrate note 'A'), and what that code requires in the section's own words. Resolving the code is what the page is for \u2014 the table prints a bare letter and its meaning sits in a note paragraph further down the section, so reading one cell off the regulation takes two lookups. Both modes are in the dataset, as separate records: the two tables label their Class 1 rows differently ('1.1 and 1.2' on highway against '1.1, 1.2, 1.5' on vessel), so putting one pair's two answers on a single page is a mapping decision and not a fold. Answers 'can Division 4.3 ride with Class 8 corrosive liquids' (yes on highway with separation \u2014 the O cell), 'can I load oxidizers with flammable liquids', and the per-pair questions shippers and freight brokers ask before booking mixed loads. A pairwise matrix is a shape the portfolio has not tried: the record is an intersection, not a row.",
       "records": 788,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/hazmat-segregation-matrix/",
       "data": "https://referencesource.org/hazmat-segregation-matrix/data.json"
     },
@@ -972,7 +972,7 @@
       "title": "HFC refrigerant GWP regulations by US state",
       "description": "State-level HFC refrigerant regulations across the US, including GWP limits, equipment-type restrictions, effective dates, and regulatory citations. Each record is one state's regulation for one equipment category (supermarket, new facility, stand-alone unit, bulk HFC sales). Answers 'what refrigerant GWP limit applies to new supermarket systems in California', 'which states have adopted SNAP Rules 20 and 21', 'New York HFC phase-down GWP thresholds', and 'can I use R-410A in a new commercial refrigeration system in [state]'.",
       "records": 42,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/",
       "data": "https://referencesource.org/hfc-refrigerant-regulations-by-state/data.json"
     },
@@ -1026,7 +1026,7 @@
       "title": "Hydraulic and pipe connection type identification",
       "description": "Identifying characteristics of each hydraulic, pipe, and instrumentation connection standard used in fluid power and plumbing systems. For each connection type, gives the governing standard, seat or flare angle, whether the thread is tapered or parallel, how the seal is made, and interchangeability notes with other standards. Answers the recurring field question 'what kind of fitting is this?' \u2014 the identification step that must happen before any cross-reference or adapter lookup.",
       "records": 21,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/hydraulic-pipe-connection-types/",
       "data": "https://referencesource.org/hydraulic-pipe-connection-types/data.json"
     },
@@ -1062,7 +1062,7 @@
       "title": "US reciprocal (IEEPA) tariff add-on and Section 232 exceptions by HTS chapter",
       "description": "The extra US import tariff that sits on top of the ordinary duty rate, by Harmonized Tariff Schedule (HTS) chapter: the reciprocal tariff imposed under the International Emergency Economic Powers Act (IEEPA), whether a chapter is excepted from it, and whether goods in the chapter are caught instead by Section 232 steel, aluminium, copper or auto duties. The baseline add-on is 10% ad valorem on goods of trading partners not listed in Annex I to Executive Order 14326; some chapters escape it outright \u2014 Chapter 49 printed matter and headings 9701 through 9705 artwork qualify as informational materials under HTSUS 9903.01.22, and goods already subject to Section 232 duties are excepted under 9903.01.33. Answers 'is there a reciprocal tariff on this kind of goods', 'is printed matter exempt from the IEEPA tariff', 'do Section 232 steel duties and the reciprocal tariff both apply to the same entry line', and 'which HTSUS 9903 heading carries the exception'. Each record covers one two-digit HTS chapter and states the add-on or the exception in the words CBP or the executive order itself uses, with the passage quoted. 25 chapters are covered, chosen for search volume: electronics (84, 85), clothing and textiles (61, 62, 63), vehicles (87), steel and iron (72, 73), aluminium (76), plastics (39), pharmaceuticals (30), footwear (64), furniture (94), toys (95), tools (82, 83), optical and medical instruments (90), printed matter (49), artwork (97), and a sample of food and drink categories (02, 04, 08, 22). What this dataset does not give you is the ordinary duty rate itself \u2014 the Column 1 general (MFN) rate, or the Section 301 China rate, for a particular product. Those are set per eight-digit HTS line rather than per chapter, so no page states a chapter-wide figure that could be quoted here; the authoritative source for them is the USITC Harmonized Tariff Schedule at hts.usitc.gov. The total rate on an entry is the Column 1 rate from the HTS plus whichever add-on below applies.",
       "records": 25,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/import-duty-and-tariffs/",
       "data": "https://referencesource.org/import-duty-and-tariffs/data.json"
     },
@@ -1125,7 +1125,7 @@
       "title": "Withdrawn and superseded ISO standards",
       "description": "Every deliverable in ISO's own open-data register that has been withdrawn or superseded, with the replacement the register points to. Answers 'ISO 9001:2008 withdrawn \u2014 replaced by what', 'is ISO 13485:2003 still current', and 'what replaced IEC 31010:2009' \u2014 the lookup assistants get confidently wrong on an obscure designation, because the supersession chain is versioned, scattered across editions, and only ever published as a machine-readable file. 24,640 records read from the ISO Open Data CSV, each quoting the CSV row it came from, and each on a page of its own. Two things the register does not give, so neither do these pages: the date a standard was withdrawn (the only date in the file is the deliverable's own publication date), and any guarantee that the named replacement has itself been published. Measured 2026-09-14: 2,507 records (10.2%) name at least one replacement the register has never given a publication date, and on 416 of those (1.7%) every replacement named is unpublished \u2014 a revision project that is registered but that you cannot obtain. The test is the register's own publicationDate column, not the designation's spelling: all 29,680 rows it marks withdrawn and all 8,559 it marks current carry a publication date, and these replacement rows carry none.",
       "records": 24640,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/iso-standard-supersessions/",
       "data": "https://referencesource.org/iso-standard-supersessions/data.json"
     },
@@ -1341,7 +1341,7 @@
       "title": "NFA firearm category definitions and current transfer/making tax",
       "description": "The National Firearms Act regulates six firearm categories -- short-barreled rifle, short-barreled shotgun, any other weapon (AOW), machine gun, silencer, destructive device -- each defined by its own measurement threshold in ATF's regulations at 27 CFR 478.11 and 479.11. Separately, and recently changed: the federal transfer tax and making tax on those items dropped from $200 per item to $0 for every category except machine guns and destructive devices, under section 70436 of the One Big Beautiful Bill Act (Pub. L. 119-21, signed 2025-07-04), which amended 26 U.S.C. 5811(a) and 5821(a). ATF states the change took effect on January 1, 2026, and issued a final rule on 2026-05-08 (ATF No. 2025R-45F, 91 FR 25112) conforming 27 CFR 479.61, 479.62, 479.81, 479.82 and 479.84 to the new rates. Each record is one NFA category, giving its defining measurement threshold and its current and prior transfer/making tax, each quoted verbatim from the regulation or from ATF's own rulemaking. Two things vendor pages routinely get wrong: the paperwork did not change (Form 1/Form 4, fingerprints and the background check are all unchanged), and the AOW transfer tax went from $5 -- not $200 -- to $0. One nuance not carried per-record: the short-barreled rifle and shotgun definitions here are 27 CFR 478.11's, which are the ones that name those terms; the NFA's own list at 27 CFR 479.11(b) and (d) states the 'weapon made from a rifle/shotgun' prong slightly more broadly, as an overall length under 26 inches OR a barrel under 16 (rifle) / 18 (shotgun) inches. Answers 'what barrel length makes a rifle an SBR', 'how much is an ATF tax stamp in 2026', 'is the NFA tax still $200'.",
       "records": 6,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/nfa-firearm-category-definitions-and-transfer-tax/",
       "data": "https://referencesource.org/nfa-firearm-category-definitions-and-transfer-tax/data.json"
     },
@@ -1467,7 +1467,7 @@
       "title": "OSHA medical surveillance trigger thresholds by substance",
       "description": "The airborne exposure level that triggers mandatory medical surveillance under each OSHA substance-specific standard (29 CFR 1910 Subpart Z), compared across all regulated substances. Each record is one substance, carrying its action level, PEL, the exposure duration that triggers surveillance, the medical exam scope and frequency, biological monitoring requirements if any, and the record retention period. Answers 'what is the action level for lead', 'at what exposure must I provide medical exams for benzene workers', 'how often does cadmium biological monitoring need to happen', and 'which OSHA substances require 40-year record retention'. The action level is typically half the PEL but not always, and the surveillance trigger conditions vary wildly: lead uses blood lead levels, cadmium uses urine cadmium, and most others use airborne concentration plus days-per-year thresholds.",
       "records": 23,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/osha-medical-surveillance-triggers/",
       "data": "https://referencesource.org/osha-medical-surveillance-triggers/data.json"
     },
@@ -1539,7 +1539,7 @@
       "title": "The dated, ordered steps for taking a dog, cat or ferret into the United States, the European Union or Great Britain \u2014 microchip, rabies vaccination, blood test and the waiting periods between them, quoted from the law itself",
       "description": "Getting a pet across a border is a chain of steps that only counts if it is done in the right order, and every link is a date. The microchip has to go in before the rabies vaccine or the vaccine does not count; the animal has to be old enough on the day it is vaccinated; then there is a wait before travel; and from an unlisted country there is a blood sample taken a set number of days after vaccination followed by a further wait of months. One step out of order costs three months and a plane ticket. This asset records each of those provisions as its own record, quoted verbatim from the instrument that states it \u2014 42 CFR 71.51 for entry into the United States, Regulation (EU) No 576/2013 for the European Union, and the Defra guidance at GOV.UK for Great Britain. Answers 'what is the earliest my dog can fly?', 'does the microchip have to come before the rabies shot?', 'how long after the rabies blood test can we travel?', 'how old does a dog have to be to enter the US?', and 'when does the tapeworm treatment have to be given?'",
       "records": 19,
-      "last_verified": "2026-11-06",
+      "last_verified": "2026-11-09",
       "url": "https://referencesource.org/pet-travel-entry-requirements/",
       "data": "https://referencesource.org/pet-travel-entry-requirements/data.json"
     },
@@ -1764,7 +1764,7 @@
       "title": "SBA disaster loan filing deadlines, live",
       "description": "Every SBA disaster declaration (state/administrative and physical) currently open, with its physical-damage loan application deadline and its Economic Injury Disaster Loan (EIDL) application deadline, taken verbatim from SBA's own Federal Register notice. One record is one declaration. Both dates come from the notice; where the physical loan deadline had already passed on the day this page was last built, the record says so. Where it had not, the record says nothing either way -- a page that can be a week old cannot honestly tell anyone a deadline is still open, so it does not try, and there is no days-remaining count for the same reason. Answers 'when does the SBA disaster loan deadline close for the Illinois severe storms', 'how much time is left to apply for an SBA EIDL loan after my state's disaster declaration', 'is the SBA disaster loan deadline for my county still open'. Retrieval check 2026-08-28 (probe.py, Anthropic, searched, 2 queries): the model itself concluded 'there's no official page that ranks declarations by days left' and pointed at SBA's own portal (one declaration searched at a time, JS-driven) and the Federal Register API as the only two raw sources -- confirming the gap is real and not just under-searched. SBA's own site (disasterloanassistance.sba.gov, lending.sba.gov) is a per-declaration JS search tool, not a nationwide sortable list; no third-party aggregator was found either.",
       "records": 165,
-      "last_verified": "2026-11-07",
+      "last_verified": "2026-11-03",
       "url": "https://referencesource.org/sba-disaster-loan-deadlines/",
       "data": "https://referencesource.org/sba-disaster-loan-deadlines/data.json"
     },
@@ -1835,7 +1835,7 @@
       "slug": "software-eol-change-feed",
       "title": "Software end-of-life date changes \u2014 which dates moved and what they were before",
       "description": "A change log of software end-of-life and end-of-support dates across 462 products, built by diffing the endoflife.date API between snapshots: for each changed date, the product, release cycle, which field moved, the old value and the new value. Answers 'did the Python 3.9 EOL date change?', 'which Node.js support dates were extended this month?', and 'what EOL dates moved in July 2026?' \u2014 the question shape nobody publishes. endoflife.date tracks current state; endoflife.ai publishes a free monthly digest of what is critical now; neither publishes the before-and-after diff. New product additions are also captured. This is a parser case: the API returns structured JSON, no model supplies values.",
-      "records": 2674,
+      "records": 2712,
       "last_verified": "2026-10-26",
       "url": "https://referencesource.org/software-eol-change-feed/",
       "data": "https://referencesource.org/software-eol-change-feed/data.json"
