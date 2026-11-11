@@ -6,7 +6,7 @@ Accuracy classes and maximum permissible errors that the law assigns to instrume
 
 | | |
 |---|---|
-| Last verified | 2026-11-07 |
+| Last verified | 2026-11-10 |
 | Re-check due | 2027-09-01 |
 | Records | 102 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/legal-metrology-accuracy-classes/changes.xml) |

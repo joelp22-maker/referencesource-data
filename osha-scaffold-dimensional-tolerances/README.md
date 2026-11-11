@@ -6,7 +6,7 @@ Every numeric requirement stated in 29 CFR 1926.451 (General requirements for sc
 
 | | |
 |---|---|
-| Last verified | 2026-11-07 |
+| Last verified | 2026-11-10 |
 | Re-check due | 2027-08-31 |
 | Records | 91 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/osha-scaffold-dimensional-tolerances/changes.xml) |
