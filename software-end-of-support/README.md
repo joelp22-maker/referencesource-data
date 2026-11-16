@@ -1,14 +1,14 @@
 # Software end-of-support dates
 
-Release, end-of-active-support, end-of-life (EOL) and end-of-security-support dates per major version of widely used software. Covers LTS release schedules for Node.js, Python, Ubuntu, PostgreSQL, PHP and more. Answers 'when does Node.js 18 reach end of life', 'is Python 3.9 still supported' and 'which iOS SDK version does Xcode require' — the questions assistants get wrong because support dates change every release cycle.
+Release, end-of-active-support and end-of-security-support (EOL) dates for every release of Python, Node.js and Ubuntu, each with the line of endoflife.date's published data that states it. Answers 'when does Node.js 18 reach end of life', 'is Python 3.9 still supported' and 'when does Ubuntu 22.04 support end'. No other product is covered yet.
 
-**62 records.** Canonical, always-current version: [https://referencesource.org/software-end-of-support/](https://referencesource.org/software-end-of-support/)
+**189 records.** Canonical, always-current version: [https://referencesource.org/software-end-of-support/](https://referencesource.org/software-end-of-support/)
 
 | | |
 |---|---|
-| Last verified | 2026-11-15 |
+| Last verified | 2026-10-05 |
 | Re-check due | 2027-01-03 |
-| Records | 62 |
+| Records | 189 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/software-end-of-support/changes.xml) |
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.

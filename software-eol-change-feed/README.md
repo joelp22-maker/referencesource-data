@@ -1,14 +1,14 @@
 # Software end-of-life date changes — which dates moved and what they were before
 
-A change log of software end-of-life and end-of-support dates across 462 products, built by diffing the endoflife.date API between snapshots: for each changed date, the product, release cycle, which field moved, the old value and the new value. Answers 'did the Python 3.9 EOL date change?', 'which Node.js support dates were extended this month?', and 'what EOL dates moved in July 2026?' — the question shape nobody publishes. endoflife.date tracks current state; endoflife.ai publishes a free monthly digest of what is critical now; neither publishes the before-and-after diff. New product additions are also captured. This is a parser case: the API returns structured JSON, no model supplies values.
+A change log of software end-of-life and end-of-support dates across 462 products, built by diffing the endoflife.date API between snapshots: for each changed date, the product, release cycle, which field moved, the new value, and the value it replaced wherever our previous reading held one. Where it does not, the entry shows the one value and says so: the source had nothing there to read before, because that field, release cycle or product had only just appeared. Answers 'did the Python 3.9 EOL date change?', 'which Node.js support dates were extended this month?', and 'what EOL dates moved in July 2026?' — the question shape nobody publishes. endoflife.date tracks current state; endoflife.ai publishes a free monthly digest of what is critical now; neither publishes the before-and-after diff. New product additions are also captured. This is a parser case: the API returns structured JSON, no model supplies values.
 
-**2,712 records.** Canonical, always-current version: [https://referencesource.org/software-eol-change-feed/](https://referencesource.org/software-eol-change-feed/)
+**2,736 records.** Canonical, always-current version: [https://referencesource.org/software-eol-change-feed/](https://referencesource.org/software-eol-change-feed/)
 
 | | |
 |---|---|
 | Last verified | 2026-10-26 |
 | Re-check due | 2026-11-09 |
-| Records | 2,712 |
+| Records | 2,736 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/software-eol-change-feed/changes.xml) |
 
 Every record carries `source` (the page it came from) and `source_quote` (the exact line on that page which states it), so any value here can be checked without asking us. Where a source does not state something the row is omitted rather than guessed.
