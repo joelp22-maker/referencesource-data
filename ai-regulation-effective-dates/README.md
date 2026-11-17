@@ -6,8 +6,8 @@ When each AI-specific law, regulation and milestone actually takes effect — th
 
 | | |
 |---|---|
-| Last verified | 2026-09-08 |
-| Re-check due | 2026-10-23 |
+| Last verified | 2026-10-05 |
+| Re-check due | 2026-11-19 |
 | Records | 69 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/ai-regulation-effective-dates/changes.xml) |
 

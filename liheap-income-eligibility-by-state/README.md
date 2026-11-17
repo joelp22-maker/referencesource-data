@@ -6,8 +6,8 @@ LIHEAP (federal home heating/cooling energy assistance) sets a national floor --
 
 | | |
 |---|---|
-| Last verified | 2026-08-24 |
-| Re-check due | 2027-08-24 |
+| Last verified | 2026-11-15 |
+| Re-check due | 2027-11-15 |
 | Records | 43 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/liheap-income-eligibility-by-state/changes.xml) |
 

@@ -1,12 +1,12 @@
 # Software end-of-support dates
 
-Release, end-of-active-support and end-of-security-support (EOL) dates for every release of Python, Node.js and Ubuntu, each with the line of endoflife.date's published data that states it. Answers 'when does Node.js 18 reach end of life', 'is Python 3.9 still supported' and 'when does Ubuntu 22.04 support end'. No other product is covered yet.
+Release, end-of-active-support and end-of-security-support (EOL) dates for every release of Python, Node.js, Ubuntu, Debian, Alpine Linux, Go and PostgreSQL, each with the line of endoflife.date's published data that states it. Answers 'when does Node.js 18 reach end of life', 'is Python 3.9 still supported', 'when does Debian bookworm support end' and 'is Go 1.19 still supported'. The seven were chosen as the commonest things a repository pins; no other product is covered yet.
 
 **189 records.** Canonical, always-current version: [https://referencesource.org/software-end-of-support/](https://referencesource.org/software-end-of-support/)
 
 | | |
 |---|---|
-| Last verified | 2026-10-05 |
+| Last verified | 2026-11-17 |
 | Re-check due | 2027-01-03 |
 | Records | 189 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/software-end-of-support/changes.xml) |

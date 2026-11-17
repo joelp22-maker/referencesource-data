@@ -6,8 +6,8 @@ What the International Code Council's own I-Code adoption chart, published Janua
 
 | | |
 |---|---|
-| Last verified | 2026-09-30 |
-| Re-check due | 2027-03-29 |
+| Last verified | 2026-10-10 |
+| Re-check due | 2027-04-08 |
 | Records | 56 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/ibc-irc-code-edition-adoption-by-state/changes.xml) |
 

@@ -7,7 +7,7 @@ Under the Ryan Haight Act a practitioner may normally prescribe a controlled sub
 | | |
 |---|---|
 | Last verified | 2026-11-16 |
-| Re-check due | 2026-10-30 |
+| Re-check due | 2026-12-29 |
 | Records | 4 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/dea-telemedicine-prescribing-flexibility-extensions/changes.xml) |
 

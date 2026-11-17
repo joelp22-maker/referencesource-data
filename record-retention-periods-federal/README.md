@@ -7,7 +7,7 @@ The retention period each federal regulation attaches to a record type, with the
 | | |
 |---|---|
 | Last verified | 2026-11-16 |
-| Re-check due | 2027-08-11 |
+| Re-check due | 2027-11-15 |
 | Records | 24 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/record-retention-periods-federal/changes.xml) |
 

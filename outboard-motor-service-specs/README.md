@@ -7,7 +7,7 @@ Spark plug part number and electrode gap for outboard motors from five brands â€
 | | |
 |---|---|
 | Last verified | 2026-11-16 |
-| Re-check due | 2028-08-04 |
+| Re-check due | 2028-11-14 |
 | Records | 53 |
 | Machine-readable | [`data.json`](data.json) Â· [changes feed](https://referencesource.org/outboard-motor-service-specs/changes.xml) |
 

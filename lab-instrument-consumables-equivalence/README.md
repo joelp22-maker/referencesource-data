@@ -6,8 +6,8 @@ A cross-reference of gas chromatography (GC) capillary column stationary phases 
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
-| Re-check due | 2027-08-15 |
+| Last verified | 2026-11-15 |
+| Re-check due | 2027-11-15 |
 | Records | 81 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/lab-instrument-consumables-equivalence/changes.xml) |
 

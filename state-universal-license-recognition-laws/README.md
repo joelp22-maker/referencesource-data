@@ -6,8 +6,8 @@ Which US states have passed universal occupational license recognition laws, wha
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
-| Re-check due | 2026-11-13 |
+| Last verified | 2026-10-12 |
+| Re-check due | 2027-01-10 |
 | Records | 10 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-universal-license-recognition-laws/changes.xml) |
 

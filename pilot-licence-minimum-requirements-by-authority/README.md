@@ -7,7 +7,7 @@ The minimum flight hours, minimum age, solo and cross-country requirements and p
 | | |
 |---|---|
 | Last verified | 2026-11-16 |
-| Re-check due | 2027-08-07 |
+| Re-check due | 2027-11-15 |
 | Records | 203 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/pilot-licence-minimum-requirements-by-authority/changes.xml) |
 

@@ -6,8 +6,8 @@ Which fuse catalog series from each major manufacturer (Edison, Brush/Dorman, Bu
 
 | | |
 |---|---|
-| Last verified | 2026-08-31 |
-| Re-check due | 2028-08-30 |
+| Last verified | 2026-10-05 |
+| Re-check due | 2028-10-04 |
 | Records | 24 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/fuse-cross-reference-by-manufacturer-class/changes.xml) |
 

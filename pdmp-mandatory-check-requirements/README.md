@@ -1,13 +1,13 @@
 # PDMP Mandatory Prescriber Check Requirements by State
 
-Which US states require a prescriber to check the Prescription Drug Monitoring Program before prescribing controlled substances, what triggers the check, and which drug classes it covers. One record per state, plus DC, Guam and Puerto Rico. This is a secondary summary rather than the rule itself: 50 of its 53 records restate a single 50-state prescribing guide, 52 of them carry no statutory citation, and a re-check interval the guide gives as 'often 90 days' is its generalisation and not a number from a statute. Confirm against the state's own pharmacy board or code before relying on it.
+Which US states require a prescriber to check the Prescription Drug Monitoring Program before prescribing controlled substances, what triggers the check, and which drug classes it covers. One record per state, plus DC, Guam and Puerto Rico. This is a secondary summary rather than the rule itself: 50 of its 53 records restate a single 50-state prescribing guide, 52 of them carry no statutory citation, and a re-check interval the guide gives as 'often 90 days' is its generalisation and not a number from a statute. Confirm against the state's own pharmacy board or code before relying on it. Answers 'does my state require a PDMP check before prescribing', 'which states have mandatory PDMP checks', 'which drug schedules trigger a PDMP check'. Adjacent to interstate-licensure-compact-participation.
 
 **53 records.** Canonical, always-current version: [https://referencesource.org/pdmp-mandatory-check-requirements/](https://referencesource.org/pdmp-mandatory-check-requirements/)
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
-| Re-check due | 2027-02-11 |
+| Last verified | 2026-11-15 |
+| Re-check due | 2027-05-14 |
 | Records | 53 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/pdmp-mandatory-check-requirements/changes.xml) |
 

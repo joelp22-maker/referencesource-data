@@ -6,8 +6,8 @@ Whether a named item may be carried on a US passenger flight, in which bag, and 
 
 | | |
 |---|---|
-| Last verified | 2026-10-10 |
-| Re-check due | 2027-10-10 |
+| Last verified | 2026-11-15 |
+| Re-check due | 2027-11-15 |
 | Records | 99 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/air-travel-item-restrictions/changes.xml) |
 

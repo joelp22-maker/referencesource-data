@@ -1,13 +1,13 @@
 # Fastener standard equivalences: DIN to ISO / EN crossover
 
-Which ISO or EN standard replaced or corresponds to a given DIN fastener standard, whether the two are dimensionally interchangeable or differ, and what changed. Covers hex bolts, socket screws, set screws, nuts, washers, pins, rivets, machine screws, studs, and other mechanical fastener types. Answers 'is DIN 933 the same as ISO 4017', 'what replaced DIN 912', and 'can I substitute one for the other' — questions where the practical answer depends on specific dimensional changes (width across flats, head height, thread range) that the sources document.
+Which ISO, EN or British Standard number five published fastener crossover charts pair with a given DIN standard, and — on the charts that answer it — whether the two parts may be substituted and what changed between them. Covers hex bolts, socket screws, set screws, nuts, washers, pins, rivets, machine screws, studs and other mechanical fastener types, and answers 'is DIN 933 the same as ISO 4017' and 'what replaced DIN 912'. Of its 166 entries, 107 carry an ISO, EN ISO or British Standard pairing; 78 state what changed between the two versions and 39 give a publisher's own verdict on whether they may be substituted, because only some of these charts print one. 77 entries carry two or more publishers side by side, which is the point — Fuller Fasteners files ISO 1665 as an EN number where TR Fastenings prints it as ISO, and both appear under their own source and quote. The remaining 59 entries are DIN standards that TR Fastenings' crossover table lists with its ISO and British Standard cells left empty — largely circlips, lock washers, wing nuts, knurled screws and eyebolts. Those pages give the DIN number and the fastener's name and no pairing, and the empty cells are visible in the quote. A blank means that chart lists no counterpart; it is not a statement that no ISO equivalent exists, and we do not publish a claim the page does not make.
 
 **166 records.** Canonical, always-current version: [https://referencesource.org/fastener-thread-standard-equivalence/](https://referencesource.org/fastener-thread-standard-equivalence/)
 
 | | |
 |---|---|
-| Last verified | 2026-08-12 |
-| Re-check due | 2028-08-11 |
+| Last verified | 2026-10-12 |
+| Re-check due | 2028-10-11 |
 | Records | 166 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/fastener-thread-standard-equivalence/changes.xml) |
 

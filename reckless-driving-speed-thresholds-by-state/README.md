@@ -6,8 +6,8 @@ For each US state: the speed -- stated as an absolute mph, as mph over the poste
 
 | | |
 |---|---|
-| Last verified | 2026-08-20 |
-| Re-check due | 2027-08-20 |
+| Last verified | 2026-11-15 |
+| Re-check due | 2027-11-15 |
 | Records | 12 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/reckless-driving-speed-thresholds-by-state/changes.xml) |
 

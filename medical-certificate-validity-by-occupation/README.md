@@ -7,7 +7,7 @@ How long a federally required medical certificate remains valid for each regulat
 | | |
 |---|---|
 | Last verified | 2026-11-16 |
-| Re-check due | 2027-08-11 |
+| Re-check due | 2027-11-15 |
 | Records | 17 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/medical-certificate-validity-by-occupation/changes.xml) |
 

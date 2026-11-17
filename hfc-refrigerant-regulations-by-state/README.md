@@ -7,7 +7,7 @@ State-level HFC refrigerant regulations across the US, including GWP limits, equ
 | | |
 |---|---|
 | Last verified | 2026-11-15 |
-| Re-check due | 2027-02-01 |
+| Re-check due | 2027-04-03 |
 | Records | 42 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/hfc-refrigerant-regulations-by-state/changes.xml) |
 

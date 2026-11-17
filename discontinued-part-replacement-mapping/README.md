@@ -6,8 +6,8 @@ Discontinued electronic components and their manufacturer-suggested replacements
 
 | | |
 |---|---|
-| Last verified | 2026-08-03 |
-| Re-check due | 2026-11-01 |
+| Last verified | 2026-11-01 |
+| Re-check due | 2027-01-30 |
 | Records | 28 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/discontinued-part-replacement-mapping/changes.xml) |
 

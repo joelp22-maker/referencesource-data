@@ -6,8 +6,8 @@ What the flashing-LED or displayed fault code on a residential gas furnace's int
 
 | | |
 |---|---|
-| Last verified | 2026-08-28 |
-| Re-check due | 2028-08-27 |
+| Last verified | 2026-11-15 |
+| Re-check due | 2028-11-14 |
 | Records | 79 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/residential-furnace-fault-codes-by-brand/changes.xml) |
 

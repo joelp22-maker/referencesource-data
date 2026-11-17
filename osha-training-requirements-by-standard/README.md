@@ -7,7 +7,7 @@ Which OSHA standards require employee training, what the training must cover, ho
 | | |
 |---|---|
 | Last verified | 2026-11-16 |
-| Re-check due | 2028-08-04 |
+| Re-check due | 2028-11-14 |
 | Records | 31 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/osha-training-requirements-by-standard/changes.xml) |
 

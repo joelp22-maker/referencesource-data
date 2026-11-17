@@ -6,8 +6,8 @@ State-by-state annual registration and compliance fees for hazardous waste gener
 
 | | |
 |---|---|
-| Last verified | 2026-08-14 |
-| Re-check due | 2027-08-14 |
+| Last verified | 2026-10-05 |
+| Re-check due | 2027-10-05 |
 | Records | 29 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/hazardous-waste-generator-fees-by-state/changes.xml) |
 

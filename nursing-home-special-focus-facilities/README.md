@@ -6,8 +6,8 @@ Which US nursing homes are in the CMS Special Focus Facility (SFF) programme, wh
 
 | | |
 |---|---|
-| Last verified | 2026-08-11 |
-| Re-check due | 2026-09-20 |
+| Last verified | 2026-11-15 |
+| Re-check due | 2026-12-25 |
 | Records | 1,927 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/nursing-home-special-focus-facilities/changes.xml) |
 

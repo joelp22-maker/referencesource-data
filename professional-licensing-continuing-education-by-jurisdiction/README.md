@@ -7,7 +7,7 @@ The CPE hours a licensed CPA must complete in each US state and territory to ren
 | | |
 |---|---|
 | Last verified | 2026-11-16 |
-| Re-check due | 2027-02-28 |
+| Re-check due | 2027-05-14 |
 | Records | 53 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/professional-licensing-continuing-education-by-jurisdiction/changes.xml) |
 

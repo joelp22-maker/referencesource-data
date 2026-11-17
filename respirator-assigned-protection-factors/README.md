@@ -6,8 +6,8 @@ Assigned protection factors (APFs) for each respirator class under federal OSHA 
 
 | | |
 |---|---|
-| Last verified | 2026-09-24 |
-| Re-check due | 2028-09-23 |
+| Last verified | 2026-11-15 |
+| Re-check due | 2028-11-14 |
 | Records | 40 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/respirator-assigned-protection-factors/changes.xml) |
 

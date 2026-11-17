@@ -6,8 +6,8 @@ Which residential energy code is actually in force in a state, taken from the st
 
 | | |
 |---|---|
-| Last verified | 2026-11-15 |
-| Re-check due | 2027-02-14 |
+| Last verified | 2026-10-15 |
+| Re-check due | 2027-04-13 |
 | Records | 9 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/energy-code-adoption-by-state/changes.xml) |
 

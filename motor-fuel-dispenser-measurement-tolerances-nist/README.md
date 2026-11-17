@@ -6,8 +6,8 @@ The accuracy every commercial device that sells fuel or energy in the United Sta
 
 | | |
 |---|---|
-| Last verified | 2026-08-20 |
-| Re-check due | 2027-08-20 |
+| Last verified | 2026-11-15 |
+| Re-check due | 2027-11-15 |
 | Records | 30 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/motor-fuel-dispenser-measurement-tolerances-nist/changes.xml) |
 
