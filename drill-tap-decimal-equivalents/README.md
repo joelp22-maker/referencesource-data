@@ -6,7 +6,7 @@ Two related lookups machinists and hobbyists need together: (1) which tap drill 
 
 | | |
 |---|---|
-| Last verified | 2026-11-15 |
+| Last verified | 2026-11-18 |
 | Re-check due | 2031-11-16 |
 | Records | 570 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/drill-tap-decimal-equivalents/changes.xml) |

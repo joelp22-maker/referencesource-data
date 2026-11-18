@@ -6,7 +6,7 @@ Watt-hour and lithium-content thresholds, quantity limits and packaging conditio
 
 | | |
 |---|---|
-| Last verified | 2026-11-16 |
+| Last verified | 2026-11-15 |
 | Re-check due | 2027-05-14 |
 | Records | 15 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/lithium-battery-shipping-limits/changes.xml) |
