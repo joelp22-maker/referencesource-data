@@ -306,7 +306,7 @@
       "title": "Chemical resistance ratings for common elastomers",
       "description": "The compatibility rating of a chemical against thirteen common elastomer families, as published in an industry chemical resistance chart. Each record is one chemical carrying its rating for Nitrile (NBR), EPDM, Neoprene (CR), SBR, Silicone (VMQ), Butyl (IIR), Polyacrylate (ACM), Hypalon (CSM), Viton (FKM), Polyurethane (AU/EU), Fluorosilicone (FVMQ), Aflas (TFE/P), and Kalrez (FFKM). Answers 'is Viton compatible with acetone', 'which elastomer resists sulfuric acid', 'can I use EPDM with gasoline', and 'Nitrile vs EPDM for sodium hydroxide'. Ratings use a 1-4 scale: 1 = Satisfactory, 2 = Fair, 3 = Doubtful, 4 = Unsatisfactory, X = Insufficient Data.",
       "records": 2086,
-      "last_verified": "2026-11-17",
+      "last_verified": "2026-11-20",
       "url": "https://referencesource.org/chemical-elastomer-material-compatibility/",
       "data": "https://referencesource.org/chemical-elastomer-material-compatibility/data.json"
     },
@@ -324,7 +324,7 @@
       "title": "MAPA Professional glove chemical breakthrough times",
       "description": "Per-chemical breakthrough time, permeation level and degradation rating for all 25 MAPA Professional glove models that publish a chemical chart \u2014 the reusable chemical-protection range, the disposable range and the liquidproof range \u2014 drawn from MAPA's own published product pages. Each glove model's page lists a table of chemicals it has been tested against, with the CAS number, the breakthrough time in minutes (how long before the chemical passes through the glove material), the permeation level (an EN 374 scale), the test standard the result was measured under, and a degradation rating. Where MAPA lists the same chemical twice for one glove under two different test standards, both results are kept rather than one being chosen. Answers 'how long can I wear an Ultranitril 480 glove handling acetic acid' and 'which MAPA glove holds up against toluene' \u2014 questions where guessing wrong means a chemical burn. Scoped to MAPA only: no comparably-structured free source was found for any other glove manufacturer (Ansell, Showa and Honeywell/North publish the equivalent data only as PDFs or behind an interactive selector), so this does not yet answer 'which manufacturer's glove is best', only 'how does this MAPA model perform'.",
       "records": 753,
-      "last_verified": "2026-11-18",
+      "last_verified": "2026-11-20",
       "url": "https://referencesource.org/chemical-resistant-glove-breakthrough-times/",
       "data": "https://referencesource.org/chemical-resistant-glove-breakthrough-times/data.json"
     },
@@ -387,7 +387,7 @@
       "title": "Construction prompt payment act deadlines by US state \u2014 owner-to-contractor and contractor-to-subcontractor payment windows, retention release deadlines, and late-payment interest rates",
       "description": "State-by-state comparison of the statutory deadlines that govern how quickly parties on a construction project must pay each other. Each record is one state with the owner-to-contractor payment deadline (days from invoice), contractor-to-subcontractor flow-down deadline (days from receipt of payment), retention release deadline (days from completion), late-payment interest rate (monthly or annual), whether the statute covers private projects, public projects, or both, and the statutory citation. Deadlines range from 7 days (some flow-down requirements) to 45+ days. Interest rates range from 1% to 2% per month. Answers 'how many days does an owner have to pay me in [state]', 'when must I pay my subs after I get paid', and 'what interest rate can I charge for late payment on a construction project'.",
       "records": 43,
-      "last_verified": "2026-11-17",
+      "last_verified": "2026-11-20",
       "url": "https://referencesource.org/construction-prompt-payment-deadlines-by-state/",
       "data": "https://referencesource.org/construction-prompt-payment-deadlines-by-state/data.json"
     },
@@ -504,7 +504,7 @@
       "title": "Tap drill size and drill-size decimal equivalents",
       "description": "Two related lookups machinists and hobbyists need together: (1) which tap drill to use for a given inch or metric thread (e.g. 1/4-20 UNC needs a #7 drill for approximately 75% thread engagement), and (2) the decimal-inch size of every number, letter, fraction and metric drill, so a shop can pick the nearest drill it actually owns. Two independent vendor sources are used for each table so a disagreement between them can be flagged rather than silently trusted. Answers 'what size do I drill before tapping 1/4-20', and 'what decimal is a #7 drill' \u2014 a complete range in one place beats looking up one size at a time.",
       "records": 570,
-      "last_verified": "2026-11-18",
+      "last_verified": "2026-11-20",
       "url": "https://referencesource.org/drill-tap-decimal-equivalents/",
       "data": "https://referencesource.org/drill-tap-decimal-equivalents/data.json"
     },
@@ -513,7 +513,7 @@
       "title": "Drinking water contaminant limits by regulator",
       "description": "The legally enforceable maximum concentration of a contaminant in public drinking water, stated separately by each regulator that sets one. Each record is one contaminant under one regulator, carrying the limit, its unit, and the regulator's own name for the limit (MCL in the US, 'parametric value' in the EU and UK). Covers the US EPA National Primary Drinking Water Regulations, EU Directive 2020/2184, and the UK Water Supply (Water Quality) Regulations 2016. Answers 'what is the EPA limit for arsenic in drinking water', 'EU vs US drinking water lead limit', 'is the UK nitrate limit the same as the EU one', and 'what is the PFOA maximum contaminant level'. The same contaminant is frequently held to different numbers by different regulators \u2014 lead, arsenic and PFAS all differ \u2014 and an assistant that states one regulator's figure as the universal one is wrong for most of the world.",
       "records": 182,
-      "last_verified": "2026-11-17",
+      "last_verified": "2026-11-20",
       "url": "https://referencesource.org/drinking-water-contaminant-limits/",
       "data": "https://referencesource.org/drinking-water-contaminant-limits/data.json"
     },
@@ -531,7 +531,7 @@
       "title": "State drug price transparency reporting thresholds, triggers, and penalties for pharmaceutical manufacturers",
       "description": "State-by-state comparison of the dollar thresholds and percentage-increase triggers that require pharmaceutical manufacturers to report drug pricing information to state regulatory agencies. As of 2026, approximately 23 US states have enacted drug price transparency laws, each with different WAC (wholesale acquisition cost) thresholds for new drugs, different percentage-increase triggers for existing drugs, different reporting timeframes, and different penalty structures. Each record is one state with its reporting thresholds. Answers 'at what price or price increase must I report in [state]', 'what is the penalty for not reporting in [state]', and 'which states require drug price transparency reporting'.",
       "records": 10,
-      "last_verified": "2026-11-17",
+      "last_verified": "2026-11-20",
       "url": "https://referencesource.org/drug-price-transparency-thresholds/",
       "data": "https://referencesource.org/drug-price-transparency-thresholds/data.json"
     },
@@ -603,7 +603,7 @@
       "title": "EPA national recommended water quality criteria for human health: pollutant concentration thresholds",
       "description": "EPA Section 304(a) recommended human health ambient water quality criteria for 127 pollutants. For each pollutant: the CAS number, the 'water + organism' threshold in \u00b5g/L (for waters that are both a drinking-water source and support aquatic life), the 'organism only' threshold (for waters not used as drinking-water sources), the year EPA published that pollutant's criterion, and EPA's own note on the criterion where the table carries one. The publication year is worth reading before the number is used: it runs from 1980 to 2019, so two values sitting in the same column can be nearly four decades apart in vintage, and seven rows carry no criterion at all (an em dash), three of them draft PFAS entries. The note is where EPA says what the number means \u2014 most often that the criterion is set at a one-in-a-million (10-6) cancer risk and that the decimal point may be moved for a different risk level, or that EPA has also issued an enforceable Maximum Contaminant Level for the same pollutant, or that the organoleptic (taste and odour) criterion may be stricter than the health one. These are recommendations for states adopting water quality standards, NOT enforceable MCLs (which are in drinking-water-contaminant-limits). Used by environmental consultants writing NPDES permits, state agencies setting water quality standards, and industrial dischargers determining compliance. Note: this is a mirror of one EPA table. The stronger juxtaposition version comparing EPA recommended values with state-adopted criteria would not be a mirror, because states adopt different numbers for the same pollutant.",
       "records": 127,
-      "last_verified": "2026-11-17",
+      "last_verified": "2026-11-20",
       "url": "https://referencesource.org/epa-water-quality-criteria-human-health/",
       "data": "https://referencesource.org/epa-water-quality-criteria-human-health/data.json"
     },
@@ -729,7 +729,7 @@
       "title": "Federal rules taking effect: every US final rule in the Federal Register, by effective date",
       "description": "US final rules already published in the Federal Register, listed by the date each one takes effect: near-term dates and dates years away, all of them already binding law. Every record carries the agency, the CFR parts it amends, the effective date as the rule prints it, and the rule's verbatim DATES paragraph. Answers 'which federal regulations take effect on January 1, 2027', 'what rules affecting 47 CFR part 10 are already published but not yet in force', 'what is the compliance date for the DOJ web accessibility rule', and 'what changes are coming for my industry that are already law'. The hard part is that a rule published in 2023 can carry a 2026 or 2033 effective date: the obligation is already binding law, it is nowhere near the front page, and the only way to find it is to know it exists. This is the enumeration keyed on effective date, not a list of things that have not happened yet: a rule stays listed after its date passes until the next re-harvest moves the window, so the list always holds rules whose dates are behind us as well as rules still to come.",
       "records": 834,
-      "last_verified": "2026-11-17",
+      "last_verified": "2026-11-20",
       "url": "https://referencesource.org/federal-rules-taking-effect/",
       "data": "https://referencesource.org/federal-rules-taking-effect/data.json"
     },
@@ -747,7 +747,7 @@
       "title": "GIS vector format capabilities and limitations in GDAL",
       "description": "Key capabilities, version requirements and format limitations for GIS vector drivers in GDAL, the authoritative open-source geospatial library. The question an assistant gets wrong is what is lost when converting between formats \u2014 field name truncation, unsupported types, file size ceilings, geometry constraints.",
       "records": 3,
-      "last_verified": "2026-11-17",
+      "last_verified": "2026-11-20",
       "url": "https://referencesource.org/file-format-software-version-compatibility/",
       "data": "https://referencesource.org/file-format-software-version-compatibility/data.json"
     },
@@ -873,7 +873,7 @@
       "title": "Gas cylinder color codes by standard and country",
       "description": "Color coding of compressed gas cylinders (shoulder and body colors) for medical, industrial and laboratory gases under different national and international standards. Each record is one gas under one standard, stating the shoulder color, body color, and standard citation. Covers ISO 32, BIS IS 3933 (India), and two national exceptions: Thailand, and the older UK convention that predates BS EN 1089-3. Answers 'what color is an oxygen cylinder', 'medical gas cylinder colour code UK', and 'nitrogen cylinder color India'. Oxygen is white under ISO 32, emerald green in Thailand, and white-over-black under the older UK convention \u2014 the kind of difference assistants get wrong by stating one standard as universal. Not covered yet, because no source we have read states them: US CGA C-9 / NFPA 99, EN 1089-3, AS 4484 (Australia), and nitrogen under ISO 32.",
       "records": 17,
-      "last_verified": "2026-11-18",
+      "last_verified": "2026-11-20",
       "url": "https://referencesource.org/gas-cylinder-color-codes/",
       "data": "https://referencesource.org/gas-cylinder-color-codes/data.json"
     },
@@ -972,7 +972,7 @@
       "title": "HFC refrigerant GWP regulations by US state",
       "description": "State-level HFC refrigerant regulations across the US, including GWP limits, equipment-type restrictions, effective dates, and regulatory citations. Each record is one state's regulation for one equipment category (supermarket, new facility, stand-alone unit, bulk HFC sales). Answers 'what refrigerant GWP limit applies to new supermarket systems in California', 'which states have adopted SNAP Rules 20 and 21', 'New York HFC phase-down GWP thresholds', and 'can I use R-410A in a new commercial refrigeration system in [state]'.",
       "records": 42,
-      "last_verified": "2026-11-18",
+      "last_verified": "2026-11-20",
       "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/",
       "data": "https://referencesource.org/hfc-refrigerant-regulations-by-state/data.json"
     },
@@ -1026,7 +1026,7 @@
       "title": "Hydraulic and pipe connection type identification",
       "description": "Identifying characteristics of each hydraulic, pipe, and instrumentation connection standard used in fluid power and plumbing systems. For each connection type, gives the governing standard, seat or flare angle, whether the thread is tapered or parallel, how the seal is made, and interchangeability notes with other standards. Answers the recurring field question 'what kind of fitting is this?' \u2014 the identification step that must happen before any cross-reference or adapter lookup.",
       "records": 21,
-      "last_verified": "2026-11-18",
+      "last_verified": "2026-11-20",
       "url": "https://referencesource.org/hydraulic-pipe-connection-types/",
       "data": "https://referencesource.org/hydraulic-pipe-connection-types/data.json"
     },
@@ -1836,7 +1836,7 @@
       "title": "Software end-of-support dates",
       "description": "Release, end-of-active-support and end-of-security-support (EOL) dates for every release of Python, Node.js, Ubuntu, Debian, Alpine Linux, Go and PostgreSQL, each with the line of endoflife.date's published data that states it. Answers 'when does Node.js 18 reach end of life', 'is Python 3.9 still supported', 'when does Debian bookworm support end' and 'is Go 1.19 still supported'. The seven were chosen as the commonest things a repository pins; no other product is covered yet.",
       "records": 189,
-      "last_verified": "2026-11-17",
+      "last_verified": "2026-11-20",
       "url": "https://referencesource.org/software-end-of-support/",
       "data": "https://referencesource.org/software-end-of-support/data.json"
     },
