@@ -6,7 +6,7 @@ Per-algorithm status under NIST guidance for the post-quantum cryptographic tran
 
 | | |
 |---|---|
-| Last verified | 2026-11-18 |
+| Last verified | 2026-11-21 |
 | Re-check due | 2027-05-14 |
 | Records | 21 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/nist-cryptographic-algorithm-deprecation-schedule/changes.xml) |
