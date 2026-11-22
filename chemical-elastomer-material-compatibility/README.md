@@ -6,7 +6,7 @@ The compatibility rating of a chemical against thirteen common elastomer familie
 
 | | |
 |---|---|
-| Last verified | 2026-11-20 |
+| Last verified | 2026-11-22 |
 | Re-check due | 2028-08-11 |
 | Records | 2,086 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/chemical-elastomer-material-compatibility/changes.xml) |

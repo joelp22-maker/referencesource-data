@@ -306,7 +306,7 @@
       "title": "Chemical resistance ratings for common elastomers",
       "description": "The compatibility rating of a chemical against thirteen common elastomer families, as published in an industry chemical resistance chart. Each record is one chemical carrying its rating for Nitrile (NBR), EPDM, Neoprene (CR), SBR, Silicone (VMQ), Butyl (IIR), Polyacrylate (ACM), Hypalon (CSM), Viton (FKM), Polyurethane (AU/EU), Fluorosilicone (FVMQ), Aflas (TFE/P), and Kalrez (FFKM). Answers 'is Viton compatible with acetone', 'which elastomer resists sulfuric acid', 'can I use EPDM with gasoline', and 'Nitrile vs EPDM for sodium hydroxide'. Ratings use a 1-4 scale: 1 = Satisfactory, 2 = Fair, 3 = Doubtful, 4 = Unsatisfactory, X = Insufficient Data.",
       "records": 2086,
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-22",
       "url": "https://referencesource.org/chemical-elastomer-material-compatibility/",
       "data": "https://referencesource.org/chemical-elastomer-material-compatibility/data.json"
     },
@@ -378,7 +378,7 @@
       "title": "2026 conforming loan limits by county: one- to four-unit properties",
       "description": "The 2026 FHFA conforming loan limit AND the 2026 FHA (HUD) forward-mortgage loan limit for every US county, for properties of one to four units. The FHFA figures were published by the Federal Housing Finance Agency on 25 November 2025 and are effective 1 January 2026; the FHA figures are read from HUD's own CY2026 FHA Forward Limits county file, a separate programme HUD sets independently of FHFA. Each record is one county with its FIPS state and county codes, the state abbreviation, and up to eight limit fields \u2014 FHFA one- through four-unit, and FHA one- through four-unit \u2014 each read from its own agency's county file. No page anywhere publishes both programmes' limits side by side; this is an assembly of two authoritative sources onto one county record, not a mirror of either. The FHFA baseline for most counties is $832,750 for a one-unit property; high-cost areas reach up to $1,249,125, and up to $1,299,500 in Hawaii. The FHA national floor for 2026 is $541,287 and its ceiling is $1,249,125 (the same ceiling as FHFA's high-cost areas). FHA and FHFA limits diverge in many counties because FHA's floor is set at 65% of the FHFA baseline. Answers 'what is the 2026 conforming loan limit in [county]?', 'what is the 2026 FHA loan limit in [county]?', 'which counties exceed the baseline conforming limit?', 'what is the conforming limit for a two-unit property in [county]?', and 'is the 2026 conforming loan limit $832,750?' \u2014 the lookup shape where six of seven page-one results are mortgage lead-generation sites and the authoritative FHFA/HUD sources themselves do not rank. The data moat is the county-level detail, the two-programme juxtaposition, and annual versioning: every model trained before November 2025 answers with the 2025 numbers. VA and USDA loan limits are not in scope for this asset.",
       "records": 3235,
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-22",
       "url": "https://referencesource.org/conforming-loan-limits/",
       "data": "https://referencesource.org/conforming-loan-limits/data.json"
     },
@@ -387,7 +387,7 @@
       "title": "Construction prompt payment act deadlines by US state \u2014 owner-to-contractor and contractor-to-subcontractor payment windows, retention release deadlines, and late-payment interest rates",
       "description": "State-by-state comparison of the statutory deadlines that govern how quickly parties on a construction project must pay each other. Each record is one state with the owner-to-contractor payment deadline (days from invoice), contractor-to-subcontractor flow-down deadline (days from receipt of payment), retention release deadline (days from completion), late-payment interest rate (monthly or annual), whether the statute covers private projects, public projects, or both, and the statutory citation. Deadlines range from 7 days (some flow-down requirements) to 45+ days. Interest rates range from 1% to 2% per month. Answers 'how many days does an owner have to pay me in [state]', 'when must I pay my subs after I get paid', and 'what interest rate can I charge for late payment on a construction project'.",
       "records": 43,
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-22",
       "url": "https://referencesource.org/construction-prompt-payment-deadlines-by-state/",
       "data": "https://referencesource.org/construction-prompt-payment-deadlines-by-state/data.json"
     },
@@ -513,7 +513,7 @@
       "title": "Drinking water contaminant limits by regulator",
       "description": "The legally enforceable maximum concentration of a contaminant in public drinking water, stated separately by each regulator that sets one. Each record is one contaminant under one regulator, carrying the limit, its unit, and the regulator's own name for the limit (MCL in the US, 'parametric value' in the EU and UK). Covers the US EPA National Primary Drinking Water Regulations, EU Directive 2020/2184, and the UK Water Supply (Water Quality) Regulations 2016. Answers 'what is the EPA limit for arsenic in drinking water', 'EU vs US drinking water lead limit', 'is the UK nitrate limit the same as the EU one', and 'what is the PFOA maximum contaminant level'. The same contaminant is frequently held to different numbers by different regulators \u2014 lead, arsenic and PFAS all differ \u2014 and an assistant that states one regulator's figure as the universal one is wrong for most of the world.",
       "records": 182,
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-22",
       "url": "https://referencesource.org/drinking-water-contaminant-limits/",
       "data": "https://referencesource.org/drinking-water-contaminant-limits/data.json"
     },
@@ -531,7 +531,7 @@
       "title": "State drug price transparency reporting thresholds, triggers, and penalties for pharmaceutical manufacturers",
       "description": "State-by-state comparison of the dollar thresholds and percentage-increase triggers that require pharmaceutical manufacturers to report drug pricing information to state regulatory agencies. As of 2026, approximately 23 US states have enacted drug price transparency laws, each with different WAC (wholesale acquisition cost) thresholds for new drugs, different percentage-increase triggers for existing drugs, different reporting timeframes, and different penalty structures. Each record is one state with its reporting thresholds. Answers 'at what price or price increase must I report in [state]', 'what is the penalty for not reporting in [state]', and 'which states require drug price transparency reporting'.",
       "records": 10,
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-22",
       "url": "https://referencesource.org/drug-price-transparency-thresholds/",
       "data": "https://referencesource.org/drug-price-transparency-thresholds/data.json"
     },
@@ -603,7 +603,7 @@
       "title": "EPA national recommended water quality criteria for human health: pollutant concentration thresholds",
       "description": "EPA Section 304(a) recommended human health ambient water quality criteria for 127 pollutants. For each pollutant: the CAS number, the 'water + organism' threshold in \u00b5g/L (for waters that are both a drinking-water source and support aquatic life), the 'organism only' threshold (for waters not used as drinking-water sources), the year EPA published that pollutant's criterion, and EPA's own note on the criterion where the table carries one. The publication year is worth reading before the number is used: it runs from 1980 to 2019, so two values sitting in the same column can be nearly four decades apart in vintage, and seven rows carry no criterion at all (an em dash), three of them draft PFAS entries. The note is where EPA says what the number means \u2014 most often that the criterion is set at a one-in-a-million (10-6) cancer risk and that the decimal point may be moved for a different risk level, or that EPA has also issued an enforceable Maximum Contaminant Level for the same pollutant, or that the organoleptic (taste and odour) criterion may be stricter than the health one. These are recommendations for states adopting water quality standards, NOT enforceable MCLs (which are in drinking-water-contaminant-limits). Used by environmental consultants writing NPDES permits, state agencies setting water quality standards, and industrial dischargers determining compliance. Note: this is a mirror of one EPA table. The stronger juxtaposition version comparing EPA recommended values with state-adopted criteria would not be a mirror, because states adopt different numbers for the same pollutant.",
       "records": 127,
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-22",
       "url": "https://referencesource.org/epa-water-quality-criteria-human-health/",
       "data": "https://referencesource.org/epa-water-quality-criteria-human-health/data.json"
     },
@@ -729,7 +729,7 @@
       "title": "Federal rules taking effect: every US final rule in the Federal Register, by effective date",
       "description": "US final rules already published in the Federal Register, listed by the date each one takes effect: near-term dates and dates years away, all of them already binding law. Every record carries the agency, the CFR parts it amends, the effective date as the rule prints it, and the rule's verbatim DATES paragraph. Answers 'which federal regulations take effect on January 1, 2027', 'what rules affecting 47 CFR part 10 are already published but not yet in force', 'what is the compliance date for the DOJ web accessibility rule', and 'what changes are coming for my industry that are already law'. The hard part is that a rule published in 2023 can carry a 2026 or 2033 effective date: the obligation is already binding law, it is nowhere near the front page, and the only way to find it is to know it exists. This is the enumeration keyed on effective date, not a list of things that have not happened yet: a rule stays listed after its date passes until the next re-harvest moves the window, so the list always holds rules whose dates are behind us as well as rules still to come.",
       "records": 834,
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-22",
       "url": "https://referencesource.org/federal-rules-taking-effect/",
       "data": "https://referencesource.org/federal-rules-taking-effect/data.json"
     },
@@ -747,7 +747,7 @@
       "title": "GIS vector format capabilities and limitations in GDAL",
       "description": "Key capabilities, version requirements and format limitations for GIS vector drivers in GDAL, the authoritative open-source geospatial library. The question an assistant gets wrong is what is lost when converting between formats \u2014 field name truncation, unsupported types, file size ceilings, geometry constraints.",
       "records": 3,
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-22",
       "url": "https://referencesource.org/file-format-software-version-compatibility/",
       "data": "https://referencesource.org/file-format-software-version-compatibility/data.json"
     },
@@ -773,8 +773,8 @@
       "slug": "fips-140-module-validation-status",
       "title": "FIPS 140 validated cryptographic modules: active, historical or revoked",
       "description": "The current validation status and scheduled expiry date of every cryptographic module certificated by the NIST/CCCS Cryptographic Module Validation Program (CMVP). The FIPS 140-2 sunset has now happened: on 2026-09-21 the last Active FIPS 140-2 certificates moved to the Historical list \u2014 481 of them in that single day, recorded here \u2014 and CMVP's list of Active FIPS 140-2 modules now returns 'No certificates match the search criteria'. Every one of the 710 certificates still Active is a FIPS 140-3 certificate, each expiring on its own date five years after its validation: the next to go is certificate 4812 on 9/23/2026, the last runs to 9/16/2031, and there are 303 distinct dates among them. Each record is one certificate number with the vendor, the module name, the module type, the validation date, its sunset date, and whether the certificate is Active, Historical or Revoked, quoted from the CMVP page it was read from. Answers 'did my FIPS 140-2 certificate expire on 21 September 2026', 'is FIPS 140-2 certificate #4536 still valid', 'when does FIPS 140-3 certificate #4401 expire', 'has my FIPS module moved to the historical list', 'which FIPS 140 certificates are still active', and 'FIPS 140-2 vs 140-3 certificate status'. The status is a value that changes silently: CMVP moves a certificate to the Historical list when it is more than five years old or on a programmatic transition, and publishes no notice per certificate, so an assistant answering from memory reports certificates as Active months after they were retired \u2014 and from 2026-09-21 it will do exactly that for every FIPS 140-2 certificate in existence. Coverage: the complete CMVP register as re-read on 2026-09-22 \u2014 every certificate on every list. 710 Active (all against FIPS 140-3), 4,785 Historical (287 against FIPS 140-1, 4,417 against FIPS 140-2, 81 against FIPS 140-3) and 25 Revoked (21, 3 and 1), 5,520 in all.",
-      "records": 5586,
-      "last_verified": "2026-11-16",
+      "records": 5591,
+      "last_verified": "2026-11-19",
       "url": "https://referencesource.org/fips-140-module-validation-status/",
       "data": "https://referencesource.org/fips-140-module-validation-status/data.json"
     },
@@ -1753,7 +1753,7 @@
     {
       "slug": "router-firmware-support-status",
       "title": "TP-Link and ASUS routers and network gear \u2014 end-of-life and end-of-support dates by model",
-      "description": "End-of-life and end-of-support dates for TP-Link and ASUS home networking gear, each read off the vendor's own end-of-life list and quoted from it. TP-Link records carry the date support ended; ASUS records say only that the model is on ASUS's end-of-life list, because ASUS prints no dates. In full: TP-Link's Home EOL list prints an announcement date and an end-of-support date for each model version and region, and a TP-Link record carries both. ASUS's networking EOL page prints which models are end-of-life and nothing else, so the date columns of an ASUS record are blank because ASUS states none, not because a date was lost. Not only routers: about three fifths of the records are routers or mesh systems, and the rest are range extenders, USB and PCIe Wi-Fi adapters, powerline kits, access points and a few cable modems, all of them on the same vendor lists. Not covered: NETGEAR, whose end-of-service lookup returns nothing to an automated reader, so there is no NETGEAR model here; and Linksys, apart from three rows that are software features rather than models. A model that is missing was not on the list we read, which is not the same as the vendor saying it is still supported. Answers 'is my TP-Link Archer C2600 still getting security updates'.",
+      "description": "End-of-life and end-of-support dates for TP-Link and ASUS home networking gear, each read off the vendor's own end-of-life list and quoted from it. TP-Link records carry the date support ended; ASUS records say only that the model is on ASUS's end-of-life list, because that list prints no dates. In full: TP-Link's Home EOL list prints an announcement date and an end-of-support date for each model version and region, and a TP-Link record carries both. ASUS's networking EOL page prints which models are end-of-life and nothing else, so the date columns of an ASUS record are blank because that page states none, not because a date was lost. ASUS does publish end dates for security update support on separate regional pages \u2014 https://www.asus.com/event/network/security_update_support/ and a Singapore Cybersecurity Labelling Scheme FAQ \u2014 which are a different list from the end-of-life one, cover current models rather than discontinued ones, and are not read here, so no date from them is in these records. Not only routers: about three fifths of the records are routers or mesh systems, and the rest are range extenders, USB and PCIe Wi-Fi adapters, powerline kits, access points and a few cable modems, all of them on the same vendor lists. Not covered: NETGEAR, whose end-of-service lookup returns nothing to an automated reader, so there is no NETGEAR model here; and Linksys, apart from three rows that are software features rather than models. A model that is missing was not on the list we read, which is not the same as the vendor saying it is still supported. Answers 'is my TP-Link Archer C2600 still getting security updates'.",
       "records": 955,
       "last_verified": "2026-10-07",
       "url": "https://referencesource.org/router-firmware-support-status/",
@@ -1763,8 +1763,8 @@
       "slug": "sba-disaster-loan-deadlines",
       "title": "SBA disaster loan filing deadlines, live",
       "description": "Every SBA disaster declaration (state/administrative and physical) currently open, with its physical-damage loan application deadline and its Economic Injury Disaster Loan (EIDL) application deadline, taken verbatim from SBA's own Federal Register notice. One record is one declaration. Both dates come from the notice; where the physical loan deadline had already passed on the day this page was last built, the record says so. Where it had not, the record says nothing either way -- a page that can be a week old cannot honestly tell anyone a deadline is still open, so it does not try, and there is no days-remaining count for the same reason. Answers 'when does the SBA disaster loan deadline close for the Illinois severe storms', 'how much time is left to apply for an SBA EIDL loan after my state's disaster declaration', 'is the SBA disaster loan deadline for my county still open'. Checked 2026-08-28 by asking an AI assistant with web search, two queries: the assistant itself concluded 'there's no official page that ranks declarations by days left' and pointed at SBA's own portal (one declaration searched at a time, JS-driven) and the Federal Register API as the only two raw sources -- confirming the gap is real and not just under-searched. SBA's own site (disasterloanassistance.sba.gov, lending.sba.gov) is a per-declaration JS search tool, not a nationwide sortable list; no third-party aggregator was found either.",
-      "records": 176,
-      "last_verified": "2026-11-21",
+      "records": 178,
+      "last_verified": "2026-11-16",
       "url": "https://referencesource.org/sba-disaster-loan-deadlines/",
       "data": "https://referencesource.org/sba-disaster-loan-deadlines/data.json"
     },
@@ -1836,7 +1836,7 @@
       "title": "Software end-of-support dates",
       "description": "Release, end-of-active-support and end-of-security-support (EOL) dates for every release of Python, Node.js, Ubuntu, Debian, Alpine Linux, Go and PostgreSQL, each with the line of endoflife.date's published data that states it. Answers 'when does Node.js 18 reach end of life', 'is Python 3.9 still supported', 'when does Debian bookworm support end' and 'is Go 1.19 still supported'. The seven were chosen as the commonest things a repository pins; no other product is covered yet.",
       "records": 189,
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-22",
       "url": "https://referencesource.org/software-end-of-support/",
       "data": "https://referencesource.org/software-end-of-support/data.json"
     },
