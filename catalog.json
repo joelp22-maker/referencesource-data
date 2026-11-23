@@ -324,7 +324,7 @@
       "title": "MAPA Professional glove chemical breakthrough times",
       "description": "Per-chemical breakthrough time, permeation level and degradation rating for all 25 MAPA Professional glove models that publish a chemical chart \u2014 the reusable chemical-protection range, the disposable range and the liquidproof range \u2014 drawn from MAPA's own published product pages. Each glove model's page lists a table of chemicals it has been tested against, with the CAS number, the breakthrough time in minutes (how long before the chemical passes through the glove material), the permeation level (an EN 374 scale), the test standard the result was measured under, and a degradation rating. Where MAPA lists the same chemical twice for one glove under two different test standards, both results are kept rather than one being chosen. Answers 'how long can I wear an Ultranitril 480 glove handling acetic acid' and 'which MAPA glove holds up against toluene' \u2014 questions where guessing wrong means a chemical burn. Scoped to MAPA only: no comparably-structured free source was found for any other glove manufacturer (Ansell, Showa and Honeywell/North publish the equivalent data only as PDFs or behind an interactive selector), so this does not yet answer 'which manufacturer's glove is best', only 'how does this MAPA model perform'.",
       "records": 753,
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-23",
       "url": "https://referencesource.org/chemical-resistant-glove-breakthrough-times/",
       "data": "https://referencesource.org/chemical-resistant-glove-breakthrough-times/data.json"
     },
@@ -345,6 +345,15 @@
       "last_verified": "2026-08-18",
       "url": "https://referencesource.org/clep-credit-by-university/",
       "data": "https://referencesource.org/clep-credit-by-university/data.json"
+    },
+    {
+      "slug": "cloud-service-hipaa-baa-and-fedramp-status",
+      "title": "Can I put regulated data in this cloud service? What the vendor's own page says, and the government's own FedRAMP file",
+      "description": "One record per named cloud service, answering the question a developer actually puts to a coding assistant: 'can I put patient data in X?' and 'is X FedRAMP authorised?'. Each record carries two separate things, from two separate publishers, and never mixes them: whether the vendor's own page names that service on its list of services covered by its HIPAA business associate agreement (BAA), quoted verbatim with the date the vendor last updated the list; and what the US General Services Administration's own daily FedRAMP export says about the status, impact level, authorisation date and authorisation type of the cloud service offering that service's vendor holds. Answers 'is Cloud Run covered by Google's HIPAA BAA', 'is BigQuery HIPAA eligible', 'does Microsoft sign a BAA for Azure', 'is OpenAI's web search HIPAA eligible' (the vendor's own answer is no), 'what FedRAMP impact level is Google Cloud authorised at', and 'which Google Workspace services are in the Google Cloud BAA'. The reason this is a dataset and not a memory is that the lists move: Google's own page stamped its Google Cloud list 2026-11-11, its SecOps list 2026-11-09 and its Workspace list 2026-10-28, three different dates on one page, and a service is added to or dropped from such a list without an announcement. NOTHING HERE SAYS A SYSTEM IS COMPLIANT, and nothing here says a reader may put protected health information anywhere. It says what the publisher's page says, with the sentence and the date, which is a different thing and the only thing that can be published honestly.",
+      "records": 173,
+      "last_verified": "2026-11-23",
+      "url": "https://referencesource.org/cloud-service-hipaa-baa-and-fedramp-status/",
+      "data": "https://referencesource.org/cloud-service-hipaa-baa-and-fedramp-status/data.json"
     },
     {
       "slug": "commercial-refrigeration-controller-alarm-codes-by-brand",
@@ -504,7 +513,7 @@
       "title": "Tap drill size and drill-size decimal equivalents",
       "description": "Two related lookups machinists and hobbyists need together: (1) which tap drill to use for a given inch or metric thread (e.g. 1/4-20 UNC needs a #7 drill for approximately 75% thread engagement), and (2) the decimal-inch size of every number, letter, fraction and metric drill, so a shop can pick the nearest drill it actually owns. Two independent vendor sources are used for each table so a disagreement between them can be flagged rather than silently trusted. Answers 'what size do I drill before tapping 1/4-20', and 'what decimal is a #7 drill' \u2014 a complete range in one place beats looking up one size at a time.",
       "records": 570,
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-23",
       "url": "https://referencesource.org/drill-tap-decimal-equivalents/",
       "data": "https://referencesource.org/drill-tap-decimal-equivalents/data.json"
     },
@@ -728,8 +737,8 @@
       "slug": "federal-rules-taking-effect",
       "title": "Federal rules taking effect: every US final rule in the Federal Register, by effective date",
       "description": "US final rules already published in the Federal Register, listed by the date each one takes effect: near-term dates and dates years away, all of them already binding law. Every record carries the agency, the CFR parts it amends, the effective date as the rule prints it, and the rule's verbatim DATES paragraph. Answers 'which federal regulations take effect on January 1, 2027', 'what rules affecting 47 CFR part 10 are already published but not yet in force', 'what is the compliance date for the DOJ web accessibility rule', and 'what changes are coming for my industry that are already law'. The hard part is that a rule published in 2023 can carry a 2026 or 2033 effective date: the obligation is already binding law, it is nowhere near the front page, and the only way to find it is to know it exists. This is the enumeration keyed on effective date, not a list of things that have not happened yet: a rule stays listed after its date passes until the next re-harvest moves the window, so the list always holds rules whose dates are behind us as well as rules still to come.",
-      "records": 834,
-      "last_verified": "2026-11-22",
+      "records": 882,
+      "last_verified": "2026-11-16",
       "url": "https://referencesource.org/federal-rules-taking-effect/",
       "data": "https://referencesource.org/federal-rules-taking-effect/data.json"
     },
@@ -873,7 +882,7 @@
       "title": "Gas cylinder color codes by standard and country",
       "description": "Color coding of compressed gas cylinders (shoulder and body colors) for medical, industrial and laboratory gases under different national and international standards. Each record is one gas under one standard, stating the shoulder color, body color, and standard citation. Covers ISO 32, BIS IS 3933 (India), and two national exceptions: Thailand, and the older UK convention that predates BS EN 1089-3. Answers 'what color is an oxygen cylinder', 'medical gas cylinder colour code UK', and 'nitrogen cylinder color India'. Oxygen is white under ISO 32, emerald green in Thailand, and white-over-black under the older UK convention \u2014 the kind of difference assistants get wrong by stating one standard as universal. Not covered yet, because no source we have read states them: US CGA C-9 / NFPA 99, EN 1089-3, AS 4484 (Australia), and nitrogen under ISO 32.",
       "records": 17,
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-23",
       "url": "https://referencesource.org/gas-cylinder-color-codes/",
       "data": "https://referencesource.org/gas-cylinder-color-codes/data.json"
     },
@@ -972,7 +981,7 @@
       "title": "HFC refrigerant GWP regulations by US state",
       "description": "State-level HFC refrigerant regulations across the US, including GWP limits, equipment-type restrictions, effective dates, and regulatory citations. Each record is one state's regulation for one equipment category (supermarket, new facility, stand-alone unit, bulk HFC sales). Answers 'what refrigerant GWP limit applies to new supermarket systems in California', 'which states have adopted SNAP Rules 20 and 21', 'New York HFC phase-down GWP thresholds', and 'can I use R-410A in a new commercial refrigeration system in [state]'.",
       "records": 42,
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-23",
       "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/",
       "data": "https://referencesource.org/hfc-refrigerant-regulations-by-state/data.json"
     },
@@ -1026,7 +1035,7 @@
       "title": "Hydraulic and pipe connection type identification",
       "description": "Identifying characteristics of each hydraulic, pipe, and instrumentation connection standard used in fluid power and plumbing systems. For each connection type, gives the governing standard, seat or flare angle, whether the thread is tapered or parallel, how the seal is made, and interchangeability notes with other standards. Answers the recurring field question 'what kind of fitting is this?' \u2014 the identification step that must happen before any cross-reference or adapter lookup.",
       "records": 21,
-      "last_verified": "2026-11-20",
+      "last_verified": "2026-11-23",
       "url": "https://referencesource.org/hydraulic-pipe-connection-types/",
       "data": "https://referencesource.org/hydraulic-pipe-connection-types/data.json"
     },
@@ -1043,7 +1052,7 @@
       "slug": "icann-registrar-accreditation-status",
       "title": "Domain registrar accreditation status and ICANN enforcement history, by IANA ID",
       "description": "Whether a domain name registrar is still ICANN-accredited, and what enforcement action ICANN has taken against it. Each record is one registrar identified by its IANA registrar ID, carrying the accreditation status IANA publishes ('Accredited', 'Terminated', 'Reserved') and, where one exists, the dated ICANN Contractual Compliance notice ('Notice of Breach', 'Notice of Suspension', 'Notice of Termination', 'Notice of Non-Renewal') with the date and the notice PDF. Answers 'is my domain registrar still ICANN accredited', 'which registrars lost their accreditation in 2026', 'is IANA ID 3221 accredited', 'what happens to my domain if my registrar is terminated', and 'has this registrar been issued a breach notice'. The two authorities publish complementary halves and neither publishes the other's: IANA states a registrar is Terminated but never says when or why, and ICANN dates every enforcement action but never states current status. A registrar termination triggers a bulk transfer of every domain under it, so the answer is consequential and it changes several times a year.",
-      "records": 4544,
+      "records": 4546,
       "last_verified": "2026-10-26",
       "url": "https://referencesource.org/icann-registrar-accreditation-status/",
       "data": "https://referencesource.org/icann-registrar-accreditation-status/data.json"
@@ -1179,7 +1188,7 @@
       "title": "Accuracy classes and maximum permissible errors for trade measuring instruments",
       "description": "Accuracy classes and maximum permissible errors that the law assigns to instruments used for trade, from three authorities that do not publish a common table: Directive 2014/32/EU (the EU Measuring Instruments Directive), Directive 2014/31/EU and OIML R 76-1 (non-automatic weighing instruments), and NIST Handbook 44 code 2.20 (scales, United States). Each record is one instrument type at one accuracy class under one measurement condition, with the permitted error that authority states. The MID side covers nine of the ten instrument-specific annexes: water meters (MI-001), gas meters and volume conversion devices (MI-002), thermal energy meters (MI-004), measuring systems for liquids other than water including fuel dispensers and road tankers (MI-005), automatic weighing instruments (MI-006), taximeters (MI-007), material measures (MI-008), dimensional measuring instruments (MI-009) and exhaust gas analysers (MI-010). Active electrical energy meters (MI-003) carry no records, and that is a statement about the source rather than an omission: Annex V sets its limits in a Table 2 whose load-current bands EUR-Lex renders as images, so neither the band nor the value it pairs with is in the page's text and no row can be keyed to it honestly. Annex VI is thin for the same reason -- every formula in it is an image, so only the flow sensor's 5 % cap, which the directive states in words, is here. Answers 'what is the maximum permissible error for a water meter', 'what accuracy class does a petrol pump have to be', 'MID accuracy class for a taximeter', 'allowed error on a weighbridge', 'thermal energy meter accuracy class 2 MPE', 'is a class III scale legal for trade in both the EU and the US' and 'is my fuel dispenser within tolerance'. The values are condition-dependent -- the error allowed at low flow differs from the error allowed at high flow, and in-service limits differ from new-instrument limits -- so a single percentage figure is almost always the wrong answer. The weighing records are what makes this a juxtaposition rather than a restatement: for a non-automatic weighing instrument the EU directive and OIML R 76-1 state the same three limits over the same load bands, while NIST Handbook 44 adds a fourth band to classes III and IIII and carries a class III L that exists nowhere in Europe. No single document says that, and getting it today means reading a 443,000-character standard, a 300,000-character directive and a 470,000-character handbook side by side.",
       "records": 102,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-15",
       "url": "https://referencesource.org/legal-metrology-accuracy-classes/",
       "data": "https://referencesource.org/legal-metrology-accuracy-classes/data.json"
     },
@@ -1233,7 +1242,7 @@
       "title": "ACA marketplace subsidy income limits by coverage year, household size and state group",
       "description": "The dollar income limits that decide whether a household qualifies for an ACA premium tax credit, for each coverage year, each household size from 1 to 8, and each of the three federal poverty guideline schedules (48 contiguous states and DC, Alaska, Hawaii). Each record states the poverty guideline the marketplace actually applies to that coverage year, the dollar figures at the 100%, 138%, 150%, 200%, 250%, 300% and 400% marks, the share of income the household is expected to pay at the top of the scale, and whether a hard cutoff applies above 400%. The enhanced credits created by the American Rescue Plan Act and extended by the Inflation Reduction Act lapsed on 31 December 2025, so coverage year 2026 was the first year since 2020 in which a household above 400% of the poverty line received no credit at all. No single page states these dollar figures. HHS publishes the poverty guidelines without the ACA multiples; the IRS publishes the applicable percentages without any dollar amounts; and the marketplace applies the guidelines published before open enrollment opened, not the guidelines bearing the coverage year's own number, which is the step most secondary sources get wrong. Answers 'what is the income limit for marketplace insurance in [year]', 'what is 400% of the federal poverty level for a family of [n]', 'how much can I earn and still get an Obamacare subsidy', 'what is the subsidy cliff', and 'what percentage of income do I have to pay for a benchmark plan'.",
       "records": 48,
-      "last_verified": "2026-11-15",
+      "last_verified": "2026-11-23",
       "url": "https://referencesource.org/marketplace-subsidy-income-thresholds/",
       "data": "https://referencesource.org/marketplace-subsidy-income-thresholds/data.json"
     },
@@ -1332,7 +1341,7 @@
       "title": "EPA NESHAP Source Category Applicability Crosswalk",
       "description": "Maps each EPA NESHAP source category to its 40 CFR subpart, whether it applies to major or area sources, the original final rule date, most recent amendment, and residual risk/technology review status.",
       "records": 125,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-23",
       "url": "https://referencesource.org/neshap-source-category-crosswalk/",
       "data": "https://referencesource.org/neshap-source-category-crosswalk/data.json"
     },
@@ -1350,7 +1359,7 @@
       "title": "NFPA 704 fire diamond ratings by chemical",
       "description": "The NFPA 704 'fire diamond' rating for a chemical \u2014 the health (blue), flammability (red), instability (yellow) numbers and any special (white) notice \u2014 as published on that chemical's own datasheet. Each record is one chemical, with the four quadrants, each quoted from its own printed row of the datasheet's table so that the page's own wording for what the number means sits beside it, plus any footnote the datasheet prints under that table. Answers 'what is the NFPA 704 rating for anhydrous ammonia', 'fire diamond numbers for thionyl chloride', and 'what does a 3 in the blue diamond mean'. NFPA 704 itself is a paywalled standard and the per-chemical ratings are scattered one page at a time across datasheets and SDSs, so no single free table exists \u2014 assembly, one source per record.",
       "records": 72,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-23",
       "url": "https://referencesource.org/nfpa-704-hazard-ratings/",
       "data": "https://referencesource.org/nfpa-704-hazard-ratings/data.json"
     },
@@ -1764,7 +1773,7 @@
       "title": "SBA disaster loan filing deadlines, live",
       "description": "Every SBA disaster declaration (state/administrative and physical) currently open, with its physical-damage loan application deadline and its Economic Injury Disaster Loan (EIDL) application deadline, taken verbatim from SBA's own Federal Register notice. One record is one declaration. Both dates come from the notice; where the physical loan deadline had already passed on the day this page was last built, the record says so. Where it had not, the record says nothing either way -- a page that can be a week old cannot honestly tell anyone a deadline is still open, so it does not try, and there is no days-remaining count for the same reason. Answers 'when does the SBA disaster loan deadline close for the Illinois severe storms', 'how much time is left to apply for an SBA EIDL loan after my state's disaster declaration', 'is the SBA disaster loan deadline for my county still open'. Checked 2026-08-28 by asking an AI assistant with web search, two queries: the assistant itself concluded 'there's no official page that ranks declarations by days left' and pointed at SBA's own portal (one declaration searched at a time, JS-driven) and the Federal Register API as the only two raw sources -- confirming the gap is real and not just under-searched. SBA's own site (disasterloanassistance.sba.gov, lending.sba.gov) is a per-declaration JS search tool, not a nationwide sortable list; no third-party aggregator was found either.",
       "records": 178,
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-19",
       "url": "https://referencesource.org/sba-disaster-loan-deadlines/",
       "data": "https://referencesource.org/sba-disaster-loan-deadlines/data.json"
     },
@@ -1844,7 +1853,7 @@
       "slug": "software-eol-change-feed",
       "title": "Software end-of-life date changes \u2014 which dates moved and what they were before",
       "description": "A change log of software end-of-life and end-of-support dates across 462 products, built by diffing the endoflife.date API between snapshots: for each changed date, the product, release cycle, which field moved, the new value, and the value it replaced wherever our previous reading held one. Where it does not, the entry shows the one value and says so: the source had nothing there to read before, because that field, release cycle or product had only just appeared. Answers 'did the Python 3.9 EOL date change?', 'which Node.js support dates were extended this month?', and 'what EOL dates moved in July 2026?' \u2014 the question shape nobody publishes. endoflife.date tracks current state; endoflife.ai publishes a free monthly digest of what is critical now; neither publishes the before-and-after diff. New product additions are also captured. This is a parser case: the API returns structured JSON, no model supplies values.",
-      "records": 2736,
+      "records": 2997,
       "last_verified": "2026-10-26",
       "url": "https://referencesource.org/software-eol-change-feed/",
       "data": "https://referencesource.org/software-eol-change-feed/data.json"
