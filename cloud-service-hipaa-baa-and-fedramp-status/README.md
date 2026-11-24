@@ -6,7 +6,7 @@ One record per named cloud service, answering the question a developer actually 
 
 | | |
 |---|---|
-| Last verified | 2026-11-23 |
+| Last verified | 2026-11-24 |
 | Re-check due | 2026-12-23 |
 | Records | 173 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/cloud-service-hipaa-baa-and-fedramp-status/changes.xml) |

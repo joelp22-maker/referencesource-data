@@ -351,7 +351,7 @@
       "title": "Can I put regulated data in this cloud service? What the vendor's own page says, and the government's own FedRAMP file",
       "description": "One record per named cloud service, answering the question a developer actually puts to a coding assistant: 'can I put patient data in X?' and 'is X FedRAMP authorised?'. Each record carries two separate things, from two separate publishers, and never mixes them: whether the vendor's own page names that service on its list of services covered by its HIPAA business associate agreement (BAA), quoted verbatim with the date the vendor last updated the list; and what the US General Services Administration's own daily FedRAMP export says about the status, impact level, authorisation date and authorisation type of the cloud service offering that service's vendor holds. Answers 'is Cloud Run covered by Google's HIPAA BAA', 'is BigQuery HIPAA eligible', 'does Microsoft sign a BAA for Azure', 'is OpenAI's web search HIPAA eligible' (the vendor's own answer is no), 'what FedRAMP impact level is Google Cloud authorised at', and 'which Google Workspace services are in the Google Cloud BAA'. The reason this is a dataset and not a memory is that the lists move: Google's own page stamped its Google Cloud list 2026-11-11, its SecOps list 2026-11-09 and its Workspace list 2026-10-28, three different dates on one page, and a service is added to or dropped from such a list without an announcement. NOTHING HERE SAYS A SYSTEM IS COMPLIANT, and nothing here says a reader may put protected health information anywhere. It says what the publisher's page says, with the sentence and the date, which is a different thing and the only thing that can be published honestly.",
       "records": 173,
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/cloud-service-hipaa-baa-and-fedramp-status/",
       "data": "https://referencesource.org/cloud-service-hipaa-baa-and-fedramp-status/data.json"
     },
@@ -387,7 +387,7 @@
       "title": "2026 conforming loan limits by county: one- to four-unit properties",
       "description": "The 2026 FHFA conforming loan limit AND the 2026 FHA (HUD) forward-mortgage loan limit for every US county, for properties of one to four units. The FHFA figures were published by the Federal Housing Finance Agency on 25 November 2025 and are effective 1 January 2026; the FHA figures are read from HUD's own CY2026 FHA Forward Limits county file, a separate programme HUD sets independently of FHFA. Each record is one county with its FIPS state and county codes, the state abbreviation, and up to eight limit fields \u2014 FHFA one- through four-unit, and FHA one- through four-unit \u2014 each read from its own agency's county file. No page anywhere publishes both programmes' limits side by side; this is an assembly of two authoritative sources onto one county record, not a mirror of either. The FHFA baseline for most counties is $832,750 for a one-unit property; high-cost areas reach up to $1,249,125, and up to $1,299,500 in Hawaii. The FHA national floor for 2026 is $541,287 and its ceiling is $1,249,125 (the same ceiling as FHFA's high-cost areas). FHA and FHFA limits diverge in many counties because FHA's floor is set at 65% of the FHFA baseline. Answers 'what is the 2026 conforming loan limit in [county]?', 'what is the 2026 FHA loan limit in [county]?', 'which counties exceed the baseline conforming limit?', 'what is the conforming limit for a two-unit property in [county]?', and 'is the 2026 conforming loan limit $832,750?' \u2014 the lookup shape where six of seven page-one results are mortgage lead-generation sites and the authoritative FHFA/HUD sources themselves do not rank. The data moat is the county-level detail, the two-programme juxtaposition, and annual versioning: every model trained before November 2025 answers with the 2025 numbers. VA and USDA loan limits are not in scope for this asset.",
       "records": 3235,
-      "last_verified": "2026-11-22",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/conforming-loan-limits/",
       "data": "https://referencesource.org/conforming-loan-limits/data.json"
     },
@@ -1161,7 +1161,7 @@
       "title": "Kubernetes component version skew policy: how far apart component versions can be in a supported cluster",
       "description": "The maximum version difference Kubernetes supports between cluster components, one record per governed component pair (kube-apiserver to kubelet, kube-proxy, kubectl, and the kube-controller-manager/kube-scheduler/cloud-controller-manager group, plus the kube-apiserver-to-kube-apiserver HA rule and the kube-proxy-to-kubelet rule), from the project's own version-skew-policy page. Answers 'how many minor versions behind can my kubelet be', 'can kubectl be newer than kube-apiserver', 'what must already be upgraded before I upgrade this component'. Getting this wrong during a rolling upgrade breaks node registration or blocks the upgrade path, usually discovered mid-rollout. The rule text is stable in structure release to release; the version numbers in the worked examples move with each Kubernetes minor release, so the numeric examples need re-verification on that cadence.",
       "records": 6,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/kubernetes-version-skew-policy/",
       "data": "https://referencesource.org/kubernetes-version-skew-policy/data.json"
     },
@@ -1368,7 +1368,7 @@
       "title": "NIST cryptographic algorithm deprecation schedule: what is approved, deprecated, and disallowed, and when",
       "description": "Per-algorithm status under NIST guidance for the post-quantum cryptographic transition. Each record is one algorithm or key-length configuration with its current approval status (approved, acceptable, deprecated, restricted, disallowed, legacy use), the date at which the status changes, and the recommended replacement. Drawn from three NIST publications: IR 8547 (post-quantum transition timeline), SP 800-131A Rev 2 (current algorithm status rules) and Rev 3 draft (upcoming changes), and FIPS 203/204/205 (the post-quantum replacement standards). The key deadlines: quantum-vulnerable public-key algorithms (RSA, ECDSA, ECDH, finite-field DH) deprecated after 2030, disallowed after 2035; SHA-1 and 224-bit hashes deprecated through 2030, disallowed thereafter. AES-256 and SHA-2/SHA-3 are NOT on the deprecation schedule. Answers 'when is RSA deprecated?', 'is AES-256 affected by the post-quantum transition?', 'what replaces ECDSA?', and 'what is the current NIST status of 3DES?'",
       "records": 21,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/nist-cryptographic-algorithm-deprecation-schedule/",
       "data": "https://referencesource.org/nist-cryptographic-algorithm-deprecation-schedule/data.json"
     },
@@ -1413,7 +1413,7 @@
       "title": "Deprecated npm packages and their maintainer-named replacement",
       "description": "npm allows a maintainer to attach a 'deprecated' message to a specific published version, and that message often names the exact replacement package or built-in API to use instead -- 'left-pad' points at String.prototype.padStart(), 'istanbul' points at nyc, 'tslint' points at ESLint, 'babel-eslint' points at @babel/eslint-parser. This is first-party, machine-readable data sitting in the registry API itself, but nobody has assembled it into a browsable table: a developer running `npm install` sees the warning once in a terminal scroll and it is gone, and the alternative is a content-mill blog post ranking '10 request alternatives' without quoting what the maintainer actually said. This asset would have been too tedious to maintain by hand across thousands of packages -- watching a firehose of new deprecations and re-checking old ones for changes -- but is a mechanical registry read for one machine, refreshable on a schedule at zero marginal cost per package. Each record is one deprecated package, quoting its maintainer's own deprecated message verbatim and naming the specific replacement stated in it. Answers 'is request deprecated', 'what should I use instead of tslint', 'why is my npm install warning about gulp-util'.",
       "records": 133,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/npm-deprecated-package-recommended-replacement/",
       "data": "https://referencesource.org/npm-deprecated-package-recommended-replacement/data.json"
     },
@@ -1503,7 +1503,7 @@
       "title": "OSHA training requirements by standard: topic, frequency, and CFR citation",
       "description": "Which OSHA standards require employee training, what the training must cover, how often it must be repeated, and who must receive it. Each record is one training requirement tied to a specific CFR section. Training frequencies vary: some are annual (respiratory protection 1910.134, bloodborne pathogens 1910.1030), some are event-driven (lockout/tagout 1910.147 \u2014 retrain when procedures change), some are initial-only with situational retraining (PPE 1910.132). Answers 'what OSHA training does my construction crew need', 'how often is respiratory protection training required', and 'does OSHA require annual forklift certification'.",
       "records": 31,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/osha-training-requirements-by-standard/",
       "data": "https://referencesource.org/osha-training-requirements-by-standard/data.json"
     },
@@ -1512,7 +1512,7 @@
       "title": "Outboard motor spark plugs and gaps by brand, with Yamaha oil and gear lube capacities",
       "description": "Spark plug part number and electrode gap for outboard motors from five brands \u2014 Yamaha, Mercury, Johnson/Evinrude, Honda and Suzuki \u2014 by model or model range. Yamaha models additionally carry an oil filter part number, engine oil capacity and gear lube capacity; the other four brands carry spark plug and gap only, because the two dealer charts this is assembled from publish capacities for Yamaha alone. One row per model or model range. Answers 'what spark plug does my Yamaha F150 take?', 'what gap does a Mercury 150-300 HP Verado run?' and 'how much gear lube does an F150 lower unit hold?' \u2014 questions where assistants guess a plausible but wrong part number or capacity.",
       "records": 53,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/outboard-motor-service-specs/",
       "data": "https://referencesource.org/outboard-motor-service-specs/data.json"
     },
@@ -1629,7 +1629,7 @@
       "title": "What must pass before the next step: mandated step order in regulated processes",
       "description": "The mandated order of steps in multi-step regulated processes, from the authority that enforces the order: which inspection or filing must be approved before the next one may happen, what may not proceed until it passes, and the deadline attached to it. One record is one step in one authority's published sequence. Covers municipal building inspection sequences (the rough-in must pass before the wall closes; no concrete before the footing inspection) and the US import Importer Security Filing chain (ISF no later than 24 hours before lading; flexible filings finalised no later than 24 hours before arrival; cargo release withheld without an ISF). Answers 'did I need an inspection before drywall', 'what order do building inspections happen in', 'when does the ISF have to be filed', and 'what happens if the ISF is late'. The sequence is usually published only as prose on the enforcing authority's own page, one jurisdiction at a time; no comparison table exists anywhere.",
       "records": 37,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/prerequisite-sequencing-regulated-processes/",
       "data": "https://referencesource.org/prerequisite-sequencing-regulated-processes/data.json"
     },
@@ -1638,7 +1638,7 @@
       "title": "Galvanic series and surface energy of engineering materials",
       "description": "Three published reference tables, each keyed by material, with no material appearing in more than one of them: the ASM seawater galvanic series (steady-state electrode potential in volts vs SCE, 27 metals and alloys); the MIL-STD-889 anodic index (galvanic voltage relative to gold, 19 material groups); and a printing and packaging dyne-level chart (surface energy in dyne/cm plus that chart's own 'needs treatment' column, 34 substrates ranging from PTFE and stainless steel to BOPP film and overprint varnish). Answers 'will these two metals corrode each other if I join them' and 'is this substrate's surface energy high enough for an ink or adhesive to wet it'. It does not say whether a particular coating needs a primer on a particular substrate: no source here states that, so the question this asset was originally built for \u2014 can paint go straight onto galvanised steel \u2014 is not one it can answer.",
       "records": 80,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/",
       "data": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/data.json"
     },
@@ -1656,7 +1656,7 @@
       "title": "CPA continuing professional education (CPE) requirements by US jurisdiction",
       "description": "The CPE hours a licensed CPA must complete in each US state and territory to renew, as published by NASBA's National Registry of CPE Sponsors. Covers total hours, reporting period, ethics requirement, and other subject-area mandates. Answers 'how many CPE hours does a CPA need in [state]', 'what is the ethics CPE requirement for CPAs in Texas', 'which states require CPA CPE in government auditing or accounting and auditing', and 'do my CPE hours from another state count'. The scenario as briefed ('professional licensing CE by jurisdiction') spans dozens of independent regulatory datasets across professions; this asset covers CPAs because NASBA publishes a structured, per-jurisdiction page for all 55 boards of accountancy \u2014 the only profession in the scenario with a single cross-jurisdiction authority table. Nursing and insurance producer CE are different datasets with different regulators and no equivalent assembled source.",
       "records": 53,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/professional-licensing-continuing-education-by-jurisdiction/",
       "data": "https://referencesource.org/professional-licensing-continuing-education-by-jurisdiction/data.json"
     },
@@ -1737,7 +1737,7 @@
       "title": "US federal employment law thresholds by employee count",
       "description": "Employee-count thresholds that trigger US federal employment laws, with the number quoted from the statute itself or from the enforcing agency's own coverage page -- never from a vendor summary. Two kinds of record: a law that states a count (Title VII, ADA, ADEA, GINA, the Pregnancy Discrimination Act, FMLA, COBRA, the ACA employer mandate, WARN, EEO-1 reporting, IRCA) carries that number; a law whose coverage clause names who it covers without stating any employee count (FLSA, ERISA, the OSH Act, USERRA, FCRA, EPPA, the Equal Pay Act, the Consumer Credit Protection Act's garnishment rule, jury-duty protection) carries no threshold at all, is marked 'no employee-count threshold', and quotes the test its coverage does turn on. Note what the second kind does NOT say: that the law covers every employer. It says the statute sets no headcount -- several set some other test, and that test is quoted where the clause states one. A few laws state two counts, because a named class of employer is covered at a lower one -- EEO-1 reporting binds private employers at 100 but federal contractors at 50. Those records carry both numbers, so that reading only the headline figure cannot give the wrong answer to a contractor. Two further shapes exist because reference pages elsewhere get them wrong in the same direction, by printing a number as a threshold when it is not one. A law can cover every employer and separately excuse a small one -- the PUMP Act binds every FLSA employer and lets an employer under 50 out only if compliance would impose an undue hardship -- so that 50 is quoted as an exemption, with its condition attached, and the record carries no threshold. And a threshold can stop existing: the 50-employee affirmative-action programme requirement rested on Executive Order 11246, which was revoked in January 2025, so that record is marked 'threshold revoked' and quotes the order that revoked it rather than the number vendor summaries still publish. Two surviving 50-employee affirmative-action duties are named for the duty rather than the statute -- 'Section 503 affirmative action program (federal contractors)', not 'Section 503 of the Rehabilitation Act' -- because 41 CFR 60-741.4(a)(1) covers every contract over $20,000 with no employee count at all, and the 50 governs only the affirmative-action subpart. A row labelled with the bare statute name and the figure 50 would tell a 20-employee contractor that Section 503 does not reach it, which is the opposite of what the regulation says.",
       "records": 24,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/regulatory-threshold-triggers/",
       "data": "https://referencesource.org/regulatory-threshold-triggers/data.json"
     },
@@ -1773,15 +1773,15 @@
       "title": "SBA disaster loan filing deadlines, live",
       "description": "Every SBA disaster declaration (state/administrative and physical) currently open, with its physical-damage loan application deadline and its Economic Injury Disaster Loan (EIDL) application deadline, taken verbatim from SBA's own Federal Register notice. One record is one declaration. Both dates come from the notice; where the physical loan deadline had already passed on the day this page was last built, the record says so. Where it had not, the record says nothing either way -- a page that can be a week old cannot honestly tell anyone a deadline is still open, so it does not try, and there is no days-remaining count for the same reason. Answers 'when does the SBA disaster loan deadline close for the Illinois severe storms', 'how much time is left to apply for an SBA EIDL loan after my state's disaster declaration', 'is the SBA disaster loan deadline for my county still open'. Checked 2026-08-28 by asking an AI assistant with web search, two queries: the assistant itself concluded 'there's no official page that ranks declarations by days left' and pointed at SBA's own portal (one declaration searched at a time, JS-driven) and the Federal Register API as the only two raw sources -- confirming the gap is real and not just under-searched. SBA's own site (disasterloanassistance.sba.gov, lending.sba.gov) is a per-declaration JS search tool, not a nationwide sortable list; no third-party aggregator was found either.",
       "records": 178,
-      "last_verified": "2026-11-19",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/sba-disaster-loan-deadlines/",
       "data": "https://referencesource.org/sba-disaster-loan-deadlines/data.json"
     },
     {
       "slug": "security-compliance-controls",
-      "title": "Security and compliance controls, one provision at a time: NIST SP 800-53 and the HIPAA Security Rule in their own words",
-      "description": "Every control in NIST SP 800-53 Rev 5 and every paragraph of the HIPAA Security Rule, cut one provision at a time, each with the publisher's own words as the record's quote. One record is one obligation: a control with five lettered statements becomes five records, keyed the way the publisher cites them (SC-28, SC-28(1), AC-2a, 164.312(a)(2)(iv)), so a reader or an agent that has been handed a control number gets that control's text and nothing else. Answers 'what does NIST SP 800-53 SC-28 require', 'what does HIPAA 164.312(a)(2)(iv) actually say about encryption', 'which published controls cover audit logging', and 'what is the organization-defined parameter in AC-12'. The hard part is not finding the documents \u2014 NIST publishes the catalogue as machine-readable OSCAL and the eCFR publishes the rule as XML \u2014 it is that both are published as whole documents, so a coding assistant asked to implement 'SC-28' either reads a 1,200-page catalogue or guesses. This dataset is the retrieval layer: provision in, the publisher's sentence out. It does not say how to implement anything; the control's own text is the whole of what is published here. NIST's machine-readable text leaves a placeholder where a value is the organisation's to decide ('Protect the {{ insert: param, sc-28_odp.01 }} of ...'), so every record that carries one also carries the same sentence with each placeholder resolved from the catalogue's own parameter labels and kept in square brackets \u2014 '[Selection (one or more): confidentiality; integrity]' \u2014 which is how NIST's own HTML rendering reads, and which is a sentence a person or a coding assistant can actually use. The verbatim text, placeholders and all, stays on the record as the evidence. SOC 2, ISO 27001 and PCI DSS are deliberately absent: that text is copyrighted and may not be republished.",
-      "records": 2022,
+      "title": "Security and compliance controls, one provision at a time: NIST SP 800-53, SP 800-171, the SSDF, the Cybersecurity Framework 2.0 and the HIPAA Security Rule in their own words",
+      "description": "Every control in NIST SP 800-53 Rev 5, every requirement in NIST SP 800-171 Rev 3 (the CMMC baseline), every practice and task in the NIST Secure Software Development Framework (SP 800-218), every category and subcategory of the NIST Cybersecurity Framework 2.0, and every paragraph of the HIPAA Security Rule, cut one provision at a time, each with the publisher's own words as the record's quote. One record is one obligation: a control with five lettered statements becomes five records, keyed the way the publisher cites them (SC-28, SC-28(1), AC-2a, 03.01.01.c.02, PO.1.1, GV.OC-01, 164.312(a)(2)(iv)), so a reader or an agent that has been handed a control number gets that control's text and nothing else. Answers 'what does NIST SP 800-53 SC-28 require', 'what does 800-171 03.05.03 say about multi-factor authentication', 'what does SSDF PW.7.2 require of code review', 'what is CSF 2.0 GV.OC-01', 'what does HIPAA 164.312(a)(2)(iv) actually say about encryption', 'which published controls cover audit logging', and 'what is the organization-defined parameter in AC-12'. The hard part is not finding the documents \u2014 NIST publishes all four of its frameworks as machine-readable OSCAL and the eCFR publishes the rule as XML \u2014 it is that they are published as whole documents, so a coding assistant asked to implement 'SC-28' or 'PW.7.2' either reads a 1,200-page catalogue or guesses. This dataset is the retrieval layer: provision in, the publisher's sentence out. It does not say how to implement anything, and it never says that any system is compliant; the provision's own text is the whole of what is published here. NIST's machine-readable text leaves a placeholder where a value is the organisation's to decide ('Protect the {{ insert: param, sc-28_odp.01 }} of ...'), so every record that carries one also carries the same sentence with each placeholder resolved from the catalogue's own parameter labels and kept in square brackets \u2014 '[Selection (one or more): confidentiality; integrity]' \u2014 which is how NIST's own HTML rendering reads, and which is a sentence a person or a coding assistant can actually use. The verbatim text, placeholders and all, stays on the record as the evidence. A provision its publisher has withdrawn is not here at all, whether or not the publisher left its old text in the file. SOC 2, ISO 27001 and PCI DSS are deliberately absent: that text is sold under licence by the bodies that write it and may not be republished, and the licence read of 2026-11-23 found no public mapping of the SOC 2 Trust Services Criteria to fall back on either.",
+      "records": 2489,
       "last_verified": "2026-11-15",
       "url": "https://referencesource.org/security-compliance-controls/",
       "data": "https://referencesource.org/security-compliance-controls/data.json"
@@ -1935,7 +1935,7 @@
       "title": "Certificate of need programs by US state",
       "description": "Which US states operate a certificate-of-need (CON) program for healthcare facilities, and what each program regulates. Each record is one state or DC: whether a CON program exists, which facility types are subject to review, whether any moratorium applies, and the statute citation. Answers 'does [state] require a certificate of need at all' and 'is [a hospital / an ambulatory surgery centre / a nursing home] reviewable in [state]'. This asset does not carry dollar thresholds: for the capital expenditure amount that triggers review, read from each state's own statute, see con-capital-expenditure-thresholds-by-state.",
       "records": 51,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/state-certificate-of-need-programs/",
       "data": "https://referencesource.org/state-certificate-of-need-programs/data.json"
     },
@@ -1962,7 +1962,7 @@
       "title": "State construction defect statute of limitations and statute of repose periods",
       "description": "Can I still sue for this construction defect? Every US state sets two independent clocks: the statute of limitations (SOL \u2014 typically 2-6 years from discovery of the defect) and the statute of repose (SOR \u2014 typically 6-15 years from substantial completion, regardless of discovery). Both must be alive to file a claim. California gives 4 years SOL latent / 10 years SOR. Colorado gives 2 years SOL / 6 years SOR. New York has NO statute of repose for buildings. Getting this wrong means losing the right to file entirely. One record per state, sourced from the state's own statute. Answers 'construction defect statute of limitations by state', 'statute of repose for construction in Texas', 'how long can I sue for a building defect'. Adjacent to mechanics-lien-deadlines and construction-retainage-limits.",
       "records": 20,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/state-construction-defect-limitations-periods/",
       "data": "https://referencesource.org/state-construction-defect-limitations-periods/data.json"
     },
@@ -2016,7 +2016,7 @@
       "title": "State employment law headcount triggers that deviate from federal thresholds",
       "description": "Employee-count thresholds at which state-specific employment laws kick in, focusing on where states deviate from the federal floor. Each record is one state and one law category (mini-COBRA, mini-WARN, state anti-discrimination, state family leave, workers compensation), giving the state's threshold, the federal threshold for comparison, how they differ, and the statute citation. Answers 'at how many employees does [state law] start applying in [state]' and 'does [state] have a mini-COBRA / mini-WARN / state family leave law'. Companion to the existing regulatory-threshold-triggers asset which covers federal thresholds only.",
       "records": 66,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/state-employment-law-headcount-triggers/",
       "data": "https://referencesource.org/state-employment-law-headcount-triggers/data.json"
     },
@@ -2025,7 +2025,7 @@
       "title": "State insurance mandates for fertility treatment and IVF coverage",
       "description": "Which US states require private health insurers to cover fertility diagnosis, treatment, or preservation, and the specific terms of each mandate. Each record is one state, stating the mandate type (treatment, preservation only, or offer/cover distinction), which treatments are covered (IVF, GIFT, ZIFT, fertility preservation), cycle or dollar limits, age restrictions, employer-size thresholds, self-insured plan exemption status, religious employer exemption, effective date, and the statute citation. As of 2026, 25 states plus DC require some form of fertility coverage, but the variation is enormous: California (SB 729, effective January 2026) mandates IVF in large group plans with no cycle limit; Arkansas caps lifetime coverage at $15,000 and requires trying cheaper treatments first; Delaware covers six egg retrievals but only for iatrogenic infertility; several states mandate only fertility preservation for cancer patients. Self-insured employer plans (covering ~65% of workers with job-based insurance) are exempt from all state mandates under federal ERISA. Answers 'does my state require insurance to cover IVF', 'how many IVF cycles does my state mandate', 'does the fertility mandate apply to my employer', and 'what are the age limits for mandated fertility coverage in [state]'.",
       "records": 26,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/state-fertility-insurance-mandates/",
       "data": "https://referencesource.org/state-fertility-insurance-mandates/data.json"
     },
@@ -2061,7 +2061,7 @@
       "title": "State Insurance Department Complaint Index by Company",
       "description": "Every state insurance department publishes, for each licensed insurer and line of business, how many complaints consumers filed against that company and how much premium the company wrote in that state, together with its own summary figure comparing the two. Nobody publishes it across states. Each regulator uses its own file format, its own line-of-business names, its own schedule \u2014 and, the part that catches people out, its own arithmetic. Indiana's \"Complaint Index\" is the company's share of all complaints divided by its share of all premium written in Indiana, so 1.00 is the state average. Michigan's \"Complaint Ratio\" is complaints per $1 million of written premium, which is a different quantity on a different scale with no meaning at 1.00. Putting those two in one column without saying so would get the asset's whole point wrong. So every record here carries the complaint count and the premium alongside the state's published figure, and quotes the state's own heading for that figure. The raw counts compare across states; the summary figures do not.",
       "records": 622,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/state-insurance-complaint-index-by-company/",
       "data": "https://referencesource.org/state-insurance-complaint-index-by-company/data.json"
     },
@@ -2070,7 +2070,7 @@
       "title": "State insurer-of-last-resort programs \u2014 FAIR Plan / Citizens eligibility and coverage limits",
       "description": "When private insurers won't write a property in a wildfire or hurricane state, the state's residual-market insurer (a FAIR Plan or a corporation like Florida's Citizens) is the fallback \u2014 but the dollar limits and the rule that determines who is even eligible differ by state and are stated only in that state's own statute or program announcement. Each record is one state's program, carrying its coverage-category limit and, where the source states one, the rule that makes a property ineligible. Answers 'what's the maximum FAIR Plan payout in California', 'why would Florida Citizens turn down my house', 'which states cap eligibility by a dollar replacement-cost figure vs. a pricing-comparison rule'.",
       "records": 32,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/state-insurer-of-last-resort-coverage-limits/",
       "data": "https://referencesource.org/state-insurer-of-last-resort-coverage-limits/data.json"
     },
@@ -2178,7 +2178,7 @@
       "title": "State public works payment bond requirements (Little Miller Acts)",
       "description": "Do I need a payment bond on this public works project, and what are the deadlines? Every US state has a 'Little Miller Act' requiring bonds on public construction contracts, but the contract value that triggers the requirement, the bond amount, the notice a subcontractor must serve to preserve a claim, and the deadline for suing on the bond all differ by state. One record per state and territory, each carrying that state's own statutory citation, plus a federal Miller Act row for comparison. Coverage is payment bond law; a performance bond threshold is recorded only for the handful of states whose source states one. States answer the contract-value question in two different ways and the record says which: 'Payment bond required above' is a figure the source states a bond IS required at or above, and 'Contracts excluded' is a figure or class the source states is outside the requirement, or that the public body may waive. A job just above a 'Contracts excluded' figure is bonded. Answers 'Little Miller Act thresholds by state', 'do I need a bond on a $75,000 public project in Virginia', 'state payment bond requirements for construction', 'payment bond claim deadline by state'. Adjacent to mechanics-lien-deadlines, construction-retainage-limits, and construction-prompt-payment-deadlines.",
       "records": 53,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/state-public-works-bond-thresholds/",
       "data": "https://referencesource.org/state-public-works-bond-thresholds/data.json"
     },
@@ -2187,7 +2187,7 @@
       "title": "State Residential Radon Disclosure, Testing, and Certification Requirements",
       "description": "State laws governing radon in residential real estate transactions vary dramatically. Some states require sellers to disclose known radon test results (Florida, Illinois, New Jersey). Others fold radon into broader environmental hazard disclosure forms (California, Colorado). Some mandate that radon measurement professionals be certified or licensed; others have no licensing requirement. EPA recommends 4 pCi/L as the action level but this is not a legal standard \u2014 state action levels may differ. This table gives the disclosure requirement, testing mandate, professional certification requirement, action level, and statute citation for each state.",
       "records": 41,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/state-radon-disclosure-requirements/",
       "data": "https://referencesource.org/state-radon-disclosure-requirements/data.json"
     },
@@ -2205,7 +2205,7 @@
       "title": "State Right-to-Repair Laws: Coverage, Requirements, and Effective Dates",
       "description": "Which US states have enacted right-to-repair laws, what products each law covers (electronics, agricultural equipment, powered wheelchairs, automobiles), the price threshold above which parts and documentation must be provided, whether parts-pairing is prohibited, the enforcement mechanism (state AG only vs. private right of action), penalty amounts, and the effective date. As of August 2026, at least 8 states have enacted laws and 28+ have pending legislation.",
       "records": 6,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/state-right-to-repair-laws/",
       "data": "https://referencesource.org/state-right-to-repair-laws/data.json"
     },
@@ -2214,7 +2214,7 @@
       "title": "State conformity to federal Section 179 and bonus depreciation rules",
       "description": "Whether each US state conforms to the federal Section 179 expensing limit and the 100% bonus depreciation deduction, and what state-specific caps or add-back rules apply when it does not. Each record is one state, stating its conformity status for both Section 179 and bonus depreciation, the state's own Section 179 dollar cap if different from federal, whether the state requires a bonus depreciation add-back, the depreciation method the state uses instead, and a statute or administrative citation. The federal Section 179 limit for 2026 is $2,560,000 with a $4,090,000 phase-out; 100% bonus depreciation was made permanent by the One Big Beautiful Bill Act (January 2025). At least a dozen states decouple from bonus depreciation (California, New York, New Jersey, Pennsylvania, Massachusetts, DC, Connecticut, Maryland, Tennessee, North Carolina, Indiana, Wisconsin among others), and several cap Section 179 far below the federal limit (California: $25,000; New Jersey: $25,000; Pennsylvania: not allowed for corporate income tax). A $480,000 equipment purchase in California produces roughly $51,000 in extra state tax in year one. Answers 'does my state allow bonus depreciation', 'what is the Section 179 limit in [state]', 'do I have to add back bonus depreciation on my state return', and 'which states decouple from federal depreciation rules'.",
       "records": 51,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/state-section-179-bonus-depreciation-conformity/",
       "data": "https://referencesource.org/state-section-179-bonus-depreciation-conformity/data.json"
     },
@@ -2367,7 +2367,7 @@
       "title": "Maximum legal vehicle size and weight limits by US state",
       "description": "For each US state, the maximum legal dimensions and gross weight a vehicle plus load may have on state highways before an oversize/overweight permit is required, from the state's own vehicle code or DOT/DMV page: width, height, semitrailer length, combination length, and gross weight. Height genuinely fragments \u2014 13 feet 6 inches in most eastern states (Florida, Ohio), 14 feet in western states (Washington) \u2014 so a load legal in one state needs a permit in the next. Answers 'how tall can a truck be in [state]', 'what is the maximum legal trailer length in [state]', and 'at what point do I need an oversize permit in [state]'. Values verbatim from statute or the agency page; the many exceptions (auto transporters, safety devices, RVs) stay in the source quote, not in extra fields.",
       "records": 5,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/truck-size-weight-limits-by-state/",
       "data": "https://referencesource.org/truck-size-weight-limits-by-state/data.json"
     },
@@ -2376,7 +2376,7 @@
       "title": "EPA TSCA Section 6 chemical risk management status: prohibitions, effective dates, and exemptions",
       "description": "Status of EPA risk management rules for chemicals found to present unreasonable risk under TSCA Section 6. Each record is one chemical with its current rule status (proposed/final/effective), effective dates for prohibitions, specific uses prohibited, and any exemptions or compliance date extensions. Currently covers ~11 chemicals under Section 6(a) active risk management plus 5 PBT chemicals under Section 6(h). The pipeline has 20+ more chemicals in risk evaluation. Answers 'is [chemical] being regulated under TSCA?', 'when does the prohibition on methylene chloride take effect?', 'which uses of TCE are exempt?', and 'what is the current rule status for 1-bromopropane?'",
       "records": 16,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/tsca-section-6-chemical-risk-management-status/",
       "data": "https://referencesource.org/tsca-section-6-chemical-risk-management-status/data.json"
     },
@@ -2385,7 +2385,7 @@
       "title": "Unemployment insurance: maximum weekly benefit and weeks of duration by US state",
       "description": "For each US state: the maximum (and minimum, where stated) weekly unemployment benefit amount, the maximum number of payable weeks, and \u2014 where the state uses one \u2014 the sliding-scale rule that ties duration to the state unemployment rate. Answers 'how much is unemployment in [state]', 'how many weeks of unemployment can I get in [state]', and 'what is the maximum unemployment benefit in [state]'. The claimant-side counterpart to the employer-side wage-base asset proposed 2026-08-17. The confident-wrong conditions are strong: Texas's cap moved from $591 to $605 in October 2025 (indexed annually, so any trained-in figure decays every October); several states no longer offer the 'standard' 26 weeks (NC and FL are at 12, tied to the unemployment rate by formula), and page one is entirely content mills (savingtoinvest, layoffcalc, remotelaws) \u2014 the DOL comparison of state UI laws is an annual PDF, not an agent-reachable page. One authority per record: the state workforce agency's own page or the state statute. Record the duration formula verbatim where one exists \u2014 the formula is the fact that generic answers flatten.",
       "records": 6,
-      "last_verified": "2026-11-21",
+      "last_verified": "2026-11-24",
       "url": "https://referencesource.org/ui-weekly-benefit-and-duration-by-state/",
       "data": "https://referencesource.org/ui-weekly-benefit-and-duration-by-state/data.json"
     },

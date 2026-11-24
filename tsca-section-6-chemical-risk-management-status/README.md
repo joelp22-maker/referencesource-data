@@ -6,7 +6,7 @@ Status of EPA risk management rules for chemicals found to present unreasonable 
 
 | | |
 |---|---|
-| Last verified | 2026-11-21 |
+| Last verified | 2026-11-24 |
 | Re-check due | 2027-02-14 |
 | Records | 16 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/tsca-section-6-chemical-risk-management-status/changes.xml) |
