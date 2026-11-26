@@ -17,7 +17,7 @@
       "slug": "ai-model-deprecation-and-retirement",
       "title": "AI model deprecation and retirement dates by provider",
       "description": "Which AI API models are deprecated or retired, when the deprecation was announced, when the model shuts off, and what the recommended replacement is \u2014 sourced from each provider's own documentation. Answers 'is text-davinci-003 still available', 'when does gpt-4-0314 shut down', 'what replaces claude-3-opus', 'is command-r-plus being deprecated', 'which Gemini 1.5 Pro version is retired'. Covers OpenAI, Anthropic, Google (Vertex AI, the Gemini Developer API, and the Agent Platform's open- and partner-model schedules), Azure/Microsoft Foundry, AWS Bedrock, Cohere, Mistral AI, Groq, Cerebras, xAI, DeepSeek, Moonshot AI, GitHub Copilot, Together AI, Oracle OCI Generative AI, Alibaba Cloud Model Studio and SambaNova. GitHub Copilot is a different shape from all of the above: not a model's author and not an inference host renting out silicon, but an end-user product that resells other people's hosted models and switches them off on a clock of its own. It deprecates Claude Opus 4.5 on 2026-09-01 while Microsoft Foundry keeps serving it until 2026-10-19, and it is the only source anywhere that states a date for Claude Opus 4.7. Developers who never touch an API \u2014 who just pick a model from the Copilot Chat selector \u2014 have a retirement schedule too, and it is published one changelog post at a time rather than as a standing table. Groq and Cerebras matter beyond being two more companies: both are inference hosts serving other people's open-weight models (Llama, Qwen, Kimi, DeepSeek, Gemma, Mistral, Whisper) on their own silicon, and each publishes its own lifecycle dates for them, which no model author's page states anywhere. They also disagree with each other: both deprecated deepseek-r1-distill-llama-70b, Cerebras on 2025-08-12 pointing users at Qwen 3 32B, Groq seven weeks later pointing them at Llama 3.3 70B, and this dataset shows both on the one record. xAI and DeepSeek matter for the opposite reason: both are already in here at second hand, through Azure/Foundry reselling their models and publishing Foundry's dates, and both authors state different dates for the same model IDs on their own pages \u2014 Foundry retires grok-3 two weeks before xAI's own API does. Moonshot AI is the same story with a far wider gap: Azure/Foundry lists Kimi-K2.5 as a preview retiring on 2027-01-26, while Moonshot's own documentation says the model was discontinued on 2026-08-31 and that calls to it now return a 404 \u2014 nearly five months earlier, and already in the past. The four Google surfaces are held separately on purpose: they publish different shutdown dates for the same model IDs, and where they disagree this dataset shows both. No single original exists \u2014 each provider publishes its own page \u2014 so this is the only place that puts them side by side. Alibaba Cloud Model Studio is the only source here that is both the model's author and its host at once for a family this size: Model Studio rents out the Qwen models Alibaba also writes, so one page carries the author's clock and the host's in the same row. It publishes no standing table \u2014 one dated notice per batch, each superseding the last \u2014 and it is the second place DeepSeek V4 Flash appears: Alibaba stops serving it on 2026-10-10, Microsoft Foundry keeps it until 2028-02-20, and this dataset shows both. SambaNova is the third inference host of the same kind and the one with the widest overlap: 12 of the 27 models on its deprecation page are already in here from Azure, Together AI, Oracle, Cerebras or Groq, so its rows mostly land on existing records rather than adding new ones. Meta-Llama-3.1-405B-Instruct now carries four hosts and three different shutdown dates on a single page \u2014 SambaNova switched it off on 2025-06-25, Azure keeps it to 2026-06-13, Oracle to 2026-08-03 \u2014 a fourteen-month spread for one model ID that no provider's own page discloses. It is also the only source here that answers 'what should I use instead' with a product rather than a model: for Whisper-Large-v3, ALLaM-7B and E5-Mistral-7B-Instruct the recommended replacement is SambaStack, SambaNova's on-premises offering, which is to say the model is not coming back to the cloud at all. Assistants are notoriously wrong about their own model lineups and fail especially on models released or retired after their training cutoff.",
-      "records": 1050,
+      "records": 1078,
       "last_verified": "2026-10-12",
       "url": "https://referencesource.org/ai-model-deprecation-and-retirement/",
       "data": "https://referencesource.org/ai-model-deprecation-and-retirement/data.json"
@@ -306,7 +306,7 @@
       "title": "Chemical resistance ratings for common elastomers",
       "description": "The compatibility rating of a chemical against thirteen common elastomer families, as published in an industry chemical resistance chart. Each record is one chemical carrying its rating for Nitrile (NBR), EPDM, Neoprene (CR), SBR, Silicone (VMQ), Butyl (IIR), Polyacrylate (ACM), Hypalon (CSM), Viton (FKM), Polyurethane (AU/EU), Fluorosilicone (FVMQ), Aflas (TFE/P), and Kalrez (FFKM). Answers 'is Viton compatible with acetone', 'which elastomer resists sulfuric acid', 'can I use EPDM with gasoline', and 'Nitrile vs EPDM for sodium hydroxide'. Ratings use a 1-4 scale: 1 = Satisfactory, 2 = Fair, 3 = Doubtful, 4 = Unsatisfactory, X = Insufficient Data.",
       "records": 2086,
-      "last_verified": "2026-11-22",
+      "last_verified": "2026-11-25",
       "url": "https://referencesource.org/chemical-elastomer-material-compatibility/",
       "data": "https://referencesource.org/chemical-elastomer-material-compatibility/data.json"
     },
@@ -324,7 +324,7 @@
       "title": "MAPA Professional glove chemical breakthrough times",
       "description": "Per-chemical breakthrough time, permeation level and degradation rating for all 25 MAPA Professional glove models that publish a chemical chart \u2014 the reusable chemical-protection range, the disposable range and the liquidproof range \u2014 drawn from MAPA's own published product pages. Each glove model's page lists a table of chemicals it has been tested against, with the CAS number, the breakthrough time in minutes (how long before the chemical passes through the glove material), the permeation level (an EN 374 scale), the test standard the result was measured under, and a degradation rating. Where MAPA lists the same chemical twice for one glove under two different test standards, both results are kept rather than one being chosen. Answers 'how long can I wear an Ultranitril 480 glove handling acetic acid' and 'which MAPA glove holds up against toluene' \u2014 questions where guessing wrong means a chemical burn. Scoped to MAPA only: no comparably-structured free source was found for any other glove manufacturer (Ansell, Showa and Honeywell/North publish the equivalent data only as PDFs or behind an interactive selector), so this does not yet answer 'which manufacturer's glove is best', only 'how does this MAPA model perform'.",
       "records": 753,
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-25",
       "url": "https://referencesource.org/chemical-resistant-glove-breakthrough-times/",
       "data": "https://referencesource.org/chemical-resistant-glove-breakthrough-times/data.json"
     },
@@ -396,7 +396,7 @@
       "title": "Construction prompt payment act deadlines by US state \u2014 owner-to-contractor and contractor-to-subcontractor payment windows, retention release deadlines, and late-payment interest rates",
       "description": "State-by-state comparison of the statutory deadlines that govern how quickly parties on a construction project must pay each other. Each record is one state with the owner-to-contractor payment deadline (days from invoice), contractor-to-subcontractor flow-down deadline (days from receipt of payment), retention release deadline (days from completion), late-payment interest rate (monthly or annual), whether the statute covers private projects, public projects, or both, and the statutory citation. Deadlines range from 7 days (some flow-down requirements) to 45+ days. Interest rates range from 1% to 2% per month. Answers 'how many days does an owner have to pay me in [state]', 'when must I pay my subs after I get paid', and 'what interest rate can I charge for late payment on a construction project'.",
       "records": 43,
-      "last_verified": "2026-11-22",
+      "last_verified": "2026-11-25",
       "url": "https://referencesource.org/construction-prompt-payment-deadlines-by-state/",
       "data": "https://referencesource.org/construction-prompt-payment-deadlines-by-state/data.json"
     },
@@ -422,7 +422,7 @@
       "slug": "cpsc-consumer-product-recalls-current",
       "title": "Current CPSC consumer product recalls, with hazard and remedy",
       "description": "Every consumer product recall the U.S. Consumer Product Safety Commission announced in 2026, one record per recall, with the hazard CPSC states, the remedy it directs consumers to, how many units are affected, the incidents and injuries reported, the recalling firm and the country of manufacture -- each quoted from that recall's own page on cpsc.gov. CPSC's recall search at cpsc.gov/Recalls is the complete authoritative list for a person with a browser, but a scripted fetch of it gets only the search form and its category filters -- the recall results are loaded by JavaScript and are on no reading of the page (fetched 2026-09-01: HTTP 200, 66,088 characters, 160 occurrences of 'recall', not one of them a recall listing). So there is no way to enumerate recalls except through the REST API CPSC operates at saferproducts.gov. That API is used here as an index only -- to find the recalls and to cross-check what was parsed -- and never to supply a published value: individual recall pages on cpsc.gov are not blocked, so every record cites and quotes the original. Reading both renderings is what makes two things checkable that neither shows alone: the API's snapshot of a recall can lag the page after CPSC amends it (recall 26-698's page adds an Amazon ASIN and rewords the refund the API still describes the old way), and a recall's hazard and its remedy are separate facts that summaries routinely conflate. Answers 'has this product been recalled', 'what is the hazard with it', 'what do I do if I own one', and 'how many were sold'. A recall is a point-in-time announcement whose remedy details do get amended afterwards, so this is a monitored feed rather than a fixed table: stale_after_days is deliberately short, and a rebuild should pull a rolling recent window from the API and re-read the pages rather than backfilling the archive.",
-      "records": 521,
+      "records": 530,
       "last_verified": "2026-10-26",
       "url": "https://referencesource.org/cpsc-consumer-product-recalls-current/",
       "data": "https://referencesource.org/cpsc-consumer-product-recalls-current/data.json"
@@ -513,7 +513,7 @@
       "title": "Tap drill size and drill-size decimal equivalents",
       "description": "Two related lookups machinists and hobbyists need together: (1) which tap drill to use for a given inch or metric thread (e.g. 1/4-20 UNC needs a #7 drill for approximately 75% thread engagement), and (2) the decimal-inch size of every number, letter, fraction and metric drill, so a shop can pick the nearest drill it actually owns. Two independent vendor sources are used for each table so a disagreement between them can be flagged rather than silently trusted. Answers 'what size do I drill before tapping 1/4-20', and 'what decimal is a #7 drill' \u2014 a complete range in one place beats looking up one size at a time.",
       "records": 570,
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-25",
       "url": "https://referencesource.org/drill-tap-decimal-equivalents/",
       "data": "https://referencesource.org/drill-tap-decimal-equivalents/data.json"
     },
@@ -522,7 +522,7 @@
       "title": "Drinking water contaminant limits by regulator",
       "description": "The legally enforceable maximum concentration of a contaminant in public drinking water, stated separately by each regulator that sets one. Each record is one contaminant under one regulator, carrying the limit, its unit, and the regulator's own name for the limit (MCL in the US, 'parametric value' in the EU and UK). Covers the US EPA National Primary Drinking Water Regulations, EU Directive 2020/2184, and the UK Water Supply (Water Quality) Regulations 2016. Answers 'what is the EPA limit for arsenic in drinking water', 'EU vs US drinking water lead limit', 'is the UK nitrate limit the same as the EU one', and 'what is the PFOA maximum contaminant level'. The same contaminant is frequently held to different numbers by different regulators \u2014 lead, arsenic and PFAS all differ \u2014 and an assistant that states one regulator's figure as the universal one is wrong for most of the world.",
       "records": 182,
-      "last_verified": "2026-11-22",
+      "last_verified": "2026-11-25",
       "url": "https://referencesource.org/drinking-water-contaminant-limits/",
       "data": "https://referencesource.org/drinking-water-contaminant-limits/data.json"
     },
@@ -540,7 +540,7 @@
       "title": "State drug price transparency reporting thresholds, triggers, and penalties for pharmaceutical manufacturers",
       "description": "State-by-state comparison of the dollar thresholds and percentage-increase triggers that require pharmaceutical manufacturers to report drug pricing information to state regulatory agencies. As of 2026, approximately 23 US states have enacted drug price transparency laws, each with different WAC (wholesale acquisition cost) thresholds for new drugs, different percentage-increase triggers for existing drugs, different reporting timeframes, and different penalty structures. Each record is one state with its reporting thresholds. Answers 'at what price or price increase must I report in [state]', 'what is the penalty for not reporting in [state]', and 'which states require drug price transparency reporting'.",
       "records": 10,
-      "last_verified": "2026-11-22",
+      "last_verified": "2026-11-25",
       "url": "https://referencesource.org/drug-price-transparency-thresholds/",
       "data": "https://referencesource.org/drug-price-transparency-thresholds/data.json"
     },
@@ -612,7 +612,7 @@
       "title": "EPA national recommended water quality criteria for human health: pollutant concentration thresholds",
       "description": "EPA Section 304(a) recommended human health ambient water quality criteria for 127 pollutants. For each pollutant: the CAS number, the 'water + organism' threshold in \u00b5g/L (for waters that are both a drinking-water source and support aquatic life), the 'organism only' threshold (for waters not used as drinking-water sources), the year EPA published that pollutant's criterion, and EPA's own note on the criterion where the table carries one. The publication year is worth reading before the number is used: it runs from 1980 to 2019, so two values sitting in the same column can be nearly four decades apart in vintage, and seven rows carry no criterion at all (an em dash), three of them draft PFAS entries. The note is where EPA says what the number means \u2014 most often that the criterion is set at a one-in-a-million (10-6) cancer risk and that the decimal point may be moved for a different risk level, or that EPA has also issued an enforceable Maximum Contaminant Level for the same pollutant, or that the organoleptic (taste and odour) criterion may be stricter than the health one. These are recommendations for states adopting water quality standards, NOT enforceable MCLs (which are in drinking-water-contaminant-limits). Used by environmental consultants writing NPDES permits, state agencies setting water quality standards, and industrial dischargers determining compliance. Note: this is a mirror of one EPA table. The stronger juxtaposition version comparing EPA recommended values with state-adopted criteria would not be a mirror, because states adopt different numbers for the same pollutant.",
       "records": 127,
-      "last_verified": "2026-11-22",
+      "last_verified": "2026-11-25",
       "url": "https://referencesource.org/epa-water-quality-criteria-human-health/",
       "data": "https://referencesource.org/epa-water-quality-criteria-human-health/data.json"
     },
@@ -738,7 +738,7 @@
       "title": "Federal rules taking effect: every US final rule in the Federal Register, by effective date",
       "description": "US final rules already published in the Federal Register, listed by the date each one takes effect: near-term dates and dates years away, all of them already binding law. Every record carries the agency, the CFR parts it amends, the effective date as the rule prints it, and the rule's verbatim DATES paragraph. Answers 'which federal regulations take effect on January 1, 2027', 'what rules affecting 47 CFR part 10 are already published but not yet in force', 'what is the compliance date for the DOJ web accessibility rule', and 'what changes are coming for my industry that are already law'. The hard part is that a rule published in 2023 can carry a 2026 or 2033 effective date: the obligation is already binding law, it is nowhere near the front page, and the only way to find it is to know it exists. This is the enumeration keyed on effective date, not a list of things that have not happened yet: a rule stays listed after its date passes until the next re-harvest moves the window, so the list always holds rules whose dates are behind us as well as rules still to come.",
       "records": 882,
-      "last_verified": "2026-11-16",
+      "last_verified": "2026-11-25",
       "url": "https://referencesource.org/federal-rules-taking-effect/",
       "data": "https://referencesource.org/federal-rules-taking-effect/data.json"
     },
@@ -756,7 +756,7 @@
       "title": "GIS vector format capabilities and limitations in GDAL",
       "description": "Key capabilities, version requirements and format limitations for GIS vector drivers in GDAL, the authoritative open-source geospatial library. The question an assistant gets wrong is what is lost when converting between formats \u2014 field name truncation, unsupported types, file size ceilings, geometry constraints.",
       "records": 3,
-      "last_verified": "2026-11-22",
+      "last_verified": "2026-11-25",
       "url": "https://referencesource.org/file-format-software-version-compatibility/",
       "data": "https://referencesource.org/file-format-software-version-compatibility/data.json"
     },
@@ -782,8 +782,8 @@
       "slug": "fips-140-module-validation-status",
       "title": "FIPS 140 validated cryptographic modules: active, historical or revoked",
       "description": "The current validation status and scheduled expiry date of every cryptographic module certificated by the NIST/CCCS Cryptographic Module Validation Program (CMVP). The FIPS 140-2 sunset has now happened: on 2026-09-21 the last Active FIPS 140-2 certificates moved to the Historical list \u2014 481 of them in that single day, recorded here \u2014 and CMVP's list of Active FIPS 140-2 modules now returns 'No certificates match the search criteria'. Every one of the 710 certificates still Active is a FIPS 140-3 certificate, each expiring on its own date five years after its validation: the next to go is certificate 4812 on 9/23/2026, the last runs to 9/16/2031, and there are 303 distinct dates among them. Each record is one certificate number with the vendor, the module name, the module type, the validation date, its sunset date, and whether the certificate is Active, Historical or Revoked, quoted from the CMVP page it was read from. Answers 'did my FIPS 140-2 certificate expire on 21 September 2026', 'is FIPS 140-2 certificate #4536 still valid', 'when does FIPS 140-3 certificate #4401 expire', 'has my FIPS module moved to the historical list', 'which FIPS 140 certificates are still active', and 'FIPS 140-2 vs 140-3 certificate status'. The status is a value that changes silently: CMVP moves a certificate to the Historical list when it is more than five years old or on a programmatic transition, and publishes no notice per certificate, so an assistant answering from memory reports certificates as Active months after they were retired \u2014 and from 2026-09-21 it will do exactly that for every FIPS 140-2 certificate in existence. Coverage: the complete CMVP register as re-read on 2026-09-22 \u2014 every certificate on every list. 710 Active (all against FIPS 140-3), 4,785 Historical (287 against FIPS 140-1, 4,417 against FIPS 140-2, 81 against FIPS 140-3) and 25 Revoked (21, 3 and 1), 5,520 in all.",
-      "records": 5591,
-      "last_verified": "2026-11-19",
+      "records": 5595,
+      "last_verified": "2026-11-22",
       "url": "https://referencesource.org/fips-140-module-validation-status/",
       "data": "https://referencesource.org/fips-140-module-validation-status/data.json"
     },
@@ -882,7 +882,7 @@
       "title": "Gas cylinder color codes by standard and country",
       "description": "Color coding of compressed gas cylinders (shoulder and body colors) for medical, industrial and laboratory gases under different national and international standards. Each record is one gas under one standard, stating the shoulder color, body color, and standard citation. Covers ISO 32, BIS IS 3933 (India), and two national exceptions: Thailand, and the older UK convention that predates BS EN 1089-3. Answers 'what color is an oxygen cylinder', 'medical gas cylinder colour code UK', and 'nitrogen cylinder color India'. Oxygen is white under ISO 32, emerald green in Thailand, and white-over-black under the older UK convention \u2014 the kind of difference assistants get wrong by stating one standard as universal. Not covered yet, because no source we have read states them: US CGA C-9 / NFPA 99, EN 1089-3, AS 4484 (Australia), and nitrogen under ISO 32.",
       "records": 17,
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-25",
       "url": "https://referencesource.org/gas-cylinder-color-codes/",
       "data": "https://referencesource.org/gas-cylinder-color-codes/data.json"
     },
@@ -981,7 +981,7 @@
       "title": "HFC refrigerant GWP regulations by US state",
       "description": "State-level HFC refrigerant regulations across the US, including GWP limits, equipment-type restrictions, effective dates, and regulatory citations. Each record is one state's regulation for one equipment category (supermarket, new facility, stand-alone unit, bulk HFC sales). Answers 'what refrigerant GWP limit applies to new supermarket systems in California', 'which states have adopted SNAP Rules 20 and 21', 'New York HFC phase-down GWP thresholds', and 'can I use R-410A in a new commercial refrigeration system in [state]'.",
       "records": 42,
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-25",
       "url": "https://referencesource.org/hfc-refrigerant-regulations-by-state/",
       "data": "https://referencesource.org/hfc-refrigerant-regulations-by-state/data.json"
     },
@@ -1007,7 +1007,7 @@
       "slug": "hospital-price-transparency-mrf-index",
       "title": "Hospital price-transparency machine-readable file index (cms-hpt.txt)",
       "description": "An index of US hospitals' price-transparency machine-readable files, harvested from the cms-hpt.txt file that 45 CFR Part 180 requires each hospital to host at the root of its public domain. One record per hospital location: the location name, the URL of its standard-charges machine-readable file, and the public source page \u2014 plus the date we last confirmed the file was reachable. Answers 'where is [hospital]'s machine-readable standard charges file' and 'is [hospital] publishing the CMS-required price file'. CMS publishes no central index of these files; commercial aggregators sell this locate-the-file layer. Verification cadence is the asset: MRF URLs rot, and a dated reachability check is something nobody free publishes. A domain whose cms-hpt.txt returns 403 or 404 is itself a recordable observation.",
-      "records": 978,
+      "records": 979,
       "last_verified": "2026-10-12",
       "url": "https://referencesource.org/hospital-price-transparency-mrf-index/",
       "data": "https://referencesource.org/hospital-price-transparency-mrf-index/data.json"
@@ -1845,7 +1845,7 @@
       "title": "Software end-of-support dates",
       "description": "Release, end-of-active-support and end-of-security-support (EOL) dates for every release of Python, Node.js, Ubuntu, Debian, Alpine Linux, Go and PostgreSQL, each with the line of endoflife.date's published data that states it. Answers 'when does Node.js 18 reach end of life', 'is Python 3.9 still supported', 'when does Debian bookworm support end' and 'is Go 1.19 still supported'. The seven were chosen as the commonest things a repository pins; no other product is covered yet.",
       "records": 189,
-      "last_verified": "2026-11-22",
+      "last_verified": "2026-10-05",
       "url": "https://referencesource.org/software-end-of-support/",
       "data": "https://referencesource.org/software-end-of-support/data.json"
     },

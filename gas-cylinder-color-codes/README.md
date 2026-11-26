@@ -6,7 +6,7 @@ Color coding of compressed gas cylinders (shoulder and body colors) for medical,
 
 | | |
 |---|---|
-| Last verified | 2026-11-23 |
+| Last verified | 2026-11-25 |
 | Re-check due | 2028-10-04 |
 | Records | 17 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/gas-cylinder-color-codes/changes.xml) |
