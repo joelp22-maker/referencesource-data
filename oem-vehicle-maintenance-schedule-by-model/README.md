@@ -6,8 +6,8 @@ What the manufacturer's own maintenance guide says to do at each mileage/time in
 
 | | |
 |---|---|
-| Last verified | 2026-08-31 |
-| Re-check due | 2027-08-31 |
+| Last verified | 2026-11-26 |
+| Re-check due | 2027-11-26 |
 | Records | 6,111 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/oem-vehicle-maintenance-schedule-by-model/changes.xml) |
 

@@ -6,8 +6,8 @@ A thermocouple's type letter (J, K, T, E, N, R, S, B, C...) names an alloy pair,
 
 | | |
 |---|---|
-| Last verified | 2026-08-19 |
-| Re-check due | 2028-08-18 |
+| Last verified | 2026-11-26 |
+| Re-check due | 2028-11-25 |
 | Records | 12 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/thermocouple-type-color-code-crosswalk/changes.xml) |
 

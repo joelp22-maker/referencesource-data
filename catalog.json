@@ -17,7 +17,7 @@
       "slug": "ai-model-deprecation-and-retirement",
       "title": "AI model deprecation and retirement dates by provider",
       "description": "Which AI API models are deprecated or retired, when the deprecation was announced, when the model shuts off, and what the recommended replacement is \u2014 sourced from each provider's own documentation. Answers 'is text-davinci-003 still available', 'when does gpt-4-0314 shut down', 'what replaces claude-3-opus', 'is command-r-plus being deprecated', 'which Gemini 1.5 Pro version is retired'. Covers OpenAI, Anthropic, Google (Vertex AI, the Gemini Developer API, and the Agent Platform's open- and partner-model schedules), Azure/Microsoft Foundry, AWS Bedrock, Cohere, Mistral AI, Groq, Cerebras, xAI, DeepSeek, Moonshot AI, GitHub Copilot, Together AI, Oracle OCI Generative AI, Alibaba Cloud Model Studio and SambaNova. GitHub Copilot is a different shape from all of the above: not a model's author and not an inference host renting out silicon, but an end-user product that resells other people's hosted models and switches them off on a clock of its own. It deprecates Claude Opus 4.5 on 2026-09-01 while Microsoft Foundry keeps serving it until 2026-10-19, and it is the only source anywhere that states a date for Claude Opus 4.7. Developers who never touch an API \u2014 who just pick a model from the Copilot Chat selector \u2014 have a retirement schedule too, and it is published one changelog post at a time rather than as a standing table. Groq and Cerebras matter beyond being two more companies: both are inference hosts serving other people's open-weight models (Llama, Qwen, Kimi, DeepSeek, Gemma, Mistral, Whisper) on their own silicon, and each publishes its own lifecycle dates for them, which no model author's page states anywhere. They also disagree with each other: both deprecated deepseek-r1-distill-llama-70b, Cerebras on 2025-08-12 pointing users at Qwen 3 32B, Groq seven weeks later pointing them at Llama 3.3 70B, and this dataset shows both on the one record. xAI and DeepSeek matter for the opposite reason: both are already in here at second hand, through Azure/Foundry reselling their models and publishing Foundry's dates, and both authors state different dates for the same model IDs on their own pages \u2014 Foundry retires grok-3 two weeks before xAI's own API does. Moonshot AI is the same story with a far wider gap: Azure/Foundry lists Kimi-K2.5 as a preview retiring on 2027-01-26, while Moonshot's own documentation says the model was discontinued on 2026-08-31 and that calls to it now return a 404 \u2014 nearly five months earlier, and already in the past. The four Google surfaces are held separately on purpose: they publish different shutdown dates for the same model IDs, and where they disagree this dataset shows both. No single original exists \u2014 each provider publishes its own page \u2014 so this is the only place that puts them side by side. Alibaba Cloud Model Studio is the only source here that is both the model's author and its host at once for a family this size: Model Studio rents out the Qwen models Alibaba also writes, so one page carries the author's clock and the host's in the same row. It publishes no standing table \u2014 one dated notice per batch, each superseding the last \u2014 and it is the second place DeepSeek V4 Flash appears: Alibaba stops serving it on 2026-10-10, Microsoft Foundry keeps it until 2028-02-20, and this dataset shows both. SambaNova is the third inference host of the same kind and the one with the widest overlap: 12 of the 27 models on its deprecation page are already in here from Azure, Together AI, Oracle, Cerebras or Groq, so its rows mostly land on existing records rather than adding new ones. Meta-Llama-3.1-405B-Instruct now carries four hosts and three different shutdown dates on a single page \u2014 SambaNova switched it off on 2025-06-25, Azure keeps it to 2026-06-13, Oracle to 2026-08-03 \u2014 a fourteen-month spread for one model ID that no provider's own page discloses. It is also the only source here that answers 'what should I use instead' with a product rather than a model: for Whisper-Large-v3, ALLaM-7B and E5-Mistral-7B-Instruct the recommended replacement is SambaStack, SambaNova's on-premises offering, which is to say the model is not coming back to the cloud at all. Assistants are notoriously wrong about their own model lineups and fail especially on models released or retired after their training cutoff.",
-      "records": 1078,
+      "records": 1079,
       "last_verified": "2026-10-12",
       "url": "https://referencesource.org/ai-model-deprecation-and-retirement/",
       "data": "https://referencesource.org/ai-model-deprecation-and-retirement/data.json"
@@ -170,7 +170,7 @@
       "slug": "blood-donor-deferral-criteria",
       "title": "Blood donor deferral criteria compared across national blood services",
       "description": "How long you must wait before giving blood, by reason, compared across the American Red Cross (US), JPAC / the UK Blood and Tissue Services, Canadian Blood Services and the Irish Blood Transfusion Service. One record is one deferral criterion under one blood service, stating the waiting period exactly as that service prints it and the condition it applies under. Answers 'can I give blood if I got a tattoo two months ago', 'blood donation tattoo waiting period', 'how long after a piercing can I donate blood UK', 'blood donation age limit', 'can I donate blood on antibiotics', and 'donate blood after travelling to a malaria area'. The same criterion genuinely disagrees between services and assistants state one national rule as universal: a tattoo is a 4-month deferral in the UK and Ireland, 3 months in Canada, and in the US no deferral at all unless the tattoo was applied in a state that does not regulate tattoo facilities \u2014 but even the two largest US blood services disagree on which states those are: the Red Cross lists 8 jurisdictions, Vitalant lists 11, adding Connecticut, Georgia and Utah.",
-      "records": 111,
+      "records": 117,
       "last_verified": "2026-08-06",
       "url": "https://referencesource.org/blood-donor-deferral-criteria/",
       "data": "https://referencesource.org/blood-donor-deferral-criteria/data.json"
@@ -351,7 +351,7 @@
       "title": "Can I put regulated data in this cloud service? What the vendor's own page says, and the government's own FedRAMP file",
       "description": "One record per named cloud service, answering the question a developer actually puts to a coding assistant: 'can I put patient data in X?' and 'is X FedRAMP authorised?'. Each record carries two separate things, from two separate publishers, and never mixes them: whether the vendor's own page names that service on its list of services covered by its HIPAA business associate agreement (BAA), quoted verbatim with the date the vendor last updated the list; and what the US General Services Administration's own daily FedRAMP export says about the status, impact level, authorisation date and authorisation type of the cloud service offering that service's vendor holds. Answers 'is Cloud Run covered by Google's HIPAA BAA', 'is BigQuery HIPAA eligible', 'does Microsoft sign a BAA for Azure', 'is OpenAI's web search HIPAA eligible' (the vendor's own answer is no), 'what FedRAMP impact level is Google Cloud authorised at', and 'which Google Workspace services are in the Google Cloud BAA'. The reason this is a dataset and not a memory is that the lists move: Google's own page stamped its Google Cloud list 2026-11-11, its SecOps list 2026-11-09 and its Workspace list 2026-10-28, three different dates on one page, and a service is added to or dropped from such a list without an announcement. NOTHING HERE SAYS A SYSTEM IS COMPLIANT, and nothing here says a reader may put protected health information anywhere. It says what the publisher's page says, with the sentence and the date, which is a different thing and the only thing that can be published honestly.",
       "records": 173,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/cloud-service-hipaa-baa-and-fedramp-status/",
       "data": "https://referencesource.org/cloud-service-hipaa-baa-and-fedramp-status/data.json"
     },
@@ -918,7 +918,7 @@
       "title": "PyTorch release, CUDA build and NVIDIA driver pairings",
       "description": "One record per (PyTorch release, CUDA build) pairing: which CUDA builds each PyTorch release ships wheels for, which Python versions it supports, which cuDNN it carries, which GPU architectures (compute capabilities) the wheel was compiled for, and the minimum NVIDIA driver the pairing needs. Answers 'does torch 2.7 run on an RTX 5090', 'nvidia-smi says CUDA 12.4 but torch wants 12.6 \u2014 do I need a new driver', 'which pip index URL do I use for CUDA 12.8', 'why is torch.cuda.is_available() False on a card that CUDA supports'. Nobody publishes this join: PyTorch's release notes state the CUDA builds but not the driver floor, NVIDIA's release notes state the driver floor but say nothing about PyTorch, and the compiled architecture list lives only in PyTorch's own build script. The pairing is what a person actually needs and it is the thing assistants get wrong.",
       "records": 45,
-      "last_verified": "2026-11-17",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/gpu-cuda-pytorch-compatibility/",
       "data": "https://referencesource.org/gpu-cuda-pytorch-compatibility/data.json"
     },
@@ -1035,7 +1035,7 @@
       "title": "Hydraulic and pipe connection type identification",
       "description": "Identifying characteristics of each hydraulic, pipe, and instrumentation connection standard used in fluid power and plumbing systems. For each connection type, gives the governing standard, seat or flare angle, whether the thread is tapered or parallel, how the seal is made, and interchangeability notes with other standards. Answers the recurring field question 'what kind of fitting is this?' \u2014 the identification step that must happen before any cross-reference or adapter lookup.",
       "records": 21,
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/hydraulic-pipe-connection-types/",
       "data": "https://referencesource.org/hydraulic-pipe-connection-types/data.json"
     },
@@ -1242,7 +1242,7 @@
       "title": "ACA marketplace subsidy income limits by coverage year, household size and state group",
       "description": "The dollar income limits that decide whether a household qualifies for an ACA premium tax credit, for each coverage year, each household size from 1 to 8, and each of the three federal poverty guideline schedules (48 contiguous states and DC, Alaska, Hawaii). Each record states the poverty guideline the marketplace actually applies to that coverage year, the dollar figures at the 100%, 138%, 150%, 200%, 250%, 300% and 400% marks, the share of income the household is expected to pay at the top of the scale, and whether a hard cutoff applies above 400%. The enhanced credits created by the American Rescue Plan Act and extended by the Inflation Reduction Act lapsed on 31 December 2025, so coverage year 2026 was the first year since 2020 in which a household above 400% of the poverty line received no credit at all. No single page states these dollar figures. HHS publishes the poverty guidelines without the ACA multiples; the IRS publishes the applicable percentages without any dollar amounts; and the marketplace applies the guidelines published before open enrollment opened, not the guidelines bearing the coverage year's own number, which is the step most secondary sources get wrong. Answers 'what is the income limit for marketplace insurance in [year]', 'what is 400% of the federal poverty level for a family of [n]', 'how much can I earn and still get an Obamacare subsidy', 'what is the subsidy cliff', and 'what percentage of income do I have to pay for a benchmark plan'.",
       "records": 48,
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/marketplace-subsidy-income-thresholds/",
       "data": "https://referencesource.org/marketplace-subsidy-income-thresholds/data.json"
     },
@@ -1341,7 +1341,7 @@
       "title": "EPA NESHAP Source Category Applicability Crosswalk",
       "description": "Maps each EPA NESHAP source category to its 40 CFR subpart, whether it applies to major or area sources, the original final rule date, most recent amendment, and residual risk/technology review status.",
       "records": 125,
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/neshap-source-category-crosswalk/",
       "data": "https://referencesource.org/neshap-source-category-crosswalk/data.json"
     },
@@ -1359,7 +1359,7 @@
       "title": "NFPA 704 fire diamond ratings by chemical",
       "description": "The NFPA 704 'fire diamond' rating for a chemical \u2014 the health (blue), flammability (red), instability (yellow) numbers and any special (white) notice \u2014 as published on that chemical's own datasheet. Each record is one chemical, with the four quadrants, each quoted from its own printed row of the datasheet's table so that the page's own wording for what the number means sits beside it, plus any footnote the datasheet prints under that table. Answers 'what is the NFPA 704 rating for anhydrous ammonia', 'fire diamond numbers for thionyl chloride', and 'what does a 3 in the blue diamond mean'. NFPA 704 itself is a paywalled standard and the per-chemical ratings are scattered one page at a time across datasheets and SDSs, so no single free table exists \u2014 assembly, one source per record.",
       "records": 72,
-      "last_verified": "2026-11-23",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/nfpa-704-hazard-ratings/",
       "data": "https://referencesource.org/nfpa-704-hazard-ratings/data.json"
     },
@@ -1368,7 +1368,7 @@
       "title": "NIST cryptographic algorithm deprecation schedule: what is approved, deprecated, and disallowed, and when",
       "description": "Per-algorithm status under NIST guidance for the post-quantum cryptographic transition. Each record is one algorithm or key-length configuration with its current approval status (approved, acceptable, deprecated, restricted, disallowed, legacy use), the date at which the status changes, and the recommended replacement. Drawn from three NIST publications: IR 8547 (post-quantum transition timeline), SP 800-131A Rev 2 (current algorithm status rules) and Rev 3 draft (upcoming changes), and FIPS 203/204/205 (the post-quantum replacement standards). The key deadlines: quantum-vulnerable public-key algorithms (RSA, ECDSA, ECDH, finite-field DH) deprecated after 2030, disallowed after 2035; SHA-1 and 224-bit hashes deprecated through 2030, disallowed thereafter. AES-256 and SHA-2/SHA-3 are NOT on the deprecation schedule. Answers 'when is RSA deprecated?', 'is AES-256 affected by the post-quantum transition?', 'what replaces ECDSA?', and 'what is the current NIST status of 3DES?'",
       "records": 21,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/nist-cryptographic-algorithm-deprecation-schedule/",
       "data": "https://referencesource.org/nist-cryptographic-algorithm-deprecation-schedule/data.json"
     },
@@ -1413,7 +1413,7 @@
       "title": "Deprecated npm packages and their maintainer-named replacement",
       "description": "npm allows a maintainer to attach a 'deprecated' message to a specific published version, and that message often names the exact replacement package or built-in API to use instead -- 'left-pad' points at String.prototype.padStart(), 'istanbul' points at nyc, 'tslint' points at ESLint, 'babel-eslint' points at @babel/eslint-parser. This is first-party, machine-readable data sitting in the registry API itself, but nobody has assembled it into a browsable table: a developer running `npm install` sees the warning once in a terminal scroll and it is gone, and the alternative is a content-mill blog post ranking '10 request alternatives' without quoting what the maintainer actually said. This asset would have been too tedious to maintain by hand across thousands of packages -- watching a firehose of new deprecations and re-checking old ones for changes -- but is a mechanical registry read for one machine, refreshable on a schedule at zero marginal cost per package. Each record is one deprecated package, quoting its maintainer's own deprecated message verbatim and naming the specific replacement stated in it. Answers 'is request deprecated', 'what should I use instead of tslint', 'why is my npm install warning about gulp-util'.",
       "records": 133,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/npm-deprecated-package-recommended-replacement/",
       "data": "https://referencesource.org/npm-deprecated-package-recommended-replacement/data.json"
     },
@@ -1458,7 +1458,7 @@
       "title": "OEM maintenance schedule by vehicle model and year, sourced from the manufacturer's own document",
       "description": "What the manufacturer's own maintenance guide says to do at each mileage/time interval, one record per make, model, model year, interval and service item, each quoted from the manufacturer's own PDF. Toyota publishes a Warranty & Maintenance Guide per model and model year at assets.sia.toyota.com, and those documents are behind every record here \u2014 one make so far. Published today: the 2024 Camry, the 2026 Camry, the 2025 Corolla, RAV4, Tacoma, Tundra, Highlander, 4Runner and Sienna, and the 2026 Sequoia Hybrid, including the Special Operating Conditions schedule and the condition each of those items applies under. The 2025 Camry and 2025 Prius guides have been fetched and checked, and their records are deliberately not published here yet.",
       "records": 6111,
-      "last_verified": "2026-08-31",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/oem-vehicle-maintenance-schedule-by-model/",
       "data": "https://referencesource.org/oem-vehicle-maintenance-schedule-by-model/data.json"
     },
@@ -1503,7 +1503,7 @@
       "title": "OSHA training requirements by standard: topic, frequency, and CFR citation",
       "description": "Which OSHA standards require employee training, what the training must cover, how often it must be repeated, and who must receive it. Each record is one training requirement tied to a specific CFR section. Training frequencies vary: some are annual (respiratory protection 1910.134, bloodborne pathogens 1910.1030), some are event-driven (lockout/tagout 1910.147 \u2014 retrain when procedures change), some are initial-only with situational retraining (PPE 1910.132). Answers 'what OSHA training does my construction crew need', 'how often is respiratory protection training required', and 'does OSHA require annual forklift certification'.",
       "records": 31,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/osha-training-requirements-by-standard/",
       "data": "https://referencesource.org/osha-training-requirements-by-standard/data.json"
     },
@@ -1512,7 +1512,7 @@
       "title": "Outboard motor spark plugs and gaps by brand, with Yamaha oil and gear lube capacities",
       "description": "Spark plug part number and electrode gap for outboard motors from five brands \u2014 Yamaha, Mercury, Johnson/Evinrude, Honda and Suzuki \u2014 by model or model range. Yamaha models additionally carry an oil filter part number, engine oil capacity and gear lube capacity; the other four brands carry spark plug and gap only, because the two dealer charts this is assembled from publish capacities for Yamaha alone. One row per model or model range. Answers 'what spark plug does my Yamaha F150 take?', 'what gap does a Mercury 150-300 HP Verado run?' and 'how much gear lube does an F150 lower unit hold?' \u2014 questions where assistants guess a plausible but wrong part number or capacity.",
       "records": 53,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/outboard-motor-service-specs/",
       "data": "https://referencesource.org/outboard-motor-service-specs/data.json"
     },
@@ -1593,7 +1593,7 @@
       "title": "PostgreSQL extension compatibility with PostgreSQL major versions",
       "description": "Which major versions of PostgreSQL a popular server extension supports, taken from that extension's own documentation, README or changelog -- not from any one cloud vendor's managed-service certification list. Before upgrading a self-hosted PostgreSQL server, an operator running several extensions has to check every extension's supported range separately, because dropping support for an old PostgreSQL version and adding support for a new one happen on each extension's own schedule, not in step with Postgres itself or with each other. Cloud vendors (Azure, AWS/Aurora, DigitalOcean, Alibaba) each publish their own extension-by-version table, but that shows what the vendor has certified for its managed service, which lags or diverges from what the extension's own maintainers say it supports; no vendor-neutral page was found that cites each extension's own documentation. Some projects state a range in one sentence; others state only that a particular release added or dropped a PostgreSQL version, and the range has to be read off those entries. Both are recorded here, and which one a record rests on is visible from its quote.",
       "records": 9,
-      "last_verified": "2026-08-31",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/postgres-extension-postgresql-version-compatibility/",
       "data": "https://referencesource.org/postgres-extension-postgresql-version-compatibility/data.json"
     },
@@ -1629,7 +1629,7 @@
       "title": "What must pass before the next step: mandated step order in regulated processes",
       "description": "The mandated order of steps in multi-step regulated processes, from the authority that enforces the order: which inspection or filing must be approved before the next one may happen, what may not proceed until it passes, and the deadline attached to it. One record is one step in one authority's published sequence. Covers municipal building inspection sequences (the rough-in must pass before the wall closes; no concrete before the footing inspection) and the US import Importer Security Filing chain (ISF no later than 24 hours before lading; flexible filings finalised no later than 24 hours before arrival; cargo release withheld without an ISF). Answers 'did I need an inspection before drywall', 'what order do building inspections happen in', 'when does the ISF have to be filed', and 'what happens if the ISF is late'. The sequence is usually published only as prose on the enforcing authority's own page, one jurisdiction at a time; no comparison table exists anywhere.",
       "records": 37,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/prerequisite-sequencing-regulated-processes/",
       "data": "https://referencesource.org/prerequisite-sequencing-regulated-processes/data.json"
     },
@@ -1638,7 +1638,7 @@
       "title": "Galvanic series and surface energy of engineering materials",
       "description": "Three published reference tables, each keyed by material, with no material appearing in more than one of them: the ASM seawater galvanic series (steady-state electrode potential in volts vs SCE, 27 metals and alloys); the MIL-STD-889 anodic index (galvanic voltage relative to gold, 19 material groups); and a printing and packaging dyne-level chart (surface energy in dyne/cm plus that chart's own 'needs treatment' column, 34 substrates ranging from PTFE and stainless steel to BOPP film and overprint varnish). Answers 'will these two metals corrode each other if I join them' and 'is this substrate's surface energy high enough for an ink or adhesive to wet it'. It does not say whether a particular coating needs a primer on a particular substrate: no source here states that, so the question this asset was originally built for \u2014 can paint go straight onto galvanised steel \u2014 is not one it can answer.",
       "records": 80,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/",
       "data": "https://referencesource.org/process-compatibility-coatings-adhesives-treatments/data.json"
     },
@@ -1656,7 +1656,7 @@
       "title": "CPA continuing professional education (CPE) requirements by US jurisdiction",
       "description": "The CPE hours a licensed CPA must complete in each US state and territory to renew, as published by NASBA's National Registry of CPE Sponsors. Covers total hours, reporting period, ethics requirement, and other subject-area mandates. Answers 'how many CPE hours does a CPA need in [state]', 'what is the ethics CPE requirement for CPAs in Texas', 'which states require CPA CPE in government auditing or accounting and auditing', and 'do my CPE hours from another state count'. The scenario as briefed ('professional licensing CE by jurisdiction') spans dozens of independent regulatory datasets across professions; this asset covers CPAs because NASBA publishes a structured, per-jurisdiction page for all 55 boards of accountancy \u2014 the only profession in the scenario with a single cross-jurisdiction authority table. Nursing and insurance producer CE are different datasets with different regulators and no equivalent assembled source.",
       "records": 53,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/professional-licensing-continuing-education-by-jurisdiction/",
       "data": "https://referencesource.org/professional-licensing-continuing-education-by-jurisdiction/data.json"
     },
@@ -1737,7 +1737,7 @@
       "title": "US federal employment law thresholds by employee count",
       "description": "Employee-count thresholds that trigger US federal employment laws, with the number quoted from the statute itself or from the enforcing agency's own coverage page -- never from a vendor summary. Two kinds of record: a law that states a count (Title VII, ADA, ADEA, GINA, the Pregnancy Discrimination Act, FMLA, COBRA, the ACA employer mandate, WARN, EEO-1 reporting, IRCA) carries that number; a law whose coverage clause names who it covers without stating any employee count (FLSA, ERISA, the OSH Act, USERRA, FCRA, EPPA, the Equal Pay Act, the Consumer Credit Protection Act's garnishment rule, jury-duty protection) carries no threshold at all, is marked 'no employee-count threshold', and quotes the test its coverage does turn on. Note what the second kind does NOT say: that the law covers every employer. It says the statute sets no headcount -- several set some other test, and that test is quoted where the clause states one. A few laws state two counts, because a named class of employer is covered at a lower one -- EEO-1 reporting binds private employers at 100 but federal contractors at 50. Those records carry both numbers, so that reading only the headline figure cannot give the wrong answer to a contractor. Two further shapes exist because reference pages elsewhere get them wrong in the same direction, by printing a number as a threshold when it is not one. A law can cover every employer and separately excuse a small one -- the PUMP Act binds every FLSA employer and lets an employer under 50 out only if compliance would impose an undue hardship -- so that 50 is quoted as an exemption, with its condition attached, and the record carries no threshold. And a threshold can stop existing: the 50-employee affirmative-action programme requirement rested on Executive Order 11246, which was revoked in January 2025, so that record is marked 'threshold revoked' and quotes the order that revoked it rather than the number vendor summaries still publish. Two surviving 50-employee affirmative-action duties are named for the duty rather than the statute -- 'Section 503 affirmative action program (federal contractors)', not 'Section 503 of the Rehabilitation Act' -- because 41 CFR 60-741.4(a)(1) covers every contract over $20,000 with no employee count at all, and the 50 governs only the affirmative-action subpart. A row labelled with the bare statute name and the figure 50 would tell a 20-employee contractor that Section 503 does not reach it, which is the opposite of what the regulation says.",
       "records": 24,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/regulatory-threshold-triggers/",
       "data": "https://referencesource.org/regulatory-threshold-triggers/data.json"
     },
@@ -1773,7 +1773,7 @@
       "title": "SBA disaster loan filing deadlines, live",
       "description": "Every SBA disaster declaration (state/administrative and physical) currently open, with its physical-damage loan application deadline and its Economic Injury Disaster Loan (EIDL) application deadline, taken verbatim from SBA's own Federal Register notice. One record is one declaration. Both dates come from the notice; where the physical loan deadline had already passed on the day this page was last built, the record says so. Where it had not, the record says nothing either way -- a page that can be a week old cannot honestly tell anyone a deadline is still open, so it does not try, and there is no days-remaining count for the same reason. Answers 'when does the SBA disaster loan deadline close for the Illinois severe storms', 'how much time is left to apply for an SBA EIDL loan after my state's disaster declaration', 'is the SBA disaster loan deadline for my county still open'. Checked 2026-08-28 by asking an AI assistant with web search, two queries: the assistant itself concluded 'there's no official page that ranks declarations by days left' and pointed at SBA's own portal (one declaration searched at a time, JS-driven) and the Federal Register API as the only two raw sources -- confirming the gap is real and not just under-searched. SBA's own site (disasterloanassistance.sba.gov, lending.sba.gov) is a per-declaration JS search tool, not a nationwide sortable list; no third-party aggregator was found either.",
       "records": 178,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/sba-disaster-loan-deadlines/",
       "data": "https://referencesource.org/sba-disaster-loan-deadlines/data.json"
     },
@@ -1809,7 +1809,7 @@
       "title": "Septic system inspection at property sale: which states require it",
       "description": "For each US state whose statute, code or environmental agency states a position: whether a septic (onsite sewage) system must be inspected when the property is sold or the deed transfers, who must obtain it, and any exemptions. The sibling of well-water-testing-at-property-transfer, and it carries a date that will make today's answers wrong: Washington's WAC 246-272A-0270 requires, verbatim, 'Beginning February 1, 2027, obtain an inspection ... by a third-party inspector authorized by the local health officer' at the time of property transfer \u2014 so every page and model answering 'no statewide requirement in Washington' becomes wrong on that date. Iowa Code 455B.172 already requires a certified time-of-transfer inspection before deed transfer; Massachusetts Title 5 is the flagship law (mass.gov currently 403s our fetcher \u2014 use the 310 CMR 15.301 regulation text). Most states have no statewide rule and the requirement is county-level or the lender's; those statements are records too. Answers 'do I need a septic inspection to sell my house in [state]', 'what is a time of transfer inspection', and 'when does Washington's septic inspection rule start'. States whose authority states nothing get no record.",
       "records": 7,
-      "last_verified": "2026-08-18",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/septic-inspection-at-property-transfer/",
       "data": "https://referencesource.org/septic-inspection-at-property-transfer/data.json"
     },
@@ -1899,7 +1899,7 @@
       "title": "SSI state supplement amounts by state and living arrangement",
       "description": "The federal SSI payment (the Federal Benefit Rate) is one number nationwide, but most states add a State Supplementary Payment on top of it, and that add-on varies by state and by the recipient's living arrangement (independent living, living in the household of another, domiciliary/personal-care home, nursing home, etc.) in a way no single federal page states. SSA administers the federal payment and publishes the FBR; the supplement is set and published separately by each state's own social-services agency, in its own document, on its own schedule, under its own category names. A record here is one state's one living-arrangement category with the FBR, the state supplement amount, and the date the amount took effect. Answers 'how much is the SSI state supplement in Pennsylvania for someone in a personal care boarding home', 'does Michigan add anything to the federal SSI check for domiciliary care and how much', and 'why is my total SSI payment higher than the federal maximum'. Living-arrangement categories differ in name and count from state to state \u2014 record the category exactly as the state's own document names it rather than mapping it onto a shared taxonomy, since the mapping itself is where two states' 'domiciliary care' can mean different things.",
       "records": 25,
-      "last_verified": "2026-08-19",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/ssi-state-supplement-amounts-by-state/",
       "data": "https://referencesource.org/ssi-state-supplement-amounts-by-state/data.json"
     },
@@ -1917,7 +1917,7 @@
       "title": "State construction apprentice-to-journeyman ratio requirements by trade",
       "description": "Apprentice-to-journeyman ratio requirements for construction trades in each US state. Each record is one state and one trade or program, giving the initial ratio (how many journeymen for the first apprentice), the ratio thereafter (how many additional journeymen per additional apprentice), and whether it applies to public works, private, or both. Answers 'what is the apprentice-to-journeyman ratio for [trade] in [state]' and 'how many journeymen do I need before I can hire another apprentice on this job'. Ratios vary widely, and states structure them differently: some (MN) delegate to individual JATC programs, each with its own ratio; others (CA) set a state-wide hourly ratio on public works with trade-specific exemptions.",
       "records": 43,
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/state-apprenticeship-ratios-by-trade/",
       "data": "https://referencesource.org/state-apprenticeship-ratios-by-trade/data.json"
     },
@@ -2088,7 +2088,7 @@
       "title": "Medical malpractice noneconomic damages caps by state",
       "description": "How much can a patient recover for pain and suffering in a medical malpractice case? The cap on noneconomic damages in 48 states and the District of Columbia: the dollar limit where one is in force, and where there is none, whether that is because no statute was passed, a court struck the cap down, or the state constitution forbids caps. New Jersey and Rhode Island are not covered yet. Seventeen states quote their own legislature or constitution directly \u2014 Arizona, California, Colorado, Hawaii, Idaho, Iowa, Maine, Massachusetts, Michigan, Montana, Nebraska, Nevada, North Dakota, Ohio, South Carolina, West Virginia and Wyoming. The rest quote the American Medical Association's 50-state damage-cap chart, which summarises the statutes rather than being them; the chart names the statute or case that settles each state, so those records are waiting to be moved to it. A state appears more than once where its law caps different things separately: wrongful-death awards, catastrophic injuries, emergency care in a trauma centre, a per-provider ceiling under a compensation-fund scheme, or total damages rather than noneconomic damages alone. Several caps climb on a schedule (California to $750,000 over ten years, Colorado's noneconomic cap to $875,000 by 2029 and then biennially for inflation, Nevada's to $750,000 by 2028 and then 2.1% a year, Iowa by 2.1% each January from 2028) or are re-set annually for inflation (Michigan, by the state treasurer against the CPI), so a figure is only as good as the date printed beside it \u2014 each record gives the source's own as-of date rather than a present-day amount worked out by arithmetic. Whether a cap is still enforceable is reported only where the cited source itself says so. A cap a court has voided stays printed in the code \u2014 Illinois' $500,000 cap is still in the compiled statutes and has been void since LeBron v. Gottlieb in 2010 \u2014 so a record resting on a statute page says the cap was enacted and that the source does not address its validity, rather than claiming it is in force. Answers 'medical malpractice damages cap in Ohio', 'does Florida have a cap on pain and suffering', 'California MICRA cap', 'noneconomic damages limit by state'. A reference lookup, not legal advice: per-defendant versus per-occurrence application, catastrophic-injury exceptions and wrongful-death distinctions all change the answer, and the record says so where the source does.",
       "records": 62,
-      "last_verified": "2026-08-31",
+      "last_verified": "2026-09-03",
       "url": "https://referencesource.org/state-medical-malpractice-damages-caps/",
       "data": "https://referencesource.org/state-medical-malpractice-damages-caps/data.json"
     },
@@ -2133,7 +2133,7 @@
       "title": "State paid family and medical leave program contribution rates, benefits, and eligibility",
       "description": "The mandatory paid family and medical leave programs that US states operate, with each state's current contribution rate, employer/employee split, maximum weekly benefit, wage replacement formula, leave duration, covered reasons, employer-size threshold, and program launch date. As of mid-2026, 14 states plus DC operate programs: California, Colorado, Connecticut, Delaware, DC, Maine, Massachusetts, Minnesota, New Jersey, New York, Oregon, Rhode Island, and Washington. Maryland and Virginia have enacted programs launching in 2028. Contribution rates change annually (Washington rose to 1.13% for 2026; Massachusetts remains at 0.88%). Wage replacement ranges from a flat 67% (New York) to sliding scales giving 90-100% to low-wage workers (Washington, Oregon, Colorado, Minnesota). Family-leave duration ranges from 8 weeks (California, Rhode Island) to 12 weeks in most programs, with Massachusetts allowing 26 weeks to care for a service member. This is a production-edge asset: maintaining current rates across 15+ annually-changing programs was prohibitive for one person and is now economic. Answers 'what is the paid family leave contribution rate in [state]', 'how much paid leave do employees get in [state]', 'does my state have paid family leave', and 'what is the maximum paid leave benefit in [state]'.",
       "records": 15,
-      "last_verified": "2026-08-17",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/state-paid-family-leave-programs/",
       "data": "https://referencesource.org/state-paid-family-leave-programs/data.json"
     },
@@ -2151,7 +2151,7 @@
       "title": "US state PFAS product restriction effective dates by category",
       "description": "State-by-state PFAS product ban and restriction effective dates. Each record is one state\u2019s ban on one product category, with the effective date, the statute or bill number, the enforcement agency, and any exemptions (e.g. currently unavoidable use). Answers 'can I sell [product] containing PFAS in [state] after [date]', 'which states ban PFAS in cookware', 'when does [state] ban all PFAS products'. Roughly 30 jurisdictions with active or pending PFAS product restrictions as of mid-2026, each with different product category definitions and phase-in schedules.",
       "records": 134,
-      "last_verified": "2026-10-06",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/state-pfas-product-restrictions/",
       "data": "https://referencesource.org/state-pfas-product-restrictions/data.json"
     },
@@ -2160,7 +2160,7 @@
       "title": "State prevailing wage law applicability thresholds",
       "description": "At what project dollar amount does the prevailing wage apply in each state? About 28 US states have their own prevailing wage laws ('Little Davis-Bacon Acts') covering state- and locally-funded construction. The threshold ranges from $0 (New York, Illinois \u2014 all public works) to $1,000 (California) to $500,000 (Colorado) to $1,000,000 (Connecticut new construction). The remaining ~22 states have no prevailing wage law. The federal Davis-Bacon Act applies to all federally-funded construction over $2,000 regardless of state. One record per state, sourced from that state's department of labor. Answers 'does prevailing wage apply to my project in Texas', 'what is the prevailing wage threshold in California', 'which states have prevailing wage laws', and 'do I have to pay prevailing wage on a $50,000 state project'. The DOL published the definitive comparison at dol.gov but it returns 403 to non-browser fetchers, so agents and assistants are locked out of the federal reference.",
       "records": 11,
-      "last_verified": "2026-08-13",
+      "last_verified": "2026-08-15",
       "url": "https://referencesource.org/state-prevailing-wage-thresholds/",
       "data": "https://referencesource.org/state-prevailing-wage-thresholds/data.json"
     },
@@ -2223,7 +2223,7 @@
       "title": "State small estate affidavit and simplified probate thresholds",
       "description": "Dollar thresholds below which heirs can use a small estate affidavit or simplified probate procedure to transfer a decedent's property without full probate, for each US state and DC. Each record is one jurisdiction, giving the personal property threshold for the affidavit procedure, any separate real property threshold, waiting period, whether a will is required to be absent, inflation adjustment schedule, and statute citation. Answers 'what is the small estate limit in [state]' and 'can I avoid probate for a $X estate in [state]'. Thresholds range from $5,000 (some states) to $208,850 (California, inflation-adjusted triennially). Several states adjust periodically; most do not. No existing compilation cites the underlying statutes, making verification impossible.",
       "records": 13,
-      "last_verified": "2026-10-13",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/state-small-estate-affidavit-thresholds/",
       "data": "https://referencesource.org/state-small-estate-affidavit-thresholds/data.json"
     },
@@ -2232,7 +2232,7 @@
       "title": "State unemployment insurance taxable wage bases and new employer tax rates by US state",
       "description": "The unemployment insurance taxable wage base for 48 US states and the District of Columbia \u2014 49 of the 51 jurisdictions \u2014 plus the tax rate assigned to new employers where the state prints one. The wage base is the per-employee annual earnings cap on which unemployment insurance tax is owed. Nebraska and Rhode Island are not held: each sets two wage bases depending on the employer, so which figure applies is a condition rather than a number. Fourteen states are sourced from the state's own labor department or employment security agency, with the new employer rate where the state prints one. The other 35 carry the wage base only, read from the US Department of Labor's table 'Significant Provisions of State Unemployment Insurance Laws, Effective July 2026'; on those records the quote is the state's whole row of that table and the wage base is the last figure in it, under the column 'Wages Subject to Tax'. Answers 'what is the unemployment tax wage base in [state]', 'what UI rate do new employers pay in [state]', 'SUTA wage base by state 2026', and 'state unemployment insurance taxable wage base comparison'. The federal FUTA wage base is $7,000 and has not changed since 1983, but the jurisdictions held here range from $7,000 (California, several others) to over $78,000 (Washington), a 10\u00d7 difference in the tax base for the same employee. New employer rates also vary widely. Changes take effect annually and states announce at different times (some January 1, some July 1, some fiscal year). Every figure carries the sentence or table row it was read from and a link to that page.",
       "records": 49,
-      "last_verified": "2026-08-17",
+      "last_verified": "2026-09-28",
       "url": "https://referencesource.org/state-ui-taxable-wage-bases/",
       "data": "https://referencesource.org/state-ui-taxable-wage-bases/data.json"
     },
@@ -2241,7 +2241,7 @@
       "title": "US state unclaimed property dormancy periods by property type",
       "description": "How many years of inactivity before each type of property (wages, checks, insurance proceeds, utility deposits, gift cards, safe-deposit boxes, securities, etc.) must be reported as unclaimed in each US state. Each record is one state + property type with the dormancy period in years, the statute citation, and any conditions (e.g. dual thresholds for solids, different rules for government-held funds). Answers 'how long before uncashed payroll in [state] is escheatable?', 'what is the dormancy period for life insurance in [state]?', and 'which states have the shortest dormancy for [property type]?' \u2014 questions where the answer varies by state AND property type, and where getting it wrong triggers penalties and audit exposure.",
       "records": 80,
-      "last_verified": "2026-08-15",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/state-unclaimed-property-dormancy-periods/",
       "data": "https://referencesource.org/state-unclaimed-property-dormancy-periods/data.json"
     },
@@ -2250,7 +2250,7 @@
       "title": "US state universal occupational license recognition laws \u2014 conditions and scope",
       "description": "Which US states have passed universal occupational license recognition laws, what conditions they impose (minimum years licensed, good standing, criminal background, exam requirements), which professions are excluded, and whether military spouse provisions are included. Each record is one state's law with its specific conditions. Answers 'does [state] recognize my out-of-state professional license?', 'how long do I need to have been licensed to qualify?', 'are there professions excluded from universal recognition in [state]?', and 'does [state] have a military spouse licensing provision?' \u2014 questions where the answer is rapidly changing as states adopt new laws (22+ states as of mid-2026), and where the conditions differ meaningfully between states.",
       "records": 10,
-      "last_verified": "2026-10-12",
+      "last_verified": "2026-11-13",
       "url": "https://referencesource.org/state-universal-license-recognition-laws/",
       "data": "https://referencesource.org/state-universal-license-recognition-laws/data.json"
     },
@@ -2268,7 +2268,7 @@
       "title": "State Worker Classification Tests \u2014 Independent Contractor vs Employee",
       "description": "Which legal test each U.S. state uses to distinguish employees from independent contractors (ABC test, common law/right-to-control, or modified ABC), the statutory citation, key exemptions by industry or occupation, and the date the current test took effect.",
       "records": 10,
-      "last_verified": "2026-08-17",
+      "last_verified": "2026-08-18",
       "url": "https://referencesource.org/state-worker-classification-tests/",
       "data": "https://referencesource.org/state-worker-classification-tests/data.json"
     },
@@ -2277,7 +2277,7 @@
       "title": "Stihl chainsaw chain and bar specifications by model",
       "description": "Chain pitch, gauge, drive link count, bar length and OEM chain part number for each Stihl chainsaw model and bar combination \u2014 including the MSE electric saws and HT pole pruner models the dealer charts list alongside the petrol saws. One row per model per bar length. Answers 'what chain does my Stihl MS261 take', 'Stihl MS440 20 inch bar drive links' and 'Stihl chain part number for [model]' \u2014 the multi-variable lookup assistants get wrong by guessing a plausible pitch/gauge combination.",
       "records": 843,
-      "last_verified": "2026-08-04",
+      "last_verified": "2026-09-02",
       "url": "https://referencesource.org/stihl-chainsaw-chain-and-bar-specs/",
       "data": "https://referencesource.org/stihl-chainsaw-chain-and-bar-specs/data.json"
     },
@@ -2331,7 +2331,7 @@
       "title": "Thermocouple type letter to alloy pair, ANSI/IEC color code and tolerance class",
       "description": "A thermocouple's type letter (J, K, T, E, N, R, S, B, C...) names an alloy pair, but the wire color that identifies it on the bench is set by a different standards body depending on where the part was made or bought \u2014 ANSI/ASTM MC96.1 uses one color code, IEC 60584-3 (and JIS C 1602 in Japan) uses a different one for the same alloy pair, and the two schemes disagree on which color means positive. Nobody publishes the type letter, both color codes, the alloy pair and the accuracy tolerance class on one page; a buyer or field technician instead has to hold two vendor charts side by side and hope the type letters line up. A record here is one thermocouple type with its positive/negative alloy names, ANSI positive/negative wire color, IEC positive/negative wire color, usable temperature range, and its ASTM E230 standard/special-limits tolerance alongside its IEC 60584-2 / JIS C 1602 class 1/2/3 tolerance. Answers 'is red positive or negative on a type K thermocouple', 'what color is IEC type J versus ANSI type J', 'what's the accuracy tolerance on a class 2 type N thermocouple', and 'my probe has a yellow and red wire, what type is it and is that ANSI or IEC'.",
       "records": 12,
-      "last_verified": "2026-08-19",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/thermocouple-type-color-code-crosswalk/",
       "data": "https://referencesource.org/thermocouple-type-color-code-crosswalk/data.json"
     },
@@ -2349,7 +2349,7 @@
       "title": "TLS certificate and CA requirement effective dates (CA/Browser Forum, Chrome, Mozilla)",
       "description": "Forward-dated schedule of when each TLS certificate and certificate authority requirement takes effect, and which programme it binds. Each record is one requirement with its effective date, the Baseline Requirements section it amends, and the authority imposing it. Covers the CA/Browser Forum TLS Baseline Requirements effective-date table, the Google Chrome Root Program policy, and the Mozilla Root Store Policy. Answers 'when does the 200 day certificate lifetime take effect', 'TLS certificate maximum validity 100 days date', '47 day certificates 2029 timeline', 'when does domain validation reuse drop to 200 days', 'SC-081 phased schedule', and 'when do CAs have to do DNSSEC validation'. The dates changed recently and change again with every ballot, so an answer from model memory describes a world that has already moved; the maximum subscriber certificate validity drops to 200 days on 2026-03-15 and to 100 days on 2027-03-15, and the domain-validation reuse period and the subject-identity reuse period fall on different schedules to each other.",
       "records": 49,
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/tls-certificate-requirement-effective-dates/",
       "data": "https://referencesource.org/tls-certificate-requirement-effective-dates/data.json"
     },
@@ -2394,7 +2394,7 @@
       "title": "UL-Classified replacement circuit breaker cross-reference by panel brand",
       "description": "Residential circuit breakers that Underwriters Laboratories has Classified for use in a different manufacturer's load centre, taken from each manufacturer's own catalog. Each record is one classified breaker: its own catalog number, its ampere rating, and the competing brands' breakers it is listed to replace. Answers 'my panel is a Square D and the supply house only has Eaton in stock \u2014 what fits'. There is no single public database of this because UL Classification is tested breaker-by-breaker and every manufacturer publishes only its own outbound mapping, never the full grid across competitors.",
       "records": 26,
-      "last_verified": "2026-08-26",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/ul-classified-circuit-breaker-cross-reference-by-brand/",
       "data": "https://referencesource.org/ul-classified-circuit-breaker-cross-reference-by-brand/data.json"
     },
@@ -2412,7 +2412,7 @@
       "title": "Underground Storage Tank Operator Training Requirements by State",
       "description": "Training, certification, and renewal requirements for Class A, B, and C UST operators in each US state, including whether EPA online training is accepted, exam pass thresholds, renewal intervals, and the implementing agency.",
       "records": 7,
-      "last_verified": "2026-08-15",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/ust-operator-training-requirements/",
       "data": "https://referencesource.org/ust-operator-training-requirements/data.json"
     },
@@ -2421,7 +2421,7 @@
       "title": "Winter utility shutoff/disconnection moratorium by state",
       "description": "Whether a utility can disconnect service for non-payment during winter, and under what conditions, varies by state on the exact season window, which utility types are covered, and whether an income test applies. Existing free summaries (e.g. energy-broker lead-gen sites) round this to 'most cold states ban Dec-Mar disconnects', which is not precise enough to answer a specific household's situation. Each record is one state and one class of utility \u2014 several states set a different window or income test for water than for electric and gas \u2014 carrying the exact moratorium window, covered utility types, and eligibility/income test if any, sourced from the state's own regulation or utility-commission order rather than a secondary summary. Answers 'can my gas get shut off in January in Pennsylvania', 'does New Jersey's winter shutoff protection cover water bills', 'what income level qualifies for winter shutoff protection in my state'.",
       "records": 13,
-      "last_verified": "2026-08-19",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/utility-shutoff-moratorium-by-state/",
       "data": "https://referencesource.org/utility-shutoff-moratorium-by-state/data.json"
     },

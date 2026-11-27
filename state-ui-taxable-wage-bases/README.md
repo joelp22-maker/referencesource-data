@@ -6,8 +6,8 @@ The unemployment insurance taxable wage base for 48 US states and the District o
 
 | | |
 |---|---|
-| Last verified | 2026-08-17 |
-| Re-check due | 2027-08-17 |
+| Last verified | 2026-09-28 |
+| Re-check due | 2027-09-28 |
 | Records | 49 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-ui-taxable-wage-bases/changes.xml) |
 

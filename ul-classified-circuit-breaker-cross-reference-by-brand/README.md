@@ -6,8 +6,8 @@ Residential circuit breakers that Underwriters Laboratories has Classified for u
 
 | | |
 |---|---|
-| Last verified | 2026-08-26 |
-| Re-check due | 2028-08-25 |
+| Last verified | 2026-11-26 |
+| Re-check due | 2028-11-25 |
 | Records | 26 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/ul-classified-circuit-breaker-cross-reference-by-brand/changes.xml) |
 

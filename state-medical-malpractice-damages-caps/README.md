@@ -6,8 +6,8 @@ How much can a patient recover for pain and suffering in a medical malpractice c
 
 | | |
 |---|---|
-| Last verified | 2026-08-31 |
-| Re-check due | 2027-02-27 |
+| Last verified | 2026-09-03 |
+| Re-check due | 2027-03-02 |
 | Records | 62 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-medical-malpractice-damages-caps/changes.xml) |
 

@@ -6,8 +6,8 @@ Training, certification, and renewal requirements for Class A, B, and C UST oper
 
 | | |
 |---|---|
-| Last verified | 2026-08-15 |
-| Re-check due | 2027-08-15 |
+| Last verified | 2026-11-26 |
+| Re-check due | 2027-11-26 |
 | Records | 7 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/ust-operator-training-requirements/changes.xml) |
 

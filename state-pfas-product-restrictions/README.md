@@ -6,8 +6,8 @@ State-by-state PFAS product ban and restriction effective dates. Each record is 
 
 | | |
 |---|---|
-| Last verified | 2026-10-06 |
-| Re-check due | 2027-01-04 |
+| Last verified | 2026-11-26 |
+| Re-check due | 2027-02-24 |
 | Records | 134 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-pfas-product-restrictions/changes.xml) |
 
