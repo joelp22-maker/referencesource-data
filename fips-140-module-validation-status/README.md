@@ -6,8 +6,8 @@ The current validation status and scheduled expiry date of every cryptographic m
 
 | | |
 |---|---|
-| Last verified | 2026-11-22 |
-| Re-check due | 2026-11-29 |
+| Last verified | 2026-11-27 |
+| Re-check due | 2026-12-04 |
 | Records | 5,595 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/fips-140-module-validation-status/changes.xml) |
 

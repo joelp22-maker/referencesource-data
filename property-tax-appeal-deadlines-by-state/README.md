@@ -6,8 +6,8 @@ Missing a property-tax appeal window usually forfeits the appeal for that year, 
 
 | | |
 |---|---|
-| Last verified | 2026-11-17 |
-| Re-check due | 2027-11-17 |
+| Last verified | 2026-11-27 |
+| Re-check due | 2027-11-27 |
 | Records | 14 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/property-tax-appeal-deadlines-by-state/changes.xml) |
 

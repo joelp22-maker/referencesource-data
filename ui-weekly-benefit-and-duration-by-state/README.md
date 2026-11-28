@@ -6,7 +6,7 @@ For each US state: the maximum (and minimum, where stated) weekly unemployment b
 
 | | |
 |---|---|
-| Last verified | 2026-11-24 |
+| Last verified | 2026-11-27 |
 | Re-check due | 2027-05-25 |
 | Records | 6 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/ui-weekly-benefit-and-duration-by-state/changes.xml) |

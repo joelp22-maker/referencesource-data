@@ -6,8 +6,8 @@ Whether a named substance or item may be mailed, and on what conditions. Five re
 
 | | |
 |---|---|
-| Last verified | 2026-08-03 |
-| Re-check due | 2027-08-03 |
+| Last verified | 2026-08-10 |
+| Re-check due | 2027-08-10 |
 | Records | 3,068 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/shipping-restrictions-by-class/changes.xml) |
 

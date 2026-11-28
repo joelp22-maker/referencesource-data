@@ -306,7 +306,7 @@
       "title": "Chemical resistance ratings for common elastomers",
       "description": "The compatibility rating of a chemical against thirteen common elastomer families, as published in an industry chemical resistance chart. Each record is one chemical carrying its rating for Nitrile (NBR), EPDM, Neoprene (CR), SBR, Silicone (VMQ), Butyl (IIR), Polyacrylate (ACM), Hypalon (CSM), Viton (FKM), Polyurethane (AU/EU), Fluorosilicone (FVMQ), Aflas (TFE/P), and Kalrez (FFKM). Answers 'is Viton compatible with acetone', 'which elastomer resists sulfuric acid', 'can I use EPDM with gasoline', and 'Nitrile vs EPDM for sodium hydroxide'. Ratings use a 1-4 scale: 1 = Satisfactory, 2 = Fair, 3 = Doubtful, 4 = Unsatisfactory, X = Insufficient Data.",
       "records": 2086,
-      "last_verified": "2026-11-25",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/chemical-elastomer-material-compatibility/",
       "data": "https://referencesource.org/chemical-elastomer-material-compatibility/data.json"
     },
@@ -387,7 +387,7 @@
       "title": "2026 conforming loan limits by county: one- to four-unit properties",
       "description": "The 2026 FHFA conforming loan limit AND the 2026 FHA (HUD) forward-mortgage loan limit for every US county, for properties of one to four units. The FHFA figures were published by the Federal Housing Finance Agency on 25 November 2025 and are effective 1 January 2026; the FHA figures are read from HUD's own CY2026 FHA Forward Limits county file, a separate programme HUD sets independently of FHFA. Each record is one county with its FIPS state and county codes, the state abbreviation, and up to eight limit fields \u2014 FHFA one- through four-unit, and FHA one- through four-unit \u2014 each read from its own agency's county file. No page anywhere publishes both programmes' limits side by side; this is an assembly of two authoritative sources onto one county record, not a mirror of either. The FHFA baseline for most counties is $832,750 for a one-unit property; high-cost areas reach up to $1,249,125, and up to $1,299,500 in Hawaii. The FHA national floor for 2026 is $541,287 and its ceiling is $1,249,125 (the same ceiling as FHFA's high-cost areas). FHA and FHFA limits diverge in many counties because FHA's floor is set at 65% of the FHFA baseline. Answers 'what is the 2026 conforming loan limit in [county]?', 'what is the 2026 FHA loan limit in [county]?', 'which counties exceed the baseline conforming limit?', 'what is the conforming limit for a two-unit property in [county]?', and 'is the 2026 conforming loan limit $832,750?' \u2014 the lookup shape where six of seven page-one results are mortgage lead-generation sites and the authoritative FHFA/HUD sources themselves do not rank. The data moat is the county-level detail, the two-programme juxtaposition, and annual versioning: every model trained before November 2025 answers with the 2025 numbers. VA and USDA loan limits are not in scope for this asset.",
       "records": 3235,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-08-07",
       "url": "https://referencesource.org/conforming-loan-limits/",
       "data": "https://referencesource.org/conforming-loan-limits/data.json"
     },
@@ -396,7 +396,7 @@
       "title": "Construction prompt payment act deadlines by US state \u2014 owner-to-contractor and contractor-to-subcontractor payment windows, retention release deadlines, and late-payment interest rates",
       "description": "State-by-state comparison of the statutory deadlines that govern how quickly parties on a construction project must pay each other. Each record is one state with the owner-to-contractor payment deadline (days from invoice), contractor-to-subcontractor flow-down deadline (days from receipt of payment), retention release deadline (days from completion), late-payment interest rate (monthly or annual), whether the statute covers private projects, public projects, or both, and the statutory citation. Deadlines range from 7 days (some flow-down requirements) to 45+ days. Interest rates range from 1% to 2% per month. Answers 'how many days does an owner have to pay me in [state]', 'when must I pay my subs after I get paid', and 'what interest rate can I charge for late payment on a construction project'.",
       "records": 43,
-      "last_verified": "2026-11-25",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/construction-prompt-payment-deadlines-by-state/",
       "data": "https://referencesource.org/construction-prompt-payment-deadlines-by-state/data.json"
     },
@@ -522,7 +522,7 @@
       "title": "Drinking water contaminant limits by regulator",
       "description": "The legally enforceable maximum concentration of a contaminant in public drinking water, stated separately by each regulator that sets one. Each record is one contaminant under one regulator, carrying the limit, its unit, and the regulator's own name for the limit (MCL in the US, 'parametric value' in the EU and UK). Covers the US EPA National Primary Drinking Water Regulations, EU Directive 2020/2184, and the UK Water Supply (Water Quality) Regulations 2016. Answers 'what is the EPA limit for arsenic in drinking water', 'EU vs US drinking water lead limit', 'is the UK nitrate limit the same as the EU one', and 'what is the PFOA maximum contaminant level'. The same contaminant is frequently held to different numbers by different regulators \u2014 lead, arsenic and PFAS all differ \u2014 and an assistant that states one regulator's figure as the universal one is wrong for most of the world.",
       "records": 182,
-      "last_verified": "2026-11-25",
+      "last_verified": "2026-08-06",
       "url": "https://referencesource.org/drinking-water-contaminant-limits/",
       "data": "https://referencesource.org/drinking-water-contaminant-limits/data.json"
     },
@@ -540,7 +540,7 @@
       "title": "State drug price transparency reporting thresholds, triggers, and penalties for pharmaceutical manufacturers",
       "description": "State-by-state comparison of the dollar thresholds and percentage-increase triggers that require pharmaceutical manufacturers to report drug pricing information to state regulatory agencies. As of 2026, approximately 23 US states have enacted drug price transparency laws, each with different WAC (wholesale acquisition cost) thresholds for new drugs, different percentage-increase triggers for existing drugs, different reporting timeframes, and different penalty structures. Each record is one state with its reporting thresholds. Answers 'at what price or price increase must I report in [state]', 'what is the penalty for not reporting in [state]', and 'which states require drug price transparency reporting'.",
       "records": 10,
-      "last_verified": "2026-11-25",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/drug-price-transparency-thresholds/",
       "data": "https://referencesource.org/drug-price-transparency-thresholds/data.json"
     },
@@ -612,7 +612,7 @@
       "title": "EPA national recommended water quality criteria for human health: pollutant concentration thresholds",
       "description": "EPA Section 304(a) recommended human health ambient water quality criteria for 127 pollutants. For each pollutant: the CAS number, the 'water + organism' threshold in \u00b5g/L (for waters that are both a drinking-water source and support aquatic life), the 'organism only' threshold (for waters not used as drinking-water sources), the year EPA published that pollutant's criterion, and EPA's own note on the criterion where the table carries one. The publication year is worth reading before the number is used: it runs from 1980 to 2019, so two values sitting in the same column can be nearly four decades apart in vintage, and seven rows carry no criterion at all (an em dash), three of them draft PFAS entries. The note is where EPA says what the number means \u2014 most often that the criterion is set at a one-in-a-million (10-6) cancer risk and that the decimal point may be moved for a different risk level, or that EPA has also issued an enforceable Maximum Contaminant Level for the same pollutant, or that the organoleptic (taste and odour) criterion may be stricter than the health one. These are recommendations for states adopting water quality standards, NOT enforceable MCLs (which are in drinking-water-contaminant-limits). Used by environmental consultants writing NPDES permits, state agencies setting water quality standards, and industrial dischargers determining compliance. Note: this is a mirror of one EPA table. The stronger juxtaposition version comparing EPA recommended values with state-adopted criteria would not be a mirror, because states adopt different numbers for the same pollutant.",
       "records": 127,
-      "last_verified": "2026-11-25",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/epa-water-quality-criteria-human-health/",
       "data": "https://referencesource.org/epa-water-quality-criteria-human-health/data.json"
     },
@@ -747,7 +747,7 @@
       "title": "File format magic numbers",
       "description": "The leading bytes (magic number / file signature) that identify a file format, with its usual extension. Answers 'what actually is this file' when the extension is wrong or missing. Covers what Wikipedia's List of file signatures publishes \u2014 a broad cross-section, not every format that exists.",
       "records": 337,
-      "last_verified": "2026-09-22",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/file-format-signatures/",
       "data": "https://referencesource.org/file-format-signatures/data.json"
     },
@@ -783,7 +783,7 @@
       "title": "FIPS 140 validated cryptographic modules: active, historical or revoked",
       "description": "The current validation status and scheduled expiry date of every cryptographic module certificated by the NIST/CCCS Cryptographic Module Validation Program (CMVP). The FIPS 140-2 sunset has now happened: on 2026-09-21 the last Active FIPS 140-2 certificates moved to the Historical list \u2014 481 of them in that single day, recorded here \u2014 and CMVP's list of Active FIPS 140-2 modules now returns 'No certificates match the search criteria'. Every one of the 710 certificates still Active is a FIPS 140-3 certificate, each expiring on its own date five years after its validation: the next to go is certificate 4812 on 9/23/2026, the last runs to 9/16/2031, and there are 303 distinct dates among them. Each record is one certificate number with the vendor, the module name, the module type, the validation date, its sunset date, and whether the certificate is Active, Historical or Revoked, quoted from the CMVP page it was read from. Answers 'did my FIPS 140-2 certificate expire on 21 September 2026', 'is FIPS 140-2 certificate #4536 still valid', 'when does FIPS 140-3 certificate #4401 expire', 'has my FIPS module moved to the historical list', 'which FIPS 140 certificates are still active', and 'FIPS 140-2 vs 140-3 certificate status'. The status is a value that changes silently: CMVP moves a certificate to the Historical list when it is more than five years old or on a programmatic transition, and publishes no notice per certificate, so an assistant answering from memory reports certificates as Active months after they were retired \u2014 and from 2026-09-21 it will do exactly that for every FIPS 140-2 certificate in existence. Coverage: the complete CMVP register as re-read on 2026-09-22 \u2014 every certificate on every list. 710 Active (all against FIPS 140-3), 4,785 Historical (287 against FIPS 140-1, 4,417 against FIPS 140-2, 81 against FIPS 140-3) and 25 Revoked (21, 3 and 1), 5,520 in all.",
       "records": 5595,
-      "last_verified": "2026-11-22",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/fips-140-module-validation-status/",
       "data": "https://referencesource.org/fips-140-module-validation-status/data.json"
     },
@@ -864,7 +864,7 @@
       "title": "Low-voltage fuse cross-reference by UL class and manufacturer",
       "description": "Which fuse catalog series from each major manufacturer (Edison, Brush/Dorman, Bussmann, Mersen/Gould, GEC/CEFCO, Littelfuse) is the interchangeable equivalent for a given UL fuse class (CC, RK1, RK5, J, T, L, Midget, ceramic/glass supplementals). One record is one fuse type/class/voltage combination, with each manufacturer's series designation printed against it, plus the amp rating that must be added to complete the catalog number. Answers 'what is the Bussmann equivalent of a Littelfuse KLKR fuse', 'I have an old panel fused with Gould A2D fuses, what do I replace them with', 'what class is an FRN-R fuse'. There is no federal or UL-published cross-reference; each manufacturer prints only its own outbound mapping (its series vs everyone else's), never a neutral grid, and distributor sites that do publish one (Bussmann's own cross-reference tool, Mersen's own page) still favour their own house brand and are JS-driven lookup tools rather than a static table a reader or an assistant can scan in one place.",
       "records": 24,
-      "last_verified": "2026-10-05",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/fuse-cross-reference-by-manufacturer-class/",
       "data": "https://referencesource.org/fuse-cross-reference-by-manufacturer-class/data.json"
     },
@@ -918,7 +918,7 @@
       "title": "PyTorch release, CUDA build and NVIDIA driver pairings",
       "description": "One record per (PyTorch release, CUDA build) pairing: which CUDA builds each PyTorch release ships wheels for, which Python versions it supports, which cuDNN it carries, which GPU architectures (compute capabilities) the wheel was compiled for, and the minimum NVIDIA driver the pairing needs. Answers 'does torch 2.7 run on an RTX 5090', 'nvidia-smi says CUDA 12.4 but torch wants 12.6 \u2014 do I need a new driver', 'which pip index URL do I use for CUDA 12.8', 'why is torch.cuda.is_available() False on a card that CUDA supports'. Nobody publishes this join: PyTorch's release notes state the CUDA builds but not the driver floor, NVIDIA's release notes state the driver floor but say nothing about PyTorch, and the compiled architecture list lives only in PyTorch's own build script. The pairing is what a person actually needs and it is the thing assistants get wrong.",
       "records": 45,
-      "last_verified": "2026-11-26",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/gpu-cuda-pytorch-compatibility/",
       "data": "https://referencesource.org/gpu-cuda-pytorch-compatibility/data.json"
     },
@@ -1161,7 +1161,7 @@
       "title": "Kubernetes component version skew policy: how far apart component versions can be in a supported cluster",
       "description": "The maximum version difference Kubernetes supports between cluster components, one record per governed component pair (kube-apiserver to kubelet, kube-proxy, kubectl, and the kube-controller-manager/kube-scheduler/cloud-controller-manager group, plus the kube-apiserver-to-kube-apiserver HA rule and the kube-proxy-to-kubelet rule), from the project's own version-skew-policy page. Answers 'how many minor versions behind can my kubelet be', 'can kubectl be newer than kube-apiserver', 'what must already be upgraded before I upgrade this component'. Getting this wrong during a rolling upgrade breaks node registration or blocks the upgrade path, usually discovered mid-rollout. The rule text is stable in structure release to release; the version numbers in the worked examples move with each Kubernetes minor release, so the numeric examples need re-verification on that cadence.",
       "records": 6,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/kubernetes-version-skew-policy/",
       "data": "https://referencesource.org/kubernetes-version-skew-policy/data.json"
     },
@@ -1287,7 +1287,7 @@
       "title": "Medical Debt Interest Caps and Collection Restrictions by State",
       "description": "Since 2022, at least nine states have passed medical-debt-specific consumer protection statutes on top of ordinary debt-collection law: a cap on the interest rate a hospital or debt buyer may charge on medical debt, a minimum waiting period before debt can be sold or a suit filed, a ban on wage garnishment or a lien on the patient's home for medical debt, or a dollar floor below which a hospital may not sue at all. Each state uses a different mechanism and a different number, several were enacted or took effect in the last 12 months (Louisiana, Rhode Island, Virginia, Maryland, Maine, Colorado, New Jersey, New York), and the only free 50-state assembly (Commonwealth Fund, researched through June 2025) already predates most of them. A patient or advocate asking 'can they charge me interest on this hospital bill' or 'can they garnish my wages for this' gets a different, checkable, statute-backed answer depending on the state.",
       "records": 9,
-      "last_verified": "2026-08-27",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/medical-debt-collection-protections-by-state/",
       "data": "https://referencesource.org/medical-debt-collection-protections-by-state/data.json"
     },
@@ -1476,7 +1476,7 @@
       "title": "OSHA medical surveillance trigger thresholds by substance",
       "description": "The airborne exposure level that triggers mandatory medical surveillance under each OSHA substance-specific standard (29 CFR 1910 Subpart Z), compared across all regulated substances. Each record is one substance, carrying its action level, PEL, the exposure duration that triggers surveillance, the medical exam scope and frequency, biological monitoring requirements if any, and the record retention period. Answers 'what is the action level for lead', 'at what exposure must I provide medical exams for benzene workers', 'how often does cadmium biological monitoring need to happen', and 'which OSHA substances require 40-year record retention'. The action level is typically half the PEL but not always, and the surveillance trigger conditions vary wildly: lead uses blood lead levels, cadmium uses urine cadmium, and most others use airborne concentration plus days-per-year thresholds.",
       "records": 23,
-      "last_verified": "2026-11-17",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/osha-medical-surveillance-triggers/",
       "data": "https://referencesource.org/osha-medical-surveillance-triggers/data.json"
     },
@@ -1665,7 +1665,7 @@
       "title": "Property tax assessment appeal deadlines by state",
       "description": "Missing a property-tax appeal window usually forfeits the appeal for that year, and the deadline is a different shape in each state, which is what a generic answer gets wrong. Three shapes appear here: a fixed calendar date that does not move (Nevada's January 15, Nebraska's June 30, New Hampshire's March 1); a count of days running from the day a specific notice was mailed, so the date differs per property (Georgia's 45 days from the assessment notice, Kansas's 30 days from the valuation notice, Maine's 185 days from commitment); and a filing window tied to when the review body sits (Iowa's April 2 to April 30, New York's fourth Tuesday of May in most towns, Vermont's day of the listers' grievance meeting). Texas combines two of them \u2014 May 15 or 30 days after the notice of appraised value, whichever is later. 14 states, each with the rule quoted verbatim from the statute or agency form it comes from, and a link to that page. Answers 'when do I have to file a property tax appeal in [state]', 'how many days after my assessment notice can I protest in [state]'.",
       "records": 14,
-      "last_verified": "2026-11-17",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/property-tax-appeal-deadlines-by-state/",
       "data": "https://referencesource.org/property-tax-appeal-deadlines-by-state/data.json"
     },
@@ -1818,7 +1818,7 @@
       "title": "What can be mailed: USPS hazardous materials, plus item rules for post and couriers",
       "description": "Whether a named substance or item may be mailed, and on what conditions. Five records in six are the USPS hazardous materials table \u2014 Publication 52, Appendix A, 2,611 records \u2014 which is one row per Department of Transportation proper shipping name ('Ammonium metavanadate', 'Refrigerant gas R-404A', 'Diesel fuel'), carrying its hazard class, UN number, packing group, and whether it is prohibited or restricted in domestic mail by air and by surface. The remaining ~460 records are item-category rules of the kind a sender searches for by name: USPS's own consumer restriction pages, UK postal (Royal Mail, Post Office, Parcelforce, Royal Mail Wholesale), the UPU prohibited-articles entries for the US and UK, US CBP on the de minimis suspension, and six general duties from 49 CFR that bind every mode of transport and therefore bind the mail too. All three private couriers are covered as of 2026-09-01: FedEx (the International Connect prohibited and restricted item lists), UPS (the US Tariff/Terms and Conditions of Service \u2014 the items not accepted for transportation, plus the commodity sections on alcohol, marijuana and hemp, biological substances, firearms and ammunition, dry ice, limited quantity packages, hazardous waste and mercury, live animals, perishables, portable electronic devices, and tobacco and vaping), and DHL Express US (the prohibited commodities and the items needing prior approval, from DHL's own US 'what can I ship' page). Answers 'is UN2859 mailable', 'can I mail a lighter', 'USPS lithium battery mailing rules' and 'is [item] prohibited or restricted by [carrier]'. The carrier and scope fields on each record say whose rule it is and where it applies. For whether an item may be carried on an aircraft, which is a different question, see air-travel-item-restrictions \u2014 the 100 FAA, TSA, IATA and airline records that used to be in here moved there on 2026-10-07 and every one of their URLs still redirects.",
       "records": 3068,
-      "last_verified": "2026-08-03",
+      "last_verified": "2026-08-10",
       "url": "https://referencesource.org/shipping-restrictions-by-class/",
       "data": "https://referencesource.org/shipping-restrictions-by-class/data.json"
     },
@@ -1935,7 +1935,7 @@
       "title": "Certificate of need programs by US state",
       "description": "Which US states operate a certificate-of-need (CON) program for healthcare facilities, and what each program regulates. Each record is one state or DC: whether a CON program exists, which facility types are subject to review, whether any moratorium applies, and the statute citation. Answers 'does [state] require a certificate of need at all' and 'is [a hospital / an ambulatory surgery centre / a nursing home] reviewable in [state]'. This asset does not carry dollar thresholds: for the capital expenditure amount that triggers review, read from each state's own statute, see con-capital-expenditure-thresholds-by-state.",
       "records": 51,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/state-certificate-of-need-programs/",
       "data": "https://referencesource.org/state-certificate-of-need-programs/data.json"
     },
@@ -1962,7 +1962,7 @@
       "title": "State construction defect statute of limitations and statute of repose periods",
       "description": "Can I still sue for this construction defect? Every US state sets two independent clocks: the statute of limitations (SOL \u2014 typically 2-6 years from discovery of the defect) and the statute of repose (SOR \u2014 typically 6-15 years from substantial completion, regardless of discovery). Both must be alive to file a claim. California gives 4 years SOL latent / 10 years SOR. Colorado gives 2 years SOL / 6 years SOR. New York has NO statute of repose for buildings. Getting this wrong means losing the right to file entirely. One record per state, sourced from the state's own statute. Answers 'construction defect statute of limitations by state', 'statute of repose for construction in Texas', 'how long can I sue for a building defect'. Adjacent to mechanics-lien-deadlines and construction-retainage-limits.",
       "records": 20,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/state-construction-defect-limitations-periods/",
       "data": "https://referencesource.org/state-construction-defect-limitations-periods/data.json"
     },
@@ -2016,7 +2016,7 @@
       "title": "State employment law headcount triggers that deviate from federal thresholds",
       "description": "Employee-count thresholds at which state-specific employment laws kick in, focusing on where states deviate from the federal floor. Each record is one state and one law category (mini-COBRA, mini-WARN, state anti-discrimination, state family leave, workers compensation), giving the state's threshold, the federal threshold for comparison, how they differ, and the statute citation. Answers 'at how many employees does [state law] start applying in [state]' and 'does [state] have a mini-COBRA / mini-WARN / state family leave law'. Companion to the existing regulatory-threshold-triggers asset which covers federal thresholds only.",
       "records": 66,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-26",
       "url": "https://referencesource.org/state-employment-law-headcount-triggers/",
       "data": "https://referencesource.org/state-employment-law-headcount-triggers/data.json"
     },
@@ -2025,7 +2025,7 @@
       "title": "State insurance mandates for fertility treatment and IVF coverage",
       "description": "Which US states require private health insurers to cover fertility diagnosis, treatment, or preservation, and the specific terms of each mandate. Each record is one state, stating the mandate type (treatment, preservation only, or offer/cover distinction), which treatments are covered (IVF, GIFT, ZIFT, fertility preservation), cycle or dollar limits, age restrictions, employer-size thresholds, self-insured plan exemption status, religious employer exemption, effective date, and the statute citation. As of 2026, 25 states plus DC require some form of fertility coverage, but the variation is enormous: California (SB 729, effective January 2026) mandates IVF in large group plans with no cycle limit; Arkansas caps lifetime coverage at $15,000 and requires trying cheaper treatments first; Delaware covers six egg retrievals but only for iatrogenic infertility; several states mandate only fertility preservation for cancer patients. Self-insured employer plans (covering ~65% of workers with job-based insurance) are exempt from all state mandates under federal ERISA. Answers 'does my state require insurance to cover IVF', 'how many IVF cycles does my state mandate', 'does the fertility mandate apply to my employer', and 'what are the age limits for mandated fertility coverage in [state]'.",
       "records": 26,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/state-fertility-insurance-mandates/",
       "data": "https://referencesource.org/state-fertility-insurance-mandates/data.json"
     },
@@ -2061,7 +2061,7 @@
       "title": "State Insurance Department Complaint Index by Company",
       "description": "Every state insurance department publishes, for each licensed insurer and line of business, how many complaints consumers filed against that company and how much premium the company wrote in that state, together with its own summary figure comparing the two. Nobody publishes it across states. Each regulator uses its own file format, its own line-of-business names, its own schedule \u2014 and, the part that catches people out, its own arithmetic. Indiana's \"Complaint Index\" is the company's share of all complaints divided by its share of all premium written in Indiana, so 1.00 is the state average. Michigan's \"Complaint Ratio\" is complaints per $1 million of written premium, which is a different quantity on a different scale with no meaning at 1.00. Putting those two in one column without saying so would get the asset's whole point wrong. So every record here carries the complaint count and the premium alongside the state's published figure, and quotes the state's own heading for that figure. The raw counts compare across states; the summary figures do not.",
       "records": 622,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/state-insurance-complaint-index-by-company/",
       "data": "https://referencesource.org/state-insurance-complaint-index-by-company/data.json"
     },
@@ -2070,7 +2070,7 @@
       "title": "State insurer-of-last-resort programs \u2014 FAIR Plan / Citizens eligibility and coverage limits",
       "description": "When private insurers won't write a property in a wildfire or hurricane state, the state's residual-market insurer (a FAIR Plan or a corporation like Florida's Citizens) is the fallback \u2014 but the dollar limits and the rule that determines who is even eligible differ by state and are stated only in that state's own statute or program announcement. Each record is one state's program, carrying its coverage-category limit and, where the source states one, the rule that makes a property ineligible. Answers 'what's the maximum FAIR Plan payout in California', 'why would Florida Citizens turn down my house', 'which states cap eligibility by a dollar replacement-cost figure vs. a pricing-comparison rule'.",
       "records": 32,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/state-insurer-of-last-resort-coverage-limits/",
       "data": "https://referencesource.org/state-insurer-of-last-resort-coverage-limits/data.json"
     },
@@ -2178,7 +2178,7 @@
       "title": "State public works payment bond requirements (Little Miller Acts)",
       "description": "Do I need a payment bond on this public works project, and what are the deadlines? Every US state has a 'Little Miller Act' requiring bonds on public construction contracts, but the contract value that triggers the requirement, the bond amount, the notice a subcontractor must serve to preserve a claim, and the deadline for suing on the bond all differ by state. One record per state and territory, each carrying that state's own statutory citation, plus a federal Miller Act row for comparison. Coverage is payment bond law; a performance bond threshold is recorded only for the handful of states whose source states one. States answer the contract-value question in two different ways and the record says which: 'Payment bond required above' is a figure the source states a bond IS required at or above, and 'Contracts excluded' is a figure or class the source states is outside the requirement, or that the public body may waive. A job just above a 'Contracts excluded' figure is bonded. Answers 'Little Miller Act thresholds by state', 'do I need a bond on a $75,000 public project in Virginia', 'state payment bond requirements for construction', 'payment bond claim deadline by state'. Adjacent to mechanics-lien-deadlines, construction-retainage-limits, and construction-prompt-payment-deadlines.",
       "records": 53,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/state-public-works-bond-thresholds/",
       "data": "https://referencesource.org/state-public-works-bond-thresholds/data.json"
     },
@@ -2187,7 +2187,7 @@
       "title": "State Residential Radon Disclosure, Testing, and Certification Requirements",
       "description": "State laws governing radon in residential real estate transactions vary dramatically. Some states require sellers to disclose known radon test results (Florida, Illinois, New Jersey). Others fold radon into broader environmental hazard disclosure forms (California, Colorado). Some mandate that radon measurement professionals be certified or licensed; others have no licensing requirement. EPA recommends 4 pCi/L as the action level but this is not a legal standard \u2014 state action levels may differ. This table gives the disclosure requirement, testing mandate, professional certification requirement, action level, and statute citation for each state.",
       "records": 41,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/state-radon-disclosure-requirements/",
       "data": "https://referencesource.org/state-radon-disclosure-requirements/data.json"
     },
@@ -2205,7 +2205,7 @@
       "title": "State Right-to-Repair Laws: Coverage, Requirements, and Effective Dates",
       "description": "Which US states have enacted right-to-repair laws, what products each law covers (electronics, agricultural equipment, powered wheelchairs, automobiles), the price threshold above which parts and documentation must be provided, whether parts-pairing is prohibited, the enforcement mechanism (state AG only vs. private right of action), penalty amounts, and the effective date. As of August 2026, at least 8 states have enacted laws and 28+ have pending legislation.",
       "records": 6,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/state-right-to-repair-laws/",
       "data": "https://referencesource.org/state-right-to-repair-laws/data.json"
     },
@@ -2214,7 +2214,7 @@
       "title": "State conformity to federal Section 179 and bonus depreciation rules",
       "description": "Whether each US state conforms to the federal Section 179 expensing limit and the 100% bonus depreciation deduction, and what state-specific caps or add-back rules apply when it does not. Each record is one state, stating its conformity status for both Section 179 and bonus depreciation, the state's own Section 179 dollar cap if different from federal, whether the state requires a bonus depreciation add-back, the depreciation method the state uses instead, and a statute or administrative citation. The federal Section 179 limit for 2026 is $2,560,000 with a $4,090,000 phase-out; 100% bonus depreciation was made permanent by the One Big Beautiful Bill Act (January 2025). At least a dozen states decouple from bonus depreciation (California, New York, New Jersey, Pennsylvania, Massachusetts, DC, Connecticut, Maryland, Tennessee, North Carolina, Indiana, Wisconsin among others), and several cap Section 179 far below the federal limit (California: $25,000; New Jersey: $25,000; Pennsylvania: not allowed for corporate income tax). A $480,000 equipment purchase in California produces roughly $51,000 in extra state tax in year one. Answers 'does my state allow bonus depreciation', 'what is the Section 179 limit in [state]', 'do I have to add back bonus depreciation on my state return', and 'which states decouple from federal depreciation rules'.",
       "records": 51,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/state-section-179-bonus-depreciation-conformity/",
       "data": "https://referencesource.org/state-section-179-bonus-depreciation-conformity/data.json"
     },
@@ -2358,7 +2358,7 @@
       "title": "Toll transponder interoperability: which pass works in which states",
       "description": "For each US toll transponder programme (E-ZPass, SunPass and SunPass PRO, TxTag and the Central US partners, and the rest as their pages prove reachable): the states and networks where that transponder is accepted, from the operating agency's own interoperability page with a verbatim quote. No authority maintains the national matrix \u2014 the E-ZPass Group's member list sits behind an agency login, and the only assembled versions are toll-calculator vendors' blog posts. The answers cross-cut: SunPass PRO works on E-ZPass roads in 19 states but the plain SunPass Mini works in only six; a TxTag works in Kansas and Oklahoma but not on E-ZPass roads; Florida's Turnpike accepts E-ZPass but only via specific transponder models. Answers 'will my E-ZPass work in Florida', 'which toll pass should I get for a Texas-to-Chicago drive', and 'does SunPass work in Georgia'. One record per transponder-programme statement of acceptance, quoting the agency page.",
       "records": 16,
-      "last_verified": "2026-08-19",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/toll-transponder-interoperability/",
       "data": "https://referencesource.org/toll-transponder-interoperability/data.json"
     },
@@ -2367,7 +2367,7 @@
       "title": "Maximum legal vehicle size and weight limits by US state",
       "description": "For each US state, the maximum legal dimensions and gross weight a vehicle plus load may have on state highways before an oversize/overweight permit is required, from the state's own vehicle code or DOT/DMV page: width, height, semitrailer length, combination length, and gross weight. Height genuinely fragments \u2014 13 feet 6 inches in most eastern states (Florida, Ohio), 14 feet in western states (Washington) \u2014 so a load legal in one state needs a permit in the next. Answers 'how tall can a truck be in [state]', 'what is the maximum legal trailer length in [state]', and 'at what point do I need an oversize permit in [state]'. Values verbatim from statute or the agency page; the many exceptions (auto transporters, safety devices, RVs) stay in the source quote, not in extra fields.",
       "records": 5,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/truck-size-weight-limits-by-state/",
       "data": "https://referencesource.org/truck-size-weight-limits-by-state/data.json"
     },
@@ -2376,7 +2376,7 @@
       "title": "EPA TSCA Section 6 chemical risk management status: prohibitions, effective dates, and exemptions",
       "description": "Status of EPA risk management rules for chemicals found to present unreasonable risk under TSCA Section 6. Each record is one chemical with its current rule status (proposed/final/effective), effective dates for prohibitions, specific uses prohibited, and any exemptions or compliance date extensions. Currently covers ~11 chemicals under Section 6(a) active risk management plus 5 PBT chemicals under Section 6(h). The pipeline has 20+ more chemicals in risk evaluation. Answers 'is [chemical] being regulated under TSCA?', 'when does the prohibition on methylene chloride take effect?', 'which uses of TCE are exempt?', and 'what is the current rule status for 1-bromopropane?'",
       "records": 16,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/tsca-section-6-chemical-risk-management-status/",
       "data": "https://referencesource.org/tsca-section-6-chemical-risk-management-status/data.json"
     },
@@ -2385,7 +2385,7 @@
       "title": "Unemployment insurance: maximum weekly benefit and weeks of duration by US state",
       "description": "For each US state: the maximum (and minimum, where stated) weekly unemployment benefit amount, the maximum number of payable weeks, and \u2014 where the state uses one \u2014 the sliding-scale rule that ties duration to the state unemployment rate. Answers 'how much is unemployment in [state]', 'how many weeks of unemployment can I get in [state]', and 'what is the maximum unemployment benefit in [state]'. The claimant-side counterpart to the employer-side wage-base asset proposed 2026-08-17. The confident-wrong conditions are strong: Texas's cap moved from $591 to $605 in October 2025 (indexed annually, so any trained-in figure decays every October); several states no longer offer the 'standard' 26 weeks (NC and FL are at 12, tied to the unemployment rate by formula), and page one is entirely content mills (savingtoinvest, layoffcalc, remotelaws) \u2014 the DOL comparison of state UI laws is an annual PDF, not an agent-reachable page. One authority per record: the state workforce agency's own page or the state statute. Record the duration formula verbatim where one exists \u2014 the formula is the fact that generic answers flatten.",
       "records": 6,
-      "last_verified": "2026-11-24",
+      "last_verified": "2026-11-27",
       "url": "https://referencesource.org/ui-weekly-benefit-and-duration-by-state/",
       "data": "https://referencesource.org/ui-weekly-benefit-and-duration-by-state/data.json"
     },

@@ -7,7 +7,7 @@ Per-chemical breakthrough time, permeation level and degradation rating for all 
 | | |
 |---|---|
 | Last verified | 2026-11-25 |
-| Re-check due | 2028-08-30 |
+| Re-check due | 2028-11-26 |
 | Records | 753 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/chemical-resistant-glove-breakthrough-times/changes.xml) |
 

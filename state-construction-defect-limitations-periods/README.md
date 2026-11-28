@@ -6,7 +6,7 @@ Can I still sue for this construction defect? Every US state sets two independen
 
 | | |
 |---|---|
-| Last verified | 2026-11-24 |
+| Last verified | 2026-11-27 |
 | Re-check due | 2027-11-26 |
 | Records | 20 |
 | Machine-readable | [`data.json`](data.json) · [changes feed](https://referencesource.org/state-construction-defect-limitations-periods/changes.xml) |
